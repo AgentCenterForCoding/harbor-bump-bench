@@ -1,0 +1,802 @@
+[
+  {
+    "task_name": "task-google-guice-struts2-core",
+    "project": "guice",
+    "breakingCommit": "acc50dabec6796c091b84c1ada2ae4cbcab8b562",
+    "dep": "org.apache.struts:struts2-core",
+    "version": "2.3.37 -> 2.5.22",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-micycle1-pgs-tinspin-indexes",
+    "project": "PGS",
+    "breakingCommit": "17f2bcaaba4805b218743f575919360c5aec5da4",
+    "dep": "org.tinspin:tinspin-indexes",
+    "version": "1.7.1 -> 1.8.0",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-jenkinsci-code-coverage-a-acceptance-test",
+    "project": "code-coverage-api-plugin",
+    "breakingCommit": "07e4b2894bc68cd3bb1892beaa13ec353564dcf1",
+    "dep": "org.jenkins-ci:acceptance-test-harness",
+    "version": "5588.vd13b_52985008 -> 5623.v3e1d330b_89e0",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-camunda-communi-camunda-platfor-spring-context",
+    "project": "camunda-platform-7-mockito",
+    "breakingCommit": "c5905f7220e1129a0448715ee5d0e61ee5ac31e1",
+    "dep": "org.springframework:spring-context",
+    "version": "5.3.23 -> 6.0.10",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-pkiraly-qa-catalogue-metadata-qa-api",
+    "project": "qa-catalogue",
+    "breakingCommit": "43c824a24b09efd8b4b00449ce31cd121a6b23eb",
+    "dep": "de.gwdg.metadataqa:metadata-qa-api",
+    "version": "0.8.1 -> 0.9.0",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-games647-changeskin-spongeapi",
+    "project": "ChangeSkin",
+    "breakingCommit": "402082609522c66a3b790aedafd0570148a7d53f",
+    "dep": "org.spongepowered:spongeapi",
+    "version": "7.4.0 -> 8.0.0",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-assert-kth-sorald-sonarlint-core",
+    "project": "sorald",
+    "breakingCommit": "3d29f9a6823fa68763d3148bc0353ac557f2a815",
+    "dep": "org.sonarsource.sonarlint.core:sonarlint-core",
+    "version": "8.15.0.65216 -> 9.1.1.74346",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-takari-polyglot-maven-snakeyaml",
+    "project": "polyglot-maven",
+    "breakingCommit": "1e17e176460ab4283e463e62fece844d341da7f0",
+    "dep": "org.yaml:snakeyaml",
+    "version": "1.17 -> 2.0",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-lukas-krecan-future-converte-spring-core",
+    "project": "future-converter",
+    "breakingCommit": "c4950c79dfe902dae8991ff722216c7ba787bf32",
+    "dep": "org.springframework:spring-core",
+    "version": "5.3.19 -> 6.0.4",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-allure-framewor-allure-maven-zip4j",
+    "project": "allure-maven",
+    "breakingCommit": "16ae40b1e17e14ee3ae20ac211647e47399a01a9",
+    "dep": "net.lingala.zip4j:zip4j",
+    "version": "1.3.2 -> 2.11.1",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-mathieucarbou-license-maven-p-maven-dependenc",
+    "project": "license-maven-plugin",
+    "breakingCommit": "b554e03428f2ba877c33a0fece7f0f00fb38a5fa",
+    "dep": "org.apache.maven.shared:maven-dependency-tree",
+    "version": "3.1.1 -> 3.2.0",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-international-d-ids-messaging-s-spring-web",
+    "project": "IDS-Messaging-Services",
+    "breakingCommit": "fe57fca108ccd8ea9b98666075fbc3237874c314",
+    "dep": "org.springframework:spring-web",
+    "version": "5.3.24 -> 6.0.2",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-1and1-snmpman-snmp4j-agent",
+    "project": "snmpman",
+    "breakingCommit": "9461431622cf39efe60cf1eb03a94083780c5720",
+    "dep": "org.snmp4j:snmp4j-agent",
+    "version": "3.0.3 -> 3.6.5",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-nemproject-nem-flyway-core",
+    "project": "nem",
+    "breakingCommit": "14fc5fa696f499cac48401b3a86882b3bf7d9b82",
+    "dep": "org.flywaydb:flyway-core",
+    "version": "3.2.1 -> 9.21.1",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-sabomichal-jooq-meta-postg-jooq-meta",
+    "project": "jooq-meta-postgres-flyway",
+    "breakingCommit": "a1ff30e0bc6a9b48e024a8ab27cefda3ad85b530",
+    "dep": "org.jooq:jooq-meta",
+    "version": "3.16.6 -> 3.17.3",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-jenkinsci-code-coverage-a-acceptance-test-1",
+    "project": "code-coverage-api-plugin",
+    "breakingCommit": "6d68d927b01ceb567f1067a91afbc97b4c5a66ce",
+    "dep": "org.jenkins-ci:acceptance-test-harness",
+    "version": "5504.v485694f31cdf -> 5523.vd392288d2b_22",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-camunda-communi-camunda-platfor-spring-context-1",
+    "project": "camunda-platform-7-mockito",
+    "breakingCommit": "07ff1a34661db6c7f0ca03156ff5d8936b5123f5",
+    "dep": "org.springframework:spring-context",
+    "version": "5.3.23 -> 6.0.1",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-alphagov-pay-adminusers-logback-classic",
+    "project": "pay-adminusers",
+    "breakingCommit": "07fad972bb884e9fa6143b4f870d08305811607d",
+    "dep": "ch.qos.logback:logback-classic",
+    "version": "1.2.11 -> 1.4.1",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-international-d-ids-messaging-s-spring-boot-sta",
+    "project": "IDS-Messaging-Services",
+    "breakingCommit": "1506282e31f5b78fb4395a27f9ad901ef3d98c70",
+    "dep": "org.springframework.boot:spring-boot-starter",
+    "version": "2.7.5 -> 3.0.2",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-volodya-lombroz-jtcop-opennlp-tools",
+    "project": "jtcop",
+    "breakingCommit": "3b4a91979f0d93ca4cbb79e6cfa5029a6b8eaf01",
+    "dep": "org.apache.opennlp:opennlp-tools",
+    "version": "2.2.0 -> 2.3.0",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-googleapis-google-cloud-ja-google-api-serv",
+    "project": "google-cloud-java",
+    "breakingCommit": "3eb708f53f5f1ce897c3554bb73f5de5698dd171",
+    "dep": "com.google.apis:google-api-services-translate",
+    "version": "v2-rev20170525-2.0.0 -> v3-rev20220805-2.0.0",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-googleapis-java-pubsub-gro-google-cloud-pu",
+    "project": "java-pubsub-group-kafka-connector",
+    "breakingCommit": "88a20ece4db960e35fbfa39fcb40e61daceb15b1",
+    "dep": "com.google.cloud:google-cloud-pubsublite",
+    "version": "0.6.0 -> 1.6.3",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-getgauge-gauge-java-reflections",
+    "project": "gauge-java",
+    "breakingCommit": "a4c360001134c2e3a9f7fbde88a07a9fd767e78e",
+    "dep": "org.reflections:reflections",
+    "version": "0.9.9 -> 0.10.2",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-international-d-ids-messaging-s-spring-boot-sta-1",
+    "project": "IDS-Messaging-Services",
+    "breakingCommit": "fe8646eae5d5f81a733be6cbf8f3a308c604e8ec",
+    "dep": "org.springframework.boot:spring-boot-starter",
+    "version": "2.7.5 -> 3.0.1",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-international-d-ids-messaging-s-spring-webmvc",
+    "project": "IDS-Messaging-Services",
+    "breakingCommit": "979780b29cf329579fa703552f9090b23c10e81d",
+    "dep": "org.springframework:spring-webmvc",
+    "version": "5.3.24 -> 6.0.7",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-international-d-ids-messaging-s-spring-core",
+    "project": "IDS-Messaging-Services",
+    "breakingCommit": "315060cd2c7a3812a4adf614b042de84e9c39da4",
+    "dep": "org.springframework:spring-core",
+    "version": "5.3.24 -> 6.0.5",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-assert-kth-sorald-sonarlint-core-1",
+    "project": "sorald",
+    "breakingCommit": "c0f6ab75784dbc13ae8ff47298704c0756cf3a2c",
+    "dep": "org.sonarsource.sonarlint.core:sonarlint-core",
+    "version": "8.15.0.65216 -> 8.19.0.72745",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-jadler-mocking-jadler-jetty-server",
+    "project": "jadler",
+    "breakingCommit": "ae16b526695fe275ab5e6a1992916875d26da860",
+    "dep": "org.eclipse.jetty:jetty-server",
+    "version": "8.1.11.v20130520 -> 9.4.41.v20210516",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-international-d-ids-messaging-s-spring-webmvc-1",
+    "project": "IDS-Messaging-Services",
+    "breakingCommit": "bcafa6f39116555a4c53882ed2cf2835594d9114",
+    "dep": "org.springframework:spring-webmvc",
+    "version": "5.3.24 -> 6.0.3",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-international-d-ids-messaging-s-spring-webmvc-2",
+    "project": "IDS-Messaging-Services",
+    "breakingCommit": "f5dbb3021aa96afc60b38d2b0b01873d3a6f16bd",
+    "dep": "org.springframework:spring-webmvc",
+    "version": "5.3.24 -> 6.0.8",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-wesleyosantos91-poc-multi-modul-mapstruct-proce",
+    "project": "poc-multi-module-arch-hexagonal-springboot",
+    "breakingCommit": "6c9a2ecf3bac1e0c7675e03b2828a71450d8ed45",
+    "dep": "org.mapstruct:mapstruct-processor",
+    "version": "1.4.2.Final -> 1.5.0.Final",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-sabomichal-jooq-meta-postg-jooq-meta-1",
+    "project": "jooq-meta-postgres-flyway",
+    "breakingCommit": "3d0cc7db9d9c9420fa4f478a72067ef846ba8129",
+    "dep": "org.jooq:jooq-meta",
+    "version": "3.16.6 -> 3.17.5",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-international-d-ids-messaging-s-spring-boot-sta-2",
+    "project": "IDS-Messaging-Services",
+    "breakingCommit": "7cda77e3b9981dba271f866ec727ad9c6af9c709",
+    "dep": "org.springframework.boot:spring-boot-starter",
+    "version": "2.7.5 -> 3.0.0",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-artipie-docker-adapter-http",
+    "project": "docker-adapter",
+    "breakingCommit": "a0ec50cb297c4202e138627859a89ef032fa78ab",
+    "dep": "com.artipie:http",
+    "version": "v0.25 -> v1.1.1",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-jenkinsci-code-coverage-a-acceptance-test-2",
+    "project": "code-coverage-api-plugin",
+    "breakingCommit": "441f7f07d9265cc1d4c4f369ee6524973d9c6e17",
+    "dep": "org.jenkins-ci:acceptance-test-harness",
+    "version": "5504.v485694f31cdf -> 5537.v26d6599fdc59",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-international-d-ids-messaging-s-spring-core-1",
+    "project": "IDS-Messaging-Services",
+    "breakingCommit": "01609f962f32cc2ba04fa574c79429e86b372c6b",
+    "dep": "org.springframework:spring-core",
+    "version": "5.3.24 -> 6.0.7",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-alphagov-pay-adminusers-logback-classic-1",
+    "project": "pay-adminusers",
+    "breakingCommit": "cbcafe129e143ef09401470e9d11de9758f298d0",
+    "dep": "ch.qos.logback:logback-classic",
+    "version": "1.2.11 -> 1.4.6",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-jcabi-jcabi-s3-jcabi-aspects",
+    "project": "jcabi-s3",
+    "breakingCommit": "24d4a90ec1b375751e71f33d18949405c9529d77",
+    "dep": "com.jcabi:jcabi-aspects",
+    "version": "0.24.1 -> 0.25.1",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-kokuwaio-micronaut-opena-spring-context",
+    "project": "micronaut-openapi-codegen",
+    "breakingCommit": "bad55510363bde900a60f13ecc744e0c244397d4",
+    "dep": "org.springframework:spring-context",
+    "version": "5.3.23 -> 6.0.1",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-jadler-mocking-jadler-jetty-server-1",
+    "project": "jadler",
+    "breakingCommit": "f26cd85b97b24c07a2e446f43ac8793619fa0724",
+    "dep": "org.eclipse.jetty:jetty-server",
+    "version": "8.1.11.v20130520 -> 11.0.9",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-allure-framewor-allure-maven-zip4j-1",
+    "project": "allure-maven",
+    "breakingCommit": "54857351e0b0a655970d7e2ccdb67f175cc5d688",
+    "dep": "net.lingala.zip4j:zip4j",
+    "version": "1.3.2 -> 2.10.0",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-international-d-ids-messaging-s-spring-webmvc-3",
+    "project": "IDS-Messaging-Services",
+    "breakingCommit": "d675fa18d22f8ad374f8d6cb7e0dfd9b1f18cc58",
+    "dep": "org.springframework:spring-webmvc",
+    "version": "5.3.24 -> 6.0.1",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-takari-polyglot-maven-snakeyaml-1",
+    "project": "polyglot-maven",
+    "breakingCommit": "249c3b394540fde4fcb72f66172af5e02b9c637e",
+    "dep": "org.yaml:snakeyaml",
+    "version": "1.17 -> 1.31",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-nemproject-nem-flyway-core-1",
+    "project": "nem",
+    "breakingCommit": "ea33b5101edffc0242967cbf21c1016378b18483",
+    "dep": "org.flywaydb:flyway-core",
+    "version": "3.2.1 -> 9.15.2",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-camunda-communi-camunda-platfor-spring-context-2",
+    "project": "camunda-platform-7-mockito",
+    "breakingCommit": "5320d2638b01419a8bac95e0ee939523831a720a",
+    "dep": "org.springframework:spring-context",
+    "version": "5.3.23 -> 6.0.4",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-p2p-develop-peyangsuperbant-peyangsuperlibr",
+    "project": "PeyangSuperbAntiCheat",
+    "breakingCommit": "f78d34b82926216c0f203c0350f646d481c675e3",
+    "dep": "com.github.P2P-Develop:PeyangSuperLibrary",
+    "version": "114.191.9 -> 114.191.98.10",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-sabomichal-jooq-meta-postg-jooq-meta-2",
+    "project": "jooq-meta-postgres-flyway",
+    "breakingCommit": "eb82573b99b6d9688e557d3490fa5d3e9512c99b",
+    "dep": "org.jooq:jooq-meta",
+    "version": "3.16.6 -> 3.17.1",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-wmaarts-pitest-mutation-pitest-entry",
+    "project": "pitest-mutation-testing-elements-plugin",
+    "breakingCommit": "5fcd0c3ad7727850c47602b17530dc355e5bd097",
+    "dep": "org.pitest:pitest-entry",
+    "version": "1.9.11 -> 1.10.0",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-samsung-lpvs-spring-core",
+    "project": "LPVS",
+    "breakingCommit": "1629113f03956a230738c47397c33f8ba2d11341",
+    "dep": "org.springframework:spring-core",
+    "version": "5.3.27 -> 6.0.8",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-kokuwaio-micronaut-opena-spring-context-1",
+    "project": "micronaut-openapi-codegen",
+    "breakingCommit": "59849004763ffd66d14047d51908192ba0551a73",
+    "dep": "org.springframework:spring-context",
+    "version": "5.3.23 -> 6.0.0",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-jcabi-jcabi-ssh-jcabi-aspects",
+    "project": "jcabi-ssh",
+    "breakingCommit": "54abbbde6a1233e1523a9b5f811ea100efb5dead",
+    "dep": "com.jcabi:jcabi-aspects",
+    "version": "0.24.1 -> 0.25.1",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-samsung-lpvs-spring-core-1",
+    "project": "LPVS",
+    "breakingCommit": "e47fd8edc5227b6852ebd2466dd89049c9907b80",
+    "dep": "org.springframework:spring-core",
+    "version": "5.3.27 -> 6.0.11",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-maxmind-minfraud-api-ja-geoip2",
+    "project": "minfraud-api-java",
+    "breakingCommit": "42a220bd546d293886df0d5e3892cc3ff82f1091",
+    "dep": "com.maxmind.geoip2:geoip2",
+    "version": "2.16.1 -> 3.0.0",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-xdev-software-biapi-jasperreports",
+    "project": "biapi",
+    "breakingCommit": "0abf7148300f40a1da0538ab060552bca4a2f1d8",
+    "dep": "net.sf.jasperreports:jasperreports",
+    "version": "6.18.1 -> 6.19.1",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-jcabi-jcabi-simpledb-jcabi-aspects",
+    "project": "jcabi-simpledb",
+    "breakingCommit": "7d97e1c7331f6722eb1d8192bf0a2686f5a33798",
+    "dep": "com.jcabi:jcabi-aspects",
+    "version": "0.24.1 -> 0.25.1",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-premium-minds-wicket-crudifie-jakarta.validat",
+    "project": "wicket-crudifier",
+    "breakingCommit": "9218cc9c8e0018d01e2d7cfe0e77aae7b65b378f",
+    "dep": "jakarta.validation:jakarta.validation-api",
+    "version": "2.0.2 -> 3.0.2",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-premium-minds-wicket-crudifie-jakarta.validat-1",
+    "project": "wicket-crudifier",
+    "breakingCommit": "1a2fb9f65e12d6c43a8472b9b035299b29a75ce8",
+    "dep": "jakarta.validation:jakarta.validation-api",
+    "version": "2.0.2 -> 3.0.1",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-artipie-docker-adapter-http-1",
+    "project": "docker-adapter",
+    "breakingCommit": "5fca04bd287baf1534baff8cc23cc3dc26dc680d",
+    "dep": "com.artipie:http",
+    "version": "v0.25 -> v1.1.3",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-camunda-communi-camunda-platfor-spring-context-3",
+    "project": "camunda-platform-7-mockito",
+    "breakingCommit": "11c09e31119c28ea91a9777b2ce8893bca483493",
+    "dep": "org.springframework:spring-context",
+    "version": "5.3.23 -> 6.0.11",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-jadler-mocking-jadler-jetty-server-2",
+    "project": "jadler",
+    "breakingCommit": "95b2c15de16fd9fd612ce73672e29b613ce7a909",
+    "dep": "org.eclipse.jetty:jetty-server",
+    "version": "8.1.11.v20130520 -> 11.0.13",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-googleapis-google-cloud-ja-google-api-serv-1",
+    "project": "google-cloud-java",
+    "breakingCommit": "471d07e01cd0c79dc9bed5344ed46418f4c078a2",
+    "dep": "com.google.apis:google-api-services-cloudresourcemanager",
+    "version": "v1-rev20220807-2.0.0 -> v3-rev20220807-2.0.0",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-samsung-lpvs-spring-core-2",
+    "project": "LPVS",
+    "breakingCommit": "ab70529b2edf0a0b3f672278e191dc207d1b8711",
+    "dep": "org.springframework:spring-core",
+    "version": "5.3.23 -> 6.0.5",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-takari-polyglot-maven-snakeyaml-2",
+    "project": "polyglot-maven",
+    "breakingCommit": "a9df7b2235224fcabefa1d62e8956911aa5bb825",
+    "dep": "org.yaml:snakeyaml",
+    "version": "1.17 -> 1.32",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-assert-kth-sorald-sonarlint-core-2",
+    "project": "sorald",
+    "breakingCommit": "5adde4f1309a1078b39d013a30dc392c97ca7543",
+    "dep": "org.sonarsource.sonarlint.core:sonarlint-core",
+    "version": "8.15.0.65216 -> 9.1.0.74321",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-international-d-ids-messaging-s-spring-web-1",
+    "project": "IDS-Messaging-Services",
+    "breakingCommit": "9d51a768dc633ed4895a474f78eaaf84a3c209fd",
+    "dep": "org.springframework:spring-web",
+    "version": "5.3.24 -> 6.0.6",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-assert-kth-depclean-plexus-utils",
+    "project": "depclean",
+    "breakingCommit": "2f01c46b96a8edf437edf20e6dbd848edcb27085",
+    "dep": "org.codehaus.plexus:plexus-utils",
+    "version": "3.5.1 -> 4.0.0",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-wireapp-lithium-dropwizard-clie",
+    "project": "lithium",
+    "breakingCommit": "10d7545c5771b03dd9f6122bd5973a759eb2cd03",
+    "dep": "io.dropwizard:dropwizard-client",
+    "version": "2.1.5 -> 4.0.0",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-kokuwaio-micronaut-opena-spring-context-2",
+    "project": "micronaut-openapi-codegen",
+    "breakingCommit": "bdbb81614557858922836294d1d6dd3dd661f10c",
+    "dep": "org.springframework:spring-context",
+    "version": "5.3.23 -> 6.0.3",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-qqxx6661-log-record-spring-cloud-st",
+    "project": "log-record",
+    "breakingCommit": "3d2b38ee1c838d885db80326b3cd60e314704e39",
+    "dep": "org.springframework.cloud:spring-cloud-stream",
+    "version": "3.0.7.RELEASE -> 4.0.0",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-premium-minds-billy-jaxb2-basics-ru",
+    "project": "billy",
+    "breakingCommit": "46979207151a43361447d64afd2658df40033419",
+    "dep": "org.jvnet.jaxb2_commons:jaxb2-basics-runtime",
+    "version": "0.13.1 -> 1.11.1-PUBLISHED-BY-MISTAKE",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-assert-kth-flacoco-maven-surefire-",
+    "project": "flacoco",
+    "breakingCommit": "b8f92ff37d1aed054d8320283fd6d6a492703a55",
+    "dep": "org.apache.maven.surefire:maven-surefire-common",
+    "version": "3.0.0-M5 -> 3.0.0-M7",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-redisgraph-jredisgraph-jedis",
+    "project": "JRedisGraph",
+    "breakingCommit": "ea03f6488449fcfe8cd0a678b4c64891e1427a32",
+    "dep": "redis.clients:jedis",
+    "version": "3.9.0 -> 4.3.2",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-btrplace-scheduler-javaparser-core",
+    "project": "scheduler",
+    "breakingCommit": "165381d26b2c3d2278fde88c16f95807506451fe",
+    "dep": "com.github.javaparser:javaparser-core",
+    "version": "3.18.0 -> 3.24.0",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-nemproject-nem-hibernate-valid",
+    "project": "nem",
+    "breakingCommit": "c3818c076f0c088d1d11b7812b880be579c19ec2",
+    "dep": "org.hibernate:hibernate-validator",
+    "version": "5.4.3.Final -> 8.0.1.Final",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-jcabi-jcabi-http-hamcrest-librar",
+    "project": "jcabi-http",
+    "breakingCommit": "cb541fd65c7b9bbc3424ea927f1dab223261d156",
+    "dep": "org.hamcrest:hamcrest-library",
+    "version": "1.3 -> 2.2",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-camunda-communi-camunda-platfor-spring-context-4",
+    "project": "camunda-platform-7-mockito",
+    "breakingCommit": "7d1985cccacafa64e9eaa7fd5fe5c7154e994456",
+    "dep": "org.springframework:spring-context",
+    "version": "5.3.23 -> 6.0.8",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-samsung-lpvs-spring-core-3",
+    "project": "LPVS",
+    "breakingCommit": "5b90c67ef2d2ebb296534ea2ce8d8955cf6854c7",
+    "dep": "org.springframework:spring-core",
+    "version": "5.3.27 -> 6.0.10",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-nemproject-nem-flyway-core-2",
+    "project": "nem",
+    "breakingCommit": "250cafc7d6ae47d5d4803b5a5e58186eb81fa3b5",
+    "dep": "org.flywaydb:flyway-core",
+    "version": "3.2.1 -> 9.21.0",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-hantsy-jakartaee-mvc-s-jakarta.mvc-api",
+    "project": "jakartaee-mvc-sample",
+    "breakingCommit": "5cf5a482bd430d81257b4ecd85b3d4f7da911621",
+    "dep": "jakarta.mvc:jakarta.mvc-api",
+    "version": "1.1.0 -> 2.0.1",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-international-d-ids-messaging-s-spring-webmvc-4",
+    "project": "IDS-Messaging-Services",
+    "breakingCommit": "58d2448fa2d6ec02f428b85eaeef0855508e72b9",
+    "dep": "org.springframework:spring-webmvc",
+    "version": "5.3.24 -> 6.0.0",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-zold-io-java-api-cactoos",
+    "project": "java-api",
+    "breakingCommit": "38c9915f0cfdf0c1a2b17c3c6f283c23a0aac0cf",
+    "dep": "org.cactoos:cactoos",
+    "version": "0.35 -> 0.55.0",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-samsung-lpvs-spring-core-4",
+    "project": "LPVS",
+    "breakingCommit": "433fbc0ee1192ca4aa69f337fd3b530ec94906e9",
+    "dep": "org.springframework:spring-core",
+    "version": "5.3.27 -> 6.0.9",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-pac4j-dropwizard-pac4-jakarta.servlet",
+    "project": "dropwizard-pac4j",
+    "breakingCommit": "115827c6675f532a4d33751d1a0c0ba394bbd304",
+    "dep": "jakarta.servlet:jakarta.servlet-api",
+    "version": "4.0.4 -> 6.0.0",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-mathieucarbou-license-maven-p-maven-dependenc-1",
+    "project": "license-maven-plugin",
+    "breakingCommit": "28be199c825d419957bc753a9519e8e9ecc6a08e",
+    "dep": "org.apache.maven.shared:maven-dependency-tree",
+    "version": "2.2 -> 3.1.0",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-alphagov-pay-adminusers-logback-classic-2",
+    "project": "pay-adminusers",
+    "breakingCommit": "90ffd2cd31edecf778d14d0015da9ceab7e53081",
+    "dep": "ch.qos.logback:logback-classic",
+    "version": "1.2.11 -> 1.4.0",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-premium-minds-billy-jaxb2-basics-ru-1",
+    "project": "billy",
+    "breakingCommit": "fe15d2a6e52b049f6c9e7cc123a5402047a1f01a",
+    "dep": "org.jvnet.jaxb2_commons:jaxb2-basics-runtime",
+    "version": "0.13.1 -> 1.11.1",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-alphagov-pay-adminusers-logback-classic-3",
+    "project": "pay-adminusers",
+    "breakingCommit": "a80dac86d1caa3958c45c036d93a7d9231d88fbf",
+    "dep": "ch.qos.logback:logback-classic",
+    "version": "1.2.11 -> 1.4.3",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-jenkinsci-code-coverage-a-acceptance-test-3",
+    "project": "code-coverage-api-plugin",
+    "breakingCommit": "7e8c62e2bb21097e563747184636cf8e8934ce98",
+    "dep": "org.jenkins-ci:acceptance-test-harness",
+    "version": "5504.v485694f31cdf -> 5528.v806749710b_83",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-artipie-docker-adapter-asto-core",
+    "project": "docker-adapter",
+    "breakingCommit": "ab85440ce7321d895c7a9621224ce8059162a26a",
+    "dep": "com.artipie:asto-core",
+    "version": "v1.13.0 -> v1.14.1",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-feedzai-pdb-logback-classic",
+    "project": "pdb",
+    "breakingCommit": "43b3a858b77ec27fc8946aba292001c3de465012",
+    "dep": "ch.qos.logback:logback-classic",
+    "version": "1.2.11 -> 1.4.5",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-jcabi-jcabi-github-jcabi-aspects",
+    "project": "jcabi-github",
+    "breakingCommit": "9717e34bcda74bd9ad94f6a52ddfd3fd179ea15b",
+    "dep": "com.jcabi:jcabi-aspects",
+    "version": "0.24.1 -> 0.25.1",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-saucelabs-ci-sauce-plexus-archiver",
+    "project": "ci-sauce",
+    "breakingCommit": "dbdc7d2c4a28a8d65edcd0cdece91c0bc357b869",
+    "dep": "org.codehaus.plexus:plexus-archiver",
+    "version": "4.2.7 -> 4.4.0",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-guhilling-cdi-test-jakarta.annotat",
+    "project": "cdi-test",
+    "breakingCommit": "4bba3fb6147e72946f64724fe55eee5d15ff6206",
+    "dep": "jakarta.annotation:jakarta.annotation-api",
+    "version": "1.3.5 -> 2.0.0",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-international-d-ids-messaging-s-spring-boot-sta-3",
+    "project": "IDS-Messaging-Services",
+    "breakingCommit": "0ddd0efa29634a4783358cba727d0851236aa579",
+    "dep": "org.springframework.boot:spring-boot-starter",
+    "version": "2.7.5 -> 3.0.5",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-camunda-communi-camunda-platfor-spring-context-5",
+    "project": "camunda-platform-7-mockito",
+    "breakingCommit": "df8452d0d7878f371c8775814e7a60cf6cecbfbb",
+    "dep": "org.springframework:spring-context",
+    "version": "5.3.23 -> 6.0.0",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-micycle1-pgs-tinspin-indexes-1",
+    "project": "PGS",
+    "breakingCommit": "ef3f7be3e2755d4a0f9c23bdcbfe3b97198fb31b",
+    "dep": "org.tinspin:tinspin-indexes",
+    "version": "1.7.1 -> 2.0.0",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-artipie-http-asto-core",
+    "project": "http",
+    "breakingCommit": "4aab2869639226035c999c282f31efba15648ea3",
+    "dep": "com.artipie:asto-core",
+    "version": "v1.13.0 -> v1.15.3",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-international-d-ids-messaging-s-spring-webmvc-5",
+    "project": "IDS-Messaging-Services",
+    "breakingCommit": "67cb9570f6b1d90e2653ab5efd137af3edebc9b5",
+    "dep": "org.springframework:spring-webmvc",
+    "version": "5.3.24 -> 6.0.6",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-nemproject-nem-flyway-core-3",
+    "project": "nem",
+    "breakingCommit": "a2b0fc53611f8705640773f18c8dd6a47eed3b7f",
+    "dep": "org.flywaydb:flyway-core",
+    "version": "3.2.1 -> 9.19.4",
+    "javaVersion": "11"
+  },
+  {
+    "task_name": "task-camunda-communi-camunda-platfor-spring-context-6",
+    "project": "camunda-platform-7-mockito",
+    "breakingCommit": "0ed34fa61c9e31bd4ebb7e4bf12ce792aec96091",
+    "dep": "org.springframework:spring-context",
+    "version": "5.3.23 -> 6.0.9",
+    "javaVersion": "11"
+  }
+]

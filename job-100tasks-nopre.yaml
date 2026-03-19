@@ -1,0 +1,117 @@
+job_name: bump-dep-fix-100-nopre
+jobs_dir: /root/harbor-bump-eval/jobs
+
+orchestrator:
+  n_concurrent_trials: 3
+
+agents:
+  - name: claude-code
+    env:
+      ANTHROPIC_AUTH_TOKEN: "ANTHROPIC_AUTH_TOKEN_REDACTED"
+      ANTHROPIC_BASE_URL: "https://coding.dashscope.aliyuncs.com/apps/anthropic"
+      ANTHROPIC_MODEL: "qwen3.5-plus"
+      ANTHROPIC_SMALL_FAST_MODEL: "qwen3.5-plus"
+
+datasets:
+  - path: /root/harbor-bump-eval
+    task_names:
+      - task-google-guice-struts2-core
+      - task-micycle1-pgs-tinspin-indexes
+      - task-jenkinsci-code-coverage-a-acceptance-test
+      - task-camunda-communi-camunda-platfor-spring-context
+      - task-pkiraly-qa-catalogue-metadata-qa-api
+      - task-games647-changeskin-spongeapi
+      - task-assert-kth-sorald-sonarlint-core
+      - task-takari-polyglot-maven-snakeyaml
+      - task-lukas-krecan-future-converte-spring-core
+      - task-allure-framewor-allure-maven-zip4j
+      - task-mathieucarbou-license-maven-p-maven-dependenc
+      - task-international-d-ids-messaging-s-spring-web
+      - task-1and1-snmpman-snmp4j-agent
+      - task-nemproject-nem-flyway-core
+      - task-sabomichal-jooq-meta-postg-jooq-meta
+      - task-jenkinsci-code-coverage-a-acceptance-test-1
+      - task-camunda-communi-camunda-platfor-spring-context-1
+      - task-alphagov-pay-adminusers-logback-classic
+      - task-international-d-ids-messaging-s-spring-boot-sta
+      - task-volodya-lombroz-jtcop-opennlp-tools
+      - task-googleapis-google-cloud-ja-google-api-serv
+      - task-googleapis-java-pubsub-gro-google-cloud-pu
+      - task-getgauge-gauge-java-reflections
+      - task-international-d-ids-messaging-s-spring-boot-sta-1
+      - task-international-d-ids-messaging-s-spring-webmvc
+      - task-international-d-ids-messaging-s-spring-core
+      - task-assert-kth-sorald-sonarlint-core-1
+      - task-jadler-mocking-jadler-jetty-server
+      - task-international-d-ids-messaging-s-spring-webmvc-1
+      - task-international-d-ids-messaging-s-spring-webmvc-2
+      - task-wesleyosantos91-poc-multi-modul-mapstruct-proce
+      - task-sabomichal-jooq-meta-postg-jooq-meta-1
+      - task-international-d-ids-messaging-s-spring-boot-sta-2
+      - task-artipie-docker-adapter-http
+      - task-jenkinsci-code-coverage-a-acceptance-test-2
+      - task-international-d-ids-messaging-s-spring-core-1
+      - task-alphagov-pay-adminusers-logback-classic-1
+      - task-jcabi-jcabi-s3-jcabi-aspects
+      - task-kokuwaio-micronaut-opena-spring-context
+      - task-jadler-mocking-jadler-jetty-server-1
+      - task-allure-framewor-allure-maven-zip4j-1
+      - task-international-d-ids-messaging-s-spring-webmvc-3
+      - task-takari-polyglot-maven-snakeyaml-1
+      - task-nemproject-nem-flyway-core-1
+      - task-camunda-communi-camunda-platfor-spring-context-2
+      - task-p2p-develop-peyangsuperbant-peyangsuperlibr
+      - task-sabomichal-jooq-meta-postg-jooq-meta-2
+      - task-wmaarts-pitest-mutation-pitest-entry
+      - task-samsung-lpvs-spring-core
+      - task-kokuwaio-micronaut-opena-spring-context-1
+      - task-jcabi-jcabi-ssh-jcabi-aspects
+      - task-samsung-lpvs-spring-core-1
+      - task-maxmind-minfraud-api-ja-geoip2
+      - task-xdev-software-biapi-jasperreports
+      - task-jcabi-jcabi-simpledb-jcabi-aspects
+      - task-premium-minds-wicket-crudifie-jakarta.validat
+      - task-premium-minds-wicket-crudifie-jakarta.validat-1
+      - task-artipie-docker-adapter-http-1
+      - task-camunda-communi-camunda-platfor-spring-context-3
+      - task-jadler-mocking-jadler-jetty-server-2
+      - task-googleapis-google-cloud-ja-google-api-serv-1
+      - task-samsung-lpvs-spring-core-2
+      - task-takari-polyglot-maven-snakeyaml-2
+      - task-assert-kth-sorald-sonarlint-core-2
+      - task-international-d-ids-messaging-s-spring-web-1
+      - task-assert-kth-depclean-plexus-utils
+      - task-wireapp-lithium-dropwizard-clie
+      - task-kokuwaio-micronaut-opena-spring-context-2
+      - task-qqxx6661-log-record-spring-cloud-st
+      - task-premium-minds-billy-jaxb2-basics-ru
+      - task-assert-kth-flacoco-maven-surefire-
+      - task-redisgraph-jredisgraph-jedis
+      - task-btrplace-scheduler-javaparser-core
+      - task-nemproject-nem-hibernate-valid
+      - task-jcabi-jcabi-http-hamcrest-librar
+      - task-camunda-communi-camunda-platfor-spring-context-4
+      - task-samsung-lpvs-spring-core-3
+      - task-nemproject-nem-flyway-core-2
+      - task-hantsy-jakartaee-mvc-s-jakarta.mvc-api
+      - task-international-d-ids-messaging-s-spring-webmvc-4
+      - task-zold-io-java-api-cactoos
+      - task-samsung-lpvs-spring-core-4
+      - task-pac4j-dropwizard-pac4-jakarta.servlet
+      - task-mathieucarbou-license-maven-p-maven-dependenc-1
+      - task-alphagov-pay-adminusers-logback-classic-2
+      - task-premium-minds-billy-jaxb2-basics-ru-1
+      - task-alphagov-pay-adminusers-logback-classic-3
+      - task-jenkinsci-code-coverage-a-acceptance-test-3
+      - task-artipie-docker-adapter-asto-core
+      - task-feedzai-pdb-logback-classic
+      - task-jcabi-jcabi-github-jcabi-aspects
+      - task-saucelabs-ci-sauce-plexus-archiver
+      - task-guhilling-cdi-test-jakarta.annotat
+      - task-international-d-ids-messaging-s-spring-boot-sta-3
+      - task-camunda-communi-camunda-platfor-spring-context-5
+      - task-micycle1-pgs-tinspin-indexes-1
+      - task-artipie-http-asto-core
+      - task-international-d-ids-messaging-s-spring-webmvc-5
+      - task-nemproject-nem-flyway-core-3
+      - task-camunda-communi-camunda-platfor-spring-context-6

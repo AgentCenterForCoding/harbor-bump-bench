@@ -1,0 +1,36 @@
+export PATH="$HOME/.local/bin:$PATH"; claude --verbose --output-format=stream-json --permission-mode=bypassPermissions  --print -- '# Fix Maven Compilation Failure: http v0.25 -> v1.1.1
+
+## Context
+
+Project `docker-adapter` (by artipie) has a **COMPILATION_FAILURE** after a dependency upgrade bot bumped
+`com.artipie:http` from `v0.25` to `v1.1.1` (other update).
+
+Reference PR: https://github.com/artipie/docker-adapter/pull/508
+
+## Your Task
+
+The source code is in `/docker-adapter`. Fix all compilation errors so that `mvn compile` succeeds.
+
+## Steps
+
+1. **Identify errors:**
+   ```bash
+   cd /docker-adapter && mvn compile -B 2>&1 | grep -E "^\[ERROR\]" | head -60
+   ```
+
+2. **Understand breaking changes:** The new version `v1.1.1` has API changes vs `v0.25`.
+   Review the failing source files and update calls to match the new API.
+   - Old API sources: https://repo1.maven.org/maven2/com/artipie/http/v0.25/http-v0.25-sources.jar
+   - New API sources: https://repo1.maven.org/maven2/com/artipie/http/v1.1.1/http-v1.1.1-sources.jar
+
+3. **Apply fixes** to the Java source files in `/docker-adapter`.
+
+4. **Verify:**
+   ```bash
+   cd /docker-adapter && mvn compile -B -q
+   ```
+
+## Success Criteria
+
+`mvn compile` exits with **code 0** (no compilation errors).
+' 2>&1 </dev/null | stdbuf -oL tee /logs/agent/claude-code.txt

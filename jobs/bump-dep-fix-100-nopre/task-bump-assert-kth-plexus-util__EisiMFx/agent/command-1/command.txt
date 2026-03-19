@@ -1,0 +1,36 @@
+export PATH="$HOME/.local/bin:$PATH"; claude --verbose --output-format=stream-json --permission-mode=bypassPermissions  --print -- '# Fix Maven Compilation Failure: plexus-utils 3.5.1 -> 4.0.0
+
+## Context
+
+Project `depclean` (by ASSERT-KTH) has a **COMPILATION_FAILURE** after a dependency upgrade bot bumped
+`org.codehaus.plexus:plexus-utils` from `3.5.1` to `4.0.0` (major update).
+
+Reference PR: https://github.com/ASSERT-KTH/depclean/pull/215
+
+## Your Task
+
+The source code is in `/depclean`. Fix all compilation errors so that `mvn compile` succeeds.
+
+## Steps
+
+1. **Identify errors:**
+   ```bash
+   cd /depclean && mvn compile -B 2>&1 | grep -E "^\[ERROR\]" | head -60
+   ```
+
+2. **Understand breaking changes:** The new version `4.0.0` has API changes vs `3.5.1`.
+   Review the failing source files and update calls to match the new API.
+   - Old API sources: https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/3.5.1/plexus-utils-3.5.1-sources.jar
+   - New API sources: https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/4.0.0/plexus-utils-4.0.0-sources.jar
+
+3. **Apply fixes** to the Java source files in `/depclean`.
+
+4. **Verify:**
+   ```bash
+   cd /depclean && mvn compile -B -q
+   ```
+
+## Success Criteria
+
+`mvn compile` exits with **code 0** (no compilation errors).
+' 2>&1 </dev/null | stdbuf -oL tee /logs/agent/claude-code.txt

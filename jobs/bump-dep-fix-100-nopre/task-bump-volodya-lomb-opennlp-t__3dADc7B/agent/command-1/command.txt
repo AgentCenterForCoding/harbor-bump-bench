@@ -1,0 +1,36 @@
+export PATH="$HOME/.local/bin:$PATH"; claude --verbose --output-format=stream-json --permission-mode=bypassPermissions  --print -- '# Fix Maven Compilation Failure: opennlp-tools 2.2.0 -> 2.3.0
+
+## Context
+
+Project `jtcop` (by volodya-lombrozo) has a **COMPILATION_FAILURE** after a dependency upgrade bot bumped
+`org.apache.opennlp:opennlp-tools` from `2.2.0` to `2.3.0` (minor update).
+
+Reference PR: https://github.com/volodya-lombrozo/jtcop/pull/258
+
+## Your Task
+
+The source code is in `/jtcop`. Fix all compilation errors so that `mvn compile` succeeds.
+
+## Steps
+
+1. **Identify errors:**
+   ```bash
+   cd /jtcop && mvn compile -B 2>&1 | grep -E "^\[ERROR\]" | head -60
+   ```
+
+2. **Understand breaking changes:** The new version `2.3.0` has API changes vs `2.2.0`.
+   Review the failing source files and update calls to match the new API.
+   - Old API sources: https://repo1.maven.org/maven2/org/apache/opennlp/opennlp-tools/2.2.0/opennlp-tools-2.2.0-sources.jar
+   - New API sources: https://repo1.maven.org/maven2/org/apache/opennlp/opennlp-tools/2.3.0/opennlp-tools-2.3.0-sources.jar
+
+3. **Apply fixes** to the Java source files in `/jtcop`.
+
+4. **Verify:**
+   ```bash
+   cd /jtcop && mvn compile -B -q
+   ```
+
+## Success Criteria
+
+`mvn compile` exits with **code 0** (no compilation errors).
+' 2>&1 </dev/null | stdbuf -oL tee /logs/agent/claude-code.txt

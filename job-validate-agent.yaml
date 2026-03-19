@@ -1,0 +1,19 @@
+job_name: bump-validate-agent
+jobs_dir: /root/harbor-bump-eval/jobs
+
+orchestrator:
+  n_concurrent_trials: 2
+
+agents:
+  - name: claude-code
+    env:
+      ANTHROPIC_AUTH_TOKEN: "ANTHROPIC_AUTH_TOKEN_REDACTED"
+      ANTHROPIC_BASE_URL: "https://coding.dashscope.aliyuncs.com/apps/anthropic"
+      ANTHROPIC_MODEL: "qwen3.5-plus"
+      ANTHROPIC_SMALL_FAST_MODEL: "qwen3.5-plus"
+
+datasets:
+  - path: /root/harbor-bump-eval
+    task_names:
+      - task-polyglot-snakeyaml
+      - task-pinterest-singer

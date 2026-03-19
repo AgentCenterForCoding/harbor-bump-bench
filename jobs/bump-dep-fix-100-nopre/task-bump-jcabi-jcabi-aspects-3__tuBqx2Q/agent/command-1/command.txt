@@ -1,0 +1,36 @@
+export PATH="$HOME/.local/bin:$PATH"; claude --verbose --output-format=stream-json --permission-mode=bypassPermissions  --print -- '# Fix Maven Compilation Failure: jcabi-aspects 0.24.1 -> 0.25.1
+
+## Context
+
+Project `jcabi-github` (by jcabi) has a **COMPILATION_FAILURE** after a dependency upgrade bot bumped
+`com.jcabi:jcabi-aspects` from `0.24.1` to `0.25.1` (minor update).
+
+Reference PR: https://github.com/jcabi/jcabi-github/pull/1642
+
+## Your Task
+
+The source code is in `/jcabi-github`. Fix all compilation errors so that `mvn compile` succeeds.
+
+## Steps
+
+1. **Identify errors:**
+   ```bash
+   cd /jcabi-github && mvn compile -B 2>&1 | grep -E "^\[ERROR\]" | head -60
+   ```
+
+2. **Understand breaking changes:** The new version `0.25.1` has API changes vs `0.24.1`.
+   Review the failing source files and update calls to match the new API.
+   - Old API sources: https://repo1.maven.org/maven2/com/jcabi/jcabi-aspects/0.24.1/jcabi-aspects-0.24.1-sources.jar
+   - New API sources: https://repo1.maven.org/maven2/com/jcabi/jcabi-aspects/0.25.1/jcabi-aspects-0.25.1-sources.jar
+
+3. **Apply fixes** to the Java source files in `/jcabi-github`.
+
+4. **Verify:**
+   ```bash
+   cd /jcabi-github && mvn compile -B -q
+   ```
+
+## Success Criteria
+
+`mvn compile` exits with **code 0** (no compilation errors).
+' 2>&1 </dev/null | stdbuf -oL tee /logs/agent/claude-code.txt

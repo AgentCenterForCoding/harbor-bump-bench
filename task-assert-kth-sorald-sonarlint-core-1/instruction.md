@@ -1,0 +1,35 @@
+# Fix Maven Compilation Failure: sonarlint-core 8.15.0.65216 -> 8.19.0.72745
+
+## Context
+
+Project `sorald` (by ASSERT-KTH) has a **COMPILATION_FAILURE** after a dependency upgrade bot bumped
+`org.sonarsource.sonarlint.core:sonarlint-core` from `8.15.0.65216` to `8.19.0.72745` (other update).
+
+Reference PR: https://github.com/ASSERT-KTH/sorald/pull/1063
+
+## Your Task
+
+The source code is in `/sorald`. Fix all compilation errors so that `mvn compile` succeeds.
+
+## Steps
+
+1. **Identify errors:**
+   ```bash
+   cd /sorald && mvn compile -B 2>&1 | grep -E "^\[ERROR\]" | head -60
+   ```
+
+2. **Understand breaking changes:** The new version `8.19.0.72745` has API changes vs `8.15.0.65216`.
+   Review the failing source files and update calls to match the new API.
+   - Old API sources: https://repo1.maven.org/maven2/org/sonarsource/sonarlint/core/sonarlint-core/8.15.0.65216/sonarlint-core-8.15.0.65216-sources.jar
+   - New API sources: https://repo1.maven.org/maven2/org/sonarsource/sonarlint/core/sonarlint-core/8.19.0.72745/sonarlint-core-8.19.0.72745-sources.jar
+
+3. **Apply fixes** to the Java source files in `/sorald`.
+
+4. **Verify:**
+   ```bash
+   cd /sorald && mvn compile -B -q
+   ```
+
+## Success Criteria
+
+`mvn compile` exits with **code 0** (no compilation errors).

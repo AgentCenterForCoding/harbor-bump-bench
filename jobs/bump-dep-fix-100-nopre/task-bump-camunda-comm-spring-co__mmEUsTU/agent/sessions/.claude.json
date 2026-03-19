@@ -1,0 +1,14 @@
+{
+  "firstStartTime": "2026-03-19T00:39:31.967Z",
+  "opusProMigrationComplete": true,
+  "sonnet1m45MigrationComplete": true,
+  "clientDataCache": {
+    "data": null,
+    "timestamp": 1773880772040
+  },
+  "userID": "c91e16a456aab03894368d155262635e6ec3dbeb6b34410e964acfb4b829777f",
+  "metricsStatusCache": {
+    "enabled": false,
+    "timestamp": 1773880950737
+  }
+}

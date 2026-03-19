@@ -1,0 +1,14 @@
+job_name: bump-oracle-precheck
+jobs_dir: /root/harbor-bump-eval/jobs
+
+orchestrator:
+  n_concurrent_trials: 2
+
+agents:
+  - name: oracle
+
+datasets:
+  - path: /root/harbor-bump-eval
+    task_names:
+      - task-polyglot-snakeyaml
+      - task-pinterest-singer

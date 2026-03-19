@@ -1,0 +1,41 @@
+=== Running mvn compile to verify fix ===
+[ERROR] COMPILATION ERROR : 
+[ERROR] /flacoco/src/main/java/fr/spoonlabs/flacoco/core/test/strategies/classloader/finder/classes/impl/SourceFolderFinder.java:[25,97] cannot find symbol
+  symbol:   method getWildcard()
+  location: class org.apache.maven.surefire.api.testset.TestListResolver
+[ERROR] /flacoco/src/main/java/fr/spoonlabs/flacoco/core/coverage/CoverageMatrix.java:[199,101] cannot find symbol
+  symbol:   method getWildcard()
+  location: class org.apache.maven.surefire.api.testset.TestListResolver
+[ERROR] /flacoco/src/main/java/fr/spoonlabs/flacoco/core/coverage/CoverageMatrix.java:[205,101] cannot find symbol
+  symbol:   method getWildcard()
+  location: class org.apache.maven.surefire.api.testset.TestListResolver
+[ERROR] /flacoco/src/main/java/fr/spoonlabs/flacoco/core/coverage/framework/TestFrameworkStrategy.java:[92,119] cannot find symbol
+  symbol:   method getWildcard()
+  location: class org.apache.maven.surefire.api.testset.TestListResolver
+[ERROR] /flacoco/src/main/java/fr/spoonlabs/flacoco/core/coverage/framework/TestFrameworkStrategy.java:[97,127] cannot find symbol
+  symbol:   method getWildcard()
+  location: class org.apache.maven.surefire.api.testset.TestListResolver
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project flacoco: Compilation failure: Compilation failure: 
+[ERROR] /flacoco/src/main/java/fr/spoonlabs/flacoco/core/test/strategies/classloader/finder/classes/impl/SourceFolderFinder.java:[25,97] cannot find symbol
+[ERROR]   symbol:   method getWildcard()
+[ERROR]   location: class org.apache.maven.surefire.api.testset.TestListResolver
+[ERROR] /flacoco/src/main/java/fr/spoonlabs/flacoco/core/coverage/CoverageMatrix.java:[199,101] cannot find symbol
+[ERROR]   symbol:   method getWildcard()
+[ERROR]   location: class org.apache.maven.surefire.api.testset.TestListResolver
+[ERROR] /flacoco/src/main/java/fr/spoonlabs/flacoco/core/coverage/CoverageMatrix.java:[205,101] cannot find symbol
+[ERROR]   symbol:   method getWildcard()
+[ERROR]   location: class org.apache.maven.surefire.api.testset.TestListResolver
+[ERROR] /flacoco/src/main/java/fr/spoonlabs/flacoco/core/coverage/framework/TestFrameworkStrategy.java:[92,119] cannot find symbol
+[ERROR]   symbol:   method getWildcard()
+[ERROR]   location: class org.apache.maven.surefire.api.testset.TestListResolver
+[ERROR] /flacoco/src/main/java/fr/spoonlabs/flacoco/core/coverage/framework/TestFrameworkStrategy.java:[97,127] cannot find symbol
+[ERROR]   symbol:   method getWildcard()
+[ERROR]   location: class org.apache.maven.surefire.api.testset.TestListResolver
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+COMPILATION FAILED

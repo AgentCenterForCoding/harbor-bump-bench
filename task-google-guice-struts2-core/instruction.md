@@ -1,0 +1,35 @@
+# Fix Maven Compilation Failure: struts2-core 2.3.37 -> 2.5.22
+
+## Context
+
+Project `guice` (by google) has a **COMPILATION_FAILURE** after a dependency upgrade bot bumped
+`org.apache.struts:struts2-core` from `2.3.37` to `2.5.22` (minor update).
+
+Reference PR: https://github.com/google/guice/pull/1551
+
+## Your Task
+
+The source code is in `/guice`. Fix all compilation errors so that `mvn compile` succeeds.
+
+## Steps
+
+1. **Identify errors:**
+   ```bash
+   cd /guice && mvn compile -B 2>&1 | grep -E "^\[ERROR\]" | head -60
+   ```
+
+2. **Understand breaking changes:** The new version `2.5.22` has API changes vs `2.3.37`.
+   Review the failing source files and update calls to match the new API.
+   - Old API sources: https://repo1.maven.org/maven2/org/apache/struts/struts2-core/2.3.37/struts2-core-2.3.37-sources.jar
+   - New API sources: https://repo1.maven.org/maven2/org/apache/struts/struts2-core/2.5.22/struts2-core-2.5.22-sources.jar
+
+3. **Apply fixes** to the Java source files in `/guice`.
+
+4. **Verify:**
+   ```bash
+   cd /guice && mvn compile -B -q
+   ```
+
+## Success Criteria
+
+`mvn compile` exits with **code 0** (no compilation errors).

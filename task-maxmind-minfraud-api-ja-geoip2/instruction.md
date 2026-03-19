@@ -1,0 +1,35 @@
+# Fix Maven Compilation Failure: geoip2 2.16.1 -> 3.0.0
+
+## Context
+
+Project `minfraud-api-java` (by maxmind) has a **COMPILATION_FAILURE** after a dependency upgrade bot bumped
+`com.maxmind.geoip2:geoip2` from `2.16.1` to `3.0.0` (major update).
+
+Reference PR: https://github.com/maxmind/minfraud-api-java/pull/218
+
+## Your Task
+
+The source code is in `/minfraud-api-java`. Fix all compilation errors so that `mvn compile` succeeds.
+
+## Steps
+
+1. **Identify errors:**
+   ```bash
+   cd /minfraud-api-java && mvn compile -B 2>&1 | grep -E "^\[ERROR\]" | head -60
+   ```
+
+2. **Understand breaking changes:** The new version `3.0.0` has API changes vs `2.16.1`.
+   Review the failing source files and update calls to match the new API.
+   - Old API sources: https://repo1.maven.org/maven2/com/maxmind/geoip2/geoip2/2.16.1/geoip2-2.16.1-sources.jar
+   - New API sources: https://repo1.maven.org/maven2/com/maxmind/geoip2/geoip2/3.0.0/geoip2-3.0.0-sources.jar
+
+3. **Apply fixes** to the Java source files in `/minfraud-api-java`.
+
+4. **Verify:**
+   ```bash
+   cd /minfraud-api-java && mvn compile -B -q
+   ```
+
+## Success Criteria
+
+`mvn compile` exits with **code 0** (no compilation errors).

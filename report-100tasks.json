@@ -1,0 +1,910 @@
+{
+  "job_name": "bump-dep-fix-100-nopre",
+  "evaluation": "无预检流程 (claude-code + qwen3.5-plus)",
+  "timestamp": "2026-03-19T14:25:09.182979",
+  "total": 100,
+  "success": 75,
+  "failed": 25,
+  "error": 0,
+  "success_rate": 0.75,
+  "by_update_type": {
+    "minor": {
+      "total": 14,
+      "success": 8
+    },
+    "major": {
+      "total": 17,
+      "success": 14
+    },
+    "unknown": {
+      "total": 65,
+      "success": 50
+    },
+    "other": {
+      "total": 4,
+      "success": 3
+    }
+  },
+  "results": [
+    {
+      "trial": "task-bump-1and1-snmp4j-agent__UoBR5PN",
+      "task_name": "task-bump-1and1-snmp4j-agent",
+      "reward": 0.0,
+      "status": "unknown",
+      "project": "snmpman",
+      "org": "1and1",
+      "dep": "org.snmp4j:snmp4j-agent",
+      "prevVersion": "3.0.3",
+      "newVersion": "3.6.5",
+      "updateType": "minor",
+      "javaVersion": "11",
+      "url": "https://github.com/1and1/snmpman/pull/55"
+    },
+    {
+      "trial": "task-bump-allure-frame-zip4j-1__PTajaG6",
+      "task_name": "task-bump-allure-frame-zip4j-1",
+      "reward": 1.0,
+      "status": "unknown",
+      "project": "allure-maven",
+      "org": "allure-framework",
+      "dep": "net.lingala.zip4j:zip4j",
+      "prevVersion": "1.3.2",
+      "newVersion": "2.10.0",
+      "updateType": "major",
+      "javaVersion": "11",
+      "url": "https://github.com/allure-framework/allure-maven/pull/230"
+    },
+    {
+      "trial": "task-bump-allure-frame-zip4j__ChCug4b",
+      "task_name": "task-bump-allure-frame-zip4j",
+      "reward": 1.0,
+      "status": "unknown",
+      "project": "allure-maven",
+      "org": "allure-framework",
+      "dep": "net.lingala.zip4j:zip4j",
+      "prevVersion": "1.3.2",
+      "newVersion": "2.11.1",
+      "updateType": "major",
+      "javaVersion": "11",
+      "url": "https://github.com/allure-framework/allure-maven/pull/241"
+    },
+    {
+      "trial": "task-bump-alphagov-logback-class__QcT2gQH",
+      "task_name": "task-bump-alphagov-logback-class",
+      "reward": 1.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-alphagov-logback-class__cofyeGt",
+      "task_name": "task-bump-alphagov-logback-class",
+      "reward": 1.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-alphagov-logback-class__jh9RK4Y",
+      "task_name": "task-bump-alphagov-logback-class",
+      "reward": 1.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-alphagov-logback-class__yc5KwSg",
+      "task_name": "task-bump-alphagov-logback-class",
+      "reward": 1.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-artipie-asto-core-1__jUJpsVC",
+      "task_name": "task-bump-artipie-asto-core-1",
+      "reward": 1.0,
+      "status": "unknown",
+      "project": "http",
+      "org": "artipie",
+      "dep": "com.artipie:asto-core",
+      "prevVersion": "v1.13.0",
+      "newVersion": "v1.15.3",
+      "updateType": "other",
+      "javaVersion": "11",
+      "url": "https://github.com/artipie/http/pull/508"
+    },
+    {
+      "trial": "task-bump-artipie-asto-core__PiPrchS",
+      "task_name": "task-bump-artipie-asto-core",
+      "reward": 1.0,
+      "status": "unknown",
+      "project": "docker-adapter",
+      "org": "artipie",
+      "dep": "com.artipie:asto-core",
+      "prevVersion": "v1.13.0",
+      "newVersion": "v1.14.1",
+      "updateType": "other",
+      "javaVersion": "11",
+      "url": "https://github.com/artipie/docker-adapter/pull/536"
+    },
+    {
+      "trial": "task-bump-artipie-http-1__zHyKivH",
+      "task_name": "task-bump-artipie-http-1",
+      "reward": 1.0,
+      "status": "unknown",
+      "project": "docker-adapter",
+      "org": "artipie",
+      "dep": "com.artipie:http",
+      "prevVersion": "v0.25",
+      "newVersion": "v1.1.3",
+      "updateType": "other",
+      "javaVersion": "11",
+      "url": "https://github.com/artipie/docker-adapter/pull/511"
+    },
+    {
+      "trial": "task-bump-artipie-http__bbyERpB",
+      "task_name": "task-bump-artipie-http",
+      "reward": 0.0,
+      "status": "unknown",
+      "project": "docker-adapter",
+      "org": "artipie",
+      "dep": "com.artipie:http",
+      "prevVersion": "v0.25",
+      "newVersion": "v1.1.1",
+      "updateType": "other",
+      "javaVersion": "11",
+      "url": "https://github.com/artipie/docker-adapter/pull/508"
+    },
+    {
+      "trial": "task-bump-assert-kth-maven-suref__JwHtH3X",
+      "task_name": "task-bump-assert-kth-maven-suref",
+      "reward": 0.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-assert-kth-plexus-util__EisiMFx",
+      "task_name": "task-bump-assert-kth-plexus-util",
+      "reward": 0.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-assert-kth-sonarlint-c__Hwjokqe",
+      "task_name": "task-bump-assert-kth-sonarlint-c",
+      "reward": 1.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-assert-kth-sonarlint-c__dTKpSjd",
+      "task_name": "task-bump-assert-kth-sonarlint-c",
+      "reward": 1.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-assert-kth-sonarlint-c__fQJ6cXx",
+      "task_name": "task-bump-assert-kth-sonarlint-c",
+      "reward": 1.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-btrplace-javaparser-co__ayAMrRo",
+      "task_name": "task-bump-btrplace-javaparser-co",
+      "reward": 1.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-camunda-comm-spring-co__AWPKoMf",
+      "task_name": "task-bump-camunda-comm-spring-co",
+      "reward": 0.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-camunda-comm-spring-co__gbhcnvy",
+      "task_name": "task-bump-camunda-comm-spring-co",
+      "reward": 1.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-camunda-comm-spring-co__iJkdrLm",
+      "task_name": "task-bump-camunda-comm-spring-co",
+      "reward": 1.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-camunda-comm-spring-co__jgYfweR",
+      "task_name": "task-bump-camunda-comm-spring-co",
+      "reward": 0.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-camunda-comm-spring-co__kr5V8VY",
+      "task_name": "task-bump-camunda-comm-spring-co",
+      "reward": 1.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-camunda-comm-spring-co__mmEUsTU",
+      "task_name": "task-bump-camunda-comm-spring-co",
+      "reward": 1.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-camunda-comm-spring-co__qYQHoEf",
+      "task_name": "task-bump-camunda-comm-spring-co",
+      "reward": 1.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-feedzai-logback-classi__wvVpLpS",
+      "task_name": "task-bump-feedzai-logback-classi",
+      "reward": 1.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-games647-spongeapi__i8iv6Gy",
+      "task_name": "task-bump-games647-spongeapi",
+      "reward": 0.0,
+      "status": "unknown",
+      "project": "ChangeSkin",
+      "org": "games647",
+      "dep": "org.spongepowered:spongeapi",
+      "prevVersion": "7.4.0",
+      "newVersion": "8.0.0",
+      "updateType": "major",
+      "javaVersion": "11",
+      "url": "https://github.com/games647/ChangeSkin/pull/240"
+    },
+    {
+      "trial": "task-bump-getgauge-reflections__XLNHrAL",
+      "task_name": "task-bump-getgauge-reflections",
+      "reward": 1.0,
+      "status": "unknown",
+      "project": "gauge-java",
+      "org": "getgauge",
+      "dep": "org.reflections:reflections",
+      "prevVersion": "0.9.9",
+      "newVersion": "0.10.2",
+      "updateType": "minor",
+      "javaVersion": "11",
+      "url": "https://github.com/getgauge/gauge-java/pull/633"
+    },
+    {
+      "trial": "task-bump-google-struts2-core__syKwfrZ",
+      "task_name": "task-bump-google-struts2-core",
+      "reward": 1.0,
+      "status": "unknown",
+      "project": "guice",
+      "org": "google",
+      "dep": "org.apache.struts:struts2-core",
+      "prevVersion": "2.3.37",
+      "newVersion": "2.5.22",
+      "updateType": "minor",
+      "javaVersion": "11",
+      "url": "https://github.com/google/guice/pull/1551"
+    },
+    {
+      "trial": "task-bump-googleapis-google-api-__3ctqU73",
+      "task_name": "task-bump-googleapis-google-api-",
+      "reward": 0.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-googleapis-google-api-__U2sUeba",
+      "task_name": "task-bump-googleapis-google-api-",
+      "reward": 1.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-googleapis-google-clou__ZrYoo4S",
+      "task_name": "task-bump-googleapis-google-clou",
+      "reward": 1.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-guhilling-jakarta-anno__dCJYB3h",
+      "task_name": "task-bump-guhilling-jakarta-anno",
+      "reward": 1.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-hantsy-jakarta-mvc-api__7ry3qED",
+      "task_name": "task-bump-hantsy-jakarta-mvc-api",
+      "reward": 0.0,
+      "status": "unknown",
+      "project": "jakartaee-mvc-sample",
+      "org": "hantsy",
+      "dep": "jakarta.mvc:jakarta.mvc-api",
+      "prevVersion": "1.1.0",
+      "newVersion": "2.0.1",
+      "updateType": "major",
+      "javaVersion": "11",
+      "url": "https://github.com/hantsy/jakartaee-mvc-sample/pull/140"
+    },
+    {
+      "trial": "task-bump-internationa-spring-bo__AjXUvBY",
+      "task_name": "task-bump-internationa-spring-bo",
+      "reward": 1.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-internationa-spring-bo__HXCG7sX",
+      "task_name": "task-bump-internationa-spring-bo",
+      "reward": 1.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-internationa-spring-bo__mPg5hwd",
+      "task_name": "task-bump-internationa-spring-bo",
+      "reward": 1.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-internationa-spring-bo__sd8Kjnr",
+      "task_name": "task-bump-internationa-spring-bo",
+      "reward": 1.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-internationa-spring-co__36JmPxF",
+      "task_name": "task-bump-internationa-spring-co",
+      "reward": 1.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-internationa-spring-co__TED34GL",
+      "task_name": "task-bump-internationa-spring-co",
+      "reward": 1.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-internationa-spring-we__3JXR84K",
+      "task_name": "task-bump-internationa-spring-we",
+      "reward": 1.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-internationa-spring-we__9wDC5Qh",
+      "task_name": "task-bump-internationa-spring-we",
+      "reward": 1.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-internationa-spring-we__S2irZww",
+      "task_name": "task-bump-internationa-spring-we",
+      "reward": 1.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-internationa-spring-we__gyxKB28",
+      "task_name": "task-bump-internationa-spring-we",
+      "reward": 1.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-internationa-spring-we__pvu6XQx",
+      "task_name": "task-bump-internationa-spring-we",
+      "reward": 1.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-internationa-spring-we__qyjuE5V",
+      "task_name": "task-bump-internationa-spring-we",
+      "reward": 1.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-internationa-spring-we__rMab7jB",
+      "task_name": "task-bump-internationa-spring-we",
+      "reward": 1.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-internationa-spring-we__uYmot8n",
+      "task_name": "task-bump-internationa-spring-we",
+      "reward": 1.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-jadler-mocki-jetty-ser__3CP9gpz",
+      "task_name": "task-bump-jadler-mocki-jetty-ser",
+      "reward": 0.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-jadler-mocki-jetty-ser__gPny5bB",
+      "task_name": "task-bump-jadler-mocki-jetty-ser",
+      "reward": 1.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-jadler-mocki-jetty-ser__xrz2HtW",
+      "task_name": "task-bump-jadler-mocki-jetty-ser",
+      "reward": 1.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-jcabi-hamcrest-library__8cxNeFj",
+      "task_name": "task-bump-jcabi-hamcrest-library",
+      "reward": 1.0,
+      "status": "unknown",
+      "project": "jcabi-http",
+      "org": "jcabi",
+      "dep": "org.hamcrest:hamcrest-library",
+      "prevVersion": "1.3",
+      "newVersion": "2.2",
+      "updateType": "major",
+      "javaVersion": "11",
+      "url": "https://github.com/jcabi/jcabi-http/pull/366"
+    },
+    {
+      "trial": "task-bump-jcabi-jcabi-aspects-1__zdZGequ",
+      "task_name": "task-bump-jcabi-jcabi-aspects-1",
+      "reward": 1.0,
+      "status": "unknown",
+      "project": "jcabi-ssh",
+      "org": "jcabi",
+      "dep": "com.jcabi:jcabi-aspects",
+      "prevVersion": "0.24.1",
+      "newVersion": "0.25.1",
+      "updateType": "minor",
+      "javaVersion": "11",
+      "url": "https://github.com/jcabi/jcabi-ssh/pull/148"
+    },
+    {
+      "trial": "task-bump-jcabi-jcabi-aspects-2__i8eYXvq",
+      "task_name": "task-bump-jcabi-jcabi-aspects-2",
+      "reward": 1.0,
+      "status": "unknown",
+      "project": "jcabi-simpledb",
+      "org": "jcabi",
+      "dep": "com.jcabi:jcabi-aspects",
+      "prevVersion": "0.24.1",
+      "newVersion": "0.25.1",
+      "updateType": "minor",
+      "javaVersion": "11",
+      "url": "https://github.com/jcabi/jcabi-simpledb/pull/155"
+    },
+    {
+      "trial": "task-bump-jcabi-jcabi-aspects-3__tuBqx2Q",
+      "task_name": "task-bump-jcabi-jcabi-aspects-3",
+      "reward": 1.0,
+      "status": "unknown",
+      "project": "jcabi-github",
+      "org": "jcabi",
+      "dep": "com.jcabi:jcabi-aspects",
+      "prevVersion": "0.24.1",
+      "newVersion": "0.25.1",
+      "updateType": "minor",
+      "javaVersion": "11",
+      "url": "https://github.com/jcabi/jcabi-github/pull/1642"
+    },
+    {
+      "trial": "task-bump-jcabi-jcabi-aspects__Bmn7pUe",
+      "task_name": "task-bump-jcabi-jcabi-aspects",
+      "reward": 1.0,
+      "status": "unknown",
+      "project": "jcabi-s3",
+      "org": "jcabi",
+      "dep": "com.jcabi:jcabi-aspects",
+      "prevVersion": "0.24.1",
+      "newVersion": "0.25.1",
+      "updateType": "minor",
+      "javaVersion": "11",
+      "url": "https://github.com/jcabi/jcabi-s3/pull/210"
+    },
+    {
+      "trial": "task-bump-jenkinsci-acceptance-t__7MZBWYf",
+      "task_name": "task-bump-jenkinsci-acceptance-t",
+      "reward": 0.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-jenkinsci-acceptance-t__QsUZxsM",
+      "task_name": "task-bump-jenkinsci-acceptance-t",
+      "reward": 0.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-jenkinsci-acceptance-t__YGbfNxW",
+      "task_name": "task-bump-jenkinsci-acceptance-t",
+      "reward": 0.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-jenkinsci-acceptance-t__osvVPmF",
+      "task_name": "task-bump-jenkinsci-acceptance-t",
+      "reward": 0.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-kokuwaio-spring-contex__5LDvVce",
+      "task_name": "task-bump-kokuwaio-spring-contex",
+      "reward": 1.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-kokuwaio-spring-contex__bZKwh5a",
+      "task_name": "task-bump-kokuwaio-spring-contex",
+      "reward": 1.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-kokuwaio-spring-contex__kEQqn2X",
+      "task_name": "task-bump-kokuwaio-spring-contex",
+      "reward": 1.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-lukas-krecan-spring-co__rJp7nE2",
+      "task_name": "task-bump-lukas-krecan-spring-co",
+      "reward": 1.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-mathieucarbo-maven-dep__3AagqQd",
+      "task_name": "task-bump-mathieucarbo-maven-dep",
+      "reward": 1.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-mathieucarbo-maven-dep__fQ7CscL",
+      "task_name": "task-bump-mathieucarbo-maven-dep",
+      "reward": 1.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-maxmind-geoip2__HRc6deq",
+      "task_name": "task-bump-maxmind-geoip2",
+      "reward": 1.0,
+      "status": "unknown",
+      "project": "minfraud-api-java",
+      "org": "maxmind",
+      "dep": "com.maxmind.geoip2:geoip2",
+      "prevVersion": "2.16.1",
+      "newVersion": "3.0.0",
+      "updateType": "major",
+      "javaVersion": "11",
+      "url": "https://github.com/maxmind/minfraud-api-java/pull/218"
+    },
+    {
+      "trial": "task-bump-micycle1-tinspin-index__6gu4DUv",
+      "task_name": "task-bump-micycle1-tinspin-index",
+      "reward": 1.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-micycle1-tinspin-index__vcFjQbz",
+      "task_name": "task-bump-micycle1-tinspin-index",
+      "reward": 1.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-nemproject-flyway-core__2S9xwQR",
+      "task_name": "task-bump-nemproject-flyway-core",
+      "reward": 1.0,
+      "status": "unknown",
+      "project": "nem",
+      "org": "NemProject",
+      "dep": "org.flywaydb:flyway-core",
+      "prevVersion": "3.2.1",
+      "newVersion": "9.21.1",
+      "updateType": "major",
+      "javaVersion": "11",
+      "url": "https://github.com/NemProject/nem/pull/318"
+    },
+    {
+      "trial": "task-bump-nemproject-flyway-core__4cR2Jfw",
+      "task_name": "task-bump-nemproject-flyway-core",
+      "reward": 1.0,
+      "status": "unknown",
+      "project": "nem",
+      "org": "NemProject",
+      "dep": "org.flywaydb:flyway-core",
+      "prevVersion": "3.2.1",
+      "newVersion": "9.21.1",
+      "updateType": "major",
+      "javaVersion": "11",
+      "url": "https://github.com/NemProject/nem/pull/318"
+    },
+    {
+      "trial": "task-bump-nemproject-flyway-core__GNZxVsx",
+      "task_name": "task-bump-nemproject-flyway-core",
+      "reward": 1.0,
+      "status": "unknown",
+      "project": "nem",
+      "org": "NemProject",
+      "dep": "org.flywaydb:flyway-core",
+      "prevVersion": "3.2.1",
+      "newVersion": "9.21.1",
+      "updateType": "major",
+      "javaVersion": "11",
+      "url": "https://github.com/NemProject/nem/pull/318"
+    },
+    {
+      "trial": "task-bump-nemproject-flyway-core__xqmEPb5",
+      "task_name": "task-bump-nemproject-flyway-core",
+      "reward": 1.0,
+      "status": "unknown",
+      "project": "nem",
+      "org": "NemProject",
+      "dep": "org.flywaydb:flyway-core",
+      "prevVersion": "3.2.1",
+      "newVersion": "9.21.1",
+      "updateType": "major",
+      "javaVersion": "11",
+      "url": "https://github.com/NemProject/nem/pull/318"
+    },
+    {
+      "trial": "task-bump-nemproject-hibernate-v__QxSpbfi",
+      "task_name": "task-bump-nemproject-hibernate-v",
+      "reward": 1.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-p2p-develop-peyangsupe__UUfZ2T3",
+      "task_name": "task-bump-p2p-develop-peyangsupe",
+      "reward": 1.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-pac4j-jakarta-servlet-__Cp6dQSR",
+      "task_name": "task-bump-pac4j-jakarta-servlet-",
+      "reward": 1.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-pkiraly-metadata-qa-ap__v6zqLmH",
+      "task_name": "task-bump-pkiraly-metadata-qa-ap",
+      "reward": 1.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-premium-mind-jakarta-v__2mnAHPc",
+      "task_name": "task-bump-premium-mind-jakarta-v",
+      "reward": 0.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-premium-mind-jakarta-v__9GDqnrY",
+      "task_name": "task-bump-premium-mind-jakarta-v",
+      "reward": 1.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-premium-mind-jaxb2-bas__56SB6yY",
+      "task_name": "task-bump-premium-mind-jaxb2-bas",
+      "reward": 0.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-premium-mind-jaxb2-bas__W598p5K",
+      "task_name": "task-bump-premium-mind-jaxb2-bas",
+      "reward": 1.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-qqxx6661-spring-cloud-__BVJXVxs",
+      "task_name": "task-bump-qqxx6661-spring-cloud-",
+      "reward": 1.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-redisgraph-jedis__75AVUv7",
+      "task_name": "task-bump-redisgraph-jedis",
+      "reward": 1.0,
+      "status": "unknown",
+      "project": "JRedisGraph",
+      "org": "RedisGraph",
+      "dep": "redis.clients:jedis",
+      "prevVersion": "3.9.0",
+      "newVersion": "4.3.2",
+      "updateType": "major",
+      "javaVersion": "11",
+      "url": "https://github.com/RedisGraph/JRedisGraph/pull/160"
+    },
+    {
+      "trial": "task-bump-sabomichal-jooq-meta-1__L9zu6d9",
+      "task_name": "task-bump-sabomichal-jooq-meta-1",
+      "reward": 1.0,
+      "status": "unknown",
+      "project": "jooq-meta-postgres-flyway",
+      "org": "sabomichal",
+      "dep": "org.jooq:jooq-meta",
+      "prevVersion": "3.16.6",
+      "newVersion": "3.17.5",
+      "updateType": "minor",
+      "javaVersion": "11",
+      "url": "https://github.com/sabomichal/jooq-meta-postgres-flyway/pull/108"
+    },
+    {
+      "trial": "task-bump-sabomichal-jooq-meta-2__joD4E39",
+      "task_name": "task-bump-sabomichal-jooq-meta-2",
+      "reward": 1.0,
+      "status": "unknown",
+      "project": "jooq-meta-postgres-flyway",
+      "org": "sabomichal",
+      "dep": "org.jooq:jooq-meta",
+      "prevVersion": "3.16.6",
+      "newVersion": "3.17.1",
+      "updateType": "minor",
+      "javaVersion": "11",
+      "url": "https://github.com/sabomichal/jooq-meta-postgres-flyway/pull/75"
+    },
+    {
+      "trial": "task-bump-sabomichal-jooq-meta__4guxHEW",
+      "task_name": "task-bump-sabomichal-jooq-meta",
+      "reward": 0.0,
+      "status": "unknown",
+      "project": "jooq-meta-postgres-flyway",
+      "org": "sabomichal",
+      "dep": "org.jooq:jooq-meta",
+      "prevVersion": "3.16.6",
+      "newVersion": "3.17.3",
+      "updateType": "minor",
+      "javaVersion": "11",
+      "url": "https://github.com/sabomichal/jooq-meta-postgres-flyway/pull/89"
+    },
+    {
+      "trial": "task-bump-samsung-spring-core-1__zzet8yR",
+      "task_name": "task-bump-samsung-spring-core-1",
+      "reward": 1.0,
+      "status": "unknown",
+      "project": "LPVS",
+      "org": "Samsung",
+      "dep": "org.springframework:spring-core",
+      "prevVersion": "5.3.27",
+      "newVersion": "6.0.11",
+      "updateType": "major",
+      "javaVersion": "11",
+      "url": "https://github.com/Samsung/LPVS/pull/194"
+    },
+    {
+      "trial": "task-bump-samsung-spring-core-2__HNGcspy",
+      "task_name": "task-bump-samsung-spring-core-2",
+      "reward": 1.0,
+      "status": "unknown",
+      "project": "LPVS",
+      "org": "Samsung",
+      "dep": "org.springframework:spring-core",
+      "prevVersion": "5.3.23",
+      "newVersion": "6.0.5",
+      "updateType": "major",
+      "javaVersion": "11",
+      "url": "https://github.com/Samsung/LPVS/pull/125"
+    },
+    {
+      "trial": "task-bump-samsung-spring-core-3__rydcy6N",
+      "task_name": "task-bump-samsung-spring-core-3",
+      "reward": 1.0,
+      "status": "unknown",
+      "project": "LPVS",
+      "org": "Samsung",
+      "dep": "org.springframework:spring-core",
+      "prevVersion": "5.3.27",
+      "newVersion": "6.0.10",
+      "updateType": "major",
+      "javaVersion": "11",
+      "url": "https://github.com/Samsung/LPVS/pull/183"
+    },
+    {
+      "trial": "task-bump-samsung-spring-core-4__U4DM4ZN",
+      "task_name": "task-bump-samsung-spring-core-4",
+      "reward": 1.0,
+      "status": "unknown",
+      "project": "LPVS",
+      "org": "Samsung",
+      "dep": "org.springframework:spring-core",
+      "prevVersion": "5.3.27",
+      "newVersion": "6.0.9",
+      "updateType": "major",
+      "javaVersion": "11",
+      "url": "https://github.com/Samsung/LPVS/pull/172"
+    },
+    {
+      "trial": "task-bump-samsung-spring-core__Rn2osg8",
+      "task_name": "task-bump-samsung-spring-core",
+      "reward": 1.0,
+      "status": "unknown",
+      "project": "LPVS",
+      "org": "Samsung",
+      "dep": "org.springframework:spring-core",
+      "prevVersion": "5.3.27",
+      "newVersion": "6.0.8",
+      "updateType": "major",
+      "javaVersion": "11",
+      "url": "https://github.com/Samsung/LPVS/pull/151"
+    },
+    {
+      "trial": "task-bump-saucelabs-plexus-archi__TLdZZm8",
+      "task_name": "task-bump-saucelabs-plexus-archi",
+      "reward": 1.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-takari-snakeyaml-1__BxDDHGT",
+      "task_name": "task-bump-takari-snakeyaml-1",
+      "reward": 0.0,
+      "status": "unknown",
+      "project": "polyglot-maven",
+      "org": "takari",
+      "dep": "org.yaml:snakeyaml",
+      "prevVersion": "1.17",
+      "newVersion": "1.31",
+      "updateType": "minor",
+      "javaVersion": "11",
+      "url": "https://github.com/takari/polyglot-maven/pull/244"
+    },
+    {
+      "trial": "task-bump-takari-snakeyaml-2__xQLWZhF",
+      "task_name": "task-bump-takari-snakeyaml-2",
+      "reward": 0.0,
+      "status": "unknown",
+      "project": "polyglot-maven",
+      "org": "takari",
+      "dep": "org.yaml:snakeyaml",
+      "prevVersion": "1.17",
+      "newVersion": "1.32",
+      "updateType": "minor",
+      "javaVersion": "11",
+      "url": "https://github.com/takari/polyglot-maven/pull/255"
+    },
+    {
+      "trial": "task-bump-takari-snakeyaml__N6rHCnh",
+      "task_name": "task-bump-takari-snakeyaml",
+      "reward": 0.0,
+      "status": "unknown",
+      "project": "polyglot-maven",
+      "org": "takari",
+      "dep": "org.yaml:snakeyaml",
+      "prevVersion": "1.17",
+      "newVersion": "2.0",
+      "updateType": "major",
+      "javaVersion": "11",
+      "url": "https://github.com/takari/polyglot-maven/pull/260"
+    },
+    {
+      "trial": "task-bump-volodya-lomb-opennlp-t__3dADc7B",
+      "task_name": "task-bump-volodya-lomb-opennlp-t",
+      "reward": 0.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-wesleyosanto-mapstruct__ndVUPgQ",
+      "task_name": "task-bump-wesleyosanto-mapstruct",
+      "reward": 1.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-wireapp-dropwizard-cli__js8kbFG",
+      "task_name": "task-bump-wireapp-dropwizard-cli",
+      "reward": 0.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-wmaarts-pitest-entry__eReApaR",
+      "task_name": "task-bump-wmaarts-pitest-entry",
+      "reward": 0.0,
+      "status": "unknown",
+      "project": "pitest-mutation-testing-elements-plugin",
+      "org": "Wmaarts",
+      "dep": "org.pitest:pitest-entry",
+      "prevVersion": "1.9.11",
+      "newVersion": "1.10.0",
+      "updateType": "minor",
+      "javaVersion": "11",
+      "url": "https://github.com/Wmaarts/pitest-mutation-testing-elements-plugin/pull/146"
+    },
+    {
+      "trial": "task-bump-xdev-softwar-jasperrep__8BpgbF3",
+      "task_name": "task-bump-xdev-softwar-jasperrep",
+      "reward": 0.0,
+      "status": "unknown"
+    },
+    {
+      "trial": "task-bump-zold-io-cactoos__fSHMbCV",
+      "task_name": "task-bump-zold-io-cactoos",
+      "reward": 0.0,
+      "status": "unknown",
+      "project": "java-api",
+      "org": "zold-io",
+      "dep": "org.cactoos:cactoos",
+      "prevVersion": "0.35",
+      "newVersion": "0.55.0",
+      "updateType": "minor",
+      "javaVersion": "11",
+      "url": "https://github.com/zold-io/java-api/pull/101"
+    }
+  ]
+}

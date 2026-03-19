@@ -1,0 +1,35 @@
+# Fix Maven Compilation Failure: plexus-archiver 4.2.7 -> 4.4.0
+
+## Context
+
+Project `ci-sauce` (by saucelabs) has a **COMPILATION_FAILURE** after a dependency upgrade bot bumped
+`org.codehaus.plexus:plexus-archiver` from `4.2.7` to `4.4.0` (minor update).
+
+Reference PR: https://github.com/saucelabs/ci-sauce/pull/119
+
+## Your Task
+
+The source code is in `/ci-sauce`. Fix all compilation errors so that `mvn compile` succeeds.
+
+## Steps
+
+1. **Identify errors:**
+   ```bash
+   cd /ci-sauce && mvn compile -B 2>&1 | grep -E "^\[ERROR\]" | head -60
+   ```
+
+2. **Understand breaking changes:** The new version `4.4.0` has API changes vs `4.2.7`.
+   Review the failing source files and update calls to match the new API.
+   - Old API sources: https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-archiver/4.2.7/plexus-archiver-4.2.7-sources.jar
+   - New API sources: https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-archiver/4.4.0/plexus-archiver-4.4.0-sources.jar
+
+3. **Apply fixes** to the Java source files in `/ci-sauce`.
+
+4. **Verify:**
+   ```bash
+   cd /ci-sauce && mvn compile -B -q
+   ```
+
+## Success Criteria
+
+`mvn compile` exits with **code 0** (no compilation errors).

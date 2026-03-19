@@ -1,0 +1,20 @@
+version = "1.0"
+
+[metadata]
+author_name = "bump-benchmark"
+author_email = "eval@harbor"
+difficulty = "hard"
+category = "java-dependency-fix"
+tags = ["java", "maven", "dependency-upgrade", "compilation-fix"]
+
+[agent]
+timeout_sec = 1800.0
+
+[verifier]
+timeout_sec = 600.0
+
+[environment]
+build_timeout_sec = 900.0
+cpus = 2
+memory_mb = 6144
+storage_mb = 20480
