@@ -1,4 +1,4 @@
-# Fix Maven Compilation Failure: jcabi-aspects 0.24.1 -> 0.25.1
+﻿# Fix Maven Compilation Failure: jcabi-aspects 0.24.1 -> 0.25.1
 
 ## Context
 
@@ -10,26 +10,3 @@ Reference PR: https://github.com/jcabi/jcabi-s3/pull/210
 ## Your Task
 
 The source code is in `/jcabi-s3`. Fix all compilation errors so that `mvn compile` succeeds.
-
-## Steps
-
-1. **Identify errors:**
-   ```bash
-   cd /jcabi-s3 && mvn compile -B 2>&1 | grep -E "^\[ERROR\]" | head -60
-   ```
-
-2. **Understand breaking changes:** The new version `0.25.1` has API changes vs `0.24.1`.
-   Review the failing source files and update calls to match the new API.
-   - Old API sources: https://repo1.maven.org/maven2/com/jcabi/jcabi-aspects/0.24.1/jcabi-aspects-0.24.1-sources.jar
-   - New API sources: https://repo1.maven.org/maven2/com/jcabi/jcabi-aspects/0.25.1/jcabi-aspects-0.25.1-sources.jar
-
-3. **Apply fixes** to the Java source files in `/jcabi-s3`.
-
-4. **Verify:**
-   ```bash
-   cd /jcabi-s3 && mvn compile -B -q
-   ```
-
-## Success Criteria
-
-`mvn compile` exits with **code 0** (no compilation errors).

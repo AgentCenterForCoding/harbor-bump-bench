@@ -1,4 +1,4 @@
-# Fix Maven Compilation Failure: spring-web 5.3.24 -> 6.0.2
+﻿# Fix Maven Compilation Failure: spring-web 5.3.24 -> 6.0.2
 
 ## Context
 
@@ -10,26 +10,3 @@ Reference PR: https://github.com/International-Data-Spaces-Association/IDS-Messa
 ## Your Task
 
 The source code is in `/IDS-Messaging-Services`. Fix all compilation errors so that `mvn compile` succeeds.
-
-## Steps
-
-1. **Identify errors:**
-   ```bash
-   cd /IDS-Messaging-Services && mvn compile -B 2>&1 | grep -E "^\[ERROR\]" | head -60
-   ```
-
-2. **Understand breaking changes:** The new version `6.0.2` has API changes vs `5.3.24`.
-   Review the failing source files and update calls to match the new API.
-   - Old API sources: https://repo1.maven.org/maven2/org/springframework/spring-web/5.3.24/spring-web-5.3.24-sources.jar
-   - New API sources: https://repo1.maven.org/maven2/org/springframework/spring-web/6.0.2/spring-web-6.0.2-sources.jar
-
-3. **Apply fixes** to the Java source files in `/IDS-Messaging-Services`.
-
-4. **Verify:**
-   ```bash
-   cd /IDS-Messaging-Services && mvn compile -B -q
-   ```
-
-## Success Criteria
-
-`mvn compile` exits with **code 0** (no compilation errors).

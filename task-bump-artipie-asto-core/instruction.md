@@ -1,4 +1,4 @@
-# Fix Maven Compilation Failure: asto-core v1.13.0 -> v1.14.1
+﻿# Fix Maven Compilation Failure: asto-core v1.13.0 -> v1.14.1
 
 ## Context
 
@@ -10,26 +10,3 @@ Reference PR: https://github.com/artipie/docker-adapter/pull/536
 ## Your Task
 
 The source code is in `/docker-adapter`. Fix all compilation errors so that `mvn compile` succeeds.
-
-## Steps
-
-1. **Identify errors:**
-   ```bash
-   cd /docker-adapter && mvn compile -B 2>&1 | grep -E "^\[ERROR\]" | head -60
-   ```
-
-2. **Understand breaking changes:** The new version `v1.14.1` has API changes vs `v1.13.0`.
-   Review the failing source files and update calls to match the new API.
-   - Old API sources: https://repo1.maven.org/maven2/com/artipie/asto-core/v1.13.0/asto-core-v1.13.0-sources.jar
-   - New API sources: https://repo1.maven.org/maven2/com/artipie/asto-core/v1.14.1/asto-core-v1.14.1-sources.jar
-
-3. **Apply fixes** to the Java source files in `/docker-adapter`.
-
-4. **Verify:**
-   ```bash
-   cd /docker-adapter && mvn compile -B -q
-   ```
-
-## Success Criteria
-
-`mvn compile` exits with **code 0** (no compilation errors).

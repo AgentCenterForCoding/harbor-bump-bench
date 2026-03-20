@@ -1,4 +1,4 @@
-# Fix Maven Compilation Failure: spring-core 5.3.24 → 6.0.7
+﻿# Fix Maven Compilation Failure: spring-core 5.3.24 鈫?6.0.7
 
 ## Context
 
@@ -10,24 +10,3 @@ Reference PR: https://github.com/International-Data-Spaces-Association/IDS-Messa
 ## Your Task
 
 The source code is in `/IDS-Messaging-Services`. Fix all compilation errors so that `mvn compile` succeeds.
-
-## Steps
-
-1. **Identify errors:**
-   ```bash
-   cd /IDS-Messaging-Services && mvn compile -B 2>&1 | grep -E "^\[ERROR\]" | head -60
-   ```
-
-2. **Understand breaking changes:** The new version `6.0.7` has API changes vs `5.3.24`.
-   Review the failing source files and update calls to match the new API.
-
-3. **Apply fixes** to the Java source files in `/IDS-Messaging-Services`.
-
-4. **Verify:**
-   ```bash
-   cd /IDS-Messaging-Services && mvn compile -B -q
-   ```
-
-## Success Criteria
-
-`mvn compile` exits with **code 0** (no compilation errors).

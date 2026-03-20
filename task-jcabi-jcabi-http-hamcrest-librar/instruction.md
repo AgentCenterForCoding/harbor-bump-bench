@@ -1,4 +1,4 @@
-# Fix Maven Compilation Failure: hamcrest-library 1.3 -> 2.2
+﻿# Fix Maven Compilation Failure: hamcrest-library 1.3 -> 2.2
 
 ## Context
 
@@ -10,26 +10,3 @@ Reference PR: https://github.com/jcabi/jcabi-http/pull/366
 ## Your Task
 
 The source code is in `/jcabi-http`. Fix all compilation errors so that `mvn compile` succeeds.
-
-## Steps
-
-1. **Identify errors:**
-   ```bash
-   cd /jcabi-http && mvn compile -B 2>&1 | grep -E "^\[ERROR\]" | head -60
-   ```
-
-2. **Understand breaking changes:** The new version `2.2` has API changes vs `1.3`.
-   Review the failing source files and update calls to match the new API.
-   - Old API sources: https://repo1.maven.org/maven2/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3-sources.jar
-   - New API sources: https://repo1.maven.org/maven2/org/hamcrest/hamcrest-library/2.2/hamcrest-library-2.2-sources.jar
-
-3. **Apply fixes** to the Java source files in `/jcabi-http`.
-
-4. **Verify:**
-   ```bash
-   cd /jcabi-http && mvn compile -B -q
-   ```
-
-## Success Criteria
-
-`mvn compile` exits with **code 0** (no compilation errors).

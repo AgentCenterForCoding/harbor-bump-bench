@@ -1,4 +1,4 @@
-# Fix Maven Compilation Failure: metadata-qa-api 0.8.1 -> 0.9.0
+﻿# Fix Maven Compilation Failure: metadata-qa-api 0.8.1 -> 0.9.0
 
 ## Context
 
@@ -10,26 +10,3 @@ Reference PR: https://github.com/pkiraly/qa-catalogue/pull/195
 ## Your Task
 
 The source code is in `/qa-catalogue`. Fix all compilation errors so that `mvn compile` succeeds.
-
-## Steps
-
-1. **Identify errors:**
-   ```bash
-   cd /qa-catalogue && mvn compile -B 2>&1 | grep -E "^\[ERROR\]" | head -60
-   ```
-
-2. **Understand breaking changes:** The new version `0.9.0` has API changes vs `0.8.1`.
-   Review the failing source files and update calls to match the new API.
-   - Old API sources: https://repo1.maven.org/maven2/de/gwdg/metadataqa/metadata-qa-api/0.8.1/metadata-qa-api-0.8.1-sources.jar
-   - New API sources: https://repo1.maven.org/maven2/de/gwdg/metadataqa/metadata-qa-api/0.9.0/metadata-qa-api-0.9.0-sources.jar
-
-3. **Apply fixes** to the Java source files in `/qa-catalogue`.
-
-4. **Verify:**
-   ```bash
-   cd /qa-catalogue && mvn compile -B -q
-   ```
-
-## Success Criteria
-
-`mvn compile` exits with **code 0** (no compilation errors).

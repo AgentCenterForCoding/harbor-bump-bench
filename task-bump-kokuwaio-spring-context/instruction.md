@@ -1,4 +1,4 @@
-# Fix Maven Compilation Failure: spring-context 5.3.23 -> 6.0.1
+﻿# Fix Maven Compilation Failure: spring-context 5.3.23 -> 6.0.1
 
 ## Context
 
@@ -10,26 +10,3 @@ Reference PR: https://github.com/kokuwaio/micronaut-openapi-codegen/pull/163
 ## Your Task
 
 The source code is in `/micronaut-openapi-codegen`. Fix all compilation errors so that `mvn compile` succeeds.
-
-## Steps
-
-1. **Identify errors:**
-   ```bash
-   cd /micronaut-openapi-codegen && mvn compile -B 2>&1 | grep -E "^\[ERROR\]" | head -60
-   ```
-
-2. **Understand breaking changes:** The new version `6.0.1` has API changes vs `5.3.23`.
-   Review the failing source files and update calls to match the new API.
-   - Old API sources: https://repo1.maven.org/maven2/org/springframework/spring-context/5.3.23/spring-context-5.3.23-sources.jar
-   - New API sources: https://repo1.maven.org/maven2/org/springframework/spring-context/6.0.1/spring-context-6.0.1-sources.jar
-
-3. **Apply fixes** to the Java source files in `/micronaut-openapi-codegen`.
-
-4. **Verify:**
-   ```bash
-   cd /micronaut-openapi-codegen && mvn compile -B -q
-   ```
-
-## Success Criteria
-
-`mvn compile` exits with **code 0** (no compilation errors).

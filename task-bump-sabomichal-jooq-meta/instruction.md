@@ -1,4 +1,4 @@
-# Fix Maven Compilation Failure: jooq-meta 3.16.6 -> 3.17.3
+﻿# Fix Maven Compilation Failure: jooq-meta 3.16.6 -> 3.17.3
 
 ## Context
 
@@ -10,26 +10,3 @@ Reference PR: https://github.com/sabomichal/jooq-meta-postgres-flyway/pull/89
 ## Your Task
 
 The source code is in `/jooq-meta-postgres-flyway`. Fix all compilation errors so that `mvn compile` succeeds.
-
-## Steps
-
-1. **Identify errors:**
-   ```bash
-   cd /jooq-meta-postgres-flyway && mvn compile -B 2>&1 | grep -E "^\[ERROR\]" | head -60
-   ```
-
-2. **Understand breaking changes:** The new version `3.17.3` has API changes vs `3.16.6`.
-   Review the failing source files and update calls to match the new API.
-   - Old API sources: https://repo1.maven.org/maven2/org/jooq/jooq-meta/3.16.6/jooq-meta-3.16.6-sources.jar
-   - New API sources: https://repo1.maven.org/maven2/org/jooq/jooq-meta/3.17.3/jooq-meta-3.17.3-sources.jar
-
-3. **Apply fixes** to the Java source files in `/jooq-meta-postgres-flyway`.
-
-4. **Verify:**
-   ```bash
-   cd /jooq-meta-postgres-flyway && mvn compile -B -q
-   ```
-
-## Success Criteria
-
-`mvn compile` exits with **code 0** (no compilation errors).

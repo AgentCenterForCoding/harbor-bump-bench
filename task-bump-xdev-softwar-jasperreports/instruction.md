@@ -1,4 +1,4 @@
-# Fix Maven Compilation Failure: jasperreports 6.18.1 -> 6.19.1
+﻿# Fix Maven Compilation Failure: jasperreports 6.18.1 -> 6.19.1
 
 ## Context
 
@@ -10,26 +10,3 @@ Reference PR: https://github.com/xdev-software/biapi/pull/69
 ## Your Task
 
 The source code is in `/biapi`. Fix all compilation errors so that `mvn compile` succeeds.
-
-## Steps
-
-1. **Identify errors:**
-   ```bash
-   cd /biapi && mvn compile -B 2>&1 | grep -E "^\[ERROR\]" | head -60
-   ```
-
-2. **Understand breaking changes:** The new version `6.19.1` has API changes vs `6.18.1`.
-   Review the failing source files and update calls to match the new API.
-   - Old API sources: https://repo1.maven.org/maven2/net/sf/jasperreports/jasperreports/6.18.1/jasperreports-6.18.1-sources.jar
-   - New API sources: https://repo1.maven.org/maven2/net/sf/jasperreports/jasperreports/6.19.1/jasperreports-6.19.1-sources.jar
-
-3. **Apply fixes** to the Java source files in `/biapi`.
-
-4. **Verify:**
-   ```bash
-   cd /biapi && mvn compile -B -q
-   ```
-
-## Success Criteria
-
-`mvn compile` exits with **code 0** (no compilation errors).

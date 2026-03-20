@@ -1,4 +1,4 @@
-# Fix Maven Compilation Failure: pitest-entry 1.9.11 -> 1.10.0
+﻿# Fix Maven Compilation Failure: pitest-entry 1.9.11 -> 1.10.0
 
 ## Context
 
@@ -10,26 +10,3 @@ Reference PR: https://github.com/Wmaarts/pitest-mutation-testing-elements-plugin
 ## Your Task
 
 The source code is in `/pitest-mutation-testing-elements-plugin`. Fix all compilation errors so that `mvn compile` succeeds.
-
-## Steps
-
-1. **Identify errors:**
-   ```bash
-   cd /pitest-mutation-testing-elements-plugin && mvn compile -B 2>&1 | grep -E "^\[ERROR\]" | head -60
-   ```
-
-2. **Understand breaking changes:** The new version `1.10.0` has API changes vs `1.9.11`.
-   Review the failing source files and update calls to match the new API.
-   - Old API sources: https://repo1.maven.org/maven2/org/pitest/pitest-entry/1.9.11/pitest-entry-1.9.11-sources.jar
-   - New API sources: https://repo1.maven.org/maven2/org/pitest/pitest-entry/1.10.0/pitest-entry-1.10.0-sources.jar
-
-3. **Apply fixes** to the Java source files in `/pitest-mutation-testing-elements-plugin`.
-
-4. **Verify:**
-   ```bash
-   cd /pitest-mutation-testing-elements-plugin && mvn compile -B -q
-   ```
-
-## Success Criteria
-
-`mvn compile` exits with **code 0** (no compilation errors).

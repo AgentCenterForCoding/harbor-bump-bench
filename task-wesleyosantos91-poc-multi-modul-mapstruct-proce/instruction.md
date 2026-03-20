@@ -1,4 +1,4 @@
-# Fix Maven Compilation Failure: mapstruct-processor 1.4.2.Final -> 1.5.0.Final
+﻿# Fix Maven Compilation Failure: mapstruct-processor 1.4.2.Final -> 1.5.0.Final
 
 ## Context
 
@@ -10,26 +10,3 @@ Reference PR: https://github.com/wesleyosantos91/poc-multi-module-arch-hexagonal
 ## Your Task
 
 The source code is in `/poc-multi-module-arch-hexagonal-springboot`. Fix all compilation errors so that `mvn compile` succeeds.
-
-## Steps
-
-1. **Identify errors:**
-   ```bash
-   cd /poc-multi-module-arch-hexagonal-springboot && mvn compile -B 2>&1 | grep -E "^\[ERROR\]" | head -60
-   ```
-
-2. **Understand breaking changes:** The new version `1.5.0.Final` has API changes vs `1.4.2.Final`.
-   Review the failing source files and update calls to match the new API.
-   - Old API sources: https://repo1.maven.org/maven2/org/mapstruct/mapstruct-processor/1.4.2.Final/mapstruct-processor-1.4.2.Final-sources.jar
-   - New API sources: https://repo1.maven.org/maven2/org/mapstruct/mapstruct-processor/1.5.0.Final/mapstruct-processor-1.5.0.Final-sources.jar
-
-3. **Apply fixes** to the Java source files in `/poc-multi-module-arch-hexagonal-springboot`.
-
-4. **Verify:**
-   ```bash
-   cd /poc-multi-module-arch-hexagonal-springboot && mvn compile -B -q
-   ```
-
-## Success Criteria
-
-`mvn compile` exits with **code 0** (no compilation errors).

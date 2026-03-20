@@ -1,4 +1,4 @@
-# Fix Maven Compilation Failure: maven-dependency-tree 3.1.1 -> 3.2.0
+﻿# Fix Maven Compilation Failure: maven-dependency-tree 3.1.1 -> 3.2.0
 
 ## Context
 
@@ -10,26 +10,3 @@ Reference PR: https://github.com/mathieucarbou/license-maven-plugin/pull/410
 ## Your Task
 
 The source code is in `/license-maven-plugin`. Fix all compilation errors so that `mvn compile` succeeds.
-
-## Steps
-
-1. **Identify errors:**
-   ```bash
-   cd /license-maven-plugin && mvn compile -B 2>&1 | grep -E "^\[ERROR\]" | head -60
-   ```
-
-2. **Understand breaking changes:** The new version `3.2.0` has API changes vs `3.1.1`.
-   Review the failing source files and update calls to match the new API.
-   - Old API sources: https://repo1.maven.org/maven2/org/apache/maven/shared/maven-dependency-tree/3.1.1/maven-dependency-tree-3.1.1-sources.jar
-   - New API sources: https://repo1.maven.org/maven2/org/apache/maven/shared/maven-dependency-tree/3.2.0/maven-dependency-tree-3.2.0-sources.jar
-
-3. **Apply fixes** to the Java source files in `/license-maven-plugin`.
-
-4. **Verify:**
-   ```bash
-   cd /license-maven-plugin && mvn compile -B -q
-   ```
-
-## Success Criteria
-
-`mvn compile` exits with **code 0** (no compilation errors).
