@@ -1,0 +1,34 @@
+--- /tmp/harbor-orig-extract/harbor/agents/installed/claude_code.py	2026-03-23 17:06:37.814090881 +0800
++++ /root/.cache/uv/archive-v0/0rYEHykmL4mySllGURZtc/harbor/agents/installed/claude_code.py	2026-03-23 16:39:27.360240410 +0800
+@@ -1,6 +1,7 @@
+ import json
+ import os
+ import shlex
++import shutil
+ from pathlib import Path
+ from typing import Any
+ 
+@@ -27,12 +28,23 @@
+         self,
+         max_thinking_tokens: int | None = None,
+         max_turns: int | None = None,
++        skills_dir: str | None = None,
+         *args,
+         **kwargs,
+     ):
+         super().__init__(*args, **kwargs)
+         self._max_thinking_tokens = max_thinking_tokens
+         self._max_turns = max_turns
++        self._skills_dir = Path(skills_dir).expanduser() if skills_dir else None
++
++    async def setup(self, environment) -> None:
++        if self._skills_dir and self._skills_dir.exists():
++            target = self.logs_dir / "skills"
++            if target.exists():
++                shutil.rmtree(target)
++            shutil.copytree(self._skills_dir, target)
++            print(f"[ClaudeCode] skills_dir '{self._skills_dir}' → '{target}'")
++        await super().setup(environment)
+ 
+     @staticmethod
+     def name() -> str:
