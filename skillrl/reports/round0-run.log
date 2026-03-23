@@ -1,0 +1,107 @@
+Multiple Claude Code session directories found; could not identify the correct 
+one
+No Claude Code session directory found
+Multiple Claude Code session directories found; could not identify the correct 
+one
+No Claude Code session directory found
+Multiple Claude Code session directories found; could not identify the correct 
+one
+No Claude Code session directory found
+Multiple Claude Code session directories found; could not identify the correct 
+one
+No Claude Code session directory found
+Wrote Claude Code trajectory to 
+/root/harbor-bump-eval/jobs/bump-dep-fix-100-nopre/task-bump-zold-io-cactoos__8w
+5uCzq/agent/trajectory.json
+Wrote Claude Code trajectory to 
+/root/harbor-bump-eval/jobs/bump-dep-fix-100-nopre/task-googleapis-google-cloud-
+ja-__oXvfb3A/agent/trajectory.json
+Multiple Claude Code session directories found; could not identify the correct 
+one
+No Claude Code session directory found
+Multiple Claude Code session directories found; could not identify the correct 
+one
+No Claude Code session directory found
+Wrote Claude Code trajectory to 
+/root/harbor-bump-eval/jobs/bump-dep-fix-100-nopre/task-bump-wmaarts-pitest-entr
+y__WJUomiK/agent/trajectory.json
+Wrote Claude Code trajectory to 
+/root/harbor-bump-eval/jobs/bump-dep-fix-100-nopre/task-kokuwaio-micronaut-opena
+-sp__zryEh2C/agent/trajectory.json
+Wrote Claude Code trajectory to 
+/root/harbor-bump-eval/jobs/bump-dep-fix-100-nopre/task-bump-assert-kth-maven-su
+ref__5HUs4a6/agent/trajectory.json
+Multiple Claude Code session directories found; could not identify the correct 
+one
+No Claude Code session directory found
+Multiple Claude Code session directories found; could not identify the correct 
+one
+No Claude Code session directory found
+Wrote Claude Code trajectory to 
+/root/harbor-bump-eval/jobs/bump-dep-fix-100-nopre/task-bump-hantsy-jakarta-mvc-
+api__rC5Exwn/agent/trajectory.json
+Wrote Claude Code trajectory to 
+/root/harbor-bump-eval/jobs/bump-dep-fix-100-nopre/task-bump-assert-kth-plexus-u
+til__pPpCU4K/agent/trajectory.json
+Multiple Claude Code session directories found; could not identify the correct 
+one
+No Claude Code session directory found
+Multiple Claude Code session directories found; could not identify the correct 
+one
+No Claude Code session directory found
+Wrote Claude Code trajectory to 
+/root/harbor-bump-eval/jobs/bump-dep-fix-100-nopre/task-assertkth-flacoco__sSELP
+JU/agent/trajectory.json
+Wrote Claude Code trajectory to 
+/root/harbor-bump-eval/jobs/bump-dep-fix-100-nopre/task-artipie-docker-adapter-a
+sto__ARveAYY/agent/trajectory.json
+Multiple Claude Code session directories found; could not identify the correct 
+one
+No Claude Code session directory found
+Multiple Claude Code session directories found; could not identify the correct 
+one
+No Claude Code session directory found
+Wrote Claude Code trajectory to 
+/root/harbor-bump-eval/jobs/bump-dep-fix-100-nopre/task-mathieucarbou-license-ma
+ven__LxhkHp9/agent/trajectory.json
+Wrote Claude Code trajectory to 
+/root/harbor-bump-eval/jobs/bump-dep-fix-100-nopre/task-bump-premium-mind-jakart
+a-v__4eaxRVQ/agent/trajectory.json
+Multiple Claude Code session directories found; could not identify the correct 
+one
+No Claude Code session directory found
+Multiple Claude Code session directories found; could not identify the correct 
+one
+No Claude Code session directory found
+Multiple Claude Code session directories found; could not identify the correct 
+one
+No Claude Code session directory found
+Multiple Claude Code session directories found; could not identify the correct 
+one
+No Claude Code session directory found
+Wrote Claude Code trajectory to 
+/root/harbor-bump-eval/jobs/bump-dep-fix-100-nopre/task-bump-wireapp-dropwizard-
+cli__ZxfrQau/agent/trajectory.json
+  20/20 Mean: 0.850 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2:09:29 0:00:00
+Results written to /root/harbor-bump-eval/jobs/bump-dep-fix-100-nopre/result.json
+       claude-code on harbor-bump-eval       
+┏━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━┓
+┃ Metric                 ┃ Value            ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━┩
+│ Agent                  │ claude-code      │
+│ Dataset                │ harbor-bump-eval │
+│ Trials                 │ 106              │
+│ Errors                 │ 19               │
+│                        │                  │
+│ Mean                   │ 0.636            │
+│                        │                  │
+│ Reward Distribution    │                  │
+│   reward = 0.0         │ 36               │
+│   reward = 1.0         │ 70               │
+│                        │                  │
+│ Exception Distribution │                  │
+│   AgentTimeoutError    │ 15               │
+│   CancelledError       │ 3                │
+│   RuntimeError         │ 1                │
+└────────────────────────┴──────────────────┘
+

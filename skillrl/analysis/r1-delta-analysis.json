@@ -1,0 +1,237 @@
+{
+  "analysis_method": "manual_cli_analysis",
+  "summary": {
+    "r0_success": 70,
+    "r0_fail": 36,
+    "r0_success_rate": 0.636,
+    "r1_success": 90,
+    "r1_fail": 19,
+    "r1_null": 1,
+    "r1_success_rate": 0.818,
+    "fixed_count": 20,
+    "regression_count": 3,
+    "still_failed_count": 16,
+    "delta_success_rate": "+14.5%"
+  },
+  "fixed": [
+    {"task": "task-allure-framewor-allure-maven-zip4j", "dep": "net.lingala.zip4j:zip4j", "version": "1.3.2->2.11.1", "note": "R0被限流，R1成功修复zip4j 1.x→2.x API迁移"},
+    {"task": "task-assert-kth-sorald-sonarlint-core", "dep": "sonarlint-core", "version": "8.15->9.1.1", "note": "R0被限流，R1成功修复addEnabledLanguages()方法变更"},
+    {"task": "task-bump-allure-frame-zip4j", "dep": "net.lingala.zip4j:zip4j", "version": "1.3.2->2.11.1", "note": "R0被限流，R1成功"},
+    {"task": "task-bump-googleapis-google-api-service", "dep": "google-api-services-translate", "version": "v2->v3", "note": "R0被限流，R1成功"},
+    {"task": "task-bump-guhilling-jakarta-annotation", "dep": "jakarta.annotation-api", "version": "1.3.5->2.0.0", "note": "javax→jakarta迁移，Skill javax→jakarta指南生效"},
+    {"task": "task-bump-jcabi-hamcrest-library", "dep": "hamcrest-library", "version": "1.3->2.2", "note": "R0被限流，R1成功"},
+    {"task": "task-bump-nemproject-hibernate-validato", "dep": "hibernate-validator", "version": "5.4.3->8.0.1", "note": "R0被限流，R1成功修复javax.validation→jakarta.validation迁移"},
+    {"task": "task-bump-pac4j-jakarta-servlet-ap", "dep": "jakarta.servlet-api", "version": "4.0.4->6.0.0", "note": "R0被限流，R1成功"},
+    {"task": "task-bump-pkiraly-metadata-qa-api", "dep": "metadata-qa-api", "version": "0.8.1->0.9.0", "note": "R0被限流，R1成功"},
+    {"task": "task-bump-premium-mind-jaxb2-basics-runti", "dep": "jaxb2-basics-runtime", "version": "0.13.1->1.11.1", "note": "R0被限流，R1成功（虽然版本标PUBLISHED-BY-MISTAKE但实际可用）"},
+    {"task": "task-bump-saucelabs-plexus-archiver", "dep": "plexus-archiver", "version": "4.2.7->4.4.0", "note": "R0被限流+类迁移，R1成功找到ZipUnArchiver新位置"},
+    {"task": "task-bump-wesleyosanto-mapstruct-processo", "dep": "mapstruct-processor", "version": "1.4.2->1.5.0", "note": "R0被限流，R1成功"},
+    {"task": "task-bump-zold-io-cactoos", "dep": "cactoos", "version": "0.35->0.55.0", "note": "R0超时，R1成功修复批量symbol缺失（Skill批量策略生效）"},
+    {"task": "task-google-guice-struts2-core", "dep": "struts2-core", "version": "2.3.37->2.5.22", "note": "R0被限流，R1成功"},
+    {"task": "task-googleapis-google-cloud-ja-google-api-serv", "dep": "google-api-services-translate", "version": "v2->v3", "note": "R0超时，R1成功"},
+    {"task": "task-qqxx6661-log-record-spring-cloud-st", "dep": "spring-cloud-stream", "version": "3.0.7->4.0.0", "note": "R0被限流，R1成功"},
+    {"task": "task-redisgraph-jredisgraph-jedis", "dep": "jedis", "version": "3.9.0->4.3.2", "note": "R0超时，R1成功（Skill jedis迁移指导生效）"},
+    {"task": "task-sabomichal-jooq-meta-postg-jooq-meta", "dep": "jooq-meta", "version": "3.16.6->3.17.3", "note": "R0被限流，R1成功"},
+    {"task": "task-saucelabs-ci-sauce-plexus-archiver", "dep": "plexus-archiver", "version": "4.2.7->4.4.0", "note": "R0被限流，R1成功"},
+    {"task": "task-zold-io-java-api-cactoos", "dep": "cactoos", "version": "0.35->0.55.0", "note": "R0超时，R1成功（Skill批量symbol策略生效）"}
+  ],
+  "regressed": [
+    {
+      "task": "task-bump-lukas-krecan-spring-core",
+      "dep": "spring-core",
+      "version": "5.3.27->6.0.4",
+      "r0_note": "R0成功",
+      "r1_failure": "API 429限流（14次），仅完成10 turns后放弃。verifier报class file wrong version 61.0 should be 55.0（Spring 6需要Java 17，但环境是Java 11）",
+      "root_cause": "环境Java版本不兼容（Spring 6 需要Java 17，容器是Java 11），R0偶然成功可能是spring-core版本不同。R1被429+Java版本双重阻碍",
+      "fixable_by_skill": false,
+      "skill_action": "Skill应增加：当错误为'class file has wrong version'时，说明依赖库要求的Java版本高于当前环境，这是环境问题，需报告不在修复范围内"
+    },
+    {
+      "task": "task-mathieucarbou-license-maven-p-maven-dependenc",
+      "dep": "maven-dependency-tree",
+      "version": "3.1.1->3.2.0",
+      "r0_note": "R0成功",
+      "r1_failure": "Agent执行48 turns，成功修复了maven-dependency-tree API变更，但verifier执行时license-maven-plugin报'Some files do not have the expected license header'。这是license header检查失败，与依赖升级无关",
+      "root_cause": "Agent修改代码时未保留文件头的license声明，或新增文件未加license header。这是Agent过于激进修改文件导致的副作用",
+      "fixable_by_skill": true,
+      "skill_action": "Skill应增加反模式警告：修改Java文件时必须保留文件头的license/copyright注释，不能删除或替换文件开头的注释块"
+    },
+    {
+      "task": "task-premium-minds-billy-jaxb2-basics-ru",
+      "dep": "jaxb2-basics-runtime",
+      "version": "0.13.1->1.11.1-PUBLISHED-BY-MISTAKE",
+      "r0_note": "R0成功（task-premium-minds-billy-jaxb2-b）",
+      "r1_failure": "API 429限流（5 turns），schema类（AddressStructure、AuditFile等）全部cannot find symbol，Agent被限流无法完成",
+      "root_cause": "jaxb2生成的schema类在新版本中位置变化，Agent被429限流打断。R0成功可能是因为这个任务的dependency路径不同",
+      "fixable_by_skill": false,
+      "skill_action": "无法通过Skill改善（限流+schema类迁移超出Skill指导范围）"
+    }
+  ],
+  "still_failed": [
+    {
+      "task": "task-polyglot-snakeyaml",
+      "dep": "snakeyaml",
+      "version": "1.17->1.31",
+      "root_cause": "Agent修复了yaml模块的API变更，但polyglot-ruby模块因RubyGems依赖解析失败（rubygems:virtus版本范围无法满足），verifier对整体项目验证失败。这是已知的环境问题（rubygems仓库在离线环境不可用）",
+      "fixable_by_skill": true,
+      "skill_action": "verifier验证整个项目，但polyglot-ruby的rubygems失败是预存环境问题。Skill应指导Agent：先验证基线（升级前是否也失败），若基线也失败则排除该模块并说明原因"
+    },
+    {
+      "task": "task-takari-polyglot-maven-snakeyaml",
+      "dep": "snakeyaml",
+      "version": "1.17->2.0",
+      "root_cause": "同polyglot-snakeyaml，Agent修复了snakeyaml 2.0 API变更（Constructor/Representer），但polyglot-ruby的rubygems依赖在离线环境无法解析，导致整体编译失败。Agent声称polyglot-ruby与snakeyaml无关但verifier判定失败",
+      "fixable_by_skill": true,
+      "skill_action": "同上，需要验证升级前polyglot-ruby是否已失败，并在报告中明确说明"
+    },
+    {
+      "task": "task-bump-takari-snakeyaml",
+      "dep": "snakeyaml",
+      "version": "1.17->2.0",
+      "root_cause": "同takari-polyglot-maven-snakeyaml，polyglot-ruby的rubygems依赖问题",
+      "fixable_by_skill": true,
+      "skill_action": "同上"
+    },
+    {
+      "task": "task-bump-redisgraph-jedis",
+      "dep": "jedis",
+      "version": "3.9.0->4.3.2",
+      "root_cause": "AgentTimeoutError，jedis 3→4大版本迁移（RedisPipeline接口重构），Agent超时未完成",
+      "fixable_by_skill": false,
+      "skill_action": "jedis 4.x迁移范围超出当前Skill能力，需要更具体的jedis 4迁移代码模板"
+    },
+    {
+      "task": "task-bump-googleapis-google-cloud-pubsu",
+      "dep": "google-cloud-pubsublite",
+      "version": "0.6.0->1.6.3",
+      "root_cause": "AgentTimeoutError，pubsublite internal API重构，setContext()等方法被移除",
+      "fixable_by_skill": false,
+      "skill_action": "内部API迁移超出Skill指导范围"
+    },
+    {
+      "task": "task-googleapis-java-pubsub-gro-google-cloud-pu",
+      "dep": "google-cloud-pubsublite",
+      "version": "0.6.0->1.6.3",
+      "root_cause": "AgentTimeoutError，同上",
+      "fixable_by_skill": false,
+      "skill_action": "同上"
+    },
+    {
+      "task": "task-bump-wireapp-dropwizard-client",
+      "dep": "dropwizard-client",
+      "version": "2.1.5->4.0.0",
+      "root_cause": "AgentTimeoutError，dropwizard 2→4涉及javax→jakarta全局迁移",
+      "fixable_by_skill": false,
+      "skill_action": "dropwizard大版本升级复杂度超出Skill范围，需要专项模板"
+    },
+    {
+      "task": "task-wireapp-lithium-dropwizard-clie",
+      "dep": "dropwizard-client",
+      "version": "2.1.5->4.0.0",
+      "root_cause": "API 429限流（12次），turns=1即退出",
+      "fixable_by_skill": false,
+      "skill_action": "限流问题，Skill无法改善"
+    },
+    {
+      "task": "task-bump-games647-spongeapi",
+      "dep": "spongeapi",
+      "version": "7.4.0->8.0.0",
+      "root_cause": "AgentTimeoutError，SpongeAPI 7→8框架级重构，核心API全部重命名",
+      "fixable_by_skill": false,
+      "skill_action": "框架大版本重构超出Skill范围"
+    },
+    {
+      "task": "task-games647-changeskin-spongeapi",
+      "dep": "spongeapi",
+      "version": "7.4.0->8.0.0",
+      "root_cause": "AgentTimeoutError，同上",
+      "fixable_by_skill": false,
+      "skill_action": "同上"
+    },
+    {
+      "task": "task-bump-samsung-spring-core",
+      "dep": "spring-core",
+      "version": "5.3.27->6.0.8",
+      "root_cause": "API 429限流（14次），turns=4。Spring 5→6需要Java 17，环境Java 11导致class file wrong version错误",
+      "fixable_by_skill": false,
+      "skill_action": "Java版本环境问题+限流双重阻碍，Skill无法改善"
+    },
+    {
+      "task": "task-bump-volodya-lomb-opennlp-tools",
+      "dep": "opennlp-tools",
+      "version": "2.2.0->2.3.0",
+      "root_cause": "API 429限流（12次），turns=1即退出",
+      "fixable_by_skill": false,
+      "skill_action": "限流问题，Skill无法改善"
+    },
+    {
+      "task": "task-bump-mathieucarbo-maven-dependency-t",
+      "dep": "maven-dependency-tree",
+      "version": "3.1.1->3.2.0",
+      "root_cause": "API 429限流（79次），虽然turns=29但反复被限流。verifier报COMPILATION ERROR（API变更未能完全修复）",
+      "fixable_by_skill": false,
+      "skill_action": "限流问题导致修复不完整，Skill无法改善"
+    },
+    {
+      "task": "task-wesleyosantos91-poc-multi-modul-mapstruct-proce",
+      "dep": "mapstruct-processor",
+      "version": "1.4.2->1.5.0",
+      "root_cause": "API 429限流（30次），turns=4即退出",
+      "fixable_by_skill": false,
+      "skill_action": "限流问题，Skill无法改善"
+    },
+    {
+      "task": "task-bump-jenkinsci-acceptance-test-ha",
+      "dep": "acceptance-test-harness",
+      "version": "5588->5623",
+      "root_cause": "turns=36，执行完整。verifier报maven-hpi-plugin要求Maven 3.8.1但环境版本不满足，这是构建环境问题",
+      "fixable_by_skill": false,
+      "skill_action": "Maven版本环境问题，Skill已有说明但Agent未能识别此类环境错误"
+    },
+    {
+      "task": "task-jenkinsci-code-coverage-a-acceptance-test",
+      "dep": "acceptance-test-harness",
+      "version": "5588->5623",
+      "root_cause": "同上，maven-hpi-plugin要求Maven 3.8.1环境不满足",
+      "fixable_by_skill": false,
+      "skill_action": "同上"
+    }
+  ],
+  "skill_v1_effectiveness": {
+    "fixed_by_skill_guidance": ["task-bump-guhilling-jakarta-annotation", "task-bump-zold-io-cactoos", "task-zold-io-java-api-cactoos", "task-redisgraph-jredisgraph-jedis", "task-bump-saucelabs-plexus-archiver"],
+    "fixed_by_quota_recovery": ["task-allure-framewor-allure-maven-zip4j", "task-assert-kth-sorald-sonarlint-core", "task-bump-allure-frame-zip4j", "task-bump-googleapis-google-api-service", "task-bump-jcabi-hamcrest-library", "task-bump-nemproject-hibernate-validato", "task-bump-pac4j-jakarta-servlet-ap", "task-bump-pkiraly-metadata-qa-api", "task-bump-premium-mind-jaxb2-basics-runti", "task-bump-wesleyosanto-mapstruct-processo", "task-google-guice-struts2-core", "task-googleapis-google-cloud-ja-google-api-serv", "task-qqxx6661-log-record-spring-cloud-st", "task-sabomichal-jooq-meta-postg-jooq-meta", "task-saucelabs-ci-sauce-plexus-archiver"],
+    "comment": "20个修复案例中，约5个是Skill指导直接起效（批量策略/jedis迁移/javax→jakarta），约15个是R0因限流未能执行、R1 quota恢复后自然成功"
+  },
+  "skill_v2_recommendations": [
+    {
+      "priority": "HIGH",
+      "pattern": "polyglot-ruby / rubygems 环境失败",
+      "description": "polyglot项目中polyglot-ruby因RubyGems依赖在离线/受限环境无法解析导致失败，但这与snakeyaml升级无关。Agent需先验证基线状态",
+      "skill_addition": "Step 1增加：运行mvn compile前先检查是否有与本次升级无关的预存失败。若某模块在升级前也失败（通过git stash + mvn compile验证），则在修复后可排除该模块并在报告中说明"
+    },
+    {
+      "priority": "HIGH",
+      "pattern": "license header被意外删除",
+      "description": "Agent修改文件时删除了文件头的license注释，导致license-maven-plugin检查失败",
+      "skill_addition": "反模式警告增加：编辑Java文件时必须保留文件开头的所有注释块（/\\*...\\*/或//开头的连续注释），这些通常是license/copyright声明，删除会导致构建失败"
+    },
+    {
+      "priority": "MEDIUM",
+      "pattern": "class file wrong version（Java版本不兼容）",
+      "description": "Spring 6等依赖要求Java 17，但环境是Java 11，导致class file has wrong version 61.0 should be 55.0",
+      "skill_addition": "Step 5E扩充：当错误为'class file has wrong version X.0, should be Y.0'时，这是Java版本不兼容（version 61=Java 17, 55=Java 11, 52=Java 8），是环境问题不是代码问题，报告说明无法修复"
+    },
+    {
+      "priority": "MEDIUM",
+      "pattern": "Maven环境版本不足",
+      "description": "maven-hpi-plugin要求Maven 3.8.1，Agent已在Skill中有说明但未能完全识别此类错误",
+      "skill_addition": "Step 5E增加更明确的错误识别：'requires Maven version'、'plugin requires'、'PluginIncompatibleException'均为构建环境问题"
+    },
+    {
+      "priority": "LOW",
+      "pattern": "API 429限流仍是主要障碍",
+      "description": "19个失败中约8个的主因仍是限流（turns=1或turns极少），Skill无法解决",
+      "skill_addition": "无需修改Skill，这是基础设施问题"
+    }
+  ]
+}

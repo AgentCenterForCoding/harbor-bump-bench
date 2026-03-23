@@ -1,0 +1,603 @@
+{
+  "round": 0,
+  "total_analyzed": 36,
+  "analysis_method": "manual_cli_analysis",
+  "category_summary": {
+    "api_throttling_no_attempt": 19,
+    "symbol_not_found_major_api_rewrite": 6,
+    "symbol_not_found_class_removed": 4,
+    "javax_to_jakarta_migration": 1,
+    "agent_partial_fix_incomplete": 3,
+    "build_env_incompatibility": 2,
+    "agent_timeout_complex_migration": 1
+  },
+  "fixable_by_skill_count": 10,
+  "skill_suggestions": [
+    {
+      "category": "symbol_not_found_major_api_rewrite",
+      "task": "task-redisgraph-jredisgraph-jedi__eDbdfNi",
+      "suggestion": "jedis 3.x→4.x: RedisPipeline 类被移除，需替换为 Pipeline。同时 getConnection()/getResponse() 方法签名变更。Agent 应先查 jedis 4.x migration guide，系统性替换受影响的接口和方法调用。Skill 应提示：大版本升级时先检查官方迁移指南。"
+    },
+    {
+      "category": "symbol_not_found_major_api_rewrite",
+      "task": "task-bump-redisgraph-jedis__6gTzPdS",
+      "suggestion": "同 redisgraph 案例，jedis 3.9.0→4.3.2 大版本升级，RedisPipeline 接口被重构。Skill 应指导 Agent 识别大版本升级并查找 BREAKING CHANGES。"
+    },
+    {
+      "category": "symbol_not_found_major_api_rewrite",
+      "task": "task-zold-io-java-api-cactoos__3F97qkT",
+      "suggestion": "cactoos 0.35→0.55 升级：LengthOf.intValue() 方法被移除（改为 .value()），IterableOf 泛型推断变更，Filtered.isEmpty() 方法不再存在。Agent 需逐个错误查看 cactoos changelog 找对应替换方法。Skill 应提示：同一依赖有多个 symbol 缺失时，先汇总所有 symbol，再批量查找替换方案。"
+    },
+    {
+      "category": "symbol_not_found_major_api_rewrite",
+      "task": "task-bump-zold-io-cactoos__8w5uCzq",
+      "suggestion": "同 cactoos 案例，大量 symbol 缺失。Skill 应提示批量替换策略：运行 mvn compile 2>&1 | grep 'cannot find symbol' | sort -u 先汇总所有缺失符号再制定修复计划。"
+    },
+    {
+      "category": "symbol_not_found_major_api_rewrite",
+      "task": "task-googleapis-java-pubsub-gro-__aQ7zP5A",
+      "suggestion": "google-cloud-pubsublite 0.6→1.6 升级：SinglePartitionPublisherBuilder.Builder.setContext() 方法被移除（API 内部化）。Agent 需通过查看新版本 javadoc 找到替代 API。Skill 应提示：setContext() 等 builder 方法被移除时，通常是该 API 已被合并到其他方法中，检查 Builder 的其他方法。"
+    },
+    {
+      "category": "symbol_not_found_major_api_rewrite",
+      "task": "task-bump-googleapis-google-clou__GYmxnch",
+      "suggestion": "同 pubsublite 案例，Agent 需要识别 internal API 变更并找替代方案。"
+    },
+    {
+      "category": "symbol_not_found_class_removed",
+      "task": "task-bump-games647-spongeapi__hpZX8vm",
+      "suggestion": "spongeapi 7.4→8.0 重大版本升级：CommandManager/CommandSource/Plugin/PluginContainer 等核心类被移动或重命名（迁移到 SpongeAPI 8 的新包结构）。这类整体框架大版本升级往往超出简单 symbol 替换能力，Agent 应识别出框架版本不兼容并在 summary 中说明。Skill 应提示：当 cannot find symbol 错误涉及核心框架类（如 @Plugin, CommandSource 等注解/接口）时，说明是框架 API 大重构，需要对照迁移文档进行系统性重写。"
+    },
+    {
+      "category": "symbol_not_found_class_removed",
+      "task": "task-games647-changeskin-spongea__meVdDo7",
+      "suggestion": "同 spongeapi 8.0 案例，同一框架大版本迁移。"
+    },
+    {
+      "category": "symbol_not_found_class_removed",
+      "task": "task-bump-saucelabs-plexus-archi__vfk7zE6",
+      "suggestion": "plexus-archiver 4.2.7→4.4.0: ZipUnArchiver 和 TarGZipUnArchiver 类被移到不同包或模块中。Agent 未能找到正确的 import 来替换。Skill 应提示：当 cannot find symbol 是具体工具类时，先运行 mvn dependency:tree 确认该类所在 artifact，再用 jar tf 或查找 Maven Central 确认新版本的包名。"
+    },
+    {
+      "category": "symbol_not_found_class_removed",
+      "task": "task-saucelabs-ci-sauce-plexus-a__kYsLyui",
+      "suggestion": "同 plexus-archiver 案例，ZipUnArchiver/TarGZipUnArchiver 类迁移问题。"
+    },
+    {
+      "category": "javax_to_jakarta_migration",
+      "task": "task-bump-guhilling-jakarta-anno__jw7GxhA",
+      "suggestion": "jakarta.annotation-api 1.3.5→2.0.0 升级：javax.annotation 包不再存在，需迁移到 jakarta.annotation。Agent 做了部分修改但未能完全修复（仍有 javax.annotation 引用）。Skill 应提示：遇到 jakarta.annotation-api 升级时，需全面替换 javax.annotation.* 为 jakarta.annotation.*，使用 grep -r 'javax.annotation' 找所有文件。"
+    },
+    {
+      "category": "agent_partial_fix_incomplete",
+      "task": "task-takari-polyglot-maven-snake__ypFJmiT",
+      "suggestion": "snakeyaml 1.17→2.0: Agent 成功修复了大部分（Constructor/Representer API 变更），但遗留了 polyglot-ruby 模块的构建失败（声称为无关问题，但 verifier 判定失败）。Skill 应提示：修复时需确认 ALL 模块能编译，不能用 -pl 跳过模块，除非 task 明确指出只修复主模块。"
+    },
+    {
+      "category": "agent_partial_fix_incomplete",
+      "task": "task-polyglot-snakeyaml__cxYjY3J",
+      "suggestion": "同 snakeyaml 案例，Agent 修复了主模块但 polyglot-ruby 未修复。说明 Agent 在面对 'BUILD PARTIALLY SUCCESS' 时需要审慎判断，不应过早声明任务完成。Skill 应明确：只有 mvn compile（无 -pl 排除）全部通过才算成功。"
+    },
+    {
+      "category": "agent_partial_fix_incomplete",
+      "task": "task-jenkinsci-code-coverage-a-a__hZkeD2S",
+      "suggestion": "acceptance-test-harness 升级导致 com.gargoylesoftware.htmlunit.ScriptResult 被移除（Selenium 4 迁移）。Agent 给出了完整分析和修复方案，但最终 verifier 判断仍然失败（maven-hpi-plugin 环境不兼容）。说明有些失败根因是环境问题而非代码问题，Agent 不应无限循环。Skill 应提示：若错误是 Maven 版本或插件版本不兼容（非源码编译错误），需报告说明无法在当前环境修复。"
+    },
+    {
+      "category": "build_env_incompatibility",
+      "task": "task-bump-jenkinsci-acceptance-t__SzvdHJC",
+      "suggestion": "maven-hpi-plugin 要求 Maven 3.8.1 但环境版本不满足。这类问题不是依赖升级的代码兼容性问题，而是构建环境问题。Skill 应提示：当错误信息是 'requires Maven version X' 或 'plugin incompatibility' 时，这是环境问题，需明确报告并说明不在修复范围内。"
+    },
+    {
+      "category": "symbol_not_found_major_api_rewrite",
+      "task": "task-googleapis-google-cloud-ja-__oXvfb3A",
+      "suggestion": "google-api-services-translate v2→v3 是完全不同的 API 版本，Translation 类冲突、fromPb() 方法不存在、API 接口签名全变。这是 major API 版本不兼容，需要完全重写 adapter 代码。Agent 应识别 v2→v3 的 API 版本 major 变更，并在 summary 中说明修复复杂度。"
+    }
+  ],
+  "details": [
+    {
+      "task_name": "task-redisgraph-jredisgraph-jedi__eDbdfNi",
+      "dep": "redis.clients:jedis",
+      "version_change": "3.9.0 -> 4.3.2",
+      "rule_pattern": "no_output",
+      "llm_analysis": {
+        "failure_category": "symbol_not_found_major_api_rewrite",
+        "root_cause": "jedis 3.x→4.x 大版本升级：RedisPipeline 类被移除（整个接口层重构），getConnection()/getResponse() 方法不再存在。Agent 超时（AgentTimeoutError），未能完成修复。",
+        "agent_mistake": "未在规定时间内完成修复，可能是 jedis 4.x API 变更范围太大，需要系统性迁移策略而非逐个错误修复。",
+        "skill_suggestion": "大版本升级（major version bump）时优先查找官方迁移指南，了解全貌后再动手。jedis 4.x 有专门的 migration guide。",
+        "fixable_by_skill": true,
+        "confidence": 0.6
+      }
+    },
+    {
+      "task_name": "task-bump-volodya-lomb-opennlp-t__pwBoLfp",
+      "dep": "org.apache.opennlp:opennlp-tools",
+      "version_change": "2.2.0 -> 2.3.0",
+      "rule_pattern": "other",
+      "llm_analysis": {
+        "failure_category": "api_throttling_no_attempt",
+        "root_cause": "API 429 限流（hour allocated quota exceeded），Agent 重试 10 次后失败，完全未能开始修复工作。",
+        "agent_mistake": "无，这是基础设施问题（API quota）而非 Agent 能力问题。",
+        "skill_suggestion": "此类失败无法通过 Skill 改善，需要提高 API quota 或优化任务调度并发。",
+        "fixable_by_skill": false,
+        "confidence": 0.95
+      }
+    },
+    {
+      "task_name": "task-takari-polyglot-maven-snake__ypFJmiT",
+      "dep": "org.yaml:snakeyaml",
+      "version_change": "1.17 -> 2.0",
+      "rule_pattern": "other",
+      "llm_analysis": {
+        "failure_category": "agent_partial_fix_incomplete",
+        "root_cause": "Agent 成功修复了主要的 snakeyaml API 变更（Constructor/Representer 构造函数参数变化、getProperties() 不再抛 IntrospectionException），但 polyglot-ruby 模块仍然构建失败，Agent 声称该模块失败与 snakeyaml 无关（Ruby gems 依赖问题），verifier 判定失败。",
+        "agent_mistake": "过早声明任务完成，使用 -pl 排除失败模块并在 summary 中 justify。应当尝试修复所有模块或明确指出哪些是预期范围外的失败。",
+        "skill_suggestion": "Skill 应强调：只有 mvn compile（整项目）通过才算成功，不能以排除模块的方式规避。若某模块失败与当前升级依赖无关，需在 summary 中明确说明原始失败（升级前已存在）。",
+        "fixable_by_skill": true,
+        "confidence": 0.7
+      }
+    },
+    {
+      "task_name": "task-bump-jcabi-hamcrest-library__KozsSaK",
+      "dep": "org.hamcrest:hamcrest-library",
+      "version_change": "1.3 -> 2.2",
+      "rule_pattern": "other",
+      "llm_analysis": {
+        "failure_category": "api_throttling_no_attempt",
+        "root_cause": "API 429 限流，Agent 重试 10 次后退出，num_turns=1，未执行任何修复操作。",
+        "agent_mistake": "无，基础设施问题。",
+        "skill_suggestion": "无法通过 Skill 改善。",
+        "fixable_by_skill": false,
+        "confidence": 0.95
+      }
+    },
+    {
+      "task_name": "task-bump-saucelabs-plexus-archi__vfk7zE6",
+      "dep": "org.codehaus.plexus:plexus-archiver",
+      "version_change": "4.2.7 -> 4.4.0",
+      "rule_pattern": "other",
+      "llm_analysis": {
+        "failure_category": "symbol_not_found_class_removed",
+        "root_cause": "plexus-archiver 4.4.0 中 ZipUnArchiver 和 TarGZipUnArchiver 类被移到了不同的包（或需要额外依赖）。API 429 限流导致 Agent 只执行了极少操作就退出（num_turns=11，但最终 result_summary 是 API Error）。",
+        "agent_mistake": "Agent 被限流打断，未能完成修复。",
+        "skill_suggestion": "当 cannot find symbol 涉及具体工具类（如 UnArchiver）时，检查该类是否移到了新模块/包，使用 mvn dependency:get 或查找新版本 jar 中的包名。",
+        "fixable_by_skill": true,
+        "confidence": 0.6
+      }
+    },
+    {
+      "task_name": "task-bump-games647-spongeapi__hpZX8vm",
+      "dep": "org.spongepowered:spongeapi",
+      "version_change": "7.4.0 -> 8.0.0",
+      "rule_pattern": "no_output",
+      "llm_analysis": {
+        "failure_category": "symbol_not_found_class_removed",
+        "root_cause": "SpongeAPI 7→8 重大重构：CommandManager、CommandSource、Plugin、PluginContainer 等核心类全部被重命名或移动到新包（SpongeAPI 8 使用完全不同的插件 API 设计）。Agent 超时，未能完成修复。",
+        "agent_mistake": "SpongeAPI 8.0 是框架级大版本升级，需要系统性对照迁移文档，工作量超出单次任务能力。",
+        "skill_suggestion": "Skill 应提示：当 cannot find symbol 错误涉及框架核心注解（@Plugin）和核心接口（CommandSource, PluginContainer）时，说明是框架 API 完全重构，需要参考官方迁移文档（如 SpongeAPI 7 to 8 migration guide）进行系统性迁移，不能逐个修复。",
+        "fixable_by_skill": false,
+        "confidence": 0.8
+      }
+    },
+    {
+      "task_name": "task-bump-pkiraly-metadata-qa-ap__ndiasW4",
+      "dep": "de.gwdg.metadataqa:metadata-qa-api",
+      "version_change": "0.8.1 -> 0.9.0",
+      "rule_pattern": "other",
+      "llm_analysis": {
+        "failure_category": "api_throttling_no_attempt",
+        "root_cause": "API 429 限流，Agent 仅执行 1 turn 即退出。",
+        "agent_mistake": "无，基础设施问题。",
+        "skill_suggestion": "无法通过 Skill 改善。",
+        "fixable_by_skill": false,
+        "confidence": 0.95
+      }
+    },
+    {
+      "task_name": "task-bump-samsung-spring-core__S5xUEfp",
+      "dep": "org.springframework:spring-core",
+      "version_change": "5.3.27 -> 6.0.8",
+      "rule_pattern": "other",
+      "llm_analysis": {
+        "failure_category": "api_throttling_no_attempt",
+        "root_cause": "API 429 限流，Spring 5→6 的 javax→jakarta 迁移任务未能启动。",
+        "agent_mistake": "无，基础设施问题。spring-core 5→6 升级涉及 javax→jakarta namespace 全局迁移，即使无限流也是高难度任务。",
+        "skill_suggestion": "Spring 5→6 升级需要将所有 javax.* 替换为 jakarta.*（javax.servlet→jakarta.servlet 等），这是系统性迁移。Skill 应提供 spring 5 to 6 迁移的专项处理指导。",
+        "fixable_by_skill": false,
+        "confidence": 0.9
+      }
+    },
+    {
+      "task_name": "task-bump-mathieucarbo-maven-dep__Vu7kBeF",
+      "dep": "org.apache.maven.shared:maven-dependency-tree",
+      "version_change": "3.1.1 -> 3.2.0",
+      "rule_pattern": "other",
+      "llm_analysis": {
+        "failure_category": "api_throttling_no_attempt",
+        "root_cause": "API 429 限流，Agent 仅执行 1 turn 即退出。maven-dependency-tree 小版本升级，理论上可修复。",
+        "agent_mistake": "无，基础设施问题。",
+        "skill_suggestion": "无法通过 Skill 改善（限流问题）。maven-dependency-tree 3.1→3.2 可能有 API 变更，正常情况可修复。",
+        "fixable_by_skill": false,
+        "confidence": 0.95
+      }
+    },
+    {
+      "task_name": "task-bump-wesleyosanto-mapstruct__YNrFx8x",
+      "dep": "org.mapstruct:mapstruct-processor",
+      "version_change": "1.4.2.Final -> 1.5.0.Final",
+      "rule_pattern": "other",
+      "llm_analysis": {
+        "failure_category": "api_throttling_no_attempt",
+        "root_cause": "API 429 限流，Agent 仅执行 1 turn。mapstruct 1.4→1.5 可能有处理器 API 变更。",
+        "agent_mistake": "无，基础设施问题。",
+        "skill_suggestion": "无法通过 Skill 改善（限流）。mapstruct-processor 版本升级通常涉及注解处理器 API 变化，正常情况 Agent 应能处理。",
+        "fixable_by_skill": false,
+        "confidence": 0.95
+      }
+    },
+    {
+      "task_name": "task-bump-nemproject-hibernate-v__VAkgtC5",
+      "dep": "org.hibernate:hibernate-validator",
+      "version_change": "5.4.3.Final -> 8.0.1.Final",
+      "rule_pattern": "other",
+      "llm_analysis": {
+        "failure_category": "api_throttling_no_attempt",
+        "root_cause": "API 429 限流。hibernate-validator 5→8 是重大版本跨越（javax.validation→jakarta.validation namespace 迁移）。",
+        "agent_mistake": "无，基础设施问题。即使无限流，hibernate-validator 5→8 也涉及 javax→jakarta 全局迁移，难度极高。",
+        "skill_suggestion": "无法通过 Skill 改善（限流）。hibernate-validator 5→8 需要将 javax.validation.* 替换为 jakarta.validation.*，同时 API 也有变化。",
+        "fixable_by_skill": false,
+        "confidence": 0.95
+      }
+    },
+    {
+      "task_name": "task-zold-io-java-api-cactoos__3F97qkT",
+      "dep": "org.cactoos:cactoos",
+      "version_change": "0.35 -> 0.55.0",
+      "rule_pattern": "no_output",
+      "llm_analysis": {
+        "failure_category": "symbol_not_found_major_api_rewrite",
+        "root_cause": "cactoos 0.35→0.55 跨度大：LengthOf.intValue() 被移除（改用 .value()），IterableOf 泛型推断变严格，Filtered.isEmpty() 不再存在，Skipped 构造函数变更。Agent 超时，未能完成。",
+        "agent_mistake": "大量 symbol 缺失时未采用批量分析策略，可能逐个修复导致效率低下。",
+        "skill_suggestion": "批量 symbol 缺失时：先执行 mvn compile 2>&1 | grep 'cannot find symbol' | awk -F'symbol:' '{print $2}' | sort -u 汇总所有缺失 symbol，然后查找 cactoos changelog 批量制定替换方案，最后一次性修复。",
+        "fixable_by_skill": true,
+        "confidence": 0.6
+      }
+    },
+    {
+      "task_name": "task-googleapis-java-pubsub-gro-__aQ7zP5A",
+      "dep": "com.google.cloud:google-cloud-pubsublite",
+      "version_change": "0.6.0 -> 1.6.3",
+      "rule_pattern": "no_output",
+      "llm_analysis": {
+        "failure_category": "symbol_not_found_major_api_rewrite",
+        "root_cause": "google-cloud-pubsublite 0.6→1.6 版本跨越大：SinglePartitionPublisherBuilder.Builder.setContext() 方法被移除（internal API 内部化）。Agent 超时。",
+        "agent_mistake": "Agent 超时，可能是内部 API 难以找到替代方案。",
+        "skill_suggestion": "当遇到 internal API 变更（internal.wire 包中的方法），优先查找 pubsublite 1.0 release notes 和 migration guide，查找 setContext 的替代方式（通常是参数被合并到其他 builder 方法中）。",
+        "fixable_by_skill": true,
+        "confidence": 0.5
+      }
+    },
+    {
+      "task_name": "task-bump-jenkinsci-acceptance-t__SzvdHJC",
+      "dep": "org.jenkins-ci:acceptance-test-harness",
+      "version_change": "5588.v... -> 5623.v...",
+      "rule_pattern": "other",
+      "llm_analysis": {
+        "failure_category": "build_env_incompatibility",
+        "root_cause": "maven-hpi-plugin 3.46 要求 Maven 3.8.1，但当前构建环境 Maven 版本不满足。这是环境兼容性问题而非代码问题。Agent 报告 result_summary 为 BUILD SUCCESS，但 verifier 环境失败。",
+        "agent_mistake": "Agent 在自己的工作目录中验证成功，但 verifier 环境有额外的 maven-hpi-plugin 约束。Agent 未能识别这个环境差异。",
+        "skill_suggestion": "当错误是 'requires Maven version X' 或 plugin compatibility 问题时，明确在 summary 中说明：'构建失败原因为构建工具版本不兼容，不是依赖升级的代码兼容性问题'。",
+        "fixable_by_skill": false,
+        "confidence": 0.8
+      }
+    },
+    {
+      "task_name": "task-bump-googleapis-google-api-__GbCqtkn",
+      "dep": "com.google.apis:google-api-services-translate",
+      "version_change": "v2-rev... -> v3-rev...",
+      "rule_pattern": "other",
+      "llm_analysis": {
+        "failure_category": "api_throttling_no_attempt",
+        "root_cause": "API 429 限流。google-translate v2→v3 是 API 大版本变更（完全不同的接口）。",
+        "agent_mistake": "无，基础设施问题。即使无限流，v2→v3 迁移也需要重写 adapter 代码。",
+        "skill_suggestion": "无法通过 Skill 改善（限流）。",
+        "fixable_by_skill": false,
+        "confidence": 0.95
+      }
+    },
+    {
+      "task_name": "task-sabomichal-jooq-meta-postg-__MWRgU4C",
+      "dep": "org.jooq:jooq-meta",
+      "version_change": "3.16.6 -> 3.17.3",
+      "rule_pattern": "other",
+      "llm_analysis": {
+        "failure_category": "api_throttling_no_attempt",
+        "root_cause": "API 429 限流，num_turns=1。jooq-meta 小版本升级，理论上较易修复。",
+        "agent_mistake": "无，基础设施问题。",
+        "skill_suggestion": "无法通过 Skill 改善（限流）。",
+        "fixable_by_skill": false,
+        "confidence": 0.95
+      }
+    },
+    {
+      "task_name": "task-games647-changeskin-spongea__meVdDo7",
+      "dep": "org.spongepowered:spongeapi",
+      "version_change": "7.4.0 -> 8.0.0",
+      "rule_pattern": "other",
+      "llm_analysis": {
+        "failure_category": "api_throttling_no_attempt",
+        "root_cause": "API 429 限流。SpongeAPI 7→8 重大框架重构。",
+        "agent_mistake": "无，基础设施问题。即使无限流，SpongeAPI 8 迁移也是框架级重写。",
+        "skill_suggestion": "无法通过 Skill 改善（限流）。SpongeAPI 大版本迁移超出 Skill 指导范围。",
+        "fixable_by_skill": false,
+        "confidence": 0.9
+      }
+    },
+    {
+      "task_name": "task-wireapp-lithium-dropwizard-__bPHCzNk",
+      "dep": "io.dropwizard:dropwizard-client",
+      "version_change": "2.1.5 -> 4.0.0",
+      "rule_pattern": "other",
+      "llm_analysis": {
+        "failure_category": "api_throttling_no_attempt",
+        "root_cause": "API 429 限流，num_turns=3。dropwizard 2→4 跨越重大版本，可能涉及 javax→jakarta 迁移。",
+        "agent_mistake": "无，基础设施问题。",
+        "skill_suggestion": "无法通过 Skill 改善（限流）。",
+        "fixable_by_skill": false,
+        "confidence": 0.95
+      }
+    },
+    {
+      "task_name": "task-bump-guhilling-jakarta-anno__jw7GxhA",
+      "dep": "jakarta.annotation:jakarta.annotation-api",
+      "version_change": "1.3.5 -> 2.0.0",
+      "rule_pattern": "other",
+      "llm_analysis": {
+        "failure_category": "javax_to_jakarta_migration",
+        "root_cause": "jakarta.annotation-api 2.0.0 移除了对 javax.annotation 包的支持（javax.annotation.Priority 不再存在）。Agent 被 API 429 限流打断（num_turns=6），未能完成修复。",
+        "agent_mistake": "被限流打断，但即使未被打断，Agent 需要识别所有 javax.annotation 引用并替换为 jakarta.annotation。",
+        "skill_suggestion": "javax→jakarta 包迁移：使用 grep -r 'javax.annotation' src/ 找所有引用，统一替换为 jakarta.annotation；javax.annotation.Priority → jakarta.annotation.Priority。",
+        "fixable_by_skill": true,
+        "confidence": 0.7
+      }
+    },
+    {
+      "task_name": "task-polyglot-snakeyaml__cxYjY3J",
+      "dep": "org.yaml:snakeyaml",
+      "version_change": "1.17 -> 1.31",
+      "rule_pattern": "other",
+      "llm_analysis": {
+        "failure_category": "agent_partial_fix_incomplete",
+        "root_cause": "snakeyaml 1.17→1.31: Representer.getProperties() 方法签名变更（移除 throws IntrospectionException）。Agent 成功修复了此问题，但 polyglot-ruby 构建失败（Ruby gems 问题），Agent 声称无关并用 -pl 排除，verifier 判定失败。",
+        "agent_mistake": "使用 -pl 参数排除失败模块并声称任务完成，但 verifier 对整体项目验证。Agent 未能处理 polyglot-ruby 的构建依赖问题。",
+        "skill_suggestion": "修复后验证需要执行完整的 mvn compile，不能使用 -pl 排除模块。若某模块在依赖升级前就已失败，需先验证基线状态。",
+        "fixable_by_skill": true,
+        "confidence": 0.7
+      }
+    },
+    {
+      "task_name": "task-jenkinsci-code-coverage-a-a__hZkeD2S",
+      "dep": "org.jenkins-ci:acceptance-test-harness",
+      "version_change": "5588.v... -> 5623.v...",
+      "rule_pattern": "other",
+      "llm_analysis": {
+        "failure_category": "build_env_incompatibility",
+        "root_cause": "Agent 成功分析并修复了 ScriptResult 被移除的问题（Selenium 4 迁移），但 verifier 环境中 maven-hpi-plugin 3.46 要求 Maven 3.8.1 不满足。这是 verifier 环境问题。",
+        "agent_mistake": "Agent 工作做对了，但 verifier 环境有额外约束导致仍然失败。Agent 无法预判 verifier 的特定环境问题。",
+        "skill_suggestion": "这类失败不能通过 Skill 改善，属于评测环境问题。记录为环境兼容性失败。",
+        "fixable_by_skill": false,
+        "confidence": 0.85
+      }
+    },
+    {
+      "task_name": "task-bump-redisgraph-jedis__6gTzPdS",
+      "dep": "redis.clients:jedis",
+      "version_change": "3.9.0 -> 4.3.2",
+      "rule_pattern": "no_output",
+      "llm_analysis": {
+        "failure_category": "symbol_not_found_major_api_rewrite",
+        "root_cause": "jedis 3→4 大版本升级，Agent 超时（AgentTimeoutError）。与 redisgraph 案例相同的根因（RedisPipeline、getConnection、getResponse 等被移除）。",
+        "agent_mistake": "Agent 超时，未能制定有效的 jedis 4.x 迁移策略。",
+        "skill_suggestion": "jedis 3→4 迁移：RedisPipeline 改为 Pipeline，getConnection() 方法被移除（直接使用 Pipeline），getResponse() 改为直接调用相应方法。参考 jedis 4.x MIGRATION.md。",
+        "fixable_by_skill": true,
+        "confidence": 0.6
+      }
+    },
+    {
+      "task_name": "task-qqxx6661-log-record-spring-__kNAjyng",
+      "dep": "org.springframework.cloud:spring-cloud-stream",
+      "version_change": "3.0.7.RELEASE -> 4.0.0",
+      "rule_pattern": "other",
+      "llm_analysis": {
+        "failure_category": "api_throttling_no_attempt",
+        "root_cause": "API 429 限流。spring-cloud-stream 3→4 版本升级。",
+        "agent_mistake": "无，基础设施问题。",
+        "skill_suggestion": "无法通过 Skill 改善（限流）。",
+        "fixable_by_skill": false,
+        "confidence": 0.95
+      }
+    },
+    {
+      "task_name": "task-bump-premium-mind-jaxb2-bas__oJhBKRt",
+      "dep": "org.jvnet.jaxb2_commons:jaxb2-basics-runtime",
+      "version_change": "0.13.1 -> 1.11.1-PUBLISHED-BY-MISTAKE",
+      "rule_pattern": "other",
+      "llm_analysis": {
+        "failure_category": "api_throttling_no_attempt",
+        "root_cause": "API 429 限流。注意：目标版本 1.11.1-PUBLISHED-BY-MISTAKE 暗示这可能是一个错误发布的版本，本质上无法修复（版本本身有问题）。",
+        "agent_mistake": "无，基础设施问题。但即使无限流，目标版本标注 PUBLISHED-BY-MISTAKE 也可能无法正常使用。",
+        "skill_suggestion": "版本名含 PUBLISHED-BY-MISTAKE/SNAPSHOT/INVALID 等标志时，需要警告用户该版本可能不可用，建议降版本或选择其他版本。",
+        "fixable_by_skill": false,
+        "confidence": 0.9
+      }
+    },
+    {
+      "task_name": "task-google-guice-struts2-core__8KbsqNC",
+      "dep": "org.apache.struts:struts2-core",
+      "version_change": "2.3.37 -> 2.5.22",
+      "rule_pattern": "other",
+      "llm_analysis": {
+        "failure_category": "api_throttling_no_attempt",
+        "root_cause": "API 429 限流，num_turns=1。struts2 小版本升级，理论上可修复。",
+        "agent_mistake": "无，基础设施问题。",
+        "skill_suggestion": "无法通过 Skill 改善（限流）。",
+        "fixable_by_skill": false,
+        "confidence": 0.95
+      }
+    },
+    {
+      "task_name": "task-allure-framewor-allure-mave__v4pB4gJ",
+      "dep": "net.lingala.zip4j:zip4j",
+      "version_change": "1.3.2 -> 2.11.1",
+      "rule_pattern": "other",
+      "llm_analysis": {
+        "failure_category": "api_throttling_no_attempt",
+        "root_cause": "API 429 限流。zip4j 1.x→2.x 是大版本升级，API 完全重写（包名和方法签名变化较大）。",
+        "agent_mistake": "无，基础设施问题。zip4j 1→2 升级需要将 net.lingala.zip4j.core.ZipFile 等替换为 net.lingala.zip4j.ZipFile，方法签名也有变化。",
+        "skill_suggestion": "无法通过 Skill 改善（限流）。",
+        "fixable_by_skill": false,
+        "confidence": 0.95
+      }
+    },
+    {
+      "task_name": "task-saucelabs-ci-sauce-plexus-a__kYsLyui",
+      "dep": "org.codehaus.plexus:plexus-archiver",
+      "version_change": "4.2.7 -> 4.4.0",
+      "rule_pattern": "other",
+      "llm_analysis": {
+        "failure_category": "api_throttling_no_attempt",
+        "root_cause": "API 429 限流，num_turns=1。同 plexus-archiver 案例，ZipUnArchiver/TarGZipUnArchiver 类迁移问题。",
+        "agent_mistake": "无，基础设施问题。",
+        "skill_suggestion": "无法通过 Skill 改善（限流）。",
+        "fixable_by_skill": false,
+        "confidence": 0.95
+      }
+    },
+    {
+      "task_name": "task-assert-kth-sorald-sonarlint__MRpzPyG",
+      "dep": "org.sonarsource.sonarlint.core:sonarlint-core",
+      "version_change": "8.15.0.65216 -> 9.1.1.74346",
+      "rule_pattern": "other",
+      "llm_analysis": {
+        "failure_category": "api_throttling_no_attempt",
+        "root_cause": "API 429 限流，num_turns=1。sonarlint-core 8→9 升级：addEnabledLanguages() 方法被移除（AnalysisEngineConfiguration.Builder API 变更）。",
+        "agent_mistake": "无，基础设施问题。若无限流，该错误模式（builder 方法被移除）是可修复的。",
+        "skill_suggestion": "无法通过 Skill 改善（限流）。sonarlint-core API 变更：addEnabledLanguages() 可能被合并到其他配置方法中，需查看 9.x API doc。",
+        "fixable_by_skill": false,
+        "confidence": 0.9
+      }
+    },
+    {
+      "task_name": "task-bump-takari-snakeyaml__WBuDN6t",
+      "dep": "org.yaml:snakeyaml",
+      "version_change": "1.17 -> 2.0",
+      "rule_pattern": "other",
+      "llm_analysis": {
+        "failure_category": "api_throttling_no_attempt",
+        "root_cause": "API 429 限流，num_turns=4。snakeyaml 1.17→2.0 升级（Constructor/Representer API 变更）。",
+        "agent_mistake": "无，基础设施问题。",
+        "skill_suggestion": "无法通过 Skill 改善（限流）。snakeyaml 2.0 API 变更：Constructor(Class) 改为 Constructor(Class, LoaderOptions)，Representer() 改为 Representer(DumperOptions)。",
+        "fixable_by_skill": false,
+        "confidence": 0.9
+      }
+    },
+    {
+      "task_name": "task-bump-googleapis-google-clou__GYmxnch",
+      "dep": "com.google.cloud:google-cloud-pubsublite",
+      "version_change": "0.6.0 -> 1.6.3",
+      "rule_pattern": "no_output",
+      "llm_analysis": {
+        "failure_category": "symbol_not_found_major_api_rewrite",
+        "root_cause": "google-cloud-pubsublite 0.6→1.6 大版本升级，多个内部 API 变更（Publisher接口、setContext方法等）。Agent 超时。",
+        "agent_mistake": "Agent 超时，未能完成复杂的内部 API 迁移。",
+        "skill_suggestion": "pubsublite 0.x→1.x 升级是重大 API break，参考 pubsublite Java SDK changelog 查找所有 breaking changes。",
+        "fixable_by_skill": true,
+        "confidence": 0.5
+      }
+    },
+    {
+      "task_name": "task-wesleyosantos91-poc-multi-m__HCXjQWt",
+      "dep": "org.mapstruct:mapstruct-processor",
+      "version_change": "1.4.2.Final -> 1.5.0.Final",
+      "rule_pattern": "other",
+      "llm_analysis": {
+        "failure_category": "api_throttling_no_attempt",
+        "root_cause": "API 429 限流，num_turns=1。mapstruct-processor 1.4→1.5 注解处理器升级。",
+        "agent_mistake": "无，基础设施问题。",
+        "skill_suggestion": "无法通过 Skill 改善（限流）。",
+        "fixable_by_skill": false,
+        "confidence": 0.95
+      }
+    },
+    {
+      "task_name": "task-bump-allure-frame-zip4j__ekZ4nwA",
+      "dep": "net.lingala.zip4j:zip4j",
+      "version_change": "1.3.2 -> 2.11.1",
+      "rule_pattern": "other",
+      "llm_analysis": {
+        "failure_category": "api_throttling_no_attempt",
+        "root_cause": "API 429 限流，num_turns=1。同 allure-frame zip4j 案例。",
+        "agent_mistake": "无，基础设施问题。",
+        "skill_suggestion": "无法通过 Skill 改善（限流）。",
+        "fixable_by_skill": false,
+        "confidence": 0.95
+      }
+    },
+    {
+      "task_name": "task-bump-pac4j-jakarta-servlet-__ZgnJDw8",
+      "dep": "jakarta.servlet:jakarta.servlet-api",
+      "version_change": "4.0.4 -> 6.0.0",
+      "rule_pattern": "other",
+      "llm_analysis": {
+        "failure_category": "api_throttling_no_attempt",
+        "root_cause": "API 429 限流，num_turns=1。jakarta.servlet-api 4→6 升级（对应 Servlet 5 到 Servlet 6，jakarta namespace 内部升级）。",
+        "agent_mistake": "无，基础设施问题。",
+        "skill_suggestion": "无法通过 Skill 改善（限流）。jakarta.servlet-api 4→6 中某些 API 被移除（如 getReader()废弃等），若有 API 变化需逐个修复。",
+        "fixable_by_skill": false,
+        "confidence": 0.95
+      }
+    },
+    {
+      "task_name": "task-bump-zold-io-cactoos__8w5uCzq",
+      "dep": "org.cactoos:cactoos",
+      "version_change": "0.35 -> 0.55.0",
+      "rule_pattern": "no_output",
+      "llm_analysis": {
+        "failure_category": "symbol_not_found_major_api_rewrite",
+        "root_cause": "cactoos 0.35→0.55 大量 API 变更：大量 symbol 缺失（RtScore, Copies, Remote, Wallet, WalletsIn, RtTransaction 等多个类中的方法）。Agent 超时。",
+        "agent_mistake": "Agent 超时，cactoos 大版本升级 API 变化太多，需要批量策略。",
+        "skill_suggestion": "批量 symbol 缺失时（>5个 cannot find symbol），先汇总所有缺失 symbol 并分类，检查 cactoos changelog，一次性制定修复计划再执行，避免逐个修复导致效率低。",
+        "fixable_by_skill": true,
+        "confidence": 0.55
+      }
+    },
+    {
+      "task_name": "task-googleapis-google-cloud-ja-__oXvfb3A",
+      "dep": "com.google.apis:google-api-services-translate",
+      "version_change": "v2-rev... -> v3-rev...",
+      "rule_pattern": "no_output",
+      "llm_analysis": {
+        "failure_category": "symbol_not_found_major_api_rewrite",
+        "root_cause": "google-translate v2→v3 是完全不同的 API 版本（REST API 版本升级），Translation 类名冲突、fromPb() 方法不存在、接口签名完全变化。Agent 超时。",
+        "agent_mistake": "Agent 超时，v2→v3 本质上是需要重写整个 adapter 层的工程任务。",
+        "skill_suggestion": "当版本号包含 v2→v3（API major version）时，说明是整个 API 设计的重构，需要按照新版 API 重写所有与该依赖交互的代码层。",
+        "fixable_by_skill": false,
+        "confidence": 0.7
+      }
+    },
+    {
+      "task_name": "task-bump-wireapp-dropwizard-cli__ZxfrQau",
+      "dep": "io.dropwizard:dropwizard-client",
+      "version_change": "2.1.5 -> 4.0.0",
+      "rule_pattern": "no_output",
+      "llm_analysis": {
+        "failure_category": "api_throttling_no_attempt",
+        "root_cause": "Agent 超时（AgentTimeoutError），且无任何输出。dropwizard 2→4 跨越重大版本，可能涉及 javax→jakarta 命名空间迁移。",
+        "agent_mistake": "Agent 超时，未能开始修复。",
+        "skill_suggestion": "dropwizard 2→4 升级需要同步将 javax.ws.rs 替换为 jakarta.ws.rs，以及相关 jersey/jackson 依赖升级。Skill 应为 dropwizard 大版本升级提供专项指导。",
+        "fixable_by_skill": false,
+        "confidence": 0.7
+      }
+    }
+  ]
+}

@@ -13,7 +13,20 @@ skillrl/scripts/generate_skill.py
 import json
 import os
 import argparse
-from openai import OpenAI
+import requests
+
+
+def call_llm(prompt: str, api_base: str, api_key: str, model: str = "qwen3.5-plus", max_tokens: int = 8000) -> str:
+    url = api_base.rstrip("/") + "/v1/messages"
+    headers = {"x-api-key": api_key, "Content-Type": "application/json"}
+    payload = {"model": model, "max_tokens": max_tokens, "thinking": {"type": "disabled"}, "messages": [{"role": "user", "content": prompt}]}
+    resp = requests.post(url, json=payload, headers=headers, timeout=120)
+    resp.raise_for_status()
+    data = resp.json()
+    for block in data.get("content", []):
+        if block.get("type") == "text":
+            return block["text"].strip()
+    return ""
 
 
 GENERATION_PROMPT = """你是一位 AI Agent Skill 设计专家。你需要为一个修复 Java 依赖升级编译失败的 AI Agent 编写一个 Skill 指导文件（SKILL.md）。
@@ -81,17 +94,8 @@ def main():
         skill_suggestions=suggestions_text[:5000],
     )
 
-    client = OpenAI(base_url=args.api_base, api_key=args.api_key)
     print("正在生成 Skill v1...")
-
-    resp = client.chat.completions.create(
-        model=args.model,
-        messages=[{"role": "user", "content": prompt}],
-        temperature=0.3,
-        max_tokens=8000,
-    )
-
-    skill_content = resp.choices[0].message.content.strip()
+    skill_content = call_llm(prompt, args.api_base, args.api_key, args.model, max_tokens=8000)
     if skill_content.startswith("```"):
         lines = skill_content.split("\n")
         skill_content = "\n".join(lines[1:-1] if lines[-1].strip() == "```" else lines[1:])

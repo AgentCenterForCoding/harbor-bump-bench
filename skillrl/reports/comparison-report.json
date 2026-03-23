@@ -1,0 +1,872 @@
+{
+  "generated_at": "2026-03-23T14:39:59.999364",
+  "rounds": {
+    "r0": {
+      "success": 68,
+      "total": 110,
+      "rate": 0.6181818181818182
+    },
+    "r1": {
+      "success": 87,
+      "total": 110,
+      "rate": 0.7909090909090909
+    },
+    "r2": {
+      "success": 91,
+      "total": 110,
+      "rate": 0.8272727272727273
+    }
+  },
+  "trajectory_summary": {
+    "always_pass": 64,
+    "fixed_by_v1": 18,
+    "v1_only": 2,
+    "never_fixed": 9,
+    "regressed_by_v1": 3,
+    "fixed_by_v2": 5,
+    "other": 3,
+    "v1_regress_v2_fixed": 1
+  },
+  "per_task": [
+    {
+      "task_name": "task-1and1-snmpman-snmp4j-agent",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-allure-framewor-allure-mave",
+      "r0": 0.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-alphagov-pay-adminusers-log",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-artipie-docker-adapter-asto",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-artipie-docker-adapter-http",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-artipie-http-asto-core",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-assert-kth-depclean-plexus-",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-assert-kth-sorald-sonarlint",
+      "r0": 0.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-assertkth-flacoco",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-btrplace-scheduler-javapars",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-bump-1and1-snmp4j-agent",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-bump-allure-frame-zip4j",
+      "r0": 0.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-bump-alphagov-logback-class",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-bump-artipie-asto-core",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-bump-artipie-http",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-bump-assert-kth-maven-suref",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-bump-assert-kth-plexus-util",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-bump-assert-kth-sonarlint-c",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-bump-btrplace-javaparser-co",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-bump-camunda-comm-spring-co",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-bump-feedzai-logback-classi",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-bump-games647-spongeapi",
+      "r0": 0.0,
+      "r1": 1.0,
+      "r2": 0.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-bump-getgauge-reflections",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-bump-google-struts2-core",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-bump-googleapis-google-api-",
+      "r0": 0.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-bump-googleapis-google-clou",
+      "r0": 0.0,
+      "r1": 0.0,
+      "r2": 0.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-bump-guhilling-jakarta-anno",
+      "r0": 0.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-bump-hantsy-jakarta-mvc-api",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-bump-internationa-spring-bo",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-bump-internationa-spring-co",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-bump-internationa-spring-we",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-bump-jadler-mocki-jetty-ser",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-bump-jcabi-hamcrest-library",
+      "r0": 0.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-bump-jcabi-jcabi-aspects",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-bump-jenkinsci-acceptance-t",
+      "r0": 0.0,
+      "r1": 0.0,
+      "r2": 0.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-bump-kokuwaio-spring-contex",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-bump-lukas-krecan-spring-co",
+      "r0": 1.0,
+      "r1": 0.0,
+      "r2": 0.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-bump-mathieucarbo-maven-dep",
+      "r0": 0.0,
+      "r1": 0.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-bump-maxmind-geoip2",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-bump-micycle1-tinspin-index",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-bump-nemproject-flyway-core",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-bump-nemproject-hibernate-v",
+      "r0": 0.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-bump-p2p-develop-peyangsupe",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-bump-pac4j-jakarta-servlet-",
+      "r0": 0.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-bump-pkiraly-metadata-qa-ap",
+      "r0": 0.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-bump-premium-mind-jakarta-v",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-bump-premium-mind-jaxb2-bas",
+      "r0": 0.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-bump-qqxx6661-spring-cloud-",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-bump-redisgraph-jedis",
+      "r0": 0.0,
+      "r1": 0.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-bump-sabomichal-jooq-meta",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-bump-samsung-spring-core",
+      "r0": 0.0,
+      "r1": 0.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-bump-saucelabs-plexus-archi",
+      "r0": 0.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-bump-takari-snakeyaml",
+      "r0": 0.0,
+      "r1": 0.0,
+      "r2": 0.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-bump-volodya-lomb-opennlp-t",
+      "r0": 0.0,
+      "r1": 0.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-bump-wesleyosanto-mapstruct",
+      "r0": 0.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-bump-wireapp-dropwizard-cli",
+      "r0": 1.0,
+      "r1": 0.0,
+      "r2": 0.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-bump-wmaarts-pitest-entry",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-bump-xdev-softwar-jasperrep",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-bump-zold-io-cactoos",
+      "r0": 0.0,
+      "r1": 1.0,
+      "r2": 0.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-camunda-communi-camunda-pla",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-feedzai-pdb",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-feedzai-pdb-logback-classic",
+      "r0": -1,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-games647-changeskin-spongea",
+      "r0": 0.0,
+      "r1": 0.0,
+      "r2": 0.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-getgauge-gauge-java-reflect",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-google-guice-struts2-core",
+      "r0": 0.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-googleapis-google-cloud-ja-",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-googleapis-java-pubsub-gro-",
+      "r0": 0.0,
+      "r1": 0.0,
+      "r2": 0.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-guhilling-cdi-test-jakarta.",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-hantsy-jakartaee-mvc-s-jaka",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-ids-spring",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-international-d-ids-messagi",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-jadler-mocking-jadler-jetty",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-jcabi-jcabi-github-jcabi-as",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-jcabi-jcabi-http-hamcrest-l",
+      "r0": -1,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-jcabi-jcabi-s3-jcabi-aspect",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-jcabi-jcabi-simpledb-jcabi-",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-jcabi-jcabi-ssh-jcabi-aspec",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-jenkinsci-code-coverage-a-a",
+      "r0": 0.0,
+      "r1": 0.0,
+      "r2": 0.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-kokuwaio-micronaut-opena-sp",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-lukas-krecan-future-convert",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-mathieucarbou-license-maven",
+      "r0": 1.0,
+      "r1": 0.0,
+      "r2": 0.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-maxmind-minfraud-api-ja-geo",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-micycle1-pgs-tinspin-indexe",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-nemproject-nem-flyway-core",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-nemproject-nem-hibernate-va",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-p2p-develop-peyangsuperbant",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-pac4j-dropwizard-pac4-jakar",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-pinterest-singer",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-pkiraly-qa-catalogue-metada",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-polyglot-snakeyaml",
+      "r0": 0.0,
+      "r1": 0.0,
+      "r2": 0.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-premium-minds-billy-jaxb2-b",
+      "r0": 1.0,
+      "r1": 0.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-premium-minds-wicket-crudif",
+      "r0": -1,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-qqxx6661-log-record-spring-",
+      "r0": 0.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-quickfixj-mina",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-redisgraph-jredisgraph-jedi",
+      "r0": 0.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-sabomichal-jooq-meta-postg-",
+      "r0": 0.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-samsung-lpvs-spring-core",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-saucelabs-ci-sauce-plexus-a",
+      "r0": 0.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-takari-polyglot-maven-snake",
+      "r0": 0.0,
+      "r1": 0.0,
+      "r2": 0.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-volodya-lombroz-jtcop-openn",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-wesleyosantos91-poc-multi-m",
+      "r0": 0.0,
+      "r1": 0.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-wireapp-lithium-dropwizard-",
+      "r0": 0.0,
+      "r1": 0.0,
+      "r2": 0.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-wmaarts-pitest-mutation-pit",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-xdev-software-biapi-jasperr",
+      "r0": 1.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    },
+    {
+      "task_name": "task-zold-io-java-api-cactoos",
+      "r0": 0.0,
+      "r1": 1.0,
+      "r2": 1.0,
+      "dep": "",
+      "updateType": ""
+    }
+  ]
+}

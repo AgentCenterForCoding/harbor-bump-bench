@@ -17,7 +17,20 @@ skillrl/scripts/optimize_skill.py
 import json
 import os
 import argparse
-from openai import OpenAI
+import requests
+
+
+def call_llm(prompt: str, api_base: str, api_key: str, model: str = "qwen3.5-plus", max_tokens: int = 8000) -> str:
+    url = api_base.rstrip("/") + "/v1/messages"
+    headers = {"x-api-key": api_key, "Content-Type": "application/json"}
+    payload = {"model": model, "max_tokens": max_tokens, "thinking": {"type": "disabled"}, "messages": [{"role": "user", "content": prompt}]}
+    resp = requests.post(url, json=payload, headers=headers, timeout=120)
+    resp.raise_for_status()
+    data = resp.json()
+    for block in data.get("content", []):
+        if block.get("type") == "text":
+            return block["text"].strip()
+    return ""
 
 try:
     from extract_badcases import parse_claude_code_txt, find_trial_dir
@@ -188,16 +201,8 @@ def main():
         still_failed_details=still_failed_details,
     )
 
-    client = OpenAI(base_url=args.api_base, api_key=args.api_key)
     print("\n正在生成 Skill v2...")
-    resp = client.chat.completions.create(
-        model=args.model,
-        messages=[{"role": "user", "content": prompt}],
-        temperature=0.3,
-        max_tokens=8000,
-    )
-
-    skill_v2 = resp.choices[0].message.content.strip()
+    skill_v2 = call_llm(prompt, args.api_base, args.api_key, args.model, max_tokens=8000)
     if skill_v2.startswith("```"):
         lines = skill_v2.split("\n")
         skill_v2 = "\n".join(lines[1:-1] if lines[-1].strip() == "```" else lines[1:])

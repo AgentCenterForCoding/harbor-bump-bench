@@ -14,6 +14,7 @@ skillrl/scripts/generate_comparison_report.py
 """
 
 import json
+import os
 import argparse
 from datetime import datetime
 
@@ -23,9 +24,23 @@ def load_report(path: str) -> dict:
         return json.load(f)
 
 
+def task_prefix(task_name: str) -> str:
+    """去掉末尾随机 ID（__XXXXXXX），返回可跨轮对比的前缀"""
+    return task_name.rsplit("__", 1)[0]
+
+
 def get_results_map(report: dict) -> dict[str, float]:
+    """返回 prefix -> reward 映射（best-of 取最高分）"""
     results = report.get("results", report.get("trials", []))
-    return {r.get("task_name", r.get("name", "")): r.get("reward", -1) for r in results}
+    prefix_map: dict[str, float] = {}
+    for r in results:
+        name = r.get("task_name", r.get("name", ""))
+        prefix = task_prefix(name)
+        reward = r.get("reward", -1)
+        # 取 best（reward=1.0 优先）
+        if prefix not in prefix_map or reward > prefix_map[prefix]:
+            prefix_map[prefix] = reward
+    return prefix_map
 
 
 def per_task_diff(r0: dict, r1: dict, r2: dict) -> list[dict]:
@@ -41,10 +56,12 @@ def per_task_diff(r0: dict, r1: dict, r2: dict) -> list[dict]:
             "r0": r0_map.get(t, -1),
             "r1": r1_map.get(t, -1),
             "r2": r2_map.get(t, -1),
-            "dep": r0_map and next(
-                (r.get("dep", "") for r in r0.get("results", []) if r.get("task_name") == t), ""),
+            "dep": next(
+                (r.get("dep", "") for r in r0.get("results", [])
+                 if task_prefix(r.get("task_name", "")) == t), ""),
             "updateType": next(
-                (r.get("updateType", "") for r in r0.get("results", []) if r.get("task_name") == t), ""),
+                (r.get("updateType", "") for r in r0.get("results", [])
+                 if task_prefix(r.get("task_name", "")) == t), ""),
         })
     return rows
 
@@ -71,9 +88,10 @@ def classify_trajectory(row: dict) -> str:
 
 
 def count_success(report: dict) -> tuple[int, int]:
-    results = report.get("results", report.get("trials", []))
-    total = len(results)
-    success = sum(1 for r in results if r.get("reward", 0) == 1.0)
+    """基于 prefix 去重后统计成功/总数（与 result_merged 保持一致）"""
+    prefix_map = get_results_map(report)
+    total = report.get("n_total_trials", len(prefix_map))
+    success = sum(1 for v in prefix_map.values() if v == 1.0)
     return success, total
 
 

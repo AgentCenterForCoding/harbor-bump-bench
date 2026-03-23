@@ -1,0 +1,694 @@
+{
+  "id": "9f15e4a4-d9b2-410b-b372-2054666ad5a4",
+  "started_at": "2026-03-21T18:59:45.846115",
+  "finished_at": "2026-03-21T21:09:15.053689",
+  "n_total_trials": 110,
+  "results": [
+    {
+      "trial": "task-artipie-docker-adapter-http__Z3P2ZBv",
+      "task_name": "task-artipie-docker-adapter-http__Z3P2ZBv",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-1and1-snmpman-snmp4j-agent__vcJYWbq",
+      "task_name": "task-1and1-snmpman-snmp4j-agent__vcJYWbq",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-bump-google-struts2-core__JkB37K5",
+      "task_name": "task-bump-google-struts2-core__JkB37K5",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-bump-internationa-spring-bo__ky9ZJc5",
+      "task_name": "task-bump-internationa-spring-bo__ky9ZJc5",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-bump-alphagov-logback-class__p6MvV6z",
+      "task_name": "task-bump-alphagov-logback-class__p6MvV6z",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-pac4j-dropwizard-pac4-jakar__6SKikCF",
+      "task_name": "task-pac4j-dropwizard-pac4-jakar__6SKikCF",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-volodya-lombroz-jtcop-openn__9ZGNvTB",
+      "task_name": "task-volodya-lombroz-jtcop-openn__9ZGNvTB",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-bump-micycle1-tinspin-index__NzCNnQ3",
+      "task_name": "task-bump-micycle1-tinspin-index__NzCNnQ3",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-assert-kth-depclean-plexus-__sHCjwYt",
+      "task_name": "task-assert-kth-depclean-plexus-__sHCjwYt",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-samsung-lpvs-spring-core__DZ5srL9",
+      "task_name": "task-samsung-lpvs-spring-core__DZ5srL9",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-jadler-mocking-jadler-jetty__JNZMDWs",
+      "task_name": "task-jadler-mocking-jadler-jetty__JNZMDWs",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-wmaarts-pitest-mutation-pit__fSe3MHB",
+      "task_name": "task-wmaarts-pitest-mutation-pit__fSe3MHB",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-bump-feedzai-logback-classi__8xEVcbR",
+      "task_name": "task-bump-feedzai-logback-classi__8xEVcbR",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-bump-getgauge-reflections__YBhS23S",
+      "task_name": "task-bump-getgauge-reflections__YBhS23S",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-nemproject-nem-hibernate-va__oFBnQJX",
+      "task_name": "task-nemproject-nem-hibernate-va__oFBnQJX",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-jcabi-jcabi-simpledb-jcabi-__nWQQZEp",
+      "task_name": "task-jcabi-jcabi-simpledb-jcabi-__nWQQZEp",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-guhilling-cdi-test-jakarta.__aixPehb",
+      "task_name": "task-guhilling-cdi-test-jakarta.__aixPehb",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-bump-nemproject-flyway-core__HJM6Jui",
+      "task_name": "task-bump-nemproject-flyway-core__HJM6Jui",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-nemproject-nem-flyway-core__NFBoYNn",
+      "task_name": "task-nemproject-nem-flyway-core__NFBoYNn",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-maxmind-minfraud-api-ja-geo__tqaChix",
+      "task_name": "task-maxmind-minfraud-api-ja-geo__tqaChix",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-bump-1and1-snmp4j-agent__aJWpxXw",
+      "task_name": "task-bump-1and1-snmp4j-agent__aJWpxXw",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-bump-btrplace-javaparser-co__hLku5qk",
+      "task_name": "task-bump-btrplace-javaparser-co__hLku5qk",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-xdev-software-biapi-jasperr__vboxSc4",
+      "task_name": "task-xdev-software-biapi-jasperr__vboxSc4",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-bump-internationa-spring-we__zBoghyj",
+      "task_name": "task-bump-internationa-spring-we__zBoghyj",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-bump-p2p-develop-peyangsupe__CoDpLbn",
+      "task_name": "task-bump-p2p-develop-peyangsupe__CoDpLbn",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-camunda-communi-camunda-pla__PiTVzg9",
+      "task_name": "task-camunda-communi-camunda-pla__PiTVzg9",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-micycle1-pgs-tinspin-indexe__28cdDhA",
+      "task_name": "task-micycle1-pgs-tinspin-indexe__28cdDhA",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-jcabi-jcabi-s3-jcabi-aspect__oqywJxk",
+      "task_name": "task-jcabi-jcabi-s3-jcabi-aspect__oqywJxk",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-premium-minds-billy-jaxb2-b__x3PtN5C",
+      "task_name": "task-premium-minds-billy-jaxb2-b__x3PtN5C",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-hantsy-jakartaee-mvc-s-jaka__Soi33uo",
+      "task_name": "task-hantsy-jakartaee-mvc-s-jaka__Soi33uo",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-jcabi-jcabi-github-jcabi-as__Y32zC4t",
+      "task_name": "task-jcabi-jcabi-github-jcabi-as__Y32zC4t",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-bump-assert-kth-sonarlint-c__4f57KzD",
+      "task_name": "task-bump-assert-kth-sonarlint-c__4f57KzD",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-ids-spring__4XyzuN6",
+      "task_name": "task-ids-spring__4XyzuN6",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-bump-internationa-spring-co__pCCUJQG",
+      "task_name": "task-bump-internationa-spring-co__pCCUJQG",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-international-d-ids-messagi__PDuNVuM",
+      "task_name": "task-international-d-ids-messagi__PDuNVuM",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-getgauge-gauge-java-reflect__3iQkz4b",
+      "task_name": "task-getgauge-gauge-java-reflect__3iQkz4b",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-bump-qqxx6661-spring-cloud-__uKp7N4N",
+      "task_name": "task-bump-qqxx6661-spring-cloud-__uKp7N4N",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-pinterest-singer__2WZS67V",
+      "task_name": "task-pinterest-singer__2WZS67V",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-bump-jcabi-jcabi-aspects__Pouth4h",
+      "task_name": "task-bump-jcabi-jcabi-aspects__Pouth4h",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-bump-maxmind-geoip2__f9EhYST",
+      "task_name": "task-bump-maxmind-geoip2__f9EhYST",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-international-d-ids-messagi__z3vmwaB",
+      "task_name": "task-international-d-ids-messagi__z3vmwaB",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-quickfixj-mina__76rfMAT",
+      "task_name": "task-quickfixj-mina__76rfMAT",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-p2p-develop-peyangsuperbant__BZsAmTh",
+      "task_name": "task-p2p-develop-peyangsuperbant__BZsAmTh",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-bump-lukas-krecan-spring-co__H5xX3Pj",
+      "task_name": "task-bump-lukas-krecan-spring-co__H5xX3Pj",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-bump-internationa-spring-we__vfoEVPn",
+      "task_name": "task-bump-internationa-spring-we__vfoEVPn",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-bump-camunda-comm-spring-co__strcrkf",
+      "task_name": "task-bump-camunda-comm-spring-co__strcrkf",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-lukas-krecan-future-convert__J2kwNiY",
+      "task_name": "task-lukas-krecan-future-convert__J2kwNiY",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-bump-kokuwaio-spring-contex__Lv9tdqt",
+      "task_name": "task-bump-kokuwaio-spring-contex__Lv9tdqt",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-bump-artipie-asto-core__PEXu3cG",
+      "task_name": "task-bump-artipie-asto-core__PEXu3cG",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-feedzai-pdb__CjeKTb2",
+      "task_name": "task-feedzai-pdb__CjeKTb2",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-btrplace-scheduler-javapars__78iuBcr",
+      "task_name": "task-btrplace-scheduler-javapars__78iuBcr",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-bump-jadler-mocki-jetty-ser__kyrYxJ3",
+      "task_name": "task-bump-jadler-mocki-jetty-ser__kyrYxJ3",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-international-d-ids-messagi__p2gBycu",
+      "task_name": "task-international-d-ids-messagi__p2gBycu",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-bump-sabomichal-jooq-meta__gW3T9EA",
+      "task_name": "task-bump-sabomichal-jooq-meta__gW3T9EA",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-bump-xdev-softwar-jasperrep__Y6hfg6t",
+      "task_name": "task-bump-xdev-softwar-jasperrep__Y6hfg6t",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-bump-wmaarts-pitest-entry__WJUomiK",
+      "task_name": "task-bump-wmaarts-pitest-entry__WJUomiK",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-alphagov-pay-adminusers-log__Xhb3vXG",
+      "task_name": "task-alphagov-pay-adminusers-log__Xhb3vXG",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-kokuwaio-micronaut-opena-sp__zryEh2C",
+      "task_name": "task-kokuwaio-micronaut-opena-sp__zryEh2C",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-bump-assert-kth-maven-suref__5HUs4a6",
+      "task_name": "task-bump-assert-kth-maven-suref__5HUs4a6",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-bump-hantsy-jakarta-mvc-api__rC5Exwn",
+      "task_name": "task-bump-hantsy-jakarta-mvc-api__rC5Exwn",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-artipie-docker-adapter-asto__ARveAYY",
+      "task_name": "task-artipie-docker-adapter-asto__ARveAYY",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-bump-artipie-http__zM7pQ6M",
+      "task_name": "task-bump-artipie-http__zM7pQ6M",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-bump-assert-kth-plexus-util__pPpCU4K",
+      "task_name": "task-bump-assert-kth-plexus-util__pPpCU4K",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-pkiraly-qa-catalogue-metada__kyn3BAe",
+      "task_name": "task-pkiraly-qa-catalogue-metada__kyn3BAe",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-assertkth-flacoco__sSELPJU",
+      "task_name": "task-assertkth-flacoco__sSELPJU",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-bump-premium-mind-jakarta-v__4eaxRVQ",
+      "task_name": "task-bump-premium-mind-jakarta-v__4eaxRVQ",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-mathieucarbou-license-maven__LxhkHp9",
+      "task_name": "task-mathieucarbou-license-maven__LxhkHp9",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-artipie-http-asto-core__evmKtJm",
+      "task_name": "task-artipie-http-asto-core__evmKtJm",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-international-d-ids-messagi__cTK64ck",
+      "task_name": "task-international-d-ids-messagi__cTK64ck",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-jcabi-jcabi-ssh-jcabi-aspec__7eYuMKD",
+      "task_name": "task-jcabi-jcabi-ssh-jcabi-aspec__7eYuMKD",
+      "reward": 1.0
+    },
+    {
+      "trial": "task-redisgraph-jredisgraph-jedi__eDbdfNi",
+      "task_name": "task-redisgraph-jredisgraph-jedi__eDbdfNi",
+      "reward": 0.0
+    },
+    {
+      "trial": "task-bump-volodya-lomb-opennlp-t__pwBoLfp",
+      "task_name": "task-bump-volodya-lomb-opennlp-t__pwBoLfp",
+      "reward": 0.0
+    },
+    {
+      "trial": "task-takari-polyglot-maven-snake__ypFJmiT",
+      "task_name": "task-takari-polyglot-maven-snake__ypFJmiT",
+      "reward": 0.0
+    },
+    {
+      "trial": "task-bump-jcabi-hamcrest-library__KozsSaK",
+      "task_name": "task-bump-jcabi-hamcrest-library__KozsSaK",
+      "reward": 0.0
+    },
+    {
+      "trial": "task-bump-saucelabs-plexus-archi__vfk7zE6",
+      "task_name": "task-bump-saucelabs-plexus-archi__vfk7zE6",
+      "reward": 0.0
+    },
+    {
+      "trial": "task-bump-games647-spongeapi__hpZX8vm",
+      "task_name": "task-bump-games647-spongeapi__hpZX8vm",
+      "reward": 0.0
+    },
+    {
+      "trial": "task-bump-pkiraly-metadata-qa-ap__ndiasW4",
+      "task_name": "task-bump-pkiraly-metadata-qa-ap__ndiasW4",
+      "reward": 0.0
+    },
+    {
+      "trial": "task-bump-samsung-spring-core__S5xUEfp",
+      "task_name": "task-bump-samsung-spring-core__S5xUEfp",
+      "reward": 0.0
+    },
+    {
+      "trial": "task-bump-mathieucarbo-maven-dep__Vu7kBeF",
+      "task_name": "task-bump-mathieucarbo-maven-dep__Vu7kBeF",
+      "reward": 0.0
+    },
+    {
+      "trial": "task-bump-wesleyosanto-mapstruct__YNrFx8x",
+      "task_name": "task-bump-wesleyosanto-mapstruct__YNrFx8x",
+      "reward": 0.0
+    },
+    {
+      "trial": "task-bump-nemproject-hibernate-v__VAkgtC5",
+      "task_name": "task-bump-nemproject-hibernate-v__VAkgtC5",
+      "reward": 0.0
+    },
+    {
+      "trial": "task-zold-io-java-api-cactoos__3F97qkT",
+      "task_name": "task-zold-io-java-api-cactoos__3F97qkT",
+      "reward": 0.0
+    },
+    {
+      "trial": "task-googleapis-java-pubsub-gro-__aQ7zP5A",
+      "task_name": "task-googleapis-java-pubsub-gro-__aQ7zP5A",
+      "reward": 0.0
+    },
+    {
+      "trial": "task-bump-jenkinsci-acceptance-t__SzvdHJC",
+      "task_name": "task-bump-jenkinsci-acceptance-t__SzvdHJC",
+      "reward": 0.0
+    },
+    {
+      "trial": "task-bump-googleapis-google-api-__GbCqtkn",
+      "task_name": "task-bump-googleapis-google-api-__GbCqtkn",
+      "reward": 0.0
+    },
+    {
+      "trial": "task-sabomichal-jooq-meta-postg-__MWRgU4C",
+      "task_name": "task-sabomichal-jooq-meta-postg-__MWRgU4C",
+      "reward": 0.0
+    },
+    {
+      "trial": "task-games647-changeskin-spongea__meVdDo7",
+      "task_name": "task-games647-changeskin-spongea__meVdDo7",
+      "reward": 0.0
+    },
+    {
+      "trial": "task-wireapp-lithium-dropwizard-__bPHCzNk",
+      "task_name": "task-wireapp-lithium-dropwizard-__bPHCzNk",
+      "reward": 0.0
+    },
+    {
+      "trial": "task-bump-guhilling-jakarta-anno__jw7GxhA",
+      "task_name": "task-bump-guhilling-jakarta-anno__jw7GxhA",
+      "reward": 0.0
+    },
+    {
+      "trial": "task-polyglot-snakeyaml__cxYjY3J",
+      "task_name": "task-polyglot-snakeyaml__cxYjY3J",
+      "reward": 0.0
+    },
+    {
+      "trial": "task-jenkinsci-code-coverage-a-a__hZkeD2S",
+      "task_name": "task-jenkinsci-code-coverage-a-a__hZkeD2S",
+      "reward": 0.0
+    },
+    {
+      "trial": "task-bump-redisgraph-jedis__6gTzPdS",
+      "task_name": "task-bump-redisgraph-jedis__6gTzPdS",
+      "reward": 0.0
+    },
+    {
+      "trial": "task-qqxx6661-log-record-spring-__kNAjyng",
+      "task_name": "task-qqxx6661-log-record-spring-__kNAjyng",
+      "reward": 0.0
+    },
+    {
+      "trial": "task-bump-premium-mind-jaxb2-bas__oJhBKRt",
+      "task_name": "task-bump-premium-mind-jaxb2-bas__oJhBKRt",
+      "reward": 0.0
+    },
+    {
+      "trial": "task-google-guice-struts2-core__8KbsqNC",
+      "task_name": "task-google-guice-struts2-core__8KbsqNC",
+      "reward": 0.0
+    },
+    {
+      "trial": "task-allure-framewor-allure-mave__v4pB4gJ",
+      "task_name": "task-allure-framewor-allure-mave__v4pB4gJ",
+      "reward": 0.0
+    },
+    {
+      "trial": "task-saucelabs-ci-sauce-plexus-a__kYsLyui",
+      "task_name": "task-saucelabs-ci-sauce-plexus-a__kYsLyui",
+      "reward": 0.0
+    },
+    {
+      "trial": "task-assert-kth-sorald-sonarlint__MRpzPyG",
+      "task_name": "task-assert-kth-sorald-sonarlint__MRpzPyG",
+      "reward": 0.0
+    },
+    {
+      "trial": "task-bump-takari-snakeyaml__WBuDN6t",
+      "task_name": "task-bump-takari-snakeyaml__WBuDN6t",
+      "reward": 0.0
+    },
+    {
+      "trial": "task-bump-googleapis-google-clou__GYmxnch",
+      "task_name": "task-bump-googleapis-google-clou__GYmxnch",
+      "reward": 0.0
+    },
+    {
+      "trial": "task-wesleyosantos91-poc-multi-m__HCXjQWt",
+      "task_name": "task-wesleyosantos91-poc-multi-m__HCXjQWt",
+      "reward": 0.0
+    },
+    {
+      "trial": "task-bump-allure-frame-zip4j__ekZ4nwA",
+      "task_name": "task-bump-allure-frame-zip4j__ekZ4nwA",
+      "reward": 0.0
+    },
+    {
+      "trial": "task-bump-pac4j-jakarta-servlet-__ZgnJDw8",
+      "task_name": "task-bump-pac4j-jakarta-servlet-__ZgnJDw8",
+      "reward": 0.0
+    },
+    {
+      "trial": "task-bump-zold-io-cactoos__8w5uCzq",
+      "task_name": "task-bump-zold-io-cactoos__8w5uCzq",
+      "reward": 0.0
+    },
+    {
+      "trial": "task-googleapis-google-cloud-ja-__oXvfb3A",
+      "task_name": "task-googleapis-google-cloud-ja-__oXvfb3A",
+      "reward": 0.0
+    },
+    {
+      "trial": "task-bump-wireapp-dropwizard-cli__ZxfrQau",
+      "task_name": "task-bump-wireapp-dropwizard-cli__ZxfrQau",
+      "reward": 0.0
+    }
+  ],
+  "stats": {
+    "n_trials": 110,
+    "n_errors": 19,
+    "evals": {
+      "claude-code__harbor-bump-eval": {
+        "n_trials": 106,
+        "n_errors": 19,
+        "metrics": [
+          {
+            "mean": 0.6363636363636364
+          }
+        ],
+        "reward_stats": {
+          "reward": {
+            "0.0": [
+              "task-redisgraph-jredisgraph-jedi__eDbdfNi",
+              "task-bump-volodya-lomb-opennlp-t__pwBoLfp",
+              "task-takari-polyglot-maven-snake__ypFJmiT",
+              "task-bump-jcabi-hamcrest-library__KozsSaK",
+              "task-bump-saucelabs-plexus-archi__vfk7zE6",
+              "task-bump-games647-spongeapi__hpZX8vm",
+              "task-bump-pkiraly-metadata-qa-ap__ndiasW4",
+              "task-bump-samsung-spring-core__S5xUEfp",
+              "task-bump-mathieucarbo-maven-dep__Vu7kBeF",
+              "task-bump-wesleyosanto-mapstruct__YNrFx8x",
+              "task-bump-nemproject-hibernate-v__VAkgtC5",
+              "task-zold-io-java-api-cactoos__3F97qkT",
+              "task-googleapis-java-pubsub-gro-__aQ7zP5A",
+              "task-bump-jenkinsci-acceptance-t__SzvdHJC",
+              "task-bump-googleapis-google-api-__GbCqtkn",
+              "task-sabomichal-jooq-meta-postg-__MWRgU4C",
+              "task-games647-changeskin-spongea__meVdDo7",
+              "task-wireapp-lithium-dropwizard-__bPHCzNk",
+              "task-bump-guhilling-jakarta-anno__jw7GxhA",
+              "task-polyglot-snakeyaml__cxYjY3J",
+              "task-jenkinsci-code-coverage-a-a__hZkeD2S",
+              "task-bump-redisgraph-jedis__6gTzPdS",
+              "task-qqxx6661-log-record-spring-__kNAjyng",
+              "task-bump-premium-mind-jaxb2-bas__oJhBKRt",
+              "task-google-guice-struts2-core__8KbsqNC",
+              "task-allure-framewor-allure-mave__v4pB4gJ",
+              "task-saucelabs-ci-sauce-plexus-a__kYsLyui",
+              "task-assert-kth-sorald-sonarlint__MRpzPyG",
+              "task-bump-takari-snakeyaml__WBuDN6t",
+              "task-bump-googleapis-google-clou__GYmxnch",
+              "task-wesleyosantos91-poc-multi-m__HCXjQWt",
+              "task-bump-allure-frame-zip4j__ekZ4nwA",
+              "task-bump-pac4j-jakarta-servlet-__ZgnJDw8",
+              "task-bump-zold-io-cactoos__8w5uCzq",
+              "task-googleapis-google-cloud-ja-__oXvfb3A",
+              "task-bump-wireapp-dropwizard-cli__ZxfrQau"
+            ],
+            "1.0": [
+              "task-artipie-docker-adapter-http__Z3P2ZBv",
+              "task-1and1-snmpman-snmp4j-agent__vcJYWbq",
+              "task-bump-google-struts2-core__JkB37K5",
+              "task-bump-internationa-spring-bo__ky9ZJc5",
+              "task-bump-alphagov-logback-class__p6MvV6z",
+              "task-pac4j-dropwizard-pac4-jakar__6SKikCF",
+              "task-volodya-lombroz-jtcop-openn__9ZGNvTB",
+              "task-bump-micycle1-tinspin-index__NzCNnQ3",
+              "task-assert-kth-depclean-plexus-__sHCjwYt",
+              "task-samsung-lpvs-spring-core__DZ5srL9",
+              "task-jadler-mocking-jadler-jetty__JNZMDWs",
+              "task-wmaarts-pitest-mutation-pit__fSe3MHB",
+              "task-bump-feedzai-logback-classi__8xEVcbR",
+              "task-bump-getgauge-reflections__YBhS23S",
+              "task-nemproject-nem-hibernate-va__oFBnQJX",
+              "task-jcabi-jcabi-simpledb-jcabi-__nWQQZEp",
+              "task-guhilling-cdi-test-jakarta.__aixPehb",
+              "task-bump-nemproject-flyway-core__HJM6Jui",
+              "task-nemproject-nem-flyway-core__NFBoYNn",
+              "task-maxmind-minfraud-api-ja-geo__tqaChix",
+              "task-bump-1and1-snmp4j-agent__aJWpxXw",
+              "task-bump-btrplace-javaparser-co__hLku5qk",
+              "task-xdev-software-biapi-jasperr__vboxSc4",
+              "task-bump-internationa-spring-we__zBoghyj",
+              "task-bump-p2p-develop-peyangsupe__CoDpLbn",
+              "task-camunda-communi-camunda-pla__PiTVzg9",
+              "task-micycle1-pgs-tinspin-indexe__28cdDhA",
+              "task-jcabi-jcabi-s3-jcabi-aspect__oqywJxk",
+              "task-premium-minds-billy-jaxb2-b__x3PtN5C",
+              "task-hantsy-jakartaee-mvc-s-jaka__Soi33uo",
+              "task-jcabi-jcabi-github-jcabi-as__Y32zC4t",
+              "task-bump-assert-kth-sonarlint-c__4f57KzD",
+              "task-ids-spring__4XyzuN6",
+              "task-bump-internationa-spring-co__pCCUJQG",
+              "task-international-d-ids-messagi__PDuNVuM",
+              "task-getgauge-gauge-java-reflect__3iQkz4b",
+              "task-bump-qqxx6661-spring-cloud-__uKp7N4N",
+              "task-pinterest-singer__2WZS67V",
+              "task-bump-jcabi-jcabi-aspects__Pouth4h",
+              "task-bump-maxmind-geoip2__f9EhYST",
+              "task-international-d-ids-messagi__z3vmwaB",
+              "task-quickfixj-mina__76rfMAT",
+              "task-p2p-develop-peyangsuperbant__BZsAmTh",
+              "task-bump-lukas-krecan-spring-co__H5xX3Pj",
+              "task-bump-internationa-spring-we__vfoEVPn",
+              "task-bump-camunda-comm-spring-co__strcrkf",
+              "task-lukas-krecan-future-convert__J2kwNiY",
+              "task-bump-kokuwaio-spring-contex__Lv9tdqt",
+              "task-bump-artipie-asto-core__PEXu3cG",
+              "task-feedzai-pdb__CjeKTb2",
+              "task-btrplace-scheduler-javapars__78iuBcr",
+              "task-bump-jadler-mocki-jetty-ser__kyrYxJ3",
+              "task-international-d-ids-messagi__p2gBycu",
+              "task-bump-sabomichal-jooq-meta__gW3T9EA",
+              "task-bump-xdev-softwar-jasperrep__Y6hfg6t",
+              "task-bump-wmaarts-pitest-entry__WJUomiK",
+              "task-alphagov-pay-adminusers-log__Xhb3vXG",
+              "task-kokuwaio-micronaut-opena-sp__zryEh2C",
+              "task-bump-assert-kth-maven-suref__5HUs4a6",
+              "task-bump-hantsy-jakarta-mvc-api__rC5Exwn",
+              "task-artipie-docker-adapter-asto__ARveAYY",
+              "task-bump-artipie-http__zM7pQ6M",
+              "task-bump-assert-kth-plexus-util__pPpCU4K",
+              "task-pkiraly-qa-catalogue-metada__kyn3BAe",
+              "task-assertkth-flacoco__sSELPJU",
+              "task-bump-premium-mind-jakarta-v__4eaxRVQ",
+              "task-mathieucarbou-license-maven__LxhkHp9",
+              "task-artipie-http-asto-core__evmKtJm",
+              "task-international-d-ids-messagi__cTK64ck",
+              "task-jcabi-jcabi-ssh-jcabi-aspec__7eYuMKD"
+            ]
+          }
+        },
+        "exception_stats": {
+          "AgentTimeoutError": [
+            "task-redisgraph-jredisgraph-jedi__eDbdfNi",
+            "task-bump-games647-spongeapi__hpZX8vm",
+            "task-wmaarts-pitest-mutation-pit__fSe3MHB",
+            "task-zold-io-java-api-cactoos__3F97qkT",
+            "task-googleapis-java-pubsub-gro-__aQ7zP5A",
+            "task-jcabi-jcabi-github-jcabi-as__Y32zC4t",
+            "task-bump-redisgraph-jedis__6gTzPdS",
+            "task-bump-googleapis-google-clou__GYmxnch",
+            "task-bump-artipie-asto-core__PEXu3cG",
+            "task-bump-zold-io-cactoos__8w5uCzq",
+            "task-googleapis-google-cloud-ja-__oXvfb3A",
+            "task-bump-wmaarts-pitest-entry__WJUomiK",
+            "task-bump-hantsy-jakarta-mvc-api__rC5Exwn",
+            "task-artipie-docker-adapter-asto__ARveAYY",
+            "task-bump-wireapp-dropwizard-cli__ZxfrQau"
+          ],
+          "CancelledError": [
+            "task-premium-minds-wicket-crudif__3xEz6fd",
+            "task-jcabi-jcabi-http-hamcrest-l__ZjgYaWQ",
+            "task-feedzai-pdb-logback-classic__gA345ck"
+          ],
+          "RuntimeError": [
+            "task-assert-kth-flacoco-maven-su__vfu3LTh"
+          ]
+        }
+      }
+    }
+  }
+}

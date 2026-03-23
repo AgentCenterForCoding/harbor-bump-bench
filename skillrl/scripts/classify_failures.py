@@ -14,7 +14,7 @@ skillrl/scripts/classify_failures.py
 import json
 import os
 import argparse
-from openai import OpenAI
+import requests
 
 
 ANALYSIS_PROMPT = """你是一位 Java 编译错误修复专家。下面是一个 AI Agent 尝试修复 Java 依赖升级编译失败的记录，该 Agent 修复**失败**了。
@@ -58,7 +58,25 @@ ANALYSIS_PROMPT = """你是一位 Java 编译错误修复专家。下面是一�
 ```"""
 
 
-def analyze_single_badcase(client, badcase: dict, model: str = "qwen3.5-plus") -> dict:
+def call_llm(prompt: str, api_base: str, api_key: str, model: str = "qwen3.5-plus") -> str:
+    url = api_base.rstrip("/") + "/v1/messages"
+    headers = {"x-api-key": api_key, "Content-Type": "application/json"}
+    payload = {
+        "model": model,
+        "max_tokens": 800,
+        "thinking": {"type": "disabled"},
+        "messages": [{"role": "user", "content": prompt}],
+    }
+    resp = requests.post(url, json=payload, headers=headers, timeout=180)
+    resp.raise_for_status()
+    data = resp.json()
+    for block in data.get("content", []):
+        if block.get("type") == "text":
+            return block["text"].strip()
+    return ""
+
+
+def analyze_single_badcase(api_base: str, api_key: str, badcase: dict, model: str = "qwen3.5-plus") -> dict:
     meta = badcase.get("metadata", {})
     prompt = ANALYSIS_PROMPT.format(
         project=meta.get("project", "unknown"),
@@ -76,14 +94,7 @@ def analyze_single_badcase(client, badcase: dict, model: str = "qwen3.5-plus") -
     )
 
     try:
-        resp = client.chat.completions.create(
-            model=model,
-            messages=[{"role": "user", "content": prompt}],
-            temperature=0.1,
-            max_tokens=600,
-        )
-        content = resp.choices[0].message.content.strip()
-        # 提取 JSON 块
+        content = call_llm(prompt, api_base, api_key, model)
         if "```json" in content:
             content = content.split("```json")[1].split("```")[0].strip()
         elif "```" in content:
@@ -113,12 +124,10 @@ def main():
     with open(args.badcases, encoding="utf-8") as f:
         data = json.load(f)
 
-    client = OpenAI(base_url=args.api_base, api_key=args.api_key)
-
     results = []
     for i, bc in enumerate(data["badcases"]):
         print(f"[{i+1}/{len(data['badcases'])}] 分析 {bc['task_name']}...")
-        analysis = analyze_single_badcase(client, bc, args.model)
+        analysis = analyze_single_badcase(args.api_base, args.api_key, bc, args.model)
         results.append({
             "task_name": bc["task_name"],
             "rule_pattern": bc["error_pattern"],
