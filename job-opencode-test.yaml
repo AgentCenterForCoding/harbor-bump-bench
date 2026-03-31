@@ -1,0 +1,16 @@
+job_name: opencode-allure-maven-zip4j-eval
+jobs_dir: /root/harbor-bump-eval/jobs
+
+orchestrator:
+  n_concurrent_trials: 1
+
+agents:
+  - name: opencode
+    model_name: anthropic/qwen3.5-plus
+    env:
+      ANTHROPIC_API_KEY: "sk-sp-xxx"
+
+datasets:
+  - path: /root/harbor-bump-eval
+    task_names:
+      - task-opencode-allure-maven-zip4j

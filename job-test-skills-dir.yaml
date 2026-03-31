@@ -9,7 +9,7 @@ agents:
     kwargs:
       skills_dir: ~/.claude/skills
     env:
-      ANTHROPIC_AUTH_TOKEN: "sk-sp-42b25fd4e522463e98fb7469b6cf2ec9"
+      ANTHROPIC_AUTH_TOKEN: "sk-sp-xxx"
       ANTHROPIC_BASE_URL: "https://coding.dashscope.aliyuncs.com/apps/anthropic"
       ANTHROPIC_MODEL: "qwen3.5-plus"
       ANTHROPIC_SMALL_FAST_MODEL: "qwen3.5-plus"

@@ -1,0 +1,24 @@
+{
+    "id": "5e998238-09ee-43c6-9edb-29b53b48f0fd",
+    "started_at": "2026-03-21T22:43:09.597596",
+    "finished_at": null,
+    "n_total_trials": 1,
+    "stats": {
+        "n_trials": 1,
+        "n_errors": 0,
+        "evals": {
+            "claude-code__harbor-bump-eval": {
+                "n_trials": 0,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "mean": 0.0
+                    }
+                ],
+                "reward_stats": {},
+                "exception_stats": {}
+            }
+        }
+    },
+    "trial_results": []
+}

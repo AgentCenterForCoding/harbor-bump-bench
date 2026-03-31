@@ -1,0 +1,267 @@
+=== Running mvn compile to verify fix ===
+[ERROR] COMPILATION ERROR : 
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphTransaction.java:[5,36] cannot find symbol
+  symbol:   class RedisPipeline
+  location: package redis.clients.jedis.commands
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphTransaction.java:[14,48] cannot find symbol
+  symbol: class RedisPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphPipeline.java:[4,36] cannot find symbol
+  symbol:   class RedisPipeline
+  location: package redis.clients.jedis.commands
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphPipeline.java:[13,45] cannot find symbol
+  symbol: class RedisPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphTransaction.java:[20,8] com.redislabs.redisgraph.impl.api.RedisGraphTransaction is not abstract and does not override abstract method execGetResponse() in com.redislabs.redisgraph.RedisGraphTransaction
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphTransaction.java:[41,9] cannot find symbol
+  symbol:   method getConnection()
+  location: class com.redislabs.redisgraph.impl.api.RedisGraphTransaction
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphTransaction.java:[42,16] cannot find symbol
+  symbol:   method getResponse(<anonymous redis.clients.jedis.Builder<com.redislabs.redisgraph.ResultSet>>)
+  location: class com.redislabs.redisgraph.impl.api.RedisGraphTransaction
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphTransaction.java:[59,9] cannot find symbol
+  symbol:   method getConnection()
+  location: class com.redislabs.redisgraph.impl.api.RedisGraphTransaction
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphTransaction.java:[60,16] cannot find symbol
+  symbol:   method getResponse(<anonymous redis.clients.jedis.Builder<com.redislabs.redisgraph.ResultSet>>)
+  location: class com.redislabs.redisgraph.impl.api.RedisGraphTransaction
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphTransaction.java:[80,9] cannot find symbol
+  symbol:   method getConnection()
+  location: class com.redislabs.redisgraph.impl.api.RedisGraphTransaction
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphTransaction.java:[82,16] cannot find symbol
+  symbol:   method getResponse(<anonymous redis.clients.jedis.Builder<com.redislabs.redisgraph.ResultSet>>)
+  location: class com.redislabs.redisgraph.impl.api.RedisGraphTransaction
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphTransaction.java:[102,9] cannot find symbol
+  symbol:   method getConnection()
+  location: class com.redislabs.redisgraph.impl.api.RedisGraphTransaction
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphTransaction.java:[104,16] cannot find symbol
+  symbol:   method getResponse(<anonymous redis.clients.jedis.Builder<com.redislabs.redisgraph.ResultSet>>)
+  location: class com.redislabs.redisgraph.impl.api.RedisGraphTransaction
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphTransaction.java:[126,9] cannot find symbol
+  symbol:   method getConnection()
+  location: class com.redislabs.redisgraph.impl.api.RedisGraphTransaction
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphTransaction.java:[127,16] cannot find symbol
+  symbol:   method getResponse(<anonymous redis.clients.jedis.Builder<com.redislabs.redisgraph.ResultSet>>)
+  location: class com.redislabs.redisgraph.impl.api.RedisGraphTransaction
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphTransaction.java:[146,9] cannot find symbol
+  symbol:   method getConnection()
+  location: class com.redislabs.redisgraph.impl.api.RedisGraphTransaction
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphTransaction.java:[147,16] cannot find symbol
+  symbol:   method getResponse(<anonymous redis.clients.jedis.Builder<com.redislabs.redisgraph.ResultSet>>)
+  location: class com.redislabs.redisgraph.impl.api.RedisGraphTransaction
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphTransaction.java:[166,9] cannot find symbol
+  symbol:   method getConnection()
+  location: class com.redislabs.redisgraph.impl.api.RedisGraphTransaction
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphTransaction.java:[167,16] cannot find symbol
+  symbol:   method getResponse(<anonymous redis.clients.jedis.Builder<com.redislabs.redisgraph.ResultSet>>)
+  location: class com.redislabs.redisgraph.impl.api.RedisGraphTransaction
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphTransaction.java:[189,9] cannot find symbol
+  symbol:   method getConnection()
+  location: class com.redislabs.redisgraph.impl.api.RedisGraphTransaction
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphTransaction.java:[191,16] cannot find symbol
+  symbol:   method getResponse(<anonymous redis.clients.jedis.Builder<com.redislabs.redisgraph.ResultSet>>)
+  location: class com.redislabs.redisgraph.impl.api.RedisGraphTransaction
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphTransaction.java:[213,9] cannot find symbol
+  symbol:   method getConnection()
+  location: class com.redislabs.redisgraph.impl.api.RedisGraphTransaction
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphTransaction.java:[215,16] cannot find symbol
+  symbol:   method getResponse(<anonymous redis.clients.jedis.Builder<com.redislabs.redisgraph.ResultSet>>)
+  location: class com.redislabs.redisgraph.impl.api.RedisGraphTransaction
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphTransaction.java:[265,9] cannot find symbol
+  symbol:   method getConnection()
+  location: class com.redislabs.redisgraph.impl.api.RedisGraphTransaction
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphTransaction.java:[266,37] cannot find symbol
+  symbol:   method getResponse(redis.clients.jedis.Builder<java.lang.String>)
+  location: class com.redislabs.redisgraph.impl.api.RedisGraphTransaction
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphPipeline.java:[39,9] cannot find symbol
+  symbol:   method getConnection()
+  location: class com.redislabs.redisgraph.impl.api.RedisGraphPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphPipeline.java:[40,16] cannot find symbol
+  symbol:   method getResponse(<anonymous redis.clients.jedis.Builder<com.redislabs.redisgraph.ResultSet>>)
+  location: class com.redislabs.redisgraph.impl.api.RedisGraphPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphPipeline.java:[57,9] cannot find symbol
+  symbol:   method getConnection()
+  location: class com.redislabs.redisgraph.impl.api.RedisGraphPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphPipeline.java:[58,16] cannot find symbol
+  symbol:   method getResponse(<anonymous redis.clients.jedis.Builder<com.redislabs.redisgraph.ResultSet>>)
+  location: class com.redislabs.redisgraph.impl.api.RedisGraphPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphPipeline.java:[78,9] cannot find symbol
+  symbol:   method getConnection()
+  location: class com.redislabs.redisgraph.impl.api.RedisGraphPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphPipeline.java:[80,16] cannot find symbol
+  symbol:   method getResponse(<anonymous redis.clients.jedis.Builder<com.redislabs.redisgraph.ResultSet>>)
+  location: class com.redislabs.redisgraph.impl.api.RedisGraphPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphPipeline.java:[100,9] cannot find symbol
+  symbol:   method getConnection()
+  location: class com.redislabs.redisgraph.impl.api.RedisGraphPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphPipeline.java:[102,16] cannot find symbol
+  symbol:   method getResponse(<anonymous redis.clients.jedis.Builder<com.redislabs.redisgraph.ResultSet>>)
+  location: class com.redislabs.redisgraph.impl.api.RedisGraphPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphPipeline.java:[121,9] cannot find symbol
+  symbol:   method getConnection()
+  location: class com.redislabs.redisgraph.impl.api.RedisGraphPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphPipeline.java:[122,16] cannot find symbol
+  symbol:   method getResponse(<anonymous redis.clients.jedis.Builder<com.redislabs.redisgraph.ResultSet>>)
+  location: class com.redislabs.redisgraph.impl.api.RedisGraphPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphPipeline.java:[141,9] cannot find symbol
+  symbol:   method getConnection()
+  location: class com.redislabs.redisgraph.impl.api.RedisGraphPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphPipeline.java:[142,16] cannot find symbol
+  symbol:   method getResponse(<anonymous redis.clients.jedis.Builder<com.redislabs.redisgraph.ResultSet>>)
+  location: class com.redislabs.redisgraph.impl.api.RedisGraphPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphPipeline.java:[164,9] cannot find symbol
+  symbol:   method getConnection()
+  location: class com.redislabs.redisgraph.impl.api.RedisGraphPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphPipeline.java:[166,16] cannot find symbol
+  symbol:   method getResponse(<anonymous redis.clients.jedis.Builder<com.redislabs.redisgraph.ResultSet>>)
+  location: class com.redislabs.redisgraph.impl.api.RedisGraphPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphPipeline.java:[188,9] cannot find symbol
+  symbol:   method getConnection()
+  location: class com.redislabs.redisgraph.impl.api.RedisGraphPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphPipeline.java:[191,16] cannot find symbol
+  symbol:   method getResponse(<anonymous redis.clients.jedis.Builder<com.redislabs.redisgraph.ResultSet>>)
+  location: class com.redislabs.redisgraph.impl.api.RedisGraphPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphPipeline.java:[244,9] cannot find symbol
+  symbol:   method getConnection()
+  location: class com.redislabs.redisgraph.impl.api.RedisGraphPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphPipeline.java:[245,38] cannot find symbol
+  symbol:   method getResponse(redis.clients.jedis.Builder<java.lang.String>)
+  location: class com.redislabs.redisgraph.impl.api.RedisGraphPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/ContextedRedisGraph.java:[143,19] cannot find symbol
+  symbol:   method multi()
+  location: variable connection of type redis.clients.jedis.Connection
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project jredisgraph: Compilation failure: Compilation failure: 
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphTransaction.java:[5,36] cannot find symbol
+[ERROR]   symbol:   class RedisPipeline
+[ERROR]   location: package redis.clients.jedis.commands
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphTransaction.java:[14,48] cannot find symbol
+[ERROR]   symbol: class RedisPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphPipeline.java:[4,36] cannot find symbol
+[ERROR]   symbol:   class RedisPipeline
+[ERROR]   location: package redis.clients.jedis.commands
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphPipeline.java:[13,45] cannot find symbol
+[ERROR]   symbol: class RedisPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphTransaction.java:[20,8] com.redislabs.redisgraph.impl.api.RedisGraphTransaction is not abstract and does not override abstract method execGetResponse() in com.redislabs.redisgraph.RedisGraphTransaction
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphTransaction.java:[41,9] cannot find symbol
+[ERROR]   symbol:   method getConnection()
+[ERROR]   location: class com.redislabs.redisgraph.impl.api.RedisGraphTransaction
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphTransaction.java:[42,16] cannot find symbol
+[ERROR]   symbol:   method getResponse(<anonymous redis.clients.jedis.Builder<com.redislabs.redisgraph.ResultSet>>)
+[ERROR]   location: class com.redislabs.redisgraph.impl.api.RedisGraphTransaction
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphTransaction.java:[59,9] cannot find symbol
+[ERROR]   symbol:   method getConnection()
+[ERROR]   location: class com.redislabs.redisgraph.impl.api.RedisGraphTransaction
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphTransaction.java:[60,16] cannot find symbol
+[ERROR]   symbol:   method getResponse(<anonymous redis.clients.jedis.Builder<com.redislabs.redisgraph.ResultSet>>)
+[ERROR]   location: class com.redislabs.redisgraph.impl.api.RedisGraphTransaction
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphTransaction.java:[80,9] cannot find symbol
+[ERROR]   symbol:   method getConnection()
+[ERROR]   location: class com.redislabs.redisgraph.impl.api.RedisGraphTransaction
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphTransaction.java:[82,16] cannot find symbol
+[ERROR]   symbol:   method getResponse(<anonymous redis.clients.jedis.Builder<com.redislabs.redisgraph.ResultSet>>)
+[ERROR]   location: class com.redislabs.redisgraph.impl.api.RedisGraphTransaction
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphTransaction.java:[102,9] cannot find symbol
+[ERROR]   symbol:   method getConnection()
+[ERROR]   location: class com.redislabs.redisgraph.impl.api.RedisGraphTransaction
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphTransaction.java:[104,16] cannot find symbol
+[ERROR]   symbol:   method getResponse(<anonymous redis.clients.jedis.Builder<com.redislabs.redisgraph.ResultSet>>)
+[ERROR]   location: class com.redislabs.redisgraph.impl.api.RedisGraphTransaction
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphTransaction.java:[126,9] cannot find symbol
+[ERROR]   symbol:   method getConnection()
+[ERROR]   location: class com.redislabs.redisgraph.impl.api.RedisGraphTransaction
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphTransaction.java:[127,16] cannot find symbol
+[ERROR]   symbol:   method getResponse(<anonymous redis.clients.jedis.Builder<com.redislabs.redisgraph.ResultSet>>)
+[ERROR]   location: class com.redislabs.redisgraph.impl.api.RedisGraphTransaction
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphTransaction.java:[146,9] cannot find symbol
+[ERROR]   symbol:   method getConnection()
+[ERROR]   location: class com.redislabs.redisgraph.impl.api.RedisGraphTransaction
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphTransaction.java:[147,16] cannot find symbol
+[ERROR]   symbol:   method getResponse(<anonymous redis.clients.jedis.Builder<com.redislabs.redisgraph.ResultSet>>)
+[ERROR]   location: class com.redislabs.redisgraph.impl.api.RedisGraphTransaction
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphTransaction.java:[166,9] cannot find symbol
+[ERROR]   symbol:   method getConnection()
+[ERROR]   location: class com.redislabs.redisgraph.impl.api.RedisGraphTransaction
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphTransaction.java:[167,16] cannot find symbol
+[ERROR]   symbol:   method getResponse(<anonymous redis.clients.jedis.Builder<com.redislabs.redisgraph.ResultSet>>)
+[ERROR]   location: class com.redislabs.redisgraph.impl.api.RedisGraphTransaction
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphTransaction.java:[189,9] cannot find symbol
+[ERROR]   symbol:   method getConnection()
+[ERROR]   location: class com.redislabs.redisgraph.impl.api.RedisGraphTransaction
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphTransaction.java:[191,16] cannot find symbol
+[ERROR]   symbol:   method getResponse(<anonymous redis.clients.jedis.Builder<com.redislabs.redisgraph.ResultSet>>)
+[ERROR]   location: class com.redislabs.redisgraph.impl.api.RedisGraphTransaction
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphTransaction.java:[213,9] cannot find symbol
+[ERROR]   symbol:   method getConnection()
+[ERROR]   location: class com.redislabs.redisgraph.impl.api.RedisGraphTransaction
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphTransaction.java:[215,16] cannot find symbol
+[ERROR]   symbol:   method getResponse(<anonymous redis.clients.jedis.Builder<com.redislabs.redisgraph.ResultSet>>)
+[ERROR]   location: class com.redislabs.redisgraph.impl.api.RedisGraphTransaction
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphTransaction.java:[265,9] cannot find symbol
+[ERROR]   symbol:   method getConnection()
+[ERROR]   location: class com.redislabs.redisgraph.impl.api.RedisGraphTransaction
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphTransaction.java:[266,37] cannot find symbol
+[ERROR]   symbol:   method getResponse(redis.clients.jedis.Builder<java.lang.String>)
+[ERROR]   location: class com.redislabs.redisgraph.impl.api.RedisGraphTransaction
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphPipeline.java:[39,9] cannot find symbol
+[ERROR]   symbol:   method getConnection()
+[ERROR]   location: class com.redislabs.redisgraph.impl.api.RedisGraphPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphPipeline.java:[40,16] cannot find symbol
+[ERROR]   symbol:   method getResponse(<anonymous redis.clients.jedis.Builder<com.redislabs.redisgraph.ResultSet>>)
+[ERROR]   location: class com.redislabs.redisgraph.impl.api.RedisGraphPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphPipeline.java:[57,9] cannot find symbol
+[ERROR]   symbol:   method getConnection()
+[ERROR]   location: class com.redislabs.redisgraph.impl.api.RedisGraphPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphPipeline.java:[58,16] cannot find symbol
+[ERROR]   symbol:   method getResponse(<anonymous redis.clients.jedis.Builder<com.redislabs.redisgraph.ResultSet>>)
+[ERROR]   location: class com.redislabs.redisgraph.impl.api.RedisGraphPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphPipeline.java:[78,9] cannot find symbol
+[ERROR]   symbol:   method getConnection()
+[ERROR]   location: class com.redislabs.redisgraph.impl.api.RedisGraphPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphPipeline.java:[80,16] cannot find symbol
+[ERROR]   symbol:   method getResponse(<anonymous redis.clients.jedis.Builder<com.redislabs.redisgraph.ResultSet>>)
+[ERROR]   location: class com.redislabs.redisgraph.impl.api.RedisGraphPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphPipeline.java:[100,9] cannot find symbol
+[ERROR]   symbol:   method getConnection()
+[ERROR]   location: class com.redislabs.redisgraph.impl.api.RedisGraphPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphPipeline.java:[102,16] cannot find symbol
+[ERROR]   symbol:   method getResponse(<anonymous redis.clients.jedis.Builder<com.redislabs.redisgraph.ResultSet>>)
+[ERROR]   location: class com.redislabs.redisgraph.impl.api.RedisGraphPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphPipeline.java:[121,9] cannot find symbol
+[ERROR]   symbol:   method getConnection()
+[ERROR]   location: class com.redislabs.redisgraph.impl.api.RedisGraphPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphPipeline.java:[122,16] cannot find symbol
+[ERROR]   symbol:   method getResponse(<anonymous redis.clients.jedis.Builder<com.redislabs.redisgraph.ResultSet>>)
+[ERROR]   location: class com.redislabs.redisgraph.impl.api.RedisGraphPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphPipeline.java:[141,9] cannot find symbol
+[ERROR]   symbol:   method getConnection()
+[ERROR]   location: class com.redislabs.redisgraph.impl.api.RedisGraphPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphPipeline.java:[142,16] cannot find symbol
+[ERROR]   symbol:   method getResponse(<anonymous redis.clients.jedis.Builder<com.redislabs.redisgraph.ResultSet>>)
+[ERROR]   location: class com.redislabs.redisgraph.impl.api.RedisGraphPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphPipeline.java:[164,9] cannot find symbol
+[ERROR]   symbol:   method getConnection()
+[ERROR]   location: class com.redislabs.redisgraph.impl.api.RedisGraphPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphPipeline.java:[166,16] cannot find symbol
+[ERROR]   symbol:   method getResponse(<anonymous redis.clients.jedis.Builder<com.redislabs.redisgraph.ResultSet>>)
+[ERROR]   location: class com.redislabs.redisgraph.impl.api.RedisGraphPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphPipeline.java:[188,9] cannot find symbol
+[ERROR]   symbol:   method getConnection()
+[ERROR]   location: class com.redislabs.redisgraph.impl.api.RedisGraphPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphPipeline.java:[191,16] cannot find symbol
+[ERROR]   symbol:   method getResponse(<anonymous redis.clients.jedis.Builder<com.redislabs.redisgraph.ResultSet>>)
+[ERROR]   location: class com.redislabs.redisgraph.impl.api.RedisGraphPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphPipeline.java:[244,9] cannot find symbol
+[ERROR]   symbol:   method getConnection()
+[ERROR]   location: class com.redislabs.redisgraph.impl.api.RedisGraphPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphPipeline.java:[245,38] cannot find symbol
+[ERROR]   symbol:   method getResponse(redis.clients.jedis.Builder<java.lang.String>)
+[ERROR]   location: class com.redislabs.redisgraph.impl.api.RedisGraphPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/ContextedRedisGraph.java:[143,19] cannot find symbol
+[ERROR]   symbol:   method multi()
+[ERROR]   location: variable connection of type redis.clients.jedis.Connection
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+COMPILATION FAILED

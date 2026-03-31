@@ -1,0 +1,23 @@
+=== Running mvn compile to verify fix ===
+[ERROR] COMPILATION ERROR : 
+[ERROR] /jcabi-http/src/main/java/com/jcabi/http/mock/MkQueryMatchers.java:[34,20] cannot find symbol
+  symbol:   class Matchers
+  location: package org.hamcrest
+[ERROR] /jcabi-http/src/main/java/com/jcabi/http/response/RestResponse.java:[48,20] cannot find symbol
+  symbol:   class Matchers
+  location: package org.hamcrest
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.10.1:compile (default-compile) on project jcabi-http: Compilation failure: Compilation failure: 
+[ERROR] /jcabi-http/src/main/java/com/jcabi/http/mock/MkQueryMatchers.java:[34,20] cannot find symbol
+[ERROR]   symbol:   class Matchers
+[ERROR]   location: package org.hamcrest
+[ERROR] /jcabi-http/src/main/java/com/jcabi/http/response/RestResponse.java:[48,20] cannot find symbol
+[ERROR]   symbol:   class Matchers
+[ERROR]   location: package org.hamcrest
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+COMPILATION FAILED

@@ -1,0 +1,185 @@
+=== Running mvn compile to verify fix ===
+[ERROR] COMPILATION ERROR : 
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphTransaction.java:[4,36] cannot find symbol
+  symbol:   class BasicRedisPipeline
+  location: package redis.clients.jedis.commands
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphTransaction.java:[5,36] cannot find symbol
+  symbol:   class BinaryRedisPipeline
+  location: package redis.clients.jedis.commands
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphTransaction.java:[6,36] cannot find symbol
+  symbol:   class BinaryScriptingCommandsPipeline
+  location: package redis.clients.jedis.commands
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphTransaction.java:[7,36] cannot find symbol
+  symbol:   class ClusterPipeline
+  location: package redis.clients.jedis.commands
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphTransaction.java:[8,36] cannot find symbol
+  symbol:   class MultiKeyBinaryRedisPipeline
+  location: package redis.clients.jedis.commands
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphTransaction.java:[9,36] cannot find symbol
+  symbol:   class MultiKeyCommandsPipeline
+  location: package redis.clients.jedis.commands
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphTransaction.java:[10,36] cannot find symbol
+  symbol:   class RedisPipeline
+  location: package redis.clients.jedis.commands
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphTransaction.java:[11,36] cannot find symbol
+  symbol:   class ScriptingCommandsPipeline
+  location: package redis.clients.jedis.commands
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphTransaction.java:[21,9] cannot find symbol
+  symbol: class MultiKeyBinaryRedisPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphTransaction.java:[22,9] cannot find symbol
+  symbol: class MultiKeyCommandsPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphTransaction.java:[22,35] cannot find symbol
+  symbol: class ClusterPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphTransaction.java:[23,9] cannot find symbol
+  symbol: class BinaryScriptingCommandsPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphTransaction.java:[23,42] cannot find symbol
+  symbol: class ScriptingCommandsPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphTransaction.java:[24,9] cannot find symbol
+  symbol: class BasicRedisPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphTransaction.java:[24,29] cannot find symbol
+  symbol: class BinaryRedisPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphTransaction.java:[24,50] cannot find symbol
+  symbol: class RedisPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphPipeline.java:[4,36] cannot find symbol
+  symbol:   class BasicRedisPipeline
+  location: package redis.clients.jedis.commands
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphPipeline.java:[5,36] cannot find symbol
+  symbol:   class BinaryRedisPipeline
+  location: package redis.clients.jedis.commands
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphPipeline.java:[6,36] cannot find symbol
+  symbol:   class BinaryScriptingCommandsPipeline
+  location: package redis.clients.jedis.commands
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphPipeline.java:[7,36] cannot find symbol
+  symbol:   class ClusterPipeline
+  location: package redis.clients.jedis.commands
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphPipeline.java:[8,36] cannot find symbol
+  symbol:   class MultiKeyBinaryRedisPipeline
+  location: package redis.clients.jedis.commands
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphPipeline.java:[9,36] cannot find symbol
+  symbol:   class MultiKeyCommandsPipeline
+  location: package redis.clients.jedis.commands
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphPipeline.java:[10,36] cannot find symbol
+  symbol:   class RedisPipeline
+  location: package redis.clients.jedis.commands
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphPipeline.java:[11,36] cannot find symbol
+  symbol:   class ScriptingCommandsPipeline
+  location: package redis.clients.jedis.commands
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphPipeline.java:[21,9] cannot find symbol
+  symbol: class MultiKeyBinaryRedisPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphPipeline.java:[22,9] cannot find symbol
+  symbol: class MultiKeyCommandsPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphPipeline.java:[22,35] cannot find symbol
+  symbol: class ClusterPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphPipeline.java:[23,9] cannot find symbol
+  symbol: class BinaryScriptingCommandsPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphPipeline.java:[23,42] cannot find symbol
+  symbol: class ScriptingCommandsPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphPipeline.java:[24,9] cannot find symbol
+  symbol: class BasicRedisPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphPipeline.java:[24,29] cannot find symbol
+  symbol: class BinaryRedisPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphPipeline.java:[24,50] cannot find symbol
+  symbol: class RedisPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphTransaction.java:[20,8] com.redislabs.redisgraph.impl.api.RedisGraphTransaction is not abstract and does not override abstract method execGetResponse() in com.redislabs.redisgraph.RedisGraphTransaction
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphPipeline.java:[247,38] cannot find symbol
+  symbol:   method getResponse(redis.clients.jedis.Builder<java.lang.String>)
+  location: class com.redislabs.redisgraph.impl.api.RedisGraphPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/ContextedRedisGraph.java:[143,19] cannot find symbol
+  symbol:   method multi()
+  location: variable connection of type redis.clients.jedis.Connection
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project jredisgraph: Compilation failure: Compilation failure: 
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphTransaction.java:[4,36] cannot find symbol
+[ERROR]   symbol:   class BasicRedisPipeline
+[ERROR]   location: package redis.clients.jedis.commands
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphTransaction.java:[5,36] cannot find symbol
+[ERROR]   symbol:   class BinaryRedisPipeline
+[ERROR]   location: package redis.clients.jedis.commands
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphTransaction.java:[6,36] cannot find symbol
+[ERROR]   symbol:   class BinaryScriptingCommandsPipeline
+[ERROR]   location: package redis.clients.jedis.commands
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphTransaction.java:[7,36] cannot find symbol
+[ERROR]   symbol:   class ClusterPipeline
+[ERROR]   location: package redis.clients.jedis.commands
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphTransaction.java:[8,36] cannot find symbol
+[ERROR]   symbol:   class MultiKeyBinaryRedisPipeline
+[ERROR]   location: package redis.clients.jedis.commands
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphTransaction.java:[9,36] cannot find symbol
+[ERROR]   symbol:   class MultiKeyCommandsPipeline
+[ERROR]   location: package redis.clients.jedis.commands
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphTransaction.java:[10,36] cannot find symbol
+[ERROR]   symbol:   class RedisPipeline
+[ERROR]   location: package redis.clients.jedis.commands
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphTransaction.java:[11,36] cannot find symbol
+[ERROR]   symbol:   class ScriptingCommandsPipeline
+[ERROR]   location: package redis.clients.jedis.commands
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphTransaction.java:[21,9] cannot find symbol
+[ERROR]   symbol: class MultiKeyBinaryRedisPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphTransaction.java:[22,9] cannot find symbol
+[ERROR]   symbol: class MultiKeyCommandsPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphTransaction.java:[22,35] cannot find symbol
+[ERROR]   symbol: class ClusterPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphTransaction.java:[23,9] cannot find symbol
+[ERROR]   symbol: class BinaryScriptingCommandsPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphTransaction.java:[23,42] cannot find symbol
+[ERROR]   symbol: class ScriptingCommandsPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphTransaction.java:[24,9] cannot find symbol
+[ERROR]   symbol: class BasicRedisPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphTransaction.java:[24,29] cannot find symbol
+[ERROR]   symbol: class BinaryRedisPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphTransaction.java:[24,50] cannot find symbol
+[ERROR]   symbol: class RedisPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphPipeline.java:[4,36] cannot find symbol
+[ERROR]   symbol:   class BasicRedisPipeline
+[ERROR]   location: package redis.clients.jedis.commands
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphPipeline.java:[5,36] cannot find symbol
+[ERROR]   symbol:   class BinaryRedisPipeline
+[ERROR]   location: package redis.clients.jedis.commands
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphPipeline.java:[6,36] cannot find symbol
+[ERROR]   symbol:   class BinaryScriptingCommandsPipeline
+[ERROR]   location: package redis.clients.jedis.commands
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphPipeline.java:[7,36] cannot find symbol
+[ERROR]   symbol:   class ClusterPipeline
+[ERROR]   location: package redis.clients.jedis.commands
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphPipeline.java:[8,36] cannot find symbol
+[ERROR]   symbol:   class MultiKeyBinaryRedisPipeline
+[ERROR]   location: package redis.clients.jedis.commands
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphPipeline.java:[9,36] cannot find symbol
+[ERROR]   symbol:   class MultiKeyCommandsPipeline
+[ERROR]   location: package redis.clients.jedis.commands
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphPipeline.java:[10,36] cannot find symbol
+[ERROR]   symbol:   class RedisPipeline
+[ERROR]   location: package redis.clients.jedis.commands
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphPipeline.java:[11,36] cannot find symbol
+[ERROR]   symbol:   class ScriptingCommandsPipeline
+[ERROR]   location: package redis.clients.jedis.commands
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphPipeline.java:[21,9] cannot find symbol
+[ERROR]   symbol: class MultiKeyBinaryRedisPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphPipeline.java:[22,9] cannot find symbol
+[ERROR]   symbol: class MultiKeyCommandsPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphPipeline.java:[22,35] cannot find symbol
+[ERROR]   symbol: class ClusterPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphPipeline.java:[23,9] cannot find symbol
+[ERROR]   symbol: class BinaryScriptingCommandsPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphPipeline.java:[23,42] cannot find symbol
+[ERROR]   symbol: class ScriptingCommandsPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphPipeline.java:[24,9] cannot find symbol
+[ERROR]   symbol: class BasicRedisPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphPipeline.java:[24,29] cannot find symbol
+[ERROR]   symbol: class BinaryRedisPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/RedisGraphPipeline.java:[24,50] cannot find symbol
+[ERROR]   symbol: class RedisPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphTransaction.java:[20,8] com.redislabs.redisgraph.impl.api.RedisGraphTransaction is not abstract and does not override abstract method execGetResponse() in com.redislabs.redisgraph.RedisGraphTransaction
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphPipeline.java:[247,38] cannot find symbol
+[ERROR]   symbol:   method getResponse(redis.clients.jedis.Builder<java.lang.String>)
+[ERROR]   location: class com.redislabs.redisgraph.impl.api.RedisGraphPipeline
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/ContextedRedisGraph.java:[143,19] cannot find symbol
+[ERROR]   symbol:   method multi()
+[ERROR]   location: variable connection of type redis.clients.jedis.Connection
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+COMPILATION FAILED

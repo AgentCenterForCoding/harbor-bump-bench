@@ -1,0 +1,300 @@
+[[1;34mINFO[m] Google Service Usage Parent 2.3.3 .................. [1;32mSUCCESS[m [  0.011 s]
+[[1;34mINFO[m] proto-google-cloud-service-usage-v1 2.3.3 .......... [1;32mSUCCESS[m [  0.028 s]
+[[1;34mINFO[m] proto-google-cloud-service-usage-v1beta1 0.7.3 ..... [1;32mSUCCESS[m [  0.032 s]
+[[1;34mINFO[m] grpc-google-cloud-service-usage-v1beta1 0.7.3 ...... [1;32mSUCCESS[m [  0.040 s]
+[[1;34mINFO[m] grpc-google-cloud-service-usage-v1 2.3.3 ........... [1;32mSUCCESS[m [  0.038 s]
+[[1;34mINFO[m] Google Service Usage 2.3.3 ......................... [1;32mSUCCESS[m [  0.077 s]
+[[1;34mINFO[m] Google Service Usage BOM 2.3.3 ..................... [1;32mSUCCESS[m [  0.005 s]
+[[1;34mINFO[m] Google Cloud Service Directory Parent 2.4.2 ........ [1;32mSUCCESS[m [  0.012 s]
+[[1;34mINFO[m] proto-google-cloud-servicedirectory-v1beta1 0.12.2 . [1;32mSUCCESS[m [  0.037 s]
+[[1;34mINFO[m] proto-google-cloud-servicedirectory-v1 2.4.2 ....... [1;32mSUCCESS[m [  0.037 s]
+[[1;34mINFO[m] grpc-google-cloud-servicedirectory-v1beta1 0.12.2 .. [1;32mSUCCESS[m [  0.039 s]
+[[1;34mINFO[m] grpc-google-cloud-servicedirectory-v1 2.4.2 ........ [1;32mSUCCESS[m [  0.044 s]
+[[1;34mINFO[m] Google Cloud Service Directory 2.4.2 ............... [1;32mSUCCESS[m [  0.077 s]
+[[1;34mINFO[m] Google Cloud Service Directory BOM 2.4.2 ........... [1;32mSUCCESS[m [  0.005 s]
+[[1;34mINFO[m] Google Cloud Shell Parent 2.2.5 .................... [1;32mSUCCESS[m [  0.010 s]
+[[1;34mINFO[m] proto-google-cloud-shell-v1 2.2.5 .................. [1;32mSUCCESS[m [  0.034 s]
+[[1;34mINFO[m] grpc-google-cloud-shell-v1 2.2.5 ................... [1;32mSUCCESS[m [  0.074 s]
+[[1;34mINFO[m] Google Cloud Shell 2.2.5 ........................... [1;32mSUCCESS[m [  0.073 s]
+[[1;34mINFO[m] Google Cloud Shell BOM 2.2.5 ....................... [1;32mSUCCESS[m [  0.005 s]
+[[1;34mINFO[m] Google Cloud speech Parent 2.5.5 ................... [1;32mSUCCESS[m [  0.010 s]
+[[1;34mINFO[m] proto-google-cloud-speech-v1p1beta1 0.89.5 ......... [1;32mSUCCESS[m [  0.048 s]
+[[1;34mINFO[m] proto-google-cloud-speech-v1beta1 0.89.5 ........... [1;32mSUCCESS[m [  0.028 s]
+[[1;34mINFO[m] proto-google-cloud-speech-v1 2.5.5 ................. [1;32mSUCCESS[m [  0.039 s]
+[[1;34mINFO[m] grpc-google-cloud-speech-v1p1beta1 0.89.5 .......... [1;32mSUCCESS[m [  0.042 s]
+[[1;34mINFO[m] grpc-google-cloud-speech-v1beta1 0.89.5 ............ [1;32mSUCCESS[m [  0.038 s]
+[[1;34mINFO[m] grpc-google-cloud-speech-v1 2.5.5 .................. [1;32mSUCCESS[m [  0.044 s]
+[[1;34mINFO[m] Google Cloud Speech 2.5.5 .......................... [1;32mSUCCESS[m [  0.124 s]
+[[1;34mINFO[m] Google Cloud Speech BOM 2.5.5 ...................... [1;32mSUCCESS[m [  0.005 s]
+[[1;34mINFO[m] Google Storage Transfer Service Parent 1.2.2 ....... [1;32mSUCCESS[m [  0.011 s]
+[[1;34mINFO[m] proto-google-cloud-storage-transfer-v1 1.2.2 ....... [1;32mSUCCESS[m [  0.027 s]
+[[1;34mINFO[m] grpc-google-cloud-storage-transfer-v1 1.2.2 ........ [1;32mSUCCESS[m [  0.044 s]
+[[1;34mINFO[m] Google Storage Transfer Service 1.2.2 .............. [1;32mSUCCESS[m [  0.092 s]
+[[1;34mINFO[m] Google Storage Transfer Service BOM 1.2.2 .......... [1;32mSUCCESS[m [  0.005 s]
+[[1;34mINFO[m] Google Cloud Talent Solution Parent 2.4.3 .......... [1;32mSUCCESS[m [  0.011 s]
+[[1;34mINFO[m] proto-google-cloud-talent-v4 2.4.3 ................. [1;32mSUCCESS[m [  0.044 s]
+[[1;34mINFO[m] proto-google-cloud-talent-v4beta1 0.47.3 ........... [1;32mSUCCESS[m [  0.045 s]
+[[1;34mINFO[m] grpc-google-cloud-talent-v4 2.4.3 .................. [1;32mSUCCESS[m [  0.044 s]
+[[1;34mINFO[m] grpc-google-cloud-talent-v4beta1 0.47.3 ............ [1;32mSUCCESS[m [  0.050 s]
+[[1;34mINFO[m] Google Cloud Talent Solution 2.4.3 ................. [1;32mSUCCESS[m [  0.134 s]
+[[1;34mINFO[m] Google Cloud Talent BOM 2.4.3 ...................... [1;32mSUCCESS[m [  0.005 s]
+[[1;34mINFO[m] Google Cloud Tasks Parent 2.3.7 .................... [1;32mSUCCESS[m [  0.011 s]
+[[1;34mINFO[m] proto-google-cloud-tasks-v2beta3 0.93.7 ............ [1;32mSUCCESS[m [  0.047 s]
+[[1;34mINFO[m] proto-google-cloud-tasks-v2beta2 0.93.7 ............ [1;32mSUCCESS[m [  0.039 s]
+[[1;34mINFO[m] proto-google-cloud-tasks-v2 2.3.7 .................. [1;32mSUCCESS[m [  0.037 s]
+[[1;34mINFO[m] grpc-google-cloud-tasks-v2beta3 0.93.7 ............. [1;32mSUCCESS[m [  0.043 s]
+[[1;34mINFO[m] grpc-google-cloud-tasks-v2beta2 0.93.7 ............. [1;32mSUCCESS[m [  0.044 s]
+[[1;34mINFO[m] grpc-google-cloud-tasks-v2 2.3.7 ................... [1;32mSUCCESS[m [  0.043 s]
+[[1;34mINFO[m] Google Cloud Tasks 2.3.7 ........................... [1;32mSUCCESS[m [  0.090 s]
+[[1;34mINFO[m] Google Cloud tasks BOM 2.3.7 ....................... [1;32mSUCCESS[m [  0.006 s]
+[[1;34mINFO[m] Google Cloud Text-to-Speech Parent 2.4.3 ........... [1;32mSUCCESS[m [  0.010 s]
+[[1;34mINFO[m] proto-google-cloud-texttospeech-v1 2.4.3 ........... [1;32mSUCCESS[m [  0.053 s]
+[[1;34mINFO[m] proto-google-cloud-texttospeech-v1beta1 0.93.3 ..... [1;32mSUCCESS[m [  0.028 s]
+[[1;34mINFO[m] grpc-google-cloud-texttospeech-v1beta1 0.93.3 ...... [1;32mSUCCESS[m [  0.038 s]
+[[1;34mINFO[m] grpc-google-cloud-texttospeech-v1 2.4.3 ............ [1;32mSUCCESS[m [  0.037 s]
+[[1;34mINFO[m] Google Cloud Text-to-Speech 2.4.3 .................. [1;32mSUCCESS[m [  0.084 s]
+[[1;34mINFO[m] Google Cloud texttospeech BOM 2.4.3 ................ [1;32mSUCCESS[m [  0.005 s]
+[[1;34mINFO[m] Google Cloud TPU Parent 2.3.4 ...................... [1;32mSUCCESS[m [  0.010 s]
+[[1;34mINFO[m] proto-google-cloud-tpu-v2alpha1 2.3.4 .............. [1;32mSUCCESS[m [  0.047 s]
+[[1;34mINFO[m] proto-google-cloud-tpu-v1 2.3.4 .................... [1;32mSUCCESS[m [  0.036 s]
+[[1;34mINFO[m] grpc-google-cloud-tpu-v1 2.3.4 ..................... [1;32mSUCCESS[m [  0.043 s]
+[[1;34mINFO[m] grpc-google-cloud-tpu-v2alpha1 2.3.4 ............... [1;32mSUCCESS[m [  0.040 s]
+[[1;34mINFO[m] Google Cloud TPU 2.3.4 ............................. [1;32mSUCCESS[m [  0.078 s]
+[[1;34mINFO[m] Google Cloud TPU BOM 2.3.4 ......................... [1;32mSUCCESS[m [  0.005 s]
+[[1;34mINFO[m] Google Cloud Trace Parent 2.3.2 .................... [1;32mSUCCESS[m [  0.010 s]
+[[1;34mINFO[m] proto-google-cloud-trace-v1 2.3.2 .................. [1;32mSUCCESS[m [  0.061 s]
+[[1;34mINFO[m] proto-google-cloud-trace-v2 2.3.2 .................. [1;32mSUCCESS[m [  0.035 s]
+[[1;34mINFO[m] grpc-google-cloud-trace-v1 2.3.2 ................... [1;32mSUCCESS[m [  0.037 s]
+[[1;34mINFO[m] grpc-google-cloud-trace-v2 2.3.2 ................... [1;32mSUCCESS[m [  0.039 s]
+[[1;34mINFO[m] Google Cloud Trace 2.3.2 ........................... [1;32mSUCCESS[m [  0.077 s]
+[[1;34mINFO[m] Google Cloud Trace BOM 2.3.2 ....................... [1;32mSUCCESS[m [  0.005 s]
+[[1;34mINFO[m] Google Cloud Translate Parent 2.3.4 ................ [1;32mSUCCESS[m [  0.010 s]
+[[1;34mINFO[m] proto-google-cloud-translate-v3beta1 0.85.4 ........ [1;32mSUCCESS[m [  0.037 s]
+[[1;34mINFO[m] proto-google-cloud-translate-v3 2.3.4 .............. [1;32mSUCCESS[m [  0.040 s]
+[[1;34mINFO[m] grpc-google-cloud-translate-v3beta1 0.85.4 ......... [1;32mSUCCESS[m [  0.052 s]
+[[1;34mINFO[m] grpc-google-cloud-translate-v3 2.3.4 ............... [1;32mSUCCESS[m [  0.043 s]
+[[1;34mINFO[m] Google Cloud Translate 2.3.4 ....................... [1;31mFAILURE[m [  0.749 s]
+[[1;34mINFO[m] Google Cloud Translate BOM 2.3.4 ................... [1;33mSKIPPED[m
+[[1;34mINFO[m] Google Cloud Video Intelligence Parent 2.2.4 ....... [1;33mSKIPPED[m
+[[1;34mINFO[m] proto-google-cloud-video-intelligence-v1p3beta1 0.92.4 [1;33mSKIPPED[m
+[[1;34mINFO[m] proto-google-cloud-video-intelligence-v1beta2 0.92.4 [1;33mSKIPPED[m
+[[1;34mINFO[m] proto-google-cloud-video-intelligence-v1p1beta1 0.92.4 [1;33mSKIPPED[m
+[[1;34mINFO[m] proto-google-cloud-video-intelligence-v1 2.2.4 ..... [1;33mSKIPPED[m
+[[1;34mINFO[m] proto-google-cloud-video-intelligence-v1p2beta1 0.92.4 [1;33mSKIPPED[m
+[[1;34mINFO[m] grpc-google-cloud-video-intelligence-v1p1beta1 0.92.4 [1;33mSKIPPED[m
+[[1;34mINFO[m] grpc-google-cloud-video-intelligence-v1beta2 0.92.4  [1;33mSKIPPED[m
+[[1;34mINFO[m] grpc-google-cloud-video-intelligence-v1 2.2.4 ...... [1;33mSKIPPED[m
+[[1;34mINFO[m] grpc-google-cloud-video-intelligence-v1p2beta1 0.92.4 [1;33mSKIPPED[m
+[[1;34mINFO[m] grpc-google-cloud-video-intelligence-v1p3beta1 0.92.4 [1;33mSKIPPED[m
+[[1;34mINFO[m] Google Cloud Video Intelligence 2.2.4 .............. [1;33mSKIPPED[m
+[[1;34mINFO[m] Google Cloud video-intelligence BOM 2.2.4 .......... [1;33mSKIPPED[m
+[[1;34mINFO[m] Google Cloud Live Stream Parent 0.5.3 .............. [1;33mSKIPPED[m
+[[1;34mINFO[m] proto-google-cloud-live-stream-v1 0.5.3 ............ [1;33mSKIPPED[m
+[[1;34mINFO[m] grpc-google-cloud-live-stream-v1 0.5.3 ............. [1;33mSKIPPED[m
+[[1;34mINFO[m] Google Cloud Live Stream 0.5.3 ..................... [1;33mSKIPPED[m
+[[1;34mINFO[m] Google Cloud Live Stream BOM 0.5.3 ................. [1;33mSKIPPED[m
+[[1;34mINFO[m] Google Video Stitcher API Parent 0.3.3 ............. [1;33mSKIPPED[m
+[[1;34mINFO[m] proto-google-cloud-video-stitcher-v1 0.3.3 ......... [1;33mSKIPPED[m
+[[1;34mINFO[m] grpc-google-cloud-video-stitcher-v1 0.3.3 .......... [1;33mSKIPPED[m
+[[1;34mINFO[m] Google Video Stitcher API 0.3.3 .................... [1;33mSKIPPED[m
+[[1;34mINFO[m] Google Video Stitcher API BOM 0.3.3 ................ [1;33mSKIPPED[m
+[[1;34mINFO[m] Google Video Transcoder Parent 1.2.2 ............... [1;33mSKIPPED[m
+[[1;34mINFO[m] proto-google-cloud-video-transcoder-v1 1.2.2 ....... [1;33mSKIPPED[m
+[[1;34mINFO[m] grpc-google-cloud-video-transcoder-v1 1.2.2 ........ [1;33mSKIPPED[m
+[[1;34mINFO[m] Google Video Transcoder 1.2.2 ...................... [1;33mSKIPPED[m
+[[1;34mINFO[m] Google Video Transcoder BOM 1.2.2 .................. [1;33mSKIPPED[m
+[[1;34mINFO[m] Google Cloud Vision Parent 3.1.1 ................... [1;33mSKIPPED[m
+[[1;34mINFO[m] proto-google-cloud-vision-v1p4beta1 0.90.1 ......... [1;33mSKIPPED[m
+[[1;34mINFO[m] proto-google-cloud-vision-v1 3.1.1 ................. [1;33mSKIPPED[m
+[[1;34mINFO[m] proto-google-cloud-vision-v1p1beta1 0.90.1 ......... [1;33mSKIPPED[m
+[[1;34mINFO[m] proto-google-cloud-vision-v1p3beta1 0.90.1 ......... [1;33mSKIPPED[m
+[[1;34mINFO[m] proto-google-cloud-vision-v1p2beta1 3.1.1 .......... [1;33mSKIPPED[m
+[[1;34mINFO[m] grpc-google-cloud-vision-v1p3beta1 0.90.1 .......... [1;33mSKIPPED[m
+[[1;34mINFO[m] grpc-google-cloud-vision-v1p1beta1 0.90.1 .......... [1;33mSKIPPED[m
+[[1;34mINFO[m] grpc-google-cloud-vision-v1p4beta1 0.90.1 .......... [1;33mSKIPPED[m
+[[1;34mINFO[m] grpc-google-cloud-vision-v1p2beta1 3.1.1 ........... [1;33mSKIPPED[m
+[[1;34mINFO[m] grpc-google-cloud-vision-v1 3.1.1 .................. [1;33mSKIPPED[m
+[[1;34mINFO[m] Google Cloud Vision 3.1.1 .......................... [1;33mSKIPPED[m
+[[1;34mINFO[m] Google Cloud Vision BOM 3.1.1 ...................... [1;33mSKIPPED[m
+[[1;34mINFO[m] Google VM Migration Parent 1.3.1 ................... [1;33mSKIPPED[m
+[[1;34mINFO[m] proto-google-cloud-vmmigration-v1 1.3.1 ............ [1;33mSKIPPED[m
+[[1;34mINFO[m] grpc-google-cloud-vmmigration-v1 1.3.1 ............. [1;33mSKIPPED[m
+[[1;34mINFO[m] Google VM Migration 1.3.1 .......................... [1;33mSKIPPED[m
+[[1;34mINFO[m] Google VM Migration BOM 1.3.1 ...................... [1;33mSKIPPED[m
+[[1;34mINFO[m] Google Serverless VPC Access Parent 2.3.3 .......... [1;33mSKIPPED[m
+[[1;34mINFO[m] proto-google-cloud-vpcaccess-v1 2.3.3 .............. [1;33mSKIPPED[m
+[[1;34mINFO[m] grpc-google-cloud-vpcaccess-v1 2.3.3 ............... [1;33mSKIPPED[m
+[[1;34mINFO[m] Google Serverless VPC Access 2.3.3 ................. [1;33mSKIPPED[m
+[[1;34mINFO[m] Google Serverless VPC Access BOM 2.3.3 ............. [1;33mSKIPPED[m
+[[1;34mINFO[m] Google Cloud Web Risk Parent 2.2.3 ................. [1;33mSKIPPED[m
+[[1;34mINFO[m] proto-google-cloud-webrisk-v1 2.2.3 ................ [1;33mSKIPPED[m
+[[1;34mINFO[m] proto-google-cloud-webrisk-v1beta1 0.39.3 .......... [1;33mSKIPPED[m
+[[1;34mINFO[m] grpc-google-cloud-webrisk-v1 2.2.3 ................. [1;33mSKIPPED[m
+[[1;34mINFO[m] grpc-google-cloud-webrisk-v1beta1 0.39.3 ........... [1;33mSKIPPED[m
+[[1;34mINFO[m] Google Cloud Web Risk 2.2.3 ........................ [1;33mSKIPPED[m
+[[1;34mINFO[m] Google Cloud webrisk BOM 2.2.3 ..................... [1;33mSKIPPED[m
+[[1;34mINFO[m] Google Cloud Web Security Scanner Parent 2.2.4 ..... [1;33mSKIPPED[m
+[[1;34mINFO[m] proto-google-cloud-websecurityscanner-v1alpha 0.89.4 [1;33mSKIPPED[m
+[[1;34mINFO[m] proto-google-cloud-websecurityscanner-v1beta 0.89.4  [1;33mSKIPPED[m
+[[1;34mINFO[m] proto-google-cloud-websecurityscanner-v1 2.2.4 ..... [1;33mSKIPPED[m
+[[1;34mINFO[m] grpc-google-cloud-websecurityscanner-v1alpha 0.89.4  [1;33mSKIPPED[m
+[[1;34mINFO[m] grpc-google-cloud-websecurityscanner-v1beta 0.89.4 . [1;33mSKIPPED[m
+[[1;34mINFO[m] grpc-google-cloud-websecurityscanner-v1 2.2.4 ...... [1;33mSKIPPED[m
+[[1;34mINFO[m] Google Cloud Web Security Scanner 2.2.4 ............ [1;33mSKIPPED[m
+[[1;34mINFO[m] Google Cloud websecurityscanner BOM 2.2.4 .......... [1;33mSKIPPED[m
+[[1;34mINFO[m] Google Cloud Workflow Executions Parent 2.3.3 ...... [1;33mSKIPPED[m
+[[1;34mINFO[m] proto-google-cloud-workflow-executions-v1 2.3.3 .... [1;33mSKIPPED[m
+[[1;34mINFO[m] proto-google-cloud-workflow-executions-v1beta 0.7.3  [1;33mSKIPPED[m
+[[1;34mINFO[m] grpc-google-cloud-workflow-executions-v1beta 0.7.3 . [1;33mSKIPPED[m
+[[1;34mINFO[m] grpc-google-cloud-workflow-executions-v1 2.3.3 ..... [1;33mSKIPPED[m
+[[1;34mINFO[m] Google Cloud Workflow Executions 2.3.3 ............. [1;33mSKIPPED[m
+[[1;34mINFO[m] Google Cloud Workflow Executions BOM 2.3.3 ......... [1;33mSKIPPED[m
+[[1;34mINFO[m] Google Cloud Workflows Parent 2.3.3 ................ [1;33mSKIPPED[m
+[[1;34mINFO[m] proto-google-cloud-workflows-v1 2.3.3 .............. [1;33mSKIPPED[m
+[[1;34mINFO[m] proto-google-cloud-workflows-v1beta 0.9.3 .......... [1;33mSKIPPED[m
+[[1;34mINFO[m] grpc-google-cloud-workflows-v1beta 0.9.3 ........... [1;33mSKIPPED[m
+[[1;34mINFO[m] grpc-google-cloud-workflows-v1 2.3.3 ............... [1;33mSKIPPED[m
+[[1;34mINFO[m] Google Cloud Workflows 2.3.3 ....................... [1;33mSKIPPED[m
+[[1;34mINFO[m] Google Cloud Workflows BOM 2.3.3 ................... [1;33mSKIPPED[m
+[[1;34mINFO[m] Google Cloud Java BOM 0.0.1 ........................ [1;33mSKIPPED[m
+[[1;34mINFO[m] CoverageAggregator 0.0.1-SNAPSHOT .................. [1;33mSKIPPED[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  44.439 s
+[[1;34mINFO[m] Finished at: 2026-03-21T23:47:14Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-compiler-plugin:3.10.1:compile[m [1m(default-compile)[m on project [36mgoogle-cloud-translate[m: [1;31mCompilation failure[m: Compilation failure: 
+[[1;31mERROR[m] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/Language.java:[19,47] package com.google.api.services.translate.model does not exist
+[[1;31mERROR[m] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/Detection.java:[19,47] package com.google.api.services.translate.model does not exist
+[[1;31mERROR[m] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/Translation.java:[19,47] package com.google.api.services.translate.model does not exist
+[[1;31mERROR[m] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/Translation.java:[37,25] cannot find symbol
+[[1;31mERROR[m]   symbol:   class TranslationsResource
+[[1;31mERROR[m]   location: class com.google.cloud.translate.Translation
+[[1;31mERROR[m] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/Translation.java:[106,29] cannot find symbol
+[[1;31mERROR[m]   symbol:   class TranslationsResource
+[[1;31mERROR[m]   location: class com.google.cloud.translate.Translation
+[[1;31mERROR[m] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/spi/v2/TranslateRpc.java:[19,47] package com.google.api.services.translate.model does not exist
+[[1;31mERROR[m] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/spi/v2/TranslateRpc.java:[20,47] package com.google.api.services.translate.model does not exist
+[[1;31mERROR[m] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/spi/v2/TranslateRpc.java:[21,47] package com.google.api.services.translate.model does not exist
+[[1;31mERROR[m] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/spi/v2/TranslateRpc.java:[59,8] cannot find symbol
+[[1;31mERROR[m]   symbol:   class LanguagesResource
+[[1;31mERROR[m]   location: interface com.google.cloud.translate.spi.v2.TranslateRpc
+[[1;31mERROR[m] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/spi/v2/TranslateRpc.java:[67,13] cannot find symbol
+[[1;31mERROR[m]   symbol:   class DetectionsResourceItems
+[[1;31mERROR[m]   location: interface com.google.cloud.translate.spi.v2.TranslateRpc
+[[1;31mERROR[m] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/spi/v2/TranslateRpc.java:[77,8] cannot find symbol
+[[1;31mERROR[m]   symbol:   class TranslationsResource
+[[1;31mERROR[m]   location: interface com.google.cloud.translate.spi.v2.TranslateRpc
+[[1;31mERROR[m] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/Detection.java:[87,27] cannot find symbol
+[[1;31mERROR[m]   symbol:   class DetectionsResourceItems
+[[1;31mERROR[m]   location: class com.google.cloud.translate.Detection
+[[1;31mERROR[m] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/Language.java:[36,25] cannot find symbol
+[[1;31mERROR[m]   symbol:   class LanguagesResource
+[[1;31mERROR[m]   location: class com.google.cloud.translate.Language
+[[1;31mERROR[m] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/Language.java:[84,26] cannot find symbol
+[[1;31mERROR[m]   symbol:   class LanguagesResource
+[[1;31mERROR[m]   location: class com.google.cloud.translate.Language
+[[1;31mERROR[m] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/spi/v2/HttpTranslateRpc.java:[25,41] package com.google.api.services.translate does not exist
+[[1;31mERROR[m] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/spi/v2/HttpTranslateRpc.java:[26,47] package com.google.api.services.translate.model does not exist
+[[1;31mERROR[m] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/spi/v2/HttpTranslateRpc.java:[27,47] package com.google.api.services.translate.model does not exist
+[[1;31mERROR[m] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/spi/v2/HttpTranslateRpc.java:[28,47] package com.google.api.services.translate.model does not exist
+[[1;31mERROR[m] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/spi/v2/HttpTranslateRpc.java:[42,17] cannot find symbol
+[[1;31mERROR[m]   symbol:   class Translate
+[[1;31mERROR[m]   location: class com.google.cloud.translate.spi.v2.HttpTranslateRpc
+[[1;31mERROR[m] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/spi/v2/HttpTranslateRpc.java:[69,20] cannot find symbol
+[[1;31mERROR[m]   symbol:   class DetectionsResourceItems
+[[1;31mERROR[m]   location: class com.google.cloud.translate.spi.v2.HttpTranslateRpc
+[[1;31mERROR[m] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/spi/v2/HttpTranslateRpc.java:[80,15] cannot find symbol
+[[1;31mERROR[m]   symbol:   class LanguagesResource
+[[1;31mERROR[m]   location: class com.google.cloud.translate.spi.v2.HttpTranslateRpc
+[[1;31mERROR[m] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/spi/v2/HttpTranslateRpc.java:[99,15] cannot find symbol
+[[1;31mERROR[m]   symbol:   class TranslationsResource
+[[1;31mERROR[m]   location: class com.google.cloud.translate.spi.v2.HttpTranslateRpc
+[[1;31mERROR[m] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/TranslateImpl.java:[23,47] package com.google.api.services.translate.model does not exist
+[[1;31mERROR[m] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/TranslateImpl.java:[24,47] package com.google.api.services.translate.model does not exist
+[[1;31mERROR[m] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/TranslateImpl.java:[25,47] package com.google.api.services.translate.model does not exist
+[[1;31mERROR[m] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/TranslateImpl.java:[43,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   class DetectionsResourceItems
+[[1;31mERROR[m]   location: class com.google.cloud.translate.TranslateImpl
+[[1;31mERROR[m] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/Language.java:[37,20] cannot find symbol
+[[1;31mERROR[m]   symbol:   class LanguagesResource
+[[1;31mERROR[m]   location: class com.google.cloud.translate.Language
+[[1;31mERROR[m] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/Language.java:[39,31] cannot find symbol
+[[1;31mERROR[m]   symbol: class LanguagesResource
+[[1;31mERROR[m] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/Translation.java:[38,20] cannot find symbol
+[[1;31mERROR[m]   symbol:   class TranslationsResource
+[[1;31mERROR[m]   location: class com.google.cloud.translate.Translation
+[[1;31mERROR[m] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/Translation.java:[40,34] cannot find symbol
+[[1;31mERROR[m]   symbol: class TranslationsResource
+[[1;31mERROR[m] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/spi/v2/HttpTranslateRpc.java:[50,22] package Translate does not exist
+[[1;31mERROR[m] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/spi/v2/HttpTranslateRpc.java:[71,17] cannot find symbol
+[[1;31mERROR[m]   symbol:   class DetectionsResourceItems
+[[1;31mERROR[m]   location: class com.google.cloud.translate.spi.v2.HttpTranslateRpc
+[[1;31mERROR[m] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/spi/v2/HttpTranslateRpc.java:[73,68] cannot find symbol
+[[1;31mERROR[m]   symbol:   class DetectionsResourceItems
+[[1;31mERROR[m]   location: class com.google.cloud.translate.spi.v2.HttpTranslateRpc
+[[1;31mERROR[m] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/spi/v2/HttpTranslateRpc.java:[82,12] cannot find symbol
+[[1;31mERROR[m]   symbol:   class LanguagesResource
+[[1;31mERROR[m]   location: class com.google.cloud.translate.spi.v2.HttpTranslateRpc
+[[1;31mERROR[m] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/spi/v2/HttpTranslateRpc.java:[92,61] cannot find symbol
+[[1;31mERROR[m]   symbol:   class LanguagesResource
+[[1;31mERROR[m]   location: class com.google.cloud.translate.spi.v2.HttpTranslateRpc
+[[1;31mERROR[m] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/spi/v2/HttpTranslateRpc.java:[104,12] cannot find symbol
+[[1;31mERROR[m]   symbol:   class TranslationsResource
+[[1;31mERROR[m]   location: class com.google.cloud.translate.spi.v2.HttpTranslateRpc
+[[1;31mERROR[m] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/spi/v2/HttpTranslateRpc.java:[116,24] cannot find symbol
+[[1;31mERROR[m]   symbol:   class TranslationsResource
+[[1;31mERROR[m]   location: class com.google.cloud.translate.spi.v2.HttpTranslateRpc
+[[1;31mERROR[m] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/spi/v2/HttpTranslateRpc.java:[116,46] cannot find symbol
+[[1;31mERROR[m]   symbol:   class TranslationsResource
+[[1;31mERROR[m]   location: class com.google.cloud.translate.spi.v2.HttpTranslateRpc
+[[1;31mERROR[m] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/spi/v2/HttpTranslateRpc.java:[118,47] cannot find symbol
+[[1;31mERROR[m]   symbol: class TranslationsResource
+[[1;31mERROR[m] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/spi/v2/HttpTranslateRpc.java:[118,20] cannot find symbol
+[[1;31mERROR[m]   symbol: class TranslationsResource
+[[1;31mERROR[m] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/spi/v2/HttpTranslateRpc.java:[115,64] cannot find symbol
+[[1;31mERROR[m]   symbol:   class TranslationsResource
+[[1;31mERROR[m]   location: class com.google.cloud.translate.spi.v2.HttpTranslateRpc
+[[1;31mERROR[m] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/TranslateImpl.java:[45,29] cannot find symbol
+[[1;31mERROR[m]   symbol:   class DetectionsResourceItems
+[[1;31mERROR[m]   location: class com.google.cloud.translate.TranslateImpl
+[[1;31mERROR[m] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/TranslateImpl.java:[47,41] cannot find symbol
+[[1;31mERROR[m]   symbol: class DetectionsResourceItems
+[[1;31mERROR[m] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/TranslateImpl.java:[62,33] cannot find symbol
+[[1;31mERROR[m]   symbol:   class LanguagesResource
+[[1;31mERROR[m]   location: class com.google.cloud.translate.TranslateImpl
+[[1;31mERROR[m] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/TranslateImpl.java:[64,29] cannot find symbol
+[[1;31mERROR[m]   symbol: class LanguagesResource
+[[1;31mERROR[m] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/TranslateImpl.java:[62,15] incompatible types: <anonymous java.util.concurrent.Callable<java.util.List<LanguagesResource>>> cannot be converted to java.util.concurrent.Callable<java.lang.Object>
+[[1;31mERROR[m] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/TranslateImpl.java:[80,17] cannot find symbol
+[[1;31mERROR[m]   symbol:   class DetectionsResourceItems
+[[1;31mERROR[m]   location: class com.google.cloud.translate.TranslateImpl
+[[1;31mERROR[m] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/TranslateImpl.java:[82,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   class DetectionsResourceItems
+[[1;31mERROR[m]   location: class com.google.cloud.translate.TranslateImpl
+[[1;31mERROR[m] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/TranslateImpl.java:[84,34] cannot find symbol
+[[1;31mERROR[m]   symbol: class DetectionsResourceItems
+[[1;31mERROR[m] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/TranslateImpl.java:[82,15] incompatible types: <anonymous java.util.concurrent.Callable<java.util.List<java.util.List<DetectionsResourceItems>>>> cannot be converted to java.util.concurrent.Callable<java.lang.Object>
+[[1;31mERROR[m] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/TranslateImpl.java:[91,21] cannot find symbol
+[[1;31mERROR[m]   symbol:   class DetectionsResourceItems
+[[1;31mERROR[m]   location: class com.google.cloud.translate.TranslateImpl
+[[1;31mERROR[m] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/TranslateImpl.java:[94,14] cannot find symbol
+[[1;31mERROR[m]   symbol:   class DetectionsResourceItems
+[[1;31mERROR[m]   location: class com.google.cloud.translate.TranslateImpl
+[[1;31mERROR[m] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/TranslateImpl.java:[121,33] cannot find symbol
+[[1;31mERROR[m]   symbol:   class TranslationsResource
+[[1;31mERROR[m]   location: class com.google.cloud.translate.TranslateImpl
+[[1;31mERROR[m] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/TranslateImpl.java:[123,29] cannot find symbol
+[[1;31mERROR[m]   symbol: class TranslationsResource
+[[1;31mERROR[m] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/TranslateImpl.java:[121,15] incompatible types: <anonymous java.util.concurrent.Callable<java.util.List<TranslationsResource>>> cannot be converted to java.util.concurrent.Callable<java.lang.Object>
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[[1;31mERROR[m] 
+[[1;31mERROR[m] After correcting the problems, you can resume the build with the command
+[[1;31mERROR[m]   [1mmvn <args> -rf :google-cloud-translate[m

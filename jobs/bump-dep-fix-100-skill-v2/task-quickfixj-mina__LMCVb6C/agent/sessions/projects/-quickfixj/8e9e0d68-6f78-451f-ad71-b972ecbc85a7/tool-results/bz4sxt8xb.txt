@@ -1,0 +1,300 @@
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.0.1/maven-shared-utils-3.0.1.jar (154 kB at 2.4 MB/s)
+Progress (2): 187 kB | 4.1/426 kBProgress (2): 187 kB | 7.7/426 kBProgress (2): 187 kB | 12/426 kB Progress (2): 187 kB | 16/426 kBProgress (2): 187 kB | 20/426 kBProgress (2): 187 kB | 24/426 kB                                Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/3.4/plexus-archiver-3.4.jar (187 kB at 2.7 MB/s)
+Progress (1): 28/426 kBProgress (1): 32/426 kBProgress (1): 36/426 kBProgress (1): 40/426 kBProgress (1): 45/426 kBProgress (1): 49/426 kBProgress (1): 53/426 kBProgress (1): 57/426 kBProgress (1): 61/426 kBProgress (1): 65/426 kBProgress (1): 69/426 kBProgress (1): 73/426 kBProgress (1): 77/426 kBProgress (1): 81/426 kBProgress (1): 86/426 kBProgress (1): 90/426 kBProgress (1): 94/426 kBProgress (1): 98/426 kBProgress (1): 102/426 kBProgress (1): 106/426 kBProgress (1): 110/426 kBProgress (1): 114/426 kBProgress (1): 118/426 kBProgress (1): 122/426 kBProgress (1): 126/426 kBProgress (1): 131/426 kBProgress (1): 135/426 kBProgress (1): 139/426 kBProgress (1): 143/426 kBProgress (1): 147/426 kBProgress (1): 151/426 kBProgress (1): 155/426 kBProgress (1): 159/426 kBProgress (1): 163/426 kBProgress (1): 167/426 kBProgress (1): 172/426 kBProgress (1): 176/426 kBProgress (1): 180/426 kBProgress (1): 184/426 kBProgress (1): 188/426 kBProgress (1): 192/426 kBProgress (1): 196/426 kBProgress (1): 200/426 kBProgress (1): 204/426 kBProgress (1): 208/426 kBProgress (1): 213/426 kBProgress (1): 217/426 kBProgress (1): 221/426 kBProgress (1): 225/426 kBProgress (1): 229/426 kBProgress (1): 233/426 kBProgress (1): 237/426 kBProgress (2): 237/426 kB | 4.1/100 kBProgress (2): 241/426 kB | 4.1/100 kBProgress (2): 241/426 kB | 7.7/100 kBProgress (2): 245/426 kB | 7.7/100 kBProgress (2): 245/426 kB | 12/100 kB Progress (2): 249/426 kB | 12/100 kBProgress (2): 249/426 kB | 16/100 kBProgress (2): 253/426 kB | 16/100 kBProgress (2): 253/426 kB | 20/100 kBProgress (3): 253/426 kB | 20/100 kB | 4.1/247 kBProgress (3): 258/426 kB | 20/100 kB | 4.1/247 kBProgress (3): 258/426 kB | 20/100 kB | 7.7/247 kBProgress (3): 258/426 kB | 24/100 kB | 7.7/247 kBProgress (3): 262/426 kB | 24/100 kB | 7.7/247 kBProgress (3): 262/426 kB | 28/100 kB | 7.7/247 kBProgress (3): 266/426 kB | 28/100 kB | 7.7/247 kBProgress (3): 270/426 kB | 28/100 kB | 7.7/247 kBProgress (3): 270/426 kB | 28/100 kB | 12/247 kB Progress (3): 270/426 kB | 32/100 kB | 12/247 kBProgress (3): 270/426 kB | 32/100 kB | 16/247 kBProgress (3): 270/426 kB | 36/100 kB | 16/247 kBProgress (3): 274/426 kB | 36/100 kB | 16/247 kBProgress (3): 274/426 kB | 36/100 kB | 20/247 kBProgress (3): 278/426 kB | 36/100 kB | 20/247 kBProgress (3): 278/426 kB | 40/100 kB | 20/247 kBProgress (3): 282/426 kB | 40/100 kB | 20/247 kBProgress (3): 286/426 kB | 40/100 kB | 20/247 kBProgress (3): 290/426 kB | 40/100 kB | 20/247 kBProgress (3): 294/426 kB | 40/100 kB | 20/247 kBProgress (3): 299/426 kB | 40/100 kB | 20/247 kBProgress (3): 303/426 kB | 40/100 kB | 20/247 kBProgress (3): 307/426 kB | 40/100 kB | 20/247 kBProgress (3): 311/426 kB | 40/100 kB | 20/247 kBProgress (3): 315/426 kB | 40/100 kB | 20/247 kBProgress (3): 319/426 kB | 40/100 kB | 20/247 kBProgress (3): 323/426 kB | 40/100 kB | 20/247 kBProgress (3): 327/426 kB | 40/100 kB | 20/247 kBProgress (3): 331/426 kB | 40/100 kB | 20/247 kBProgress (3): 335/426 kB | 40/100 kB | 20/247 kBProgress (3): 339/426 kB | 40/100 kB | 20/247 kBProgress (3): 344/426 kB | 40/100 kB | 20/247 kBProgress (3): 348/426 kB | 40/100 kB | 20/247 kBProgress (3): 352/426 kB | 40/100 kB | 20/247 kBProgress (3): 356/426 kB | 40/100 kB | 20/247 kBProgress (3): 360/426 kB | 40/100 kB | 20/247 kBProgress (3): 364/426 kB | 40/100 kB | 20/247 kBProgress (3): 368/426 kB | 40/100 kB | 20/247 kBProgress (3): 368/426 kB | 40/100 kB | 24/247 kBProgress (3): 368/426 kB | 45/100 kB | 24/247 kBProgress (3): 372/426 kB | 45/100 kB | 24/247 kBProgress (3): 376/426 kB | 45/100 kB | 24/247 kBProgress (3): 380/426 kB | 45/100 kB | 24/247 kBProgress (3): 385/426 kB | 45/100 kB | 24/247 kBProgress (3): 385/426 kB | 45/100 kB | 28/247 kBProgress (3): 385/426 kB | 49/100 kB | 28/247 kBProgress (3): 385/426 kB | 49/100 kB | 32/247 kBProgress (3): 385/426 kB | 53/100 kB | 32/247 kBProgress (3): 385/426 kB | 53/100 kB | 36/247 kBProgress (3): 389/426 kB | 53/100 kB | 36/247 kBProgress (3): 389/426 kB | 53/100 kB | 40/247 kBProgress (3): 389/426 kB | 57/100 kB | 40/247 kBProgress (3): 393/426 kB | 57/100 kB | 40/247 kBProgress (3): 393/426 kB | 61/100 kB | 40/247 kBProgress (3): 397/426 kB | 61/100 kB | 40/247 kBProgress (3): 401/426 kB | 61/100 kB | 40/247 kBProgress (3): 401/426 kB | 61/100 kB | 45/247 kBProgress (3): 401/426 kB | 61/100 kB | 49/247 kBProgress (3): 401/426 kB | 65/100 kB | 49/247 kBProgress (3): 401/426 kB | 65/100 kB | 53/247 kBProgress (3): 405/426 kB | 65/100 kB | 53/247 kBProgress (3): 405/426 kB | 69/100 kB | 53/247 kBProgress (3): 409/426 kB | 69/100 kB | 53/247 kBProgress (3): 409/426 kB | 69/100 kB | 57/247 kBProgress (3): 413/426 kB | 69/100 kB | 57/247 kBProgress (3): 413/426 kB | 73/100 kB | 57/247 kBProgress (3): 417/426 kB | 73/100 kB | 57/247 kBProgress (3): 417/426 kB | 77/100 kB | 57/247 kBProgress (3): 417/426 kB | 77/100 kB | 61/247 kBProgress (3): 417/426 kB | 77/100 kB | 65/247 kBProgress (3): 421/426 kB | 77/100 kB | 65/247 kBProgress (3): 426/426 kB | 77/100 kB | 65/247 kBProgress (3): 426 kB | 77/100 kB | 65/247 kB    Progress (3): 426 kB | 81/100 kB | 65/247 kBProgress (3): 426 kB | 81/100 kB | 69/247 kBProgress (3): 426 kB | 86/100 kB | 69/247 kBProgress (3): 426 kB | 86/100 kB | 73/247 kBProgress (3): 426 kB | 90/100 kB | 73/247 kBProgress (3): 426 kB | 90/100 kB | 77/247 kBProgress (3): 426 kB | 94/100 kB | 77/247 kBProgress (3): 426 kB | 94/100 kB | 81/247 kBProgress (3): 426 kB | 98/100 kB | 81/247 kBProgress (3): 426 kB | 100 kB | 81/247 kB   Progress (3): 426 kB | 100 kB | 86/247 kBProgress (3): 426 kB | 100 kB | 90/247 kBProgress (3): 426 kB | 100 kB | 94/247 kBProgress (3): 426 kB | 100 kB | 98/247 kBProgress (3): 426 kB | 100 kB | 102/247 kBProgress (3): 426 kB | 100 kB | 106/247 kBProgress (3): 426 kB | 100 kB | 110/247 kBProgress (3): 426 kB | 100 kB | 114/247 kBProgress (3): 426 kB | 100 kB | 118/247 kBProgress (3): 426 kB | 100 kB | 122/247 kBProgress (3): 426 kB | 100 kB | 126/247 kBProgress (3): 426 kB | 100 kB | 131/247 kBProgress (3): 426 kB | 100 kB | 135/247 kBProgress (3): 426 kB | 100 kB | 139/247 kBProgress (3): 426 kB | 100 kB | 143/247 kBProgress (3): 426 kB | 100 kB | 147/247 kBProgress (3): 426 kB | 100 kB | 151/247 kBProgress (3): 426 kB | 100 kB | 155/247 kBProgress (3): 426 kB | 100 kB | 159/247 kBProgress (3): 426 kB | 100 kB | 163/247 kBProgress (3): 426 kB | 100 kB | 167/247 kBProgress (3): 426 kB | 100 kB | 172/247 kBProgress (3): 426 kB | 100 kB | 176/247 kBProgress (3): 426 kB | 100 kB | 180/247 kBProgress (3): 426 kB | 100 kB | 184/247 kBProgress (3): 426 kB | 100 kB | 188/247 kBProgress (3): 426 kB | 100 kB | 192/247 kBProgress (3): 426 kB | 100 kB | 196/247 kBProgress (3): 426 kB | 100 kB | 200/247 kBProgress (3): 426 kB | 100 kB | 204/247 kBProgress (3): 426 kB | 100 kB | 208/247 kBProgress (3): 426 kB | 100 kB | 213/247 kBProgress (3): 426 kB | 100 kB | 217/247 kBProgress (3): 426 kB | 100 kB | 221/247 kBProgress (3): 426 kB | 100 kB | 225/247 kBProgress (3): 426 kB | 100 kB | 229/247 kBProgress (3): 426 kB | 100 kB | 233/247 kBProgress (3): 426 kB | 100 kB | 237/247 kBProgress (3): 426 kB | 100 kB | 241/247 kBProgress (3): 426 kB | 100 kB | 245/247 kBProgress (3): 426 kB | 100 kB | 247 kB                                          Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.11/commons-compress-1.11.jar (426 kB at 3.8 MB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/tukaani/xz/1.5/xz-1.5.jar (100 kB at 873 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.24/plexus-utils-3.0.24.jar (247 kB at 2.0 MB/s)
+[[1;34mINFO[m] Building jar: /quickfixj/quickfixj-codegenerator/target/quickfixj-codegenerator-3.0.0-SNAPSHOT-sources.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:2.4:install[m [1m(default-install)[m @ [36mquickfixj-codegenerator[0;1m ---[m
+[[1;34mINFO[m] Installing /quickfixj/quickfixj-codegenerator/target/quickfixj-codegenerator-3.0.0-SNAPSHOT.jar to /root/.m2/repository/org/quickfixj/quickfixj-codegenerator/3.0.0-SNAPSHOT/quickfixj-codegenerator-3.0.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /quickfixj/quickfixj-codegenerator/pom.xml to /root/.m2/repository/org/quickfixj/quickfixj-codegenerator/3.0.0-SNAPSHOT/quickfixj-codegenerator-3.0.0-SNAPSHOT.pom
+[[1;34mINFO[m] Installing /quickfixj/quickfixj-codegenerator/target/quickfixj-codegenerator-3.0.0-SNAPSHOT-sources.jar to /root/.m2/repository/org/quickfixj/quickfixj-codegenerator/3.0.0-SNAPSHOT/quickfixj-codegenerator-3.0.0-SNAPSHOT-sources.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------< [0;36morg.quickfixj:quickfixj-dictgenerator[0;1m >----------------[m
+[[1;34mINFO[m] [1mBuilding QuickFIX/J Dictionary Generator 3.0.0-SNAPSHOT           [3/21][m
+[[1;34mINFO[m] [1m-------------------------------[ bundle ]-------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36mquickfixj-dictgenerator[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /quickfixj/quickfixj-dictgenerator/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m @ [36mquickfixj-dictgenerator[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-bundle-plugin:3.5.1:manifest[m [1m(default)[m @ [36mquickfixj-dictgenerator[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:testResources[m [1m(default-testResources)[m @ [36mquickfixj-dictgenerator[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /quickfixj/quickfixj-dictgenerator/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:testCompile[m [1m(default-testCompile)[m @ [36mquickfixj-dictgenerator[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.22.0:test[m [1m(default-test)[m @ [36mquickfixj-dictgenerator[0;1m ---[m
+[[1;34mINFO[m] Tests are skipped.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-bundle-plugin:3.5.1:bundle[m [1m(default-bundle)[m @ [36mquickfixj-dictgenerator[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-source-plugin:3.0.1:jar-no-fork[m [1m(attach-sources)[m @ [36mquickfixj-dictgenerator[0;1m ---[m
+[[1;34mINFO[m] Building jar: /quickfixj/quickfixj-dictgenerator/target/quickfixj-dictgenerator-3.0.0-SNAPSHOT-sources.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:3.1.1:install[m [1m(default-install)[m @ [36mquickfixj-dictgenerator[0;1m ---[m
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-util/1.0.0.v20140518/aether-util-1.0.0.v20140518.pom
+Progress (1): 2.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-util/1.0.0.v20140518/aether-util-1.0.0.v20140518.pom (2.2 kB at 46 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether/1.0.0.v20140518/aether-1.0.0.v20140518.pom
+Progress (1): 4.1 kBProgress (1): 8.2 kBProgress (1): 12 kB Progress (1): 16 kBProgress (1): 20 kBProgress (1): 25 kBProgress (1): 29 kBProgress (1): 30 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether/1.0.0.v20140518/aether-1.0.0.v20140518.pom (30 kB at 701 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-api/1.0.0.v20140518/aether-api-1.0.0.v20140518.pom
+Progress (1): 1.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-api/1.0.0.v20140518/aether-api-1.0.0.v20140518.pom (1.9 kB at 44 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.5.0/plexus-utils-3.5.0.pom
+Progress (1): 4.1 kBProgress (1): 8.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.5.0/plexus-utils-3.5.0.pom (8.0 kB at 195 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/10/plexus-10.pom
+Progress (1): 4.1 kBProgress (1): 8.2 kBProgress (1): 12 kB Progress (1): 16 kBProgress (1): 20 kBProgress (1): 25 kBProgress (1): 25 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/10/plexus-10.pom (25 kB at 518 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-util/1.0.0.v20140518/aether-util-1.0.0.v20140518.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-api/1.0.0.v20140518/aether-api-1.0.0.v20140518.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.5.0/plexus-utils-3.5.0.jar
+Progress (1): 4.1/146 kBProgress (1): 8.2/146 kBProgress (1): 12/146 kB Progress (1): 16/146 kBProgress (1): 20/146 kBProgress (1): 25/146 kBProgress (1): 29/146 kBProgress (1): 33/146 kBProgress (1): 37/146 kBProgress (1): 41/146 kBProgress (1): 45/146 kBProgress (1): 49/146 kBProgress (1): 53/146 kBProgress (1): 57/146 kBProgress (1): 61/146 kBProgress (1): 66/146 kBProgress (1): 70/146 kBProgress (1): 74/146 kBProgress (1): 78/146 kBProgress (1): 82/146 kBProgress (1): 86/146 kBProgress (1): 90/146 kBProgress (1): 94/146 kBProgress (1): 98/146 kBProgress (1): 102/146 kBProgress (1): 106/146 kBProgress (1): 111/146 kBProgress (1): 115/146 kBProgress (1): 119/146 kBProgress (1): 123/146 kBProgress (1): 127/146 kBProgress (1): 131/146 kBProgress (1): 135/146 kBProgress (2): 135/146 kB | 4.1/267 kBProgress (2): 139/146 kB | 4.1/267 kBProgress (2): 139/146 kB | 7.5/267 kBProgress (2): 143/146 kB | 7.5/267 kBProgress (3): 143/146 kB | 7.5/267 kB | 4.1/136 kBProgress (3): 146 kB | 7.5/267 kB | 4.1/136 kB    Progress (3): 146 kB | 7.5/267 kB | 7.7/136 kBProgress (3): 146 kB | 12/267 kB | 7.7/136 kB Progress (3): 146 kB | 12/267 kB | 12/136 kB Progress (3): 146 kB | 16/267 kB | 12/136 kBProgress (3): 146 kB | 20/267 kB | 12/136 kBProgress (3): 146 kB | 24/267 kB | 12/136 kBProgress (3): 146 kB | 24/267 kB | 16/136 kBProgress (3): 146 kB | 24/267 kB | 20/136 kBProgress (3): 146 kB | 28/267 kB | 20/136 kBProgress (3): 146 kB | 28/267 kB | 24/136 kBProgress (3): 146 kB | 32/267 kB | 24/136 kBProgress (3): 146 kB | 32/267 kB | 28/136 kBProgress (3): 146 kB | 36/267 kB | 28/136 kBProgress (3): 146 kB | 40/267 kB | 28/136 kBProgress (3): 146 kB | 40/267 kB | 32/136 kBProgress (3): 146 kB | 40/267 kB | 36/136 kBProgress (3): 146 kB | 40/267 kB | 40/136 kBProgress (3): 146 kB | 40/267 kB | 45/136 kBProgress (3): 146 kB | 44/267 kB | 45/136 kBProgress (3): 146 kB | 48/267 kB | 45/136 kBProgress (3): 146 kB | 53/267 kB | 45/136 kBProgress (3): 146 kB | 53/267 kB | 49/136 kBProgress (3): 146 kB | 57/267 kB | 49/136 kBProgress (3): 146 kB | 57/267 kB | 53/136 kBProgress (3): 146 kB | 57/267 kB | 57/136 kBProgress (3): 146 kB | 57/267 kB | 61/136 kBProgress (3): 146 kB | 57/267 kB | 65/136 kBProgress (3): 146 kB | 61/267 kB | 65/136 kBProgress (3): 146 kB | 61/267 kB | 69/136 kBProgress (3): 146 kB | 65/267 kB | 69/136 kBProgress (3): 146 kB | 65/267 kB | 73/136 kBProgress (3): 146 kB | 69/267 kB | 73/136 kBProgress (3): 146 kB | 69/267 kB | 77/136 kBProgress (3): 146 kB | 73/267 kB | 77/136 kBProgress (3): 146 kB | 73/267 kB | 81/136 kBProgress (3): 146 kB | 73/267 kB | 86/136 kBProgress (3): 146 kB | 77/267 kB | 86/136 kBProgress (3): 146 kB | 81/267 kB | 86/136 kBProgress (3): 146 kB | 81/267 kB | 90/136 kBProgress (3): 146 kB | 85/267 kB | 90/136 kBProgress (3): 146 kB | 85/267 kB | 94/136 kBProgress (3): 146 kB | 89/267 kB | 94/136 kBProgress (3): 146 kB | 89/267 kB | 98/136 kBProgress (3): 146 kB | 93/267 kB | 98/136 kBProgress (3): 146 kB | 93/267 kB | 102/136 kBProgress (3): 146 kB | 98/267 kB | 102/136 kBProgress (3): 146 kB | 98/267 kB | 106/136 kBProgress (3): 146 kB | 102/267 kB | 106/136 kBProgress (3): 146 kB | 102/267 kB | 110/136 kBProgress (3): 146 kB | 106/267 kB | 110/136 kBProgress (3): 146 kB | 106/267 kB | 114/136 kBProgress (3): 146 kB | 106/267 kB | 118/136 kBProgress (3): 146 kB | 106/267 kB | 122/136 kBProgress (3): 146 kB | 106/267 kB | 126/136 kBProgress (3): 146 kB | 110/267 kB | 126/136 kBProgress (3): 146 kB | 114/267 kB | 126/136 kBProgress (3): 146 kB | 114/267 kB | 131/136 kBProgress (3): 146 kB | 118/267 kB | 131/136 kBProgress (3): 146 kB | 118/267 kB | 135/136 kBProgress (3): 146 kB | 122/267 kB | 135/136 kBProgress (3): 146 kB | 122/267 kB | 136 kB    Progress (3): 146 kB | 126/267 kB | 136 kBProgress (3): 146 kB | 130/267 kB | 136 kBProgress (3): 146 kB | 134/267 kB | 136 kBProgress (3): 146 kB | 139/267 kB | 136 kBProgress (3): 146 kB | 143/267 kB | 136 kBProgress (3): 146 kB | 147/267 kB | 136 kBProgress (3): 146 kB | 151/267 kB | 136 kBProgress (3): 146 kB | 155/267 kB | 136 kBProgress (3): 146 kB | 159/267 kB | 136 kBProgress (3): 146 kB | 163/267 kB | 136 kBProgress (3): 146 kB | 167/267 kB | 136 kBProgress (3): 146 kB | 171/267 kB | 136 kBProgress (3): 146 kB | 175/267 kB | 136 kBProgress (3): 146 kB | 179/267 kB | 136 kBProgress (3): 146 kB | 184/267 kB | 136 kBProgress (3): 146 kB | 188/267 kB | 136 kBProgress (3): 146 kB | 192/267 kB | 136 kBProgress (3): 146 kB | 196/267 kB | 136 kBProgress (3): 146 kB | 200/267 kB | 136 kBProgress (3): 146 kB | 204/267 kB | 136 kBProgress (3): 146 kB | 208/267 kB | 136 kBProgress (3): 146 kB | 212/267 kB | 136 kBProgress (3): 146 kB | 216/267 kB | 136 kBProgress (3): 146 kB | 220/267 kB | 136 kBProgress (3): 146 kB | 225/267 kB | 136 kBProgress (3): 146 kB | 229/267 kB | 136 kBProgress (3): 146 kB | 233/267 kB | 136 kBProgress (3): 146 kB | 237/267 kB | 136 kBProgress (3): 146 kB | 241/267 kB | 136 kBProgress (3): 146 kB | 245/267 kB | 136 kBProgress (3): 146 kB | 249/267 kB | 136 kBProgress (3): 146 kB | 253/267 kB | 136 kBProgress (3): 146 kB | 257/267 kB | 136 kBProgress (3): 146 kB | 261/267 kB | 136 kBProgress (3): 146 kB | 266/267 kB | 136 kBProgress (3): 146 kB | 267 kB | 136 kB                                          Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-util/1.0.0.v20140518/aether-util-1.0.0.v20140518.jar (146 kB at 3.0 MB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-api/1.0.0.v20140518/aether-api-1.0.0.v20140518.jar (136 kB at 2.3 MB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.5.0/plexus-utils-3.5.0.jar (267 kB at 4.2 MB/s)
+[[1;34mINFO[m] Installing /quickfixj/quickfixj-dictgenerator/pom.xml to /root/.m2/repository/org/quickfixj/quickfixj-dictgenerator/3.0.0-SNAPSHOT/quickfixj-dictgenerator-3.0.0-SNAPSHOT.pom
+[[1;34mINFO[m] Installing /quickfixj/quickfixj-dictgenerator/target/quickfixj-dictgenerator-3.0.0-SNAPSHOT.jar to /root/.m2/repository/org/quickfixj/quickfixj-dictgenerator/3.0.0-SNAPSHOT/quickfixj-dictgenerator-3.0.0-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /quickfixj/quickfixj-dictgenerator/target/quickfixj-dictgenerator-3.0.0-SNAPSHOT-sources.jar to /root/.m2/repository/org/quickfixj/quickfixj-dictgenerator/3.0.0-SNAPSHOT/quickfixj-dictgenerator-3.0.0-SNAPSHOT-sources.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-bundle-plugin:3.5.1:install[m [1m(default-install)[m @ [36mquickfixj-dictgenerator[0;1m ---[m
+[[1;34mINFO[m] Writing OBR metadata
+[[1;34mINFO[m] Installing org/quickfixj/quickfixj-dictgenerator/3.0.0-SNAPSHOT/quickfixj-dictgenerator-3.0.0-SNAPSHOT.jar
+[[1;34mINFO[m] Writing OBR metadata
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36morg.quickfixj:quickfixj-core[0;1m >--------------------[m
+[[1;34mINFO[m] [1mBuilding QuickFIX/J Core engine 3.0.0-SNAPSHOT                    [4/21][m
+[[1;34mINFO[m] [1m-------------------------------[ bundle ]-------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mquickfixj-codegenerator:3.0.0-SNAPSHOT:generate[m [1m(fixt11)[m @ [36mquickfixj-core[0;1m ---[m
+[[1;34mINFO[m] Successfully created an instance of the QuickFIX source generator
+[[1;34mINFO[m] Initialising code generator task
+[[1;34mINFO[m] Processing /quickfixj/quickfixj-messages/quickfixj-messages-fixt11/src/main/resources/FIXT11.xml
+[[1;34mINFO[m] FIXT11.xml: generating field classes in /quickfixj/quickfixj-core/target/generated-sources/quickfix/field/
+[[1;34mINFO[m] Loading predefined xslt file:Fields.xsl
+[[1;34mINFO[m] FIXT11.xml: generating message base class
+[[1;34mINFO[m] Loading predefined xslt file:Message.xsl
+[[1;34mINFO[m] Loading predefined xslt file:MessageFactory.xsl
+[[1;34mINFO[m] Loading predefined xslt file:MessageCracker.xsl
+[[1;34mINFO[m] FIXT11.xml: generating component classes
+[[1;34mINFO[m] Loading predefined xslt file:MessageSubclass.xsl
+[[1;34mINFO[m] FIXT11.xml: generating message subclasses
+[[1;34mINFO[m] Loading predefined xslt file:MessageSubclass.xsl
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mquickfixj-codegenerator:3.0.0-SNAPSHOT:generate[m [1m(fix50sp2)[m @ [36mquickfixj-core[0;1m ---[m
+[[1;34mINFO[m] Successfully created an instance of the QuickFIX source generator
+[[1;34mINFO[m] Initialising code generator task
+[[1;34mINFO[m] Processing /quickfixj/quickfixj-messages/quickfixj-messages-fix50sp2/src/main/resources/FIX50SP2.modified.xml
+[[1;34mINFO[m] FIX50SP2.modified.xml: generating field classes in /quickfixj/quickfixj-core/target/generated-sources/quickfix/field/
+[[1;34mINFO[m] Loading predefined xslt file:Fields.xsl
+[[1;34mINFO[m] FIX50SP2.modified.xml: generating message base class
+[[1;34mINFO[m] Loading predefined xslt file:Message.xsl
+[[1;34mINFO[m] Loading predefined xslt file:MessageFactory.xsl
+[[1;34mINFO[m] Loading predefined xslt file:MessageCracker.xsl
+[[1;34mINFO[m] FIX50SP2.modified.xml: generating component classes
+[[1;34mINFO[m] Loading predefined xslt file:MessageSubclass.xsl
+[[1;34mINFO[m] FIX50SP2.modified.xml: generating message subclasses
+[[1;34mINFO[m] Loading predefined xslt file:MessageSubclass.xsl
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mquickfixj-codegenerator:3.0.0-SNAPSHOT:generate[m [1m(fix50sp1)[m @ [36mquickfixj-core[0;1m ---[m
+[[1;34mINFO[m] Successfully created an instance of the QuickFIX source generator
+[[1;34mINFO[m] Initialising code generator task
+[[1;34mINFO[m] Processing /quickfixj/quickfixj-messages/quickfixj-messages-fix50sp1/src/main/resources/FIX50SP1.modified.xml
+[[1;34mINFO[m] FIX50SP1.modified.xml: generating field classes in /quickfixj/quickfixj-core/target/generated-sources/quickfix/field/
+[[1;34mINFO[m] Loading predefined xslt file:Fields.xsl
+[[1;34mINFO[m] FIX50SP1.modified.xml: generating message base class
+[[1;34mINFO[m] Loading predefined xslt file:Message.xsl
+[[1;34mINFO[m] Loading predefined xslt file:MessageFactory.xsl
+[[1;34mINFO[m] Loading predefined xslt file:MessageCracker.xsl
+[[1;34mINFO[m] FIX50SP1.modified.xml: generating component classes
+[[1;34mINFO[m] Loading predefined xslt file:MessageSubclass.xsl
+[[1;34mINFO[m] FIX50SP1.modified.xml: generating message subclasses
+[[1;34mINFO[m] Loading predefined xslt file:MessageSubclass.xsl
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mquickfixj-codegenerator:3.0.0-SNAPSHOT:generate[m [1m(fix50)[m @ [36mquickfixj-core[0;1m ---[m
+[[1;34mINFO[m] Successfully created an instance of the QuickFIX source generator
+[[1;34mINFO[m] Initialising code generator task
+[[1;34mINFO[m] Processing /quickfixj/quickfixj-messages/quickfixj-messages-fix50/src/main/resources/FIX50.xml
+[[1;34mINFO[m] FIX50.xml: generating field classes in /quickfixj/quickfixj-core/target/generated-sources/quickfix/field/
+[[1;34mINFO[m] Loading predefined xslt file:Fields.xsl
+[[1;34mINFO[m] FIX50.xml: generating message base class
+[[1;34mINFO[m] Loading predefined xslt file:Message.xsl
+[[1;34mINFO[m] Loading predefined xslt file:MessageFactory.xsl
+[[1;34mINFO[m] Loading predefined xslt file:MessageCracker.xsl
+[[1;34mINFO[m] FIX50.xml: generating component classes
+[[1;34mINFO[m] Loading predefined xslt file:MessageSubclass.xsl
+[[1;34mINFO[m] FIX50.xml: generating message subclasses
+[[1;34mINFO[m] Loading predefined xslt file:MessageSubclass.xsl
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mquickfixj-codegenerator:3.0.0-SNAPSHOT:generate[m [1m(fix44)[m @ [36mquickfixj-core[0;1m ---[m
+[[1;34mINFO[m] Successfully created an instance of the QuickFIX source generator
+[[1;34mINFO[m] Initialising code generator task
+[[1;34mINFO[m] Processing /quickfixj/quickfixj-messages/quickfixj-messages-fix44/src/main/resources/FIX44.modified.xml
+[[1;34mINFO[m] FIX44.modified.xml: generating field classes in /quickfixj/quickfixj-core/target/generated-sources/quickfix/field/
+[[1;34mINFO[m] Loading predefined xslt file:Fields.xsl
+[[1;34mINFO[m] FIX44.modified.xml: generating message base class
+[[1;34mINFO[m] Loading predefined xslt file:Message.xsl
+[[1;34mINFO[m] Loading predefined xslt file:MessageFactory.xsl
+[[1;34mINFO[m] Loading predefined xslt file:MessageCracker.xsl
+[[1;34mINFO[m] FIX44.modified.xml: generating component classes
+[[1;34mINFO[m] Loading predefined xslt file:MessageSubclass.xsl
+[[1;34mINFO[m] FIX44.modified.xml: generating message subclasses
+[[1;34mINFO[m] Loading predefined xslt file:MessageSubclass.xsl
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mquickfixj-codegenerator:3.0.0-SNAPSHOT:generate[m [1m(fix43)[m @ [36mquickfixj-core[0;1m ---[m
+[[1;34mINFO[m] Successfully created an instance of the QuickFIX source generator
+[[1;34mINFO[m] Initialising code generator task
+[[1;34mINFO[m] Processing /quickfixj/quickfixj-messages/quickfixj-messages-fix43/src/main/resources/FIX43.xml
+[[1;34mINFO[m] FIX43.xml: generating field classes in /quickfixj/quickfixj-core/target/generated-sources/quickfix/field/
+[[1;34mINFO[m] Loading predefined xslt file:Fields.xsl
+[[1;34mINFO[m] FIX43.xml: generating message base class
+[[1;34mINFO[m] Loading predefined xslt file:Message.xsl
+[[1;34mINFO[m] Loading predefined xslt file:MessageFactory.xsl
+[[1;34mINFO[m] Loading predefined xslt file:MessageCracker.xsl
+[[1;34mINFO[m] FIX43.xml: generating component classes
+[[1;34mINFO[m] Loading predefined xslt file:MessageSubclass.xsl
+[[1;34mINFO[m] FIX43.xml: generating message subclasses
+[[1;34mINFO[m] Loading predefined xslt file:MessageSubclass.xsl
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mquickfixj-codegenerator:3.0.0-SNAPSHOT:generate[m [1m(fix42)[m @ [36mquickfixj-core[0;1m ---[m
+[[1;34mINFO[m] Successfully created an instance of the QuickFIX source generator
+[[1;34mINFO[m] Initialising code generator task
+[[1;34mINFO[m] Processing /quickfixj/quickfixj-messages/quickfixj-messages-fix42/src/main/resources/FIX42.xml
+[[1;34mINFO[m] FIX42.xml: generating field classes in /quickfixj/quickfixj-core/target/generated-sources/quickfix/field/
+[[1;34mINFO[m] Loading predefined xslt file:Fields.xsl
+[[1;34mINFO[m] FIX42.xml: generating message base class
+[[1;34mINFO[m] Loading predefined xslt file:Message.xsl
+[[1;34mINFO[m] Loading predefined xslt file:MessageFactory.xsl
+[[1;34mINFO[m] Loading predefined xslt file:MessageCracker.xsl
+[[1;34mINFO[m] FIX42.xml: generating component classes
+[[1;34mINFO[m] Loading predefined xslt file:MessageSubclass.xsl
+[[1;34mINFO[m] FIX42.xml: generating message subclasses
+[[1;34mINFO[m] Loading predefined xslt file:MessageSubclass.xsl
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mquickfixj-codegenerator:3.0.0-SNAPSHOT:generate[m [1m(fix41)[m @ [36mquickfixj-core[0;1m ---[m
+[[1;34mINFO[m] Successfully created an instance of the QuickFIX source generator
+[[1;34mINFO[m] Initialising code generator task
+[[1;34mINFO[m] Processing /quickfixj/quickfixj-messages/quickfixj-messages-fix41/src/main/resources/FIX41.xml
+[[1;34mINFO[m] FIX41.xml: generating field classes in /quickfixj/quickfixj-core/target/generated-sources/quickfix/field/
+[[1;34mINFO[m] Loading predefined xslt file:Fields.xsl
+[[1;34mINFO[m] FIX41.xml: generating message base class
+[[1;34mINFO[m] Loading predefined xslt file:Message.xsl
+[[1;34mINFO[m] Loading predefined xslt file:MessageFactory.xsl
+[[1;34mINFO[m] Loading predefined xslt file:MessageCracker.xsl
+[[1;34mINFO[m] FIX41.xml: generating component classes
+[[1;34mINFO[m] Loading predefined xslt file:MessageSubclass.xsl
+[[1;34mINFO[m] FIX41.xml: generating message subclasses
+[[1;34mINFO[m] Loading predefined xslt file:MessageSubclass.xsl
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mquickfixj-codegenerator:3.0.0-SNAPSHOT:generate[m [1m(fix40)[m @ [36mquickfixj-core[0;1m ---[m
+[[1;34mINFO[m] Successfully created an instance of the QuickFIX source generator
+[[1;34mINFO[m] Initialising code generator task
+[[1;34mINFO[m] Processing /quickfixj/quickfixj-messages/quickfixj-messages-fix40/src/main/resources/FIX40.xml
+[[1;34mINFO[m] FIX40.xml: generating field classes in /quickfixj/quickfixj-core/target/generated-sources/quickfix/field/
+[[1;34mINFO[m] Loading predefined xslt file:Fields.xsl
+[[1;34mINFO[m] FIX40.xml: generating message base class
+[[1;34mINFO[m] Loading predefined xslt file:Message.xsl
+[[1;34mINFO[m] Loading predefined xslt file:MessageFactory.xsl
+[[1;34mINFO[m] Loading predefined xslt file:MessageCracker.xsl
+[[1;34mINFO[m] FIX40.xml: generating component classes
+[[1;34mINFO[m] Loading predefined xslt file:MessageSubclass.xsl
+[[1;34mINFO[m] FIX40.xml: generating message subclasses
+[[1;34mINFO[m] Loading predefined xslt file:MessageSubclass.xsl
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36mquickfixj-core[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m @ [36mquickfixj-core[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 2802 source files to /quickfixj/quickfixj-core/target/classes
+[[1;34mINFO[m] /quickfixj/quickfixj-core/src/main/java/quickfix/SleepycatStore.java: Some input files use unchecked or unsafe operations.
+[[1;34mINFO[m] /quickfixj/quickfixj-core/src/main/java/quickfix/SleepycatStore.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] COMPILATION ERROR : 
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] /quickfixj/quickfixj-core/src/main/java/quickfix/mina/acceptor/AbstractSocketAcceptor.java:[136,18] cannot find symbol
+  symbol:   method setUseClientMode(boolean)
+  location: variable sslFilter of type quickfix.mina.ssl.SSLFilter
+[[1;31mERROR[m] /quickfixj/quickfixj-core/src/main/java/quickfix/mina/initiator/IoSessionInitiator.java:[195,22] cannot find symbol
+  symbol:   method setUseClientMode(boolean)
+  location: variable sslFilter of type quickfix.mina.ssl.SSLFilter
+[[1;31mERROR[m] /quickfixj/quickfixj-core/src/main/java/quickfix/mina/ssl/SSLFilter.java:[43,9] constructor SslFilter in class org.apache.mina.filter.ssl.SslFilter cannot be applied to given types;
+  required: javax.net.ssl.SSLContext
+  found: javax.net.ssl.SSLContext,boolean
+  reason: actual and formal argument lists differ in length
+[[1;31mERROR[m] /quickfixj/quickfixj-core/src/main/java/quickfix/mina/ssl/SSLFilter.java:[78,38] cannot find symbol
+  symbol:   variable PEER_ADDRESS
+  location: class quickfix.mina.ssl.SSLFilter
+[[1;31mERROR[m] /quickfixj/quickfixj-core/src/main/java/quickfix/mina/initiator/InitiatorProxyIoHandler.java:[65,27] cannot find symbol
+  symbol:   method initiateHandshake(org.apache.mina.core.session.IoSession)
+  location: variable sslFilter of type quickfix.mina.ssl.SSLFilter
+[[1;34mINFO[m] 5 errors 
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Summary for QuickFIX/J Parent 3.0.0-SNAPSHOT:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] QuickFIX/J Parent .................................. [1;32mSUCCESS[m [  1.660 s]
+[[1;34mINFO[m] QuickFIX/J Code Generator Maven Plugin ............. [1;32mSUCCESS[m [  3.598 s]
+[[1;34mINFO[m] QuickFIX/J Dictionary Generator .................... [1;32mSUCCESS[m [  1.212 s]
+[[1;34mINFO[m] QuickFIX/J Core engine ............................. [1;31mFAILURE[m [01:59 min]
+[[1;34mINFO[m] QuickFIX/J Message classes for various FIX specs ... [1;33mSKIPPED[m
+[[1;34mINFO[m] QuickFIX/J Message classes for FIX 4.0 ............. [1;33mSKIPPED[m
+[[1;34mINFO[m] QuickFIX/J Message classes for FIX 4.1 ............. [1;33mSKIPPED[m
+[[1;34mINFO[m] QuickFIX/J Message classes for FIX 4.2 ............. [1;33mSKIPPED[m
+[[1;34mINFO[m] QuickFIX/J Message classes for FIX 4.3 ............. [1;33mSKIPPED[m
+[[1;34mINFO[m] QuickFIX/J Message classes for FIX 4.4 ............. [1;33mSKIPPED[m
+[[1;34mINFO[m] QuickFIX/J Message classes for FIX 5.0 ............. [1;33mSKIPPED[m
+[[1;34mINFO[m] QuickFIX/J Message classes for FIX 5.0 SP1 ......... [1;33mSKIPPED[m
+[[1;34mINFO[m] QuickFIX/J Message classes for FIX 5.0 SP2 ......... [1;33mSKIPPED[m
+[[1;34mINFO[m] QuickFIX/J Message classes for FIXT 1.1 ............ [1;33mSKIPPED[m
+[[1;34mINFO[m] QuickFIX/J Message classes for all FIX specs ....... [1;33mSKIPPED[m
+[[1;34mINFO[m] QuickFIX/J Examples ................................ [1;33mSKIPPED[m
+[[1;34mINFO[m] QuickFIX/J Examples - Executor ..................... [1;33mSKIPPED[m
+[[1;34mINFO[m] QuickFIX/J Examples - Order Match .................. [1;33mSKIPPED[m
+[[1;34mINFO[m] QuickFIX/J Examples - Banzai ....................... [1;33mSKIPPED[m
+[[1;34mINFO[m] QuickFIX/J All runtime modules ..................... [1;33mSKIPPED[m
+[[1;34mINFO[m] QuickFIX/J Distribution ............................ [1;33mSKIPPED[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  02:06 min
+[[1;34mINFO[m] Finished at: 2026-03-22T06:09:45Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m on project [36mquickfixj-core[m: [1;31mCompilation failure[m: Compilation failure: 
+[[1;31mERROR[m] /quickfixj/quickfixj-core/src/main/java/quickfix/mina/acceptor/AbstractSocketAcceptor.java:[136,18] cannot find symbol
+[[1;31mERROR[m]   symbol:   method setUseClientMode(boolean)
+[[1;31mERROR[m]   location: variable sslFilter of type quickfix.mina.ssl.SSLFilter
+[[1;31mERROR[m] /quickfixj/quickfixj-core/src/main/java/quickfix/mina/initiator/IoSessionInitiator.java:[195,22] cannot find symbol
+[[1;31mERROR[m]   symbol:   method setUseClientMode(boolean)
+[[1;31mERROR[m]   location: variable sslFilter of type quickfix.mina.ssl.SSLFilter
+[[1;31mERROR[m] /quickfixj/quickfixj-core/src/main/java/quickfix/mina/ssl/SSLFilter.java:[43,9] constructor SslFilter in class org.apache.mina.filter.ssl.SslFilter cannot be applied to given types;
+[[1;31mERROR[m]   required: javax.net.ssl.SSLContext
+[[1;31mERROR[m]   found: javax.net.ssl.SSLContext,boolean
+[[1;31mERROR[m]   reason: actual and formal argument lists differ in length
+[[1;31mERROR[m] /quickfixj/quickfixj-core/src/main/java/quickfix/mina/ssl/SSLFilter.java:[78,38] cannot find symbol
+[[1;31mERROR[m]   symbol:   variable PEER_ADDRESS
+[[1;31mERROR[m]   location: class quickfix.mina.ssl.SSLFilter
+[[1;31mERROR[m] /quickfixj/quickfixj-core/src/main/java/quickfix/mina/initiator/InitiatorProxyIoHandler.java:[65,27] cannot find symbol
+[[1;31mERROR[m]   symbol:   method initiateHandshake(org.apache.mina.core.session.IoSession)
+[[1;31mERROR[m]   location: variable sslFilter of type quickfix.mina.ssl.SSLFilter
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[[1;31mERROR[m] 
+[[1;31mERROR[m] After correcting the problems, you can resume the build with the command
+[[1;31mERROR[m]   [1mmvn <args> -rf :quickfixj-core[m

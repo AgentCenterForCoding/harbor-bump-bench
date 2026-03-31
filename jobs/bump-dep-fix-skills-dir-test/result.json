@@ -1,0 +1,29 @@
+{
+    "id": "358ccca4-1dc9-4690-84c1-88d439a4d580",
+    "started_at": "2026-03-23T16:42:36.991436",
+    "finished_at": "2026-03-23T16:53:15.982304",
+    "n_total_trials": 1,
+    "stats": {
+        "n_trials": 1,
+        "n_errors": 0,
+        "evals": {
+            "claude-code__harbor-bump-eval": {
+                "n_trials": 1,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "mean": 1.0
+                    }
+                ],
+                "reward_stats": {
+                    "reward": {
+                        "1.0": [
+                            "task-bump-alphagov-logback-class__FHTReyr"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            }
+        }
+    }
+}

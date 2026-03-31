@@ -1,0 +1,33 @@
+=== Running mvn compile to verify fix ===
+[ERROR] COMPILATION ERROR : 
+[ERROR] /java-pubsub-group-kafka-connector/src/main/java/com/google/pubsublite/kafka/sink/PubSubLiteSinkTask.java:[22,35] cannot find symbol
+  symbol:   class PublishMetadata
+  location: package com.google.cloud.pubsublite
+[ERROR] /java-pubsub-group-kafka-connector/src/main/java/com/google/pubsublite/kafka/sink/PubSubLiteSinkTask.java:[43,31] cannot find symbol
+  symbol:   class PublishMetadata
+  location: class com.google.pubsublite.kafka.sink.PubSubLiteSinkTask
+[ERROR] /java-pubsub-group-kafka-connector/src/main/java/com/google/pubsublite/kafka/sink/PublisherFactoryImpl.java:[49,12] incompatible types: com.google.cloud.pubsublite.internal.wire.PartitionPublisherFactory is not a functional interface
+    multiple non-overriding abstract methods found in interface com.google.cloud.pubsublite.internal.wire.PartitionPublisherFactory
+[ERROR] /java-pubsub-group-kafka-connector/src/main/java/com/google/pubsublite/kafka/sink/PublisherFactoryImpl.java:[52,51] cannot find symbol
+  symbol:   method create(com.google.cloud.pubsublite.internal.wire.PubsubContext)
+  location: interface com.google.cloud.pubsublite.internal.wire.StreamFactories.PublishStreamFactory
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project pubsub-group-kafka-connector: Compilation failure: Compilation failure: 
+[ERROR] /java-pubsub-group-kafka-connector/src/main/java/com/google/pubsublite/kafka/sink/PubSubLiteSinkTask.java:[22,35] cannot find symbol
+[ERROR]   symbol:   class PublishMetadata
+[ERROR]   location: package com.google.cloud.pubsublite
+[ERROR] /java-pubsub-group-kafka-connector/src/main/java/com/google/pubsublite/kafka/sink/PubSubLiteSinkTask.java:[43,31] cannot find symbol
+[ERROR]   symbol:   class PublishMetadata
+[ERROR]   location: class com.google.pubsublite.kafka.sink.PubSubLiteSinkTask
+[ERROR] /java-pubsub-group-kafka-connector/src/main/java/com/google/pubsublite/kafka/sink/PublisherFactoryImpl.java:[49,12] incompatible types: com.google.cloud.pubsublite.internal.wire.PartitionPublisherFactory is not a functional interface
+[ERROR]     multiple non-overriding abstract methods found in interface com.google.cloud.pubsublite.internal.wire.PartitionPublisherFactory
+[ERROR] /java-pubsub-group-kafka-connector/src/main/java/com/google/pubsublite/kafka/sink/PublisherFactoryImpl.java:[52,51] cannot find symbol
+[ERROR]   symbol:   method create(com.google.cloud.pubsublite.internal.wire.PubsubContext)
+[ERROR]   location: interface com.google.cloud.pubsublite.internal.wire.StreamFactories.PublishStreamFactory
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+COMPILATION FAILED

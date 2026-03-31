@@ -2,12 +2,12 @@ job_name: bump-dep-fix-100-skill-v2
 jobs_dir: /root/harbor-bump-eval/jobs
 
 orchestrator:
-  n_concurrent_trials: 3
+  n_concurrent_trials: 2
 
 agents:
   - name: claude-code
     env:
-      ANTHROPIC_AUTH_TOKEN: "ANTHROPIC_AUTH_TOKEN_REDACTED"
+      ANTHROPIC_AUTH_TOKEN: "sk-sp-xxx"
       ANTHROPIC_BASE_URL: "https://coding.dashscope.aliyuncs.com/apps/anthropic"
       ANTHROPIC_MODEL: "qwen3.5-plus"
       ANTHROPIC_SMALL_FAST_MODEL: "qwen3.5-plus"

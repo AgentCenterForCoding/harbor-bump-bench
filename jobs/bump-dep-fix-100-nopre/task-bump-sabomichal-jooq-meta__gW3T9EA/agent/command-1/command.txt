@@ -1,0 +1,13 @@
+export PATH="$HOME/.local/bin:$PATH"; claude --verbose --output-format=stream-json --permission-mode=bypassPermissions  --print -- '﻿# Fix Maven Compilation Failure: jooq-meta 3.16.6 -> 3.17.3
+
+## Context
+
+Project `jooq-meta-postgres-flyway` (by sabomichal) has a **COMPILATION_FAILURE** after a dependency upgrade bot bumped
+`org.jooq:jooq-meta` from `3.16.6` to `3.17.3` (minor update).
+
+Reference PR: https://github.com/sabomichal/jooq-meta-postgres-flyway/pull/89
+
+## Your Task
+
+The source code is in `/jooq-meta-postgres-flyway`. Fix all compilation errors so that `mvn compile` succeeds.
+' 2>&1 </dev/null | stdbuf -oL tee /logs/agent/claude-code.txt

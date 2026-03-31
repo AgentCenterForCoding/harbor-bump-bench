@@ -1,0 +1,562 @@
+=== Running mvn compile to verify fix ===
+[ERROR] COMPILATION ERROR : 
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/ChangeSkinSponge.java:[25,37] cannot find symbol
+  symbol:   class CommandManager
+  location: package org.spongepowered.api.command
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/ChangeSkinSponge.java:[26,37] cannot find symbol
+  symbol:   class CommandSource
+  location: package org.spongepowered.api.command
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/ChangeSkinSponge.java:[35,36] cannot find symbol
+  symbol:   class Plugin
+  location: package org.spongepowered.api.plugin
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/ChangeSkinSponge.java:[36,36] cannot find symbol
+  symbol:   class PluginContainer
+  location: package org.spongepowered.api.plugin
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/ChangeSkinSponge.java:[43,2] cannot find symbol
+  symbol: class Plugin
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/ChangeSkinSponge.java:[44,57] cannot find symbol
+  symbol: class CommandSource
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/ChangeSkinSponge.java:[49,19] cannot find symbol
+  symbol:   class PluginContainer
+  location: class com.github.games647.changeskin.sponge.ChangeSkinSponge
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/ChangeSkinSponge.java:[59,13] cannot find symbol
+  symbol:   class PluginContainer
+  location: class com.github.games647.changeskin.sponge.ChangeSkinSponge
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/ChangeSkinSponge.java:[67,48] cannot find symbol
+  symbol:   class CommandManager
+  location: class com.github.games647.changeskin.sponge.ChangeSkinSponge
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/ChangeSkinSponge.java:[78,43] cannot find symbol
+  symbol:   class PluginContainer
+  location: class com.github.games647.changeskin.sponge.ChangeSkinSponge
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/ChangeSkinSponge.java:[106,48] cannot find symbol
+  symbol:   class PluginContainer
+  location: class com.github.games647.changeskin.sponge.ChangeSkinSponge
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/ChangeSkinSponge.java:[115,38] cannot find symbol
+  symbol:   class CommandSource
+  location: class com.github.games647.changeskin.sponge.ChangeSkinSponge
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/ChangeSkinSponge.java:[148,29] cannot find symbol
+  symbol:   class CommandSource
+  location: class com.github.games647.changeskin.sponge.ChangeSkinSponge
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinUploader.java:[9,37] cannot find symbol
+  symbol:   class CommandSource
+  location: package org.spongepowered.api.command
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinUploader.java:[15,19] cannot find symbol
+  symbol:   class CommandSource
+  location: class com.github.games647.changeskin.sponge.task.SkinUploader
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinUploader.java:[17,50] cannot find symbol
+  symbol:   class CommandSource
+  location: class com.github.games647.changeskin.sponge.task.SkinUploader
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/NameResolver.java:[8,37] cannot find symbol
+  symbol:   class CommandSource
+  location: package org.spongepowered.api.command
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/NameResolver.java:[14,19] cannot find symbol
+  symbol:   class CommandSource
+  location: class com.github.games647.changeskin.sponge.task.NameResolver
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/NameResolver.java:[18,50] cannot find symbol
+  symbol:   class CommandSource
+  location: class com.github.games647.changeskin.sponge.task.NameResolver
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinChanger.java:[7,37] cannot find symbol
+  symbol:   class CommandSource
+  location: package org.spongepowered.api.command
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinChanger.java:[8,45] package org.spongepowered.api.text.serializer does not exist
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinChanger.java:[12,19] cannot find symbol
+  symbol:   class CommandSource
+  location: class com.github.games647.changeskin.sponge.task.SkinChanger
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinChanger.java:[14,95] cannot find symbol
+  symbol:   class CommandSource
+  location: class com.github.games647.changeskin.sponge.task.SkinChanger
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinApplier.java:[3,35] package com.flowpowered.math.vector does not exist
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinApplier.java:[12,37] cannot find symbol
+  symbol:   class CommandSource
+  location: package org.spongepowered.api.command
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinApplier.java:[13,38] package org.spongepowered.api.data.key does not exist
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinApplier.java:[23,19] cannot find symbol
+  symbol:   class CommandSource
+  location: class com.github.games647.changeskin.sponge.task.SkinApplier
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinApplier.java:[26,49] cannot find symbol
+  symbol:   class CommandSource
+  location: class com.github.games647.changeskin.sponge.task.SkinApplier
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinDownloader.java:[9,37] cannot find symbol
+  symbol:   class CommandSource
+  location: package org.spongepowered.api.command
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinDownloader.java:[16,19] cannot find symbol
+  symbol:   class CommandSource
+  location: class com.github.games647.changeskin.sponge.task.SkinDownloader
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinDownloader.java:[19,52] cannot find symbol
+  symbol:   class CommandSource
+  location: class com.github.games647.changeskin.sponge.task.SkinDownloader
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/command/ChangeSkinCommand.java:[3,42] package org.spongepowered.api.command.spec does not exist
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/command/ChangeSkinCommand.java:[8,5] cannot find symbol
+  symbol:   class CommandSpec
+  location: interface com.github.games647.changeskin.sponge.command.ChangeSkinCommand
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/bungee/CheckPermissionListener.java:[19,56] package org.spongepowered.api.network.channel.raw.listen does not exist
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/bungee/CheckPermissionListener.java:[20,54] package org.spongepowered.api.network.channel.raw.send does not exist
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/bungee/CheckPermissionListener.java:[25,49] cannot find symbol
+  symbol: class RawDataChannelListener
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/bungee/CheckPermissionListener.java:[40,32] cannot find symbol
+  symbol:   class RawDataChannelSender
+  location: class com.github.games647.changeskin.sponge.bungee.CheckPermissionListener
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/bungee/UpdateSkinListener.java:[13,37] cannot find symbol
+  symbol:   class CommandSource
+  location: package org.spongepowered.api.command
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/bungee/UpdateSkinListener.java:[16,56] package org.spongepowered.api.network.channel.raw.listen does not exist
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/bungee/UpdateSkinListener.java:[17,54] package org.spongepowered.api.network.channel.raw.send does not exist
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/bungee/UpdateSkinListener.java:[20,44] cannot find symbol
+  symbol: class RawDataChannelListener
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/bungee/UpdateSkinListener.java:[26,32] cannot find symbol
+  symbol:   class RawDataChannelSender
+  location: class com.github.games647.changeskin.sponge.bungee.UpdateSkinListener
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/command/InfoCommand.java:[18,37] cannot find symbol
+  symbol:   class CommandSource
+  location: package org.spongepowered.api.command
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/command/InfoCommand.java:[21,64] cannot find symbol
+  symbol:   class Source
+  location: package org.spongepowered.api.command.parameter.managed.standard
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/command/InfoCommand.java:[34,51] cannot find symbol
+  symbol:   class CommandSpec
+  location: package org.spongepowered.api.command.parameter
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/command/InfoCommand.java:[40,34] cannot find symbol
+  symbol:   class CommandSource
+  location: class com.github.games647.changeskin.sponge.command.InfoCommand
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/command/SelectCommand.java:[10,37] cannot find symbol
+  symbol:   class CommandSource
+  location: package org.spongepowered.api.command
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/command/SelectCommand.java:[27,51] cannot find symbol
+  symbol:   class CommandSpec
+  location: package org.spongepowered.api.command.parameter
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/command/SelectCommand.java:[35,34] cannot find symbol
+  symbol:   class CommandSource
+  location: class com.github.games647.changeskin.sponge.command.SelectCommand
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/command/SelectCommand.java:[15,1] cannot find symbol
+  symbol:   static text
+  location: interface org.spongepowered.api.command.parameter.Parameter
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/command/InvalidateCommand.java:[10,37] cannot find symbol
+  symbol:   class CommandSource
+  location: package org.spongepowered.api.command
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/command/InvalidateCommand.java:[12,47] cannot find symbol
+  symbol:   class CommandSpec
+  location: package org.spongepowered.api.command.parameter
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/command/InvalidateCommand.java:[25,12] cannot find symbol
+  symbol:   class CommandSpec
+  location: class com.github.games647.changeskin.sponge.command.InvalidateCommand
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/command/InvalidateCommand.java:[31,34] cannot find symbol
+  symbol:   class CommandSource
+  location: class com.github.games647.changeskin.sponge.command.InvalidateCommand
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/command/UploadCommand.java:[14,37] cannot find symbol
+  symbol:   class CommandSource
+  location: package org.spongepowered.api.command
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/command/UploadCommand.java:[17,47] cannot find symbol
+  symbol:   class CommandSpec
+  location: package org.spongepowered.api.command.parameter
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/command/UploadCommand.java:[33,12] cannot find symbol
+  symbol:   class CommandSpec
+  location: class com.github.games647.changeskin.sponge.command.UploadCommand
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/command/UploadCommand.java:[41,34] cannot find symbol
+  symbol:   class CommandSource
+  location: class com.github.games647.changeskin.sponge.command.UploadCommand
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/command/UploadCommand.java:[19,1] cannot find symbol
+  symbol:   static text
+  location: interface org.spongepowered.api.command.parameter.Parameter
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/command/SetCommand.java:[14,37] cannot find symbol
+  symbol:   class CommandSource
+  location: package org.spongepowered.api.command
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/command/SetCommand.java:[17,57] package org.spongepowered.api.entity.living.player.player does not exist
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/command/SetCommand.java:[34,51] cannot find symbol
+  symbol:   class CommandSpec
+  location: package org.spongepowered.api.command.parameter
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/command/SetCommand.java:[42,34] cannot find symbol
+  symbol:   class CommandSource
+  location: class com.github.games647.changeskin.sponge.command.SetCommand
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/command/SetCommand.java:[20,1] cannot find symbol
+  symbol:   static text
+  location: interface org.spongepowered.api.command.parameter.Parameter
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinInvalidator.java:[16,40] cannot find symbol
+  symbol:   method getUniqueId()
+  location: variable invoker of type org.spongepowered.api.entity.living.player.Player
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinInvalidator.java:[30,44] cannot find symbol
+  symbol:   method submit(com.github.games647.changeskin.sponge.ChangeSkinSponge)
+  location: interface org.spongepowered.api.scheduler.Task.Builder
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/ChangeSkinSponge.java:[82,9] cannot find symbol
+  symbol:   class CommandManager
+  location: class com.github.games647.changeskin.sponge.ChangeSkinSponge
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/ChangeSkinSponge.java:[82,50] cannot find symbol
+  symbol:   method commandManager()
+  location: interface org.spongepowered.api.Game
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/ChangeSkinSponge.java:[99,54] cannot find symbol
+  symbol:   method of(java.lang.String,java.lang.Class<org.spongepowered.api.network.channel.raw.RawDataChannel>)
+  location: variable channelManager of type org.spongepowered.api.network.channel.ChannelManager
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/ChangeSkinSponge.java:[100,52] cannot find symbol
+  symbol:   method of(java.lang.String,java.lang.Class<org.spongepowered.api.network.channel.raw.RawDataChannel>)
+  location: variable channelManager of type org.spongepowered.api.network.channel.ChannelManager
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/ChangeSkinSponge.java:[101,22] cannot find symbol
+  symbol:   method addListener(com.github.games647.changeskin.sponge.bungee.UpdateSkinListener)
+  location: variable updateChannel of type org.spongepowered.api.network.channel.raw.RawDataChannel
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/ChangeSkinSponge.java:[102,20] cannot find symbol
+  symbol:   method addListener(com.github.games647.changeskin.sponge.bungee.CheckPermissionListener)
+  location: variable permChannel of type org.spongepowered.api.network.channel.raw.RawDataChannel
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/SpongeSkinAPI.java:[27,31] cannot find symbol
+  symbol:   method getProfile()
+  location: variable player of type org.spongepowered.api.entity.living.player.Player
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/SpongeSkinAPI.java:[36,62] cannot find symbol
+  symbol:   method gameProfileManager()
+  location: interface org.spongepowered.api.Game
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/SpongeSkinAPI.java:[39,33] cannot find symbol
+  symbol:   method put(java.lang.String,org.spongepowered.api.profile.property.ProfileProperty)
+  location: interface java.util.List<org.spongepowered.api.profile.property.ProfileProperty>
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinUploader.java:[32,64] cannot find symbol
+  symbol:   method async()
+  location: interface org.spongepowered.api.scheduler.Task.Builder
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinSelector.java:[25,44] cannot find symbol
+  symbol:   method submit(com.github.games647.changeskin.sponge.ChangeSkinSponge)
+  location: interface org.spongepowered.api.scheduler.Task.Builder
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinChanger.java:[22,44] package TextSerializers does not exist
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinApplier.java:[43,47] cannot find symbol
+  symbol:   method getUniqueId()
+  location: interface org.spongepowered.api.entity.living.player.Player
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinApplier.java:[48,83] cannot find symbol
+  symbol:   method getUniqueId()
+  location: variable receiver of type org.spongepowered.api.entity.living.player.Player
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinApplier.java:[57,24] cannot find symbol
+  symbol:   method isOnline()
+  location: variable receiver of type org.spongepowered.api.entity.living.player.Player
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinApplier.java:[75,23] cannot find symbol
+  symbol:   method async()
+  location: interface org.spongepowered.api.scheduler.Task.Builder
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinApplier.java:[84,24] cannot find symbol
+  symbol:   variable Keys
+  location: class com.github.games647.changeskin.sponge.task.SkinApplier
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinApplier.java:[85,24] cannot find symbol
+  symbol:   variable Keys
+  location: class com.github.games647.changeskin.sponge.task.SkinApplier
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinApplier.java:[89,17] cannot find symbol
+  symbol:   method getTabList()
+  location: variable receiver of type org.spongepowered.api.entity.living.player.Player
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinApplier.java:[89,51] cannot find symbol
+  symbol:   method getUniqueId()
+  location: variable receiver of type org.spongepowered.api.entity.living.player.Player
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinApplier.java:[90,17] cannot find symbol
+  symbol:   method getTabList()
+  location: variable receiver of type org.spongepowered.api.entity.living.player.Player
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinApplier.java:[91,38] cannot find symbol
+  symbol:   method getDisplayNameData()
+  location: variable receiver of type org.spongepowered.api.entity.living.player.Player
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinApplier.java:[92,34] cannot find symbol
+  symbol:   method getConnection()
+  location: variable receiver of type org.spongepowered.api.entity.living.player.Player
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinApplier.java:[93,31] cannot find symbol
+  symbol:   method getTabList()
+  location: variable receiver of type org.spongepowered.api.entity.living.player.Player
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinApplier.java:[94,35] cannot find symbol
+  symbol:   method getGameModeData()
+  location: variable receiver of type org.spongepowered.api.entity.living.player.Player
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinApplier.java:[95,34] cannot find symbol
+  symbol:   method getProfile()
+  location: variable receiver of type org.spongepowered.api.entity.living.player.Player
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinApplier.java:[98,17] wrong number of type arguments; required 2
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinApplier.java:[98,47] cannot find symbol
+  symbol:   method getLocation()
+  location: variable receiver of type org.spongepowered.api.entity.living.player.Player
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinApplier.java:[99,9] cannot find symbol
+  symbol:   class Vector3d
+  location: class com.github.games647.changeskin.sponge.task.SkinApplier
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinApplier.java:[99,37] cannot find symbol
+  symbol:   method getRotation()
+  location: variable receiver of type org.spongepowered.api.entity.living.player.Player
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinApplier.java:[100,39] cannot find symbol
+  symbol:   method getWorld()
+  location: variable receiver of type org.spongepowered.api.entity.living.player.Player
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinApplier.java:[101,15] cannot find symbol
+  symbol:   method getServer()
+  location: class org.spongepowered.api.Sponge
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinDownloader.java:[21,63] cannot find symbol
+  symbol:   method getUniqueId()
+  location: variable receiver of type org.spongepowered.api.entity.living.player.Player
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinDownloader.java:[31,44] cannot find symbol
+  symbol:   method submit(com.github.games647.changeskin.sponge.ChangeSkinSponge)
+  location: interface org.spongepowered.api.scheduler.Task.Builder
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project changeskin.sponge: Compilation failure: Compilation failure: 
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/ChangeSkinSponge.java:[25,37] cannot find symbol
+[ERROR]   symbol:   class CommandManager
+[ERROR]   location: package org.spongepowered.api.command
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/ChangeSkinSponge.java:[26,37] cannot find symbol
+[ERROR]   symbol:   class CommandSource
+[ERROR]   location: package org.spongepowered.api.command
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/ChangeSkinSponge.java:[35,36] cannot find symbol
+[ERROR]   symbol:   class Plugin
+[ERROR]   location: package org.spongepowered.api.plugin
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/ChangeSkinSponge.java:[36,36] cannot find symbol
+[ERROR]   symbol:   class PluginContainer
+[ERROR]   location: package org.spongepowered.api.plugin
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/ChangeSkinSponge.java:[43,2] cannot find symbol
+[ERROR]   symbol: class Plugin
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/ChangeSkinSponge.java:[44,57] cannot find symbol
+[ERROR]   symbol: class CommandSource
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/ChangeSkinSponge.java:[49,19] cannot find symbol
+[ERROR]   symbol:   class PluginContainer
+[ERROR]   location: class com.github.games647.changeskin.sponge.ChangeSkinSponge
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/ChangeSkinSponge.java:[59,13] cannot find symbol
+[ERROR]   symbol:   class PluginContainer
+[ERROR]   location: class com.github.games647.changeskin.sponge.ChangeSkinSponge
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/ChangeSkinSponge.java:[67,48] cannot find symbol
+[ERROR]   symbol:   class CommandManager
+[ERROR]   location: class com.github.games647.changeskin.sponge.ChangeSkinSponge
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/ChangeSkinSponge.java:[78,43] cannot find symbol
+[ERROR]   symbol:   class PluginContainer
+[ERROR]   location: class com.github.games647.changeskin.sponge.ChangeSkinSponge
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/ChangeSkinSponge.java:[106,48] cannot find symbol
+[ERROR]   symbol:   class PluginContainer
+[ERROR]   location: class com.github.games647.changeskin.sponge.ChangeSkinSponge
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/ChangeSkinSponge.java:[115,38] cannot find symbol
+[ERROR]   symbol:   class CommandSource
+[ERROR]   location: class com.github.games647.changeskin.sponge.ChangeSkinSponge
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/ChangeSkinSponge.java:[148,29] cannot find symbol
+[ERROR]   symbol:   class CommandSource
+[ERROR]   location: class com.github.games647.changeskin.sponge.ChangeSkinSponge
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinUploader.java:[9,37] cannot find symbol
+[ERROR]   symbol:   class CommandSource
+[ERROR]   location: package org.spongepowered.api.command
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinUploader.java:[15,19] cannot find symbol
+[ERROR]   symbol:   class CommandSource
+[ERROR]   location: class com.github.games647.changeskin.sponge.task.SkinUploader
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinUploader.java:[17,50] cannot find symbol
+[ERROR]   symbol:   class CommandSource
+[ERROR]   location: class com.github.games647.changeskin.sponge.task.SkinUploader
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/NameResolver.java:[8,37] cannot find symbol
+[ERROR]   symbol:   class CommandSource
+[ERROR]   location: package org.spongepowered.api.command
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/NameResolver.java:[14,19] cannot find symbol
+[ERROR]   symbol:   class CommandSource
+[ERROR]   location: class com.github.games647.changeskin.sponge.task.NameResolver
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/NameResolver.java:[18,50] cannot find symbol
+[ERROR]   symbol:   class CommandSource
+[ERROR]   location: class com.github.games647.changeskin.sponge.task.NameResolver
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinChanger.java:[7,37] cannot find symbol
+[ERROR]   symbol:   class CommandSource
+[ERROR]   location: package org.spongepowered.api.command
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinChanger.java:[8,45] package org.spongepowered.api.text.serializer does not exist
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinChanger.java:[12,19] cannot find symbol
+[ERROR]   symbol:   class CommandSource
+[ERROR]   location: class com.github.games647.changeskin.sponge.task.SkinChanger
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinChanger.java:[14,95] cannot find symbol
+[ERROR]   symbol:   class CommandSource
+[ERROR]   location: class com.github.games647.changeskin.sponge.task.SkinChanger
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinApplier.java:[3,35] package com.flowpowered.math.vector does not exist
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinApplier.java:[12,37] cannot find symbol
+[ERROR]   symbol:   class CommandSource
+[ERROR]   location: package org.spongepowered.api.command
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinApplier.java:[13,38] package org.spongepowered.api.data.key does not exist
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinApplier.java:[23,19] cannot find symbol
+[ERROR]   symbol:   class CommandSource
+[ERROR]   location: class com.github.games647.changeskin.sponge.task.SkinApplier
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinApplier.java:[26,49] cannot find symbol
+[ERROR]   symbol:   class CommandSource
+[ERROR]   location: class com.github.games647.changeskin.sponge.task.SkinApplier
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinDownloader.java:[9,37] cannot find symbol
+[ERROR]   symbol:   class CommandSource
+[ERROR]   location: package org.spongepowered.api.command
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinDownloader.java:[16,19] cannot find symbol
+[ERROR]   symbol:   class CommandSource
+[ERROR]   location: class com.github.games647.changeskin.sponge.task.SkinDownloader
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinDownloader.java:[19,52] cannot find symbol
+[ERROR]   symbol:   class CommandSource
+[ERROR]   location: class com.github.games647.changeskin.sponge.task.SkinDownloader
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/command/ChangeSkinCommand.java:[3,42] package org.spongepowered.api.command.spec does not exist
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/command/ChangeSkinCommand.java:[8,5] cannot find symbol
+[ERROR]   symbol:   class CommandSpec
+[ERROR]   location: interface com.github.games647.changeskin.sponge.command.ChangeSkinCommand
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/bungee/CheckPermissionListener.java:[19,56] package org.spongepowered.api.network.channel.raw.listen does not exist
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/bungee/CheckPermissionListener.java:[20,54] package org.spongepowered.api.network.channel.raw.send does not exist
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/bungee/CheckPermissionListener.java:[25,49] cannot find symbol
+[ERROR]   symbol: class RawDataChannelListener
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/bungee/CheckPermissionListener.java:[40,32] cannot find symbol
+[ERROR]   symbol:   class RawDataChannelSender
+[ERROR]   location: class com.github.games647.changeskin.sponge.bungee.CheckPermissionListener
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/bungee/UpdateSkinListener.java:[13,37] cannot find symbol
+[ERROR]   symbol:   class CommandSource
+[ERROR]   location: package org.spongepowered.api.command
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/bungee/UpdateSkinListener.java:[16,56] package org.spongepowered.api.network.channel.raw.listen does not exist
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/bungee/UpdateSkinListener.java:[17,54] package org.spongepowered.api.network.channel.raw.send does not exist
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/bungee/UpdateSkinListener.java:[20,44] cannot find symbol
+[ERROR]   symbol: class RawDataChannelListener
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/bungee/UpdateSkinListener.java:[26,32] cannot find symbol
+[ERROR]   symbol:   class RawDataChannelSender
+[ERROR]   location: class com.github.games647.changeskin.sponge.bungee.UpdateSkinListener
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/command/InfoCommand.java:[18,37] cannot find symbol
+[ERROR]   symbol:   class CommandSource
+[ERROR]   location: package org.spongepowered.api.command
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/command/InfoCommand.java:[21,64] cannot find symbol
+[ERROR]   symbol:   class Source
+[ERROR]   location: package org.spongepowered.api.command.parameter.managed.standard
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/command/InfoCommand.java:[34,51] cannot find symbol
+[ERROR]   symbol:   class CommandSpec
+[ERROR]   location: package org.spongepowered.api.command.parameter
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/command/InfoCommand.java:[40,34] cannot find symbol
+[ERROR]   symbol:   class CommandSource
+[ERROR]   location: class com.github.games647.changeskin.sponge.command.InfoCommand
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/command/SelectCommand.java:[10,37] cannot find symbol
+[ERROR]   symbol:   class CommandSource
+[ERROR]   location: package org.spongepowered.api.command
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/command/SelectCommand.java:[27,51] cannot find symbol
+[ERROR]   symbol:   class CommandSpec
+[ERROR]   location: package org.spongepowered.api.command.parameter
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/command/SelectCommand.java:[35,34] cannot find symbol
+[ERROR]   symbol:   class CommandSource
+[ERROR]   location: class com.github.games647.changeskin.sponge.command.SelectCommand
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/command/SelectCommand.java:[15,1] cannot find symbol
+[ERROR]   symbol:   static text
+[ERROR]   location: interface org.spongepowered.api.command.parameter.Parameter
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/command/InvalidateCommand.java:[10,37] cannot find symbol
+[ERROR]   symbol:   class CommandSource
+[ERROR]   location: package org.spongepowered.api.command
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/command/InvalidateCommand.java:[12,47] cannot find symbol
+[ERROR]   symbol:   class CommandSpec
+[ERROR]   location: package org.spongepowered.api.command.parameter
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/command/InvalidateCommand.java:[25,12] cannot find symbol
+[ERROR]   symbol:   class CommandSpec
+[ERROR]   location: class com.github.games647.changeskin.sponge.command.InvalidateCommand
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/command/InvalidateCommand.java:[31,34] cannot find symbol
+[ERROR]   symbol:   class CommandSource
+[ERROR]   location: class com.github.games647.changeskin.sponge.command.InvalidateCommand
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/command/UploadCommand.java:[14,37] cannot find symbol
+[ERROR]   symbol:   class CommandSource
+[ERROR]   location: package org.spongepowered.api.command
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/command/UploadCommand.java:[17,47] cannot find symbol
+[ERROR]   symbol:   class CommandSpec
+[ERROR]   location: package org.spongepowered.api.command.parameter
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/command/UploadCommand.java:[33,12] cannot find symbol
+[ERROR]   symbol:   class CommandSpec
+[ERROR]   location: class com.github.games647.changeskin.sponge.command.UploadCommand
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/command/UploadCommand.java:[41,34] cannot find symbol
+[ERROR]   symbol:   class CommandSource
+[ERROR]   location: class com.github.games647.changeskin.sponge.command.UploadCommand
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/command/UploadCommand.java:[19,1] cannot find symbol
+[ERROR]   symbol:   static text
+[ERROR]   location: interface org.spongepowered.api.command.parameter.Parameter
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/command/SetCommand.java:[14,37] cannot find symbol
+[ERROR]   symbol:   class CommandSource
+[ERROR]   location: package org.spongepowered.api.command
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/command/SetCommand.java:[17,57] package org.spongepowered.api.entity.living.player.player does not exist
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/command/SetCommand.java:[34,51] cannot find symbol
+[ERROR]   symbol:   class CommandSpec
+[ERROR]   location: package org.spongepowered.api.command.parameter
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/command/SetCommand.java:[42,34] cannot find symbol
+[ERROR]   symbol:   class CommandSource
+[ERROR]   location: class com.github.games647.changeskin.sponge.command.SetCommand
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/command/SetCommand.java:[20,1] cannot find symbol
+[ERROR]   symbol:   static text
+[ERROR]   location: interface org.spongepowered.api.command.parameter.Parameter
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinInvalidator.java:[16,40] cannot find symbol
+[ERROR]   symbol:   method getUniqueId()
+[ERROR]   location: variable invoker of type org.spongepowered.api.entity.living.player.Player
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinInvalidator.java:[30,44] cannot find symbol
+[ERROR]   symbol:   method submit(com.github.games647.changeskin.sponge.ChangeSkinSponge)
+[ERROR]   location: interface org.spongepowered.api.scheduler.Task.Builder
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/ChangeSkinSponge.java:[82,9] cannot find symbol
+[ERROR]   symbol:   class CommandManager
+[ERROR]   location: class com.github.games647.changeskin.sponge.ChangeSkinSponge
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/ChangeSkinSponge.java:[82,50] cannot find symbol
+[ERROR]   symbol:   method commandManager()
+[ERROR]   location: interface org.spongepowered.api.Game
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/ChangeSkinSponge.java:[99,54] cannot find symbol
+[ERROR]   symbol:   method of(java.lang.String,java.lang.Class<org.spongepowered.api.network.channel.raw.RawDataChannel>)
+[ERROR]   location: variable channelManager of type org.spongepowered.api.network.channel.ChannelManager
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/ChangeSkinSponge.java:[100,52] cannot find symbol
+[ERROR]   symbol:   method of(java.lang.String,java.lang.Class<org.spongepowered.api.network.channel.raw.RawDataChannel>)
+[ERROR]   location: variable channelManager of type org.spongepowered.api.network.channel.ChannelManager
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/ChangeSkinSponge.java:[101,22] cannot find symbol
+[ERROR]   symbol:   method addListener(com.github.games647.changeskin.sponge.bungee.UpdateSkinListener)
+[ERROR]   location: variable updateChannel of type org.spongepowered.api.network.channel.raw.RawDataChannel
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/ChangeSkinSponge.java:[102,20] cannot find symbol
+[ERROR]   symbol:   method addListener(com.github.games647.changeskin.sponge.bungee.CheckPermissionListener)
+[ERROR]   location: variable permChannel of type org.spongepowered.api.network.channel.raw.RawDataChannel
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/SpongeSkinAPI.java:[27,31] cannot find symbol
+[ERROR]   symbol:   method getProfile()
+[ERROR]   location: variable player of type org.spongepowered.api.entity.living.player.Player
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/SpongeSkinAPI.java:[36,62] cannot find symbol
+[ERROR]   symbol:   method gameProfileManager()
+[ERROR]   location: interface org.spongepowered.api.Game
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/SpongeSkinAPI.java:[39,33] cannot find symbol
+[ERROR]   symbol:   method put(java.lang.String,org.spongepowered.api.profile.property.ProfileProperty)
+[ERROR]   location: interface java.util.List<org.spongepowered.api.profile.property.ProfileProperty>
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinUploader.java:[32,64] cannot find symbol
+[ERROR]   symbol:   method async()
+[ERROR]   location: interface org.spongepowered.api.scheduler.Task.Builder
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinSelector.java:[25,44] cannot find symbol
+[ERROR]   symbol:   method submit(com.github.games647.changeskin.sponge.ChangeSkinSponge)
+[ERROR]   location: interface org.spongepowered.api.scheduler.Task.Builder
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinChanger.java:[22,44] package TextSerializers does not exist
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinApplier.java:[43,47] cannot find symbol
+[ERROR]   symbol:   method getUniqueId()
+[ERROR]   location: interface org.spongepowered.api.entity.living.player.Player
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinApplier.java:[48,83] cannot find symbol
+[ERROR]   symbol:   method getUniqueId()
+[ERROR]   location: variable receiver of type org.spongepowered.api.entity.living.player.Player
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinApplier.java:[57,24] cannot find symbol
+[ERROR]   symbol:   method isOnline()
+[ERROR]   location: variable receiver of type org.spongepowered.api.entity.living.player.Player
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinApplier.java:[75,23] cannot find symbol
+[ERROR]   symbol:   method async()
+[ERROR]   location: interface org.spongepowered.api.scheduler.Task.Builder
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinApplier.java:[84,24] cannot find symbol
+[ERROR]   symbol:   variable Keys
+[ERROR]   location: class com.github.games647.changeskin.sponge.task.SkinApplier
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinApplier.java:[85,24] cannot find symbol
+[ERROR]   symbol:   variable Keys
+[ERROR]   location: class com.github.games647.changeskin.sponge.task.SkinApplier
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinApplier.java:[89,17] cannot find symbol
+[ERROR]   symbol:   method getTabList()
+[ERROR]   location: variable receiver of type org.spongepowered.api.entity.living.player.Player
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinApplier.java:[89,51] cannot find symbol
+[ERROR]   symbol:   method getUniqueId()
+[ERROR]   location: variable receiver of type org.spongepowered.api.entity.living.player.Player
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinApplier.java:[90,17] cannot find symbol
+[ERROR]   symbol:   method getTabList()
+[ERROR]   location: variable receiver of type org.spongepowered.api.entity.living.player.Player
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinApplier.java:[91,38] cannot find symbol
+[ERROR]   symbol:   method getDisplayNameData()
+[ERROR]   location: variable receiver of type org.spongepowered.api.entity.living.player.Player
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinApplier.java:[92,34] cannot find symbol
+[ERROR]   symbol:   method getConnection()
+[ERROR]   location: variable receiver of type org.spongepowered.api.entity.living.player.Player
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinApplier.java:[93,31] cannot find symbol
+[ERROR]   symbol:   method getTabList()
+[ERROR]   location: variable receiver of type org.spongepowered.api.entity.living.player.Player
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinApplier.java:[94,35] cannot find symbol
+[ERROR]   symbol:   method getGameModeData()
+[ERROR]   location: variable receiver of type org.spongepowered.api.entity.living.player.Player
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinApplier.java:[95,34] cannot find symbol
+[ERROR]   symbol:   method getProfile()
+[ERROR]   location: variable receiver of type org.spongepowered.api.entity.living.player.Player
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinApplier.java:[98,17] wrong number of type arguments; required 2
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinApplier.java:[98,47] cannot find symbol
+[ERROR]   symbol:   method getLocation()
+[ERROR]   location: variable receiver of type org.spongepowered.api.entity.living.player.Player
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinApplier.java:[99,9] cannot find symbol
+[ERROR]   symbol:   class Vector3d
+[ERROR]   location: class com.github.games647.changeskin.sponge.task.SkinApplier
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinApplier.java:[99,37] cannot find symbol
+[ERROR]   symbol:   method getRotation()
+[ERROR]   location: variable receiver of type org.spongepowered.api.entity.living.player.Player
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinApplier.java:[100,39] cannot find symbol
+[ERROR]   symbol:   method getWorld()
+[ERROR]   location: variable receiver of type org.spongepowered.api.entity.living.player.Player
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinApplier.java:[101,15] cannot find symbol
+[ERROR]   symbol:   method getServer()
+[ERROR]   location: class org.spongepowered.api.Sponge
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinDownloader.java:[21,63] cannot find symbol
+[ERROR]   symbol:   method getUniqueId()
+[ERROR]   location: variable receiver of type org.spongepowered.api.entity.living.player.Player
+[ERROR] /ChangeSkin/sponge/src/main/java/com/github/games647/changeskin/sponge/task/SkinDownloader.java:[31,44] cannot find symbol
+[ERROR]   symbol:   method submit(com.github.games647.changeskin.sponge.ChangeSkinSponge)
+[ERROR]   location: interface org.spongepowered.api.scheduler.Task.Builder
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <args> -rf :changeskin.sponge
+COMPILATION FAILED

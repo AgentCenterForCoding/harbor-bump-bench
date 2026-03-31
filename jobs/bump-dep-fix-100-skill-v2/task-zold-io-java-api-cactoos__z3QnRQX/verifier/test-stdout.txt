@@ -1,0 +1,25 @@
+=== Running mvn compile to verify fix ===
+[ERROR] COMPILATION ERROR : 
+[ERROR] /java-api/src/main/java/io/zold/api/Copies.java:[30,24] cannot find symbol
+  symbol:   class CollectionOf
+  location: package org.cactoos.list
+[ERROR] /java-api/src/main/java/io/zold/api/Remote.java:[28,26] package org.cactoos.random does not exist
+[ERROR] /java-api/src/main/java/io/zold/api/WalletsIn.java:[53,19] cannot find symbol
+  symbol:   class IoCheckedScalar
+  location: class io.zold.api.WalletsIn
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile (default-compile) on project java-api: Compilation failure: Compilation failure: 
+[ERROR] /java-api/src/main/java/io/zold/api/Copies.java:[30,24] cannot find symbol
+[ERROR]   symbol:   class CollectionOf
+[ERROR]   location: package org.cactoos.list
+[ERROR] /java-api/src/main/java/io/zold/api/Remote.java:[28,26] package org.cactoos.random does not exist
+[ERROR] /java-api/src/main/java/io/zold/api/WalletsIn.java:[53,19] cannot find symbol
+[ERROR]   symbol:   class IoCheckedScalar
+[ERROR]   location: class io.zold.api.WalletsIn
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+COMPILATION FAILED

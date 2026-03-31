@@ -1,0 +1,405 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Build Order:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] messaging-services                                                 [pom]
+[[1;34mINFO[m] core                                                               [jar]
+[[1;34mINFO[m] messaging                                                          [jar]
+[[1;34mINFO[m] clearinghouse                                                      [jar]
+[[1;34mINFO[m] broker                                                             [jar]
+[[1;34mINFO[m] vocol                                                              [jar]
+[[1;34mINFO[m] paris                                                              [jar]
+[[1;34mINFO[m] appstore                                                           [jar]
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------< [0;36mids.messaging:messaging-services[0;1m >------------------[m
+[[1;34mINFO[m] [1mBuilding messaging-services 7.0.1                                  [1/8][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.pom
+Progress (1): 3.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.pom (3.9 kB at 15 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/22/maven-plugins-22.pom
+Progress (1): 4.1 kBProgress (1): 8.2 kBProgress (1): 12 kB Progress (1): 13 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/22/maven-plugins-22.pom (13 kB at 296 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.jar
+Progress (1): 2.3/25 kBProgress (1): 5.0/25 kBProgress (1): 7.7/25 kBProgress (1): 10/25 kB Progress (1): 13/25 kBProgress (1): 16/25 kBProgress (1): 19/25 kBProgress (1): 21/25 kBProgress (1): 24/25 kBProgress (1): 25 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.jar (25 kB at 483 kB/s)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mmessaging-services[0;1m ---[m
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.pom
+Progress (1): 4.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.pom (4.1 kB at 95 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.jar
+Progress (1): 2.3/226 kBProgress (1): 5.0/226 kBProgress (1): 7.7/226 kBProgress (1): 10/226 kB Progress (1): 15/226 kBProgress (1): 19/226 kBProgress (1): 23/226 kBProgress (1): 27/226 kBProgress (1): 31/226 kBProgress (1): 35/226 kBProgress (1): 39/226 kBProgress (1): 43/226 kBProgress (1): 47/226 kBProgress (1): 49/226 kBProgress (1): 54/226 kBProgress (1): 58/226 kBProgress (1): 62/226 kBProgress (1): 66/226 kBProgress (1): 70/226 kBProgress (1): 74/226 kBProgress (1): 78/226 kBProgress (1): 82/226 kBProgress (1): 86/226 kBProgress (1): 90/226 kBProgress (1): 95/226 kBProgress (1): 99/226 kBProgress (1): 103/226 kBProgress (1): 107/226 kBProgress (1): 111/226 kBProgress (1): 115/226 kBProgress (1): 117/226 kBProgress (1): 121/226 kBProgress (1): 125/226 kBProgress (1): 129/226 kBProgress (1): 134/226 kBProgress (1): 138/226 kBProgress (1): 142/226 kBProgress (1): 146/226 kBProgress (1): 150/226 kBProgress (1): 154/226 kBProgress (1): 158/226 kBProgress (1): 162/226 kBProgress (1): 166/226 kBProgress (1): 170/226 kBProgress (1): 174/226 kBProgress (1): 179/226 kBProgress (1): 183/226 kBProgress (1): 187/226 kBProgress (1): 191/226 kBProgress (1): 195/226 kBProgress (1): 199/226 kBProgress (1): 203/226 kBProgress (1): 207/226 kBProgress (1): 211/226 kBProgress (1): 215/226 kBProgress (1): 220/226 kBProgress (1): 224/226 kBProgress (1): 226 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.jar (226 kB at 2.9 MB/s)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mflatten-maven-plugin:1.3.0:clean[m [1m(flatten.clean)[m @ [36mmessaging-services[0;1m ---[m
+[[1;34mINFO[m] Deleting /IDS-Messaging-Services/.flattened-pom.xml
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mflatten-maven-plugin:1.3.0:flatten[m [1m(flatten)[m @ [36mmessaging-services[0;1m ---[m
+[[1;34mINFO[m] Generating flattened POM of project ids.messaging:messaging-services:pom:7.0.1...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------------< [0;36mids.messaging:core[0;1m >-------------------------[m
+[[1;34mINFO[m] [1mBuilding core 7.0.1                                                [2/8][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mcore[0;1m ---[m
+[[1;34mINFO[m] Deleting /IDS-Messaging-Services/core/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mflatten-maven-plugin:1.3.0:clean[m [1m(flatten.clean)[m @ [36mcore[0;1m ---[m
+[[1;34mINFO[m] Deleting /IDS-Messaging-Services/core/.flattened-pom.xml
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mcore[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /IDS-Messaging-Services/core/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mflatten-maven-plugin:1.3.0:flatten[m [1m(flatten)[m @ [36mcore[0;1m ---[m
+[[1;34mINFO[m] Generating flattened POM of project ids.messaging:core:jar:7.0.1...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.10.1:compile[m [1m(default-compile)[m @ [36mcore[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 29 source files to /IDS-Messaging-Services/core/target/classes
+[[1;34mINFO[m] /IDS-Messaging-Services/core/src/main/java/ids/messaging/core/config/ConfigProducer.java: /IDS-Messaging-Services/core/src/main/java/ids/messaging/core/config/ConfigProducer.java uses or overrides a deprecated API.
+[[1;34mINFO[m] /IDS-Messaging-Services/core/src/main/java/ids/messaging/core/config/ConfigProducer.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------------< [0;36mids.messaging:messaging[0;1m >-----------------------[m
+[[1;34mINFO[m] [1mBuilding messaging 7.0.1                                           [3/8][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mmessaging[0;1m ---[m
+[[1;34mINFO[m] Deleting /IDS-Messaging-Services/messaging/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mflatten-maven-plugin:1.3.0:clean[m [1m(flatten.clean)[m @ [36mmessaging[0;1m ---[m
+[[1;34mINFO[m] Deleting /IDS-Messaging-Services/messaging/.flattened-pom.xml
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mmessaging[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /IDS-Messaging-Services/messaging/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mflatten-maven-plugin:1.3.0:flatten[m [1m(flatten)[m @ [36mmessaging[0;1m ---[m
+[[1;34mINFO[m] Generating flattened POM of project ids.messaging:messaging:jar:7.0.1...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.10.1:compile[m [1m(default-compile)[m @ [36mmessaging[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 103 source files to /IDS-Messaging-Services/messaging/target/classes
+[[1;34mINFO[m] /IDS-Messaging-Services/messaging/src/main/java/ids/messaging/protocol/multipart/parser/MultipartParser.java: /IDS-Messaging-Services/messaging/src/main/java/ids/messaging/protocol/multipart/parser/MultipartParser.java uses or overrides a deprecated API.
+[[1;34mINFO[m] /IDS-Messaging-Services/messaging/src/main/java/ids/messaging/protocol/multipart/parser/MultipartParser.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /IDS-Messaging-Services/messaging/src/main/java/ids/messaging/requests/builder/IdsRequestBuilder.java: /IDS-Messaging-Services/messaging/src/main/java/ids/messaging/requests/builder/IdsRequestBuilder.java uses unchecked or unsafe operations.
+[[1;34mINFO[m] /IDS-Messaging-Services/messaging/src/main/java/ids/messaging/requests/builder/IdsRequestBuilder.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36mids.messaging:clearinghouse[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding clearinghouse 7.0.1                                       [4/8][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mclearinghouse[0;1m ---[m
+[[1;34mINFO[m] Deleting /IDS-Messaging-Services/clearinghouse/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mflatten-maven-plugin:1.3.0:clean[m [1m(flatten.clean)[m @ [36mclearinghouse[0;1m ---[m
+[[1;34mINFO[m] Deleting /IDS-Messaging-Services/clearinghouse/.flattened-pom.xml
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mclearinghouse[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /IDS-Messaging-Services/clearinghouse/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mflatten-maven-plugin:1.3.0:flatten[m [1m(flatten)[m @ [36mclearinghouse[0;1m ---[m
+[[1;34mINFO[m] Generating flattened POM of project ids.messaging:clearinghouse:jar:7.0.1...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.10.1:compile[m [1m(default-compile)[m @ [36mclearinghouse[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 2 source files to /IDS-Messaging-Services/clearinghouse/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------------< [0;36mids.messaging:broker[0;1m >------------------------[m
+[[1;34mINFO[m] [1mBuilding broker 7.0.1                                              [5/8][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mbroker[0;1m ---[m
+[[1;34mINFO[m] Deleting /IDS-Messaging-Services/broker/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mflatten-maven-plugin:1.3.0:clean[m [1m(flatten.clean)[m @ [36mbroker[0;1m ---[m
+[[1;34mINFO[m] Deleting /IDS-Messaging-Services/broker/.flattened-pom.xml
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mbroker[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /IDS-Messaging-Services/broker/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mflatten-maven-plugin:1.3.0:flatten[m [1m(flatten)[m @ [36mbroker[0;1m ---[m
+[[1;34mINFO[m] Generating flattened POM of project ids.messaging:broker:jar:7.0.1...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.10.1:compile[m [1m(default-compile)[m @ [36mbroker[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 3 source files to /IDS-Messaging-Services/broker/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------------< [0;36mids.messaging:vocol[0;1m >-------------------------[m
+[[1;34mINFO[m] [1mBuilding vocol 7.0.1                                               [6/8][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mvocol[0;1m ---[m
+[[1;34mINFO[m] Deleting /IDS-Messaging-Services/vocol/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mflatten-maven-plugin:1.3.0:clean[m [1m(flatten.clean)[m @ [36mvocol[0;1m ---[m
+[[1;34mINFO[m] Deleting /IDS-Messaging-Services/vocol/.flattened-pom.xml
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mvocol[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /IDS-Messaging-Services/vocol/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mflatten-maven-plugin:1.3.0:flatten[m [1m(flatten)[m @ [36mvocol[0;1m ---[m
+[[1;34mINFO[m] Generating flattened POM of project ids.messaging:vocol:jar:7.0.1...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.10.1:compile[m [1m(default-compile)[m @ [36mvocol[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 2 source files to /IDS-Messaging-Services/vocol/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------------< [0;36mids.messaging:paris[0;1m >-------------------------[m
+[[1;34mINFO[m] [1mBuilding paris 7.0.1                                               [7/8][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mparis[0;1m ---[m
+[[1;34mINFO[m] Deleting /IDS-Messaging-Services/paris/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mflatten-maven-plugin:1.3.0:clean[m [1m(flatten.clean)[m @ [36mparis[0;1m ---[m
+[[1;34mINFO[m] Deleting /IDS-Messaging-Services/paris/.flattened-pom.xml
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mparis[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /IDS-Messaging-Services/paris/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mflatten-maven-plugin:1.3.0:flatten[m [1m(flatten)[m @ [36mparis[0;1m ---[m
+[[1;34mINFO[m] Generating flattened POM of project ids.messaging:paris:jar:7.0.1...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.10.1:compile[m [1m(default-compile)[m @ [36mparis[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 2 source files to /IDS-Messaging-Services/paris/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------------< [0;36mids.messaging:appstore[0;1m >-----------------------[m
+[[1;34mINFO[m] [1mBuilding appstore 7.0.1                                            [8/8][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mappstore[0;1m ---[m
+[[1;34mINFO[m] Deleting /IDS-Messaging-Services/appstore/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mflatten-maven-plugin:1.3.0:clean[m [1m(flatten.clean)[m @ [36mappstore[0;1m ---[m
+[[1;34mINFO[m] Deleting /IDS-Messaging-Services/appstore/.flattened-pom.xml
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mappstore[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /IDS-Messaging-Services/appstore/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mflatten-maven-plugin:1.3.0:flatten[m [1m(flatten)[m @ [36mappstore[0;1m ---[m
+[[1;34mINFO[m] Generating flattened POM of project ids.messaging:appstore:jar:7.0.1...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.10.1:compile[m [1m(default-compile)[m @ [36mappstore[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 2 source files to /IDS-Messaging-Services/appstore/target/classes
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Summary for messaging-services 7.0.1:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] messaging-services ................................. [1;32mSUCCESS[m [  1.675 s]
+[[1;34mINFO[m] core ............................................... [1;32mSUCCESS[m [  2.540 s]
+[[1;34mINFO[m] messaging .......................................... [1;32mSUCCESS[m [  2.345 s]
+[[1;34mINFO[m] clearinghouse ...................................... [1;32mSUCCESS[m [  0.506 s]
+[[1;34mINFO[m] broker ............................................. [1;32mSUCCESS[m [  0.483 s]
+[[1;34mINFO[m] vocol .............................................. [1;32mSUCCESS[m [  0.396 s]
+[[1;34mINFO[m] paris .............................................. [1;32mSUCCESS[m [  0.352 s]
+[[1;34mINFO[m] appstore ........................................... [1;32mSUCCESS[m [  0.334 s]
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  8.785 s
+[[1;34mINFO[m] Finished at: 2026-03-22T18:11:58Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+---END---
+[[1;34mINFO[m] messaging-services                                                 [pom]
+[[1;34mINFO[m] core                                                               [jar]
+[[1;34mINFO[m] messaging                                                          [jar]
+[[1;34mINFO[m] clearinghouse                                                      [jar]
+[[1;34mINFO[m] broker                                                             [jar]
+[[1;34mINFO[m] vocol                                                              [jar]
+[[1;34mINFO[m] paris                                                              [jar]
+[[1;34mINFO[m] appstore                                                           [jar]
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------< [0;36mids.messaging:messaging-services[0;1m >------------------[m
+[[1;34mINFO[m] [1mBuilding messaging-services 7.0.1                                  [1/8][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.pom
+Progress (1): 3.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.pom (3.9 kB at 15 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/22/maven-plugins-22.pom
+Progress (1): 4.1 kBProgress (1): 8.2 kBProgress (1): 12 kB Progress (1): 13 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/22/maven-plugins-22.pom (13 kB at 296 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.jar
+Progress (1): 2.3/25 kBProgress (1): 5.0/25 kBProgress (1): 7.7/25 kBProgress (1): 10/25 kB Progress (1): 13/25 kBProgress (1): 16/25 kBProgress (1): 19/25 kBProgress (1): 21/25 kBProgress (1): 24/25 kBProgress (1): 25 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.jar (25 kB at 483 kB/s)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mmessaging-services[0;1m ---[m
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.pom
+Progress (1): 4.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.pom (4.1 kB at 95 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.jar
+Progress (1): 2.3/226 kBProgress (1): 5.0/226 kBProgress (1): 7.7/226 kBProgress (1): 10/226 kB Progress (1): 15/226 kBProgress (1): 19/226 kBProgress (1): 23/226 kBProgress (1): 27/226 kBProgress (1): 31/226 kBProgress (1): 35/226 kBProgress (1): 39/226 kBProgress (1): 43/226 kBProgress (1): 47/226 kBProgress (1): 49/226 kBProgress (1): 54/226 kBProgress (1): 58/226 kBProgress (1): 62/226 kBProgress (1): 66/226 kBProgress (1): 70/226 kBProgress (1): 74/226 kBProgress (1): 78/226 kBProgress (1): 82/226 kBProgress (1): 86/226 kBProgress (1): 90/226 kBProgress (1): 95/226 kBProgress (1): 99/226 kBProgress (1): 103/226 kBProgress (1): 107/226 kBProgress (1): 111/226 kBProgress (1): 115/226 kBProgress (1): 117/226 kBProgress (1): 121/226 kBProgress (1): 125/226 kBProgress (1): 129/226 kBProgress (1): 134/226 kBProgress (1): 138/226 kBProgress (1): 142/226 kBProgress (1): 146/226 kBProgress (1): 150/226 kBProgress (1): 154/226 kBProgress (1): 158/226 kBProgress (1): 162/226 kBProgress (1): 166/226 kBProgress (1): 170/226 kBProgress (1): 174/226 kBProgress (1): 179/226 kBProgress (1): 183/226 kBProgress (1): 187/226 kBProgress (1): 191/226 kBProgress (1): 195/226 kBProgress (1): 199/226 kBProgress (1): 203/226 kBProgress (1): 207/226 kBProgress (1): 211/226 kBProgress (1): 215/226 kBProgress (1): 220/226 kBProgress (1): 224/226 kBProgress (1): 226 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.jar (226 kB at 2.9 MB/s)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mflatten-maven-plugin:1.3.0:clean[m [1m(flatten.clean)[m @ [36mmessaging-services[0;1m ---[m
+[[1;34mINFO[m] Deleting /IDS-Messaging-Services/.flattened-pom.xml
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mflatten-maven-plugin:1.3.0:flatten[m [1m(flatten)[m @ [36mmessaging-services[0;1m ---[m
+[[1;34mINFO[m] Generating flattened POM of project ids.messaging:messaging-services:pom:7.0.1...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------------< [0;36mids.messaging:core[0;1m >-------------------------[m
+[[1;34mINFO[m] [1mBuilding core 7.0.1                                                [2/8][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mcore[0;1m ---[m
+[[1;34mINFO[m] Deleting /IDS-Messaging-Services/core/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mflatten-maven-plugin:1.3.0:clean[m [1m(flatten.clean)[m @ [36mcore[0;1m ---[m
+[[1;34mINFO[m] Deleting /IDS-Messaging-Services/core/.flattened-pom.xml
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mcore[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /IDS-Messaging-Services/core/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mflatten-maven-plugin:1.3.0:flatten[m [1m(flatten)[m @ [36mcore[0;1m ---[m
+[[1;34mINFO[m] Generating flattened POM of project ids.messaging:core:jar:7.0.1...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.10.1:compile[m [1m(default-compile)[m @ [36mcore[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 29 source files to /IDS-Messaging-Services/core/target/classes
+[[1;34mINFO[m] /IDS-Messaging-Services/core/src/main/java/ids/messaging/core/config/ConfigProducer.java: /IDS-Messaging-Services/core/src/main/java/ids/messaging/core/config/ConfigProducer.java uses or overrides a deprecated API.
+[[1;34mINFO[m] /IDS-Messaging-Services/core/src/main/java/ids/messaging/core/config/ConfigProducer.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------------< [0;36mids.messaging:messaging[0;1m >-----------------------[m
+[[1;34mINFO[m] [1mBuilding messaging 7.0.1                                           [3/8][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mmessaging[0;1m ---[m
+[[1;34mINFO[m] Deleting /IDS-Messaging-Services/messaging/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mflatten-maven-plugin:1.3.0:clean[m [1m(flatten.clean)[m @ [36mmessaging[0;1m ---[m
+[[1;34mINFO[m] Deleting /IDS-Messaging-Services/messaging/.flattened-pom.xml
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mmessaging[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /IDS-Messaging-Services/messaging/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mflatten-maven-plugin:1.3.0:flatten[m [1m(flatten)[m @ [36mmessaging[0;1m ---[m
+[[1;34mINFO[m] Generating flattened POM of project ids.messaging:messaging:jar:7.0.1...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.10.1:compile[m [1m(default-compile)[m @ [36mmessaging[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 103 source files to /IDS-Messaging-Services/messaging/target/classes
+[[1;34mINFO[m] /IDS-Messaging-Services/messaging/src/main/java/ids/messaging/protocol/multipart/parser/MultipartParser.java: /IDS-Messaging-Services/messaging/src/main/java/ids/messaging/protocol/multipart/parser/MultipartParser.java uses or overrides a deprecated API.
+[[1;34mINFO[m] /IDS-Messaging-Services/messaging/src/main/java/ids/messaging/protocol/multipart/parser/MultipartParser.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] /IDS-Messaging-Services/messaging/src/main/java/ids/messaging/requests/builder/IdsRequestBuilder.java: /IDS-Messaging-Services/messaging/src/main/java/ids/messaging/requests/builder/IdsRequestBuilder.java uses unchecked or unsafe operations.
+[[1;34mINFO[m] /IDS-Messaging-Services/messaging/src/main/java/ids/messaging/requests/builder/IdsRequestBuilder.java: Recompile with -Xlint:unchecked for details.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36mids.messaging:clearinghouse[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding clearinghouse 7.0.1                                       [4/8][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mclearinghouse[0;1m ---[m
+[[1;34mINFO[m] Deleting /IDS-Messaging-Services/clearinghouse/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mflatten-maven-plugin:1.3.0:clean[m [1m(flatten.clean)[m @ [36mclearinghouse[0;1m ---[m
+[[1;34mINFO[m] Deleting /IDS-Messaging-Services/clearinghouse/.flattened-pom.xml
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mclearinghouse[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /IDS-Messaging-Services/clearinghouse/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mflatten-maven-plugin:1.3.0:flatten[m [1m(flatten)[m @ [36mclearinghouse[0;1m ---[m
+[[1;34mINFO[m] Generating flattened POM of project ids.messaging:clearinghouse:jar:7.0.1...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.10.1:compile[m [1m(default-compile)[m @ [36mclearinghouse[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 2 source files to /IDS-Messaging-Services/clearinghouse/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------------< [0;36mids.messaging:broker[0;1m >------------------------[m
+[[1;34mINFO[m] [1mBuilding broker 7.0.1                                              [5/8][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mbroker[0;1m ---[m
+[[1;34mINFO[m] Deleting /IDS-Messaging-Services/broker/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mflatten-maven-plugin:1.3.0:clean[m [1m(flatten.clean)[m @ [36mbroker[0;1m ---[m
+[[1;34mINFO[m] Deleting /IDS-Messaging-Services/broker/.flattened-pom.xml
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mbroker[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /IDS-Messaging-Services/broker/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mflatten-maven-plugin:1.3.0:flatten[m [1m(flatten)[m @ [36mbroker[0;1m ---[m
+[[1;34mINFO[m] Generating flattened POM of project ids.messaging:broker:jar:7.0.1...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.10.1:compile[m [1m(default-compile)[m @ [36mbroker[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 3 source files to /IDS-Messaging-Services/broker/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------------< [0;36mids.messaging:vocol[0;1m >-------------------------[m
+[[1;34mINFO[m] [1mBuilding vocol 7.0.1                                               [6/8][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mvocol[0;1m ---[m
+[[1;34mINFO[m] Deleting /IDS-Messaging-Services/vocol/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mflatten-maven-plugin:1.3.0:clean[m [1m(flatten.clean)[m @ [36mvocol[0;1m ---[m
+[[1;34mINFO[m] Deleting /IDS-Messaging-Services/vocol/.flattened-pom.xml
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mvocol[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /IDS-Messaging-Services/vocol/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mflatten-maven-plugin:1.3.0:flatten[m [1m(flatten)[m @ [36mvocol[0;1m ---[m
+[[1;34mINFO[m] Generating flattened POM of project ids.messaging:vocol:jar:7.0.1...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.10.1:compile[m [1m(default-compile)[m @ [36mvocol[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 2 source files to /IDS-Messaging-Services/vocol/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------------< [0;36mids.messaging:paris[0;1m >-------------------------[m
+[[1;34mINFO[m] [1mBuilding paris 7.0.1                                               [7/8][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mparis[0;1m ---[m
+[[1;34mINFO[m] Deleting /IDS-Messaging-Services/paris/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mflatten-maven-plugin:1.3.0:clean[m [1m(flatten.clean)[m @ [36mparis[0;1m ---[m
+[[1;34mINFO[m] Deleting /IDS-Messaging-Services/paris/.flattened-pom.xml
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mparis[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /IDS-Messaging-Services/paris/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mflatten-maven-plugin:1.3.0:flatten[m [1m(flatten)[m @ [36mparis[0;1m ---[m
+[[1;34mINFO[m] Generating flattened POM of project ids.messaging:paris:jar:7.0.1...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.10.1:compile[m [1m(default-compile)[m @ [36mparis[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 2 source files to /IDS-Messaging-Services/paris/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------------< [0;36mids.messaging:appstore[0;1m >-----------------------[m
+[[1;34mINFO[m] [1mBuilding appstore 7.0.1                                            [8/8][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:2.5:clean[m [1m(default-clean)[m @ [36mappstore[0;1m ---[m
+[[1;34mINFO[m] Deleting /IDS-Messaging-Services/appstore/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mflatten-maven-plugin:1.3.0:clean[m [1m(flatten.clean)[m @ [36mappstore[0;1m ---[m
+[[1;34mINFO[m] Deleting /IDS-Messaging-Services/appstore/.flattened-pom.xml
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mappstore[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /IDS-Messaging-Services/appstore/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mflatten-maven-plugin:1.3.0:flatten[m [1m(flatten)[m @ [36mappstore[0;1m ---[m
+[[1;34mINFO[m] Generating flattened POM of project ids.messaging:appstore:jar:7.0.1...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.10.1:compile[m [1m(default-compile)[m @ [36mappstore[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 2 source files to /IDS-Messaging-Services/appstore/target/classes
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Summary for messaging-services 7.0.1:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] messaging-services ................................. [1;32mSUCCESS[m [  1.675 s]
+[[1;34mINFO[m] core ............................................... [1;32mSUCCESS[m [  2.540 s]
+[[1;34mINFO[m] messaging .......................................... [1;32mSUCCESS[m [  2.345 s]
+[[1;34mINFO[m] clearinghouse ...................................... [1;32mSUCCESS[m [  0.506 s]
+[[1;34mINFO[m] broker ............................................. [1;32mSUCCESS[m [  0.483 s]
+[[1;34mINFO[m] vocol .............................................. [1;32mSUCCESS[m [  0.396 s]
+[[1;34mINFO[m] paris .............................................. [1;32mSUCCESS[m [  0.352 s]
+[[1;34mINFO[m] appstore ........................................... [1;32mSUCCESS[m [  0.334 s]
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  8.785 s
+[[1;34mINFO[m] Finished at: 2026-03-22T18:11:58Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

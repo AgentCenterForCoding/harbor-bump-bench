@@ -1,0 +1,13 @@
+export PATH="$HOME/.local/bin:$PATH"; claude --verbose --output-format=stream-json --permission-mode=bypassPermissions  --print -- '﻿# Fix Maven Compilation Failure: geoip2 2.16.1 -> 3.0.0
+
+## Context
+
+Project `minfraud-api-java` (by maxmind) has a **COMPILATION_FAILURE** after a dependency upgrade bot bumped
+`com.maxmind.geoip2:geoip2` from `2.16.1` to `3.0.0` (major update).
+
+Reference PR: https://github.com/maxmind/minfraud-api-java/pull/218
+
+## Your Task
+
+The source code is in `/minfraud-api-java`. Fix all compilation errors so that `mvn compile` succeeds.
+' 2>&1 </dev/null | stdbuf -oL tee /logs/agent/claude-code.txt

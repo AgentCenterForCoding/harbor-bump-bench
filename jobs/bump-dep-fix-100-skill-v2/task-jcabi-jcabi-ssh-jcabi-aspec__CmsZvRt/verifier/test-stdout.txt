@@ -1,0 +1,35 @@
+=== Running mvn compile to verify fix ===
+[ERROR] COMPILATION ERROR : 
+[ERROR] /jcabi-ssh/src/main/java/com/jcabi/ssh/SshByPassword.java:[33,25] cannot find symbol
+  symbol:   class Tv
+  location: package com.jcabi.aspects
+[ERROR] /jcabi-ssh/src/main/java/com/jcabi/ssh/Ssh.java:[33,25] cannot find symbol
+  symbol:   class Tv
+  location: package com.jcabi.aspects
+[ERROR] /jcabi-ssh/src/main/java/com/jcabi/ssh/SshByPassword.java:[77,20] cannot find symbol
+  symbol:   variable Tv
+  location: class com.jcabi.ssh.SshByPassword
+[ERROR] /jcabi-ssh/src/main/java/com/jcabi/ssh/Ssh.java:[235,20] cannot find symbol
+  symbol:   variable Tv
+  location: class com.jcabi.ssh.Ssh
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.10.1:compile (default-compile) on project jcabi-ssh: Compilation failure: Compilation failure: 
+[ERROR] /jcabi-ssh/src/main/java/com/jcabi/ssh/SshByPassword.java:[33,25] cannot find symbol
+[ERROR]   symbol:   class Tv
+[ERROR]   location: package com.jcabi.aspects
+[ERROR] /jcabi-ssh/src/main/java/com/jcabi/ssh/Ssh.java:[33,25] cannot find symbol
+[ERROR]   symbol:   class Tv
+[ERROR]   location: package com.jcabi.aspects
+[ERROR] /jcabi-ssh/src/main/java/com/jcabi/ssh/SshByPassword.java:[77,20] cannot find symbol
+[ERROR]   symbol:   variable Tv
+[ERROR]   location: class com.jcabi.ssh.SshByPassword
+[ERROR] /jcabi-ssh/src/main/java/com/jcabi/ssh/Ssh.java:[235,20] cannot find symbol
+[ERROR]   symbol:   variable Tv
+[ERROR]   location: class com.jcabi.ssh.Ssh
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+COMPILATION FAILED

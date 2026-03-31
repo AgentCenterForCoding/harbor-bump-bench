@@ -1,0 +1,148 @@
+=== Running mvn compile to verify fix ===
+[ERROR] COMPILATION ERROR : 
+[ERROR] /future-converter/common-test/src/main/java/net/javacrumbs/futureconverter/common/test/spring/SpringOriginalFutureTestHelper.java:[21,37] cannot access org.springframework.core.task.AsyncListenableTaskExecutor
+  bad class file: /root/.m2/repository/org/springframework/spring-core/6.0.4/spring-core-6.0.4.jar(/org/springframework/core/task/AsyncListenableTaskExecutor.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+[ERROR] /future-converter/common-test/src/main/java/net/javacrumbs/futureconverter/common/test/spring/SpringOriginalFutureTestHelper.java:[22,45] cannot access org.springframework.core.task.support.TaskExecutorAdapter
+  bad class file: /root/.m2/repository/org/springframework/spring-core/6.0.4/spring-core-6.0.4.jar(/org/springframework/core/task/support/TaskExecutorAdapter.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+[ERROR] /future-converter/common-test/src/main/java/net/javacrumbs/futureconverter/common/test/spring/SpringOriginalFutureTestHelper.java:[23,43] cannot access org.springframework.util.concurrent.ListenableFuture
+  bad class file: /root/.m2/repository/org/springframework/spring-core/6.0.4/spring-core-6.0.4.jar(/org/springframework/util/concurrent/ListenableFuture.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+[ERROR] /future-converter/common-test/src/main/java/net/javacrumbs/futureconverter/common/test/spring/SpringOriginalFutureTestHelper.java:[24,43] cannot access org.springframework.util.concurrent.SettableListenableFuture
+  bad class file: /root/.m2/repository/org/springframework/spring-core/6.0.4/spring-core-6.0.4.jar(/org/springframework/util/concurrent/SettableListenableFuture.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+[ERROR] /future-converter/common-test/src/main/java/net/javacrumbs/futureconverter/common/test/spring/SpringOriginalFutureTestHelper.java:[29,120] cannot find symbol
+  symbol: class ListenableFuture
+[ERROR] /future-converter/common-test/src/main/java/net/javacrumbs/futureconverter/common/test/spring/SpringOriginalFutureTestHelper.java:[31,19] cannot find symbol
+  symbol:   class AsyncListenableTaskExecutor
+  location: class net.javacrumbs.futureconverter.common.test.spring.SpringOriginalFutureTestHelper
+[ERROR] /future-converter/common-test/src/main/java/net/javacrumbs/futureconverter/common/test/spring/SpringOriginalFutureTestHelper.java:[34,12] cannot find symbol
+  symbol:   class ListenableFuture
+  location: class net.javacrumbs.futureconverter.common.test.spring.SpringOriginalFutureTestHelper
+[ERROR] /future-converter/common-test/src/main/java/net/javacrumbs/futureconverter/common/test/spring/SpringOriginalFutureTestHelper.java:[44,12] cannot find symbol
+  symbol:   class ListenableFuture
+  location: class net.javacrumbs.futureconverter.common.test.spring.SpringOriginalFutureTestHelper
+[ERROR] /future-converter/common-test/src/main/java/net/javacrumbs/futureconverter/common/test/spring/SpringOriginalFutureTestHelper.java:[51,12] cannot find symbol
+  symbol:   class ListenableFuture
+  location: class net.javacrumbs.futureconverter.common.test.spring.SpringOriginalFutureTestHelper
+[ERROR] /future-converter/common-test/src/main/java/net/javacrumbs/futureconverter/common/test/spring/SpringConvertedFutureTestHelper.java:[22,43] cannot access org.springframework.util.concurrent.ListenableFutureCallback
+  bad class file: /root/.m2/repository/org/springframework/spring-core/6.0.4/spring-core-6.0.4.jar(/org/springframework/util/concurrent/ListenableFutureCallback.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+[ERROR] /future-converter/common-test/src/main/java/net/javacrumbs/futureconverter/common/test/spring/SpringConvertedFutureTestHelper.java:[31,123] cannot find symbol
+  symbol: class ListenableFuture
+[ERROR] /future-converter/common-test/src/main/java/net/javacrumbs/futureconverter/common/test/spring/SpringConvertedFutureTestHelper.java:[32,19] cannot find symbol
+  symbol:   class ListenableFutureCallback
+  location: class net.javacrumbs.futureconverter.common.test.spring.SpringConvertedFutureTestHelper
+[ERROR] /future-converter/common-test/src/main/java/net/javacrumbs/futureconverter/common/test/spring/SpringConvertedFutureTestHelper.java:[35,44] cannot find symbol
+  symbol:   class ListenableFuture
+  location: class net.javacrumbs.futureconverter.common.test.spring.SpringConvertedFutureTestHelper
+[ERROR] /future-converter/common-test/src/main/java/net/javacrumbs/futureconverter/common/test/spring/SpringConvertedFutureTestHelper.java:[72,31] cannot find symbol
+  symbol:   class ListenableFuture
+  location: class net.javacrumbs.futureconverter.common.test.spring.SpringConvertedFutureTestHelper
+[ERROR] /future-converter/common-test/src/main/java/net/javacrumbs/futureconverter/common/test/spring/SpringOriginalFutureTestHelper.java:[31,62] cannot find symbol
+  symbol:   class TaskExecutorAdapter
+  location: class net.javacrumbs.futureconverter.common.test.spring.SpringOriginalFutureTestHelper
+[ERROR] /future-converter/common-test/src/main/java/net/javacrumbs/futureconverter/common/test/spring/SpringOriginalFutureTestHelper.java:[45,9] cannot find symbol
+  symbol:   class SettableListenableFuture
+  location: class net.javacrumbs.futureconverter.common.test.spring.SpringOriginalFutureTestHelper
+[ERROR] /future-converter/common-test/src/main/java/net/javacrumbs/futureconverter/common/test/spring/SpringOriginalFutureTestHelper.java:[45,55] cannot find symbol
+  symbol:   class SettableListenableFuture
+  location: class net.javacrumbs.futureconverter.common.test.spring.SpringOriginalFutureTestHelper
+[ERROR] /future-converter/common-test/src/main/java/net/javacrumbs/futureconverter/common/test/spring/SpringConvertedFutureTestHelper.java:[32,68] cannot find symbol
+  symbol:   class ListenableFutureCallback
+  location: class net.javacrumbs.futureconverter.common.test.spring.SpringConvertedFutureTestHelper
+[ERROR] /future-converter/common-test/src/main/java/net/javacrumbs/futureconverter/common/test/spring/SpringConvertedFutureTestHelper.java:[37,41] cannot find symbol
+  symbol:   class ListenableFutureCallback
+  location: class net.javacrumbs.futureconverter.common.test.spring.SpringConvertedFutureTestHelper
+[ERROR] /future-converter/common-test/src/main/java/net/javacrumbs/futureconverter/common/test/spring/SpringConvertedFutureTestHelper.java:[38,13] method does not override or implement a method from a supertype
+[ERROR] /future-converter/common-test/src/main/java/net/javacrumbs/futureconverter/common/test/spring/SpringConvertedFutureTestHelper.java:[43,13] method does not override or implement a method from a supertype
+[ERROR] /future-converter/common-test/src/main/java/net/javacrumbs/futureconverter/common/test/spring/SpringConvertedFutureTestHelper.java:[73,41] cannot find symbol
+  symbol:   class ListenableFutureCallback
+  location: class net.javacrumbs.futureconverter.common.test.spring.SpringConvertedFutureTestHelper
+[ERROR] /future-converter/common-test/src/main/java/net/javacrumbs/futureconverter/common/test/spring/SpringConvertedFutureTestHelper.java:[74,13] method does not override or implement a method from a supertype
+[ERROR] /future-converter/common-test/src/main/java/net/javacrumbs/futureconverter/common/test/spring/SpringConvertedFutureTestHelper.java:[80,13] method does not override or implement a method from a supertype
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.10.1:compile (default-compile) on project future-converter-common-test: Compilation failure: Compilation failure: 
+[ERROR] /future-converter/common-test/src/main/java/net/javacrumbs/futureconverter/common/test/spring/SpringOriginalFutureTestHelper.java:[21,37] cannot access org.springframework.core.task.AsyncListenableTaskExecutor
+[ERROR]   bad class file: /root/.m2/repository/org/springframework/spring-core/6.0.4/spring-core-6.0.4.jar(/org/springframework/core/task/AsyncListenableTaskExecutor.class)
+[ERROR]     class file has wrong version 61.0, should be 55.0
+[ERROR]     Please remove or make sure it appears in the correct subdirectory of the classpath.
+[ERROR] /future-converter/common-test/src/main/java/net/javacrumbs/futureconverter/common/test/spring/SpringOriginalFutureTestHelper.java:[22,45] cannot access org.springframework.core.task.support.TaskExecutorAdapter
+[ERROR]   bad class file: /root/.m2/repository/org/springframework/spring-core/6.0.4/spring-core-6.0.4.jar(/org/springframework/core/task/support/TaskExecutorAdapter.class)
+[ERROR]     class file has wrong version 61.0, should be 55.0
+[ERROR]     Please remove or make sure it appears in the correct subdirectory of the classpath.
+[ERROR] /future-converter/common-test/src/main/java/net/javacrumbs/futureconverter/common/test/spring/SpringOriginalFutureTestHelper.java:[23,43] cannot access org.springframework.util.concurrent.ListenableFuture
+[ERROR]   bad class file: /root/.m2/repository/org/springframework/spring-core/6.0.4/spring-core-6.0.4.jar(/org/springframework/util/concurrent/ListenableFuture.class)
+[ERROR]     class file has wrong version 61.0, should be 55.0
+[ERROR]     Please remove or make sure it appears in the correct subdirectory of the classpath.
+[ERROR] /future-converter/common-test/src/main/java/net/javacrumbs/futureconverter/common/test/spring/SpringOriginalFutureTestHelper.java:[24,43] cannot access org.springframework.util.concurrent.SettableListenableFuture
+[ERROR]   bad class file: /root/.m2/repository/org/springframework/spring-core/6.0.4/spring-core-6.0.4.jar(/org/springframework/util/concurrent/SettableListenableFuture.class)
+[ERROR]     class file has wrong version 61.0, should be 55.0
+[ERROR]     Please remove or make sure it appears in the correct subdirectory of the classpath.
+[ERROR] /future-converter/common-test/src/main/java/net/javacrumbs/futureconverter/common/test/spring/SpringOriginalFutureTestHelper.java:[29,120] cannot find symbol
+[ERROR]   symbol: class ListenableFuture
+[ERROR] /future-converter/common-test/src/main/java/net/javacrumbs/futureconverter/common/test/spring/SpringOriginalFutureTestHelper.java:[31,19] cannot find symbol
+[ERROR]   symbol:   class AsyncListenableTaskExecutor
+[ERROR]   location: class net.javacrumbs.futureconverter.common.test.spring.SpringOriginalFutureTestHelper
+[ERROR] /future-converter/common-test/src/main/java/net/javacrumbs/futureconverter/common/test/spring/SpringOriginalFutureTestHelper.java:[34,12] cannot find symbol
+[ERROR]   symbol:   class ListenableFuture
+[ERROR]   location: class net.javacrumbs.futureconverter.common.test.spring.SpringOriginalFutureTestHelper
+[ERROR] /future-converter/common-test/src/main/java/net/javacrumbs/futureconverter/common/test/spring/SpringOriginalFutureTestHelper.java:[44,12] cannot find symbol
+[ERROR]   symbol:   class ListenableFuture
+[ERROR]   location: class net.javacrumbs.futureconverter.common.test.spring.SpringOriginalFutureTestHelper
+[ERROR] /future-converter/common-test/src/main/java/net/javacrumbs/futureconverter/common/test/spring/SpringOriginalFutureTestHelper.java:[51,12] cannot find symbol
+[ERROR]   symbol:   class ListenableFuture
+[ERROR]   location: class net.javacrumbs.futureconverter.common.test.spring.SpringOriginalFutureTestHelper
+[ERROR] /future-converter/common-test/src/main/java/net/javacrumbs/futureconverter/common/test/spring/SpringConvertedFutureTestHelper.java:[22,43] cannot access org.springframework.util.concurrent.ListenableFutureCallback
+[ERROR]   bad class file: /root/.m2/repository/org/springframework/spring-core/6.0.4/spring-core-6.0.4.jar(/org/springframework/util/concurrent/ListenableFutureCallback.class)
+[ERROR]     class file has wrong version 61.0, should be 55.0
+[ERROR]     Please remove or make sure it appears in the correct subdirectory of the classpath.
+[ERROR] /future-converter/common-test/src/main/java/net/javacrumbs/futureconverter/common/test/spring/SpringConvertedFutureTestHelper.java:[31,123] cannot find symbol
+[ERROR]   symbol: class ListenableFuture
+[ERROR] /future-converter/common-test/src/main/java/net/javacrumbs/futureconverter/common/test/spring/SpringConvertedFutureTestHelper.java:[32,19] cannot find symbol
+[ERROR]   symbol:   class ListenableFutureCallback
+[ERROR]   location: class net.javacrumbs.futureconverter.common.test.spring.SpringConvertedFutureTestHelper
+[ERROR] /future-converter/common-test/src/main/java/net/javacrumbs/futureconverter/common/test/spring/SpringConvertedFutureTestHelper.java:[35,44] cannot find symbol
+[ERROR]   symbol:   class ListenableFuture
+[ERROR]   location: class net.javacrumbs.futureconverter.common.test.spring.SpringConvertedFutureTestHelper
+[ERROR] /future-converter/common-test/src/main/java/net/javacrumbs/futureconverter/common/test/spring/SpringConvertedFutureTestHelper.java:[72,31] cannot find symbol
+[ERROR]   symbol:   class ListenableFuture
+[ERROR]   location: class net.javacrumbs.futureconverter.common.test.spring.SpringConvertedFutureTestHelper
+[ERROR] /future-converter/common-test/src/main/java/net/javacrumbs/futureconverter/common/test/spring/SpringOriginalFutureTestHelper.java:[31,62] cannot find symbol
+[ERROR]   symbol:   class TaskExecutorAdapter
+[ERROR]   location: class net.javacrumbs.futureconverter.common.test.spring.SpringOriginalFutureTestHelper
+[ERROR] /future-converter/common-test/src/main/java/net/javacrumbs/futureconverter/common/test/spring/SpringOriginalFutureTestHelper.java:[45,9] cannot find symbol
+[ERROR]   symbol:   class SettableListenableFuture
+[ERROR]   location: class net.javacrumbs.futureconverter.common.test.spring.SpringOriginalFutureTestHelper
+[ERROR] /future-converter/common-test/src/main/java/net/javacrumbs/futureconverter/common/test/spring/SpringOriginalFutureTestHelper.java:[45,55] cannot find symbol
+[ERROR]   symbol:   class SettableListenableFuture
+[ERROR]   location: class net.javacrumbs.futureconverter.common.test.spring.SpringOriginalFutureTestHelper
+[ERROR] /future-converter/common-test/src/main/java/net/javacrumbs/futureconverter/common/test/spring/SpringConvertedFutureTestHelper.java:[32,68] cannot find symbol
+[ERROR]   symbol:   class ListenableFutureCallback
+[ERROR]   location: class net.javacrumbs.futureconverter.common.test.spring.SpringConvertedFutureTestHelper
+[ERROR] /future-converter/common-test/src/main/java/net/javacrumbs/futureconverter/common/test/spring/SpringConvertedFutureTestHelper.java:[37,41] cannot find symbol
+[ERROR]   symbol:   class ListenableFutureCallback
+[ERROR]   location: class net.javacrumbs.futureconverter.common.test.spring.SpringConvertedFutureTestHelper
+[ERROR] /future-converter/common-test/src/main/java/net/javacrumbs/futureconverter/common/test/spring/SpringConvertedFutureTestHelper.java:[38,13] method does not override or implement a method from a supertype
+[ERROR] /future-converter/common-test/src/main/java/net/javacrumbs/futureconverter/common/test/spring/SpringConvertedFutureTestHelper.java:[43,13] method does not override or implement a method from a supertype
+[ERROR] /future-converter/common-test/src/main/java/net/javacrumbs/futureconverter/common/test/spring/SpringConvertedFutureTestHelper.java:[73,41] cannot find symbol
+[ERROR]   symbol:   class ListenableFutureCallback
+[ERROR]   location: class net.javacrumbs.futureconverter.common.test.spring.SpringConvertedFutureTestHelper
+[ERROR] /future-converter/common-test/src/main/java/net/javacrumbs/futureconverter/common/test/spring/SpringConvertedFutureTestHelper.java:[74,13] method does not override or implement a method from a supertype
+[ERROR] /future-converter/common-test/src/main/java/net/javacrumbs/futureconverter/common/test/spring/SpringConvertedFutureTestHelper.java:[80,13] method does not override or implement a method from a supertype
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <args> -rf :future-converter-common-test
+COMPILATION FAILED

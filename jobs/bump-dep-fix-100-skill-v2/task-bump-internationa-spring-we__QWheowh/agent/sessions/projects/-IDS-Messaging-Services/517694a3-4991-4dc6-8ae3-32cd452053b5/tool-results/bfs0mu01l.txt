@@ -1,0 +1,361 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Build Order:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] messaging-services                                                 [pom]
+[[1;34mINFO[m] core                                                               [jar]
+[[1;34mINFO[m] messaging                                                          [jar]
+[[1;34mINFO[m] clearinghouse                                                      [jar]
+[[1;34mINFO[m] broker                                                             [jar]
+[[1;34mINFO[m] vocol                                                              [jar]
+[[1;34mINFO[m] paris                                                              [jar]
+[[1;34mINFO[m] appstore                                                           [jar]
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------< [0;36mids.messaging:messaging-services[0;1m >------------------[m
+[[1;34mINFO[m] [1mBuilding messaging-services 7.0.1                                  [1/8][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+Downloading from eis-ids-public: https://maven.iais.fraunhofer.de/artifactory/eis-ids-public/de/fraunhofer/iais/eis/infomodel/util/4.2.7-SNAPSHOT/maven-metadata.xml
+Downloading from sovity-public: https://pkgs.dev.azure.com/sovity/5bec6cbd-c80a-47ac-86ce-1deb26cee853/_packaging/artifact/maven/v1/de/fraunhofer/iais/eis/infomodel/util/4.2.7-SNAPSHOT/maven-metadata.xml
+[[1;33mWARNING[m] Could not transfer metadata de.fraunhofer.iais.eis.infomodel:util:4.2.7-SNAPSHOT/maven-metadata.xml from/to eis-ids-public (https://maven.iais.fraunhofer.de/artifactory/eis-ids-public): Transfer failed for https://maven.iais.fraunhofer.de/artifactory/eis-ids-public/de/fraunhofer/iais/eis/infomodel/util/4.2.7-SNAPSHOT/maven-metadata.xml
+[[1;33mWARNING[m] Failure to transfer de.fraunhofer.iais.eis.infomodel:util:4.2.7-SNAPSHOT/maven-metadata.xml from https://maven.iais.fraunhofer.de/artifactory/eis-ids-public was cached in the local repository, resolution will not be reattempted until the update interval of eis-ids-public has elapsed or updates are forced. Original error: Could not transfer metadata de.fraunhofer.iais.eis.infomodel:util:4.2.7-SNAPSHOT/maven-metadata.xml from/to eis-ids-public (https://maven.iais.fraunhofer.de/artifactory/eis-ids-public): Transfer failed for https://maven.iais.fraunhofer.de/artifactory/eis-ids-public/de/fraunhofer/iais/eis/infomodel/util/4.2.7-SNAPSHOT/maven-metadata.xml
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mflatten-maven-plugin:1.3.0:flatten[m [1m(flatten)[m @ [36mmessaging-services[0;1m ---[m
+[[1;34mINFO[m] Generating flattened POM of project ids.messaging:messaging-services:pom:7.0.1...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------------< [0;36mids.messaging:core[0;1m >-------------------------[m
+[[1;34mINFO[m] [1mBuilding core 7.0.1                                                [2/8][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.pom
+Progress (1): 4.1 kBProgress (1): 8.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.pom (8.1 kB at 51 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/23/maven-plugins-23.pom
+Progress (1): 4.1 kBProgress (1): 8.2 kBProgress (1): 9.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/23/maven-plugins-23.pom (9.2 kB at 219 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/22/maven-parent-22.pom
+Progress (1): 4.1 kBProgress (1): 8.2 kBProgress (1): 12 kB Progress (1): 16 kBProgress (1): 20 kBProgress (1): 25 kBProgress (1): 29 kBProgress (1): 30 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/22/maven-parent-22.pom (30 kB at 692 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/11/apache-11.pom
+Progress (1): 4.1 kBProgress (1): 8.2 kBProgress (1): 12 kB Progress (1): 15 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/11/apache-11.pom (15 kB at 361 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.jar
+Progress (1): 2.3/30 kBProgress (1): 5.0/30 kBProgress (1): 7.5/30 kBProgress (1): 10/30 kB Progress (1): 13/30 kBProgress (1): 16/30 kBProgress (1): 18/30 kBProgress (1): 21/30 kBProgress (1): 24/30 kBProgress (1): 27/30 kBProgress (1): 30 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.jar (30 kB at 642 kB/s)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mcore[0;1m ---[m
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/2.0.6/maven-plugin-api-2.0.6.pom
+Progress (1): 1.5 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/2.0.6/maven-plugin-api-2.0.6.pom (1.5 kB at 32 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/2.0.6/maven-2.0.6.pom
+Progress (1): 4.1 kBProgress (1): 8.2 kBProgress (1): 9.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/2.0.6/maven-2.0.6.pom (9.0 kB at 206 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/5/maven-parent-5.pom
+Progress (1): 4.1 kBProgress (1): 8.2 kBProgress (1): 12 kB Progress (1): 15 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/5/maven-parent-5.pom (15 kB at 346 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/3/apache-3.pom
+Progress (1): 3.4 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/3/apache-3.pom (3.4 kB at 82 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.0.6/maven-project-2.0.6.pom
+Progress (1): 2.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.0.6/maven-project-2.0.6.pom (2.6 kB at 63 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.0.6/maven-settings-2.0.6.pom
+Progress (1): 2.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.0.6/maven-settings-2.0.6.pom (2.0 kB at 48 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.0.6/maven-model-2.0.6.pom
+Progress (1): 3.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.0.6/maven-model-2.0.6.pom (3.0 kB at 60 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.4.1/plexus-utils-1.4.1.pom
+Progress (1): 1.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.4.1/plexus-utils-1.4.1.pom (1.9 kB at 47 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/junit/junit/3.8.1/junit-3.8.1.pom
+Progress (1): 998 B                   Downloaded from central: https://repo.maven.apache.org/maven2/junit/junit/3.8.1/junit-3.8.1.pom (998 B at 24 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0.6/maven-profile-2.0.6.pom
+Progress (1): 2.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0.6/maven-profile-2.0.6.pom (2.0 kB at 48 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.6/maven-artifact-manager-2.0.6.pom
+Progress (1): 2.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.6/maven-artifact-manager-2.0.6.pom (2.6 kB at 66 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0.6/maven-repository-metadata-2.0.6.pom
+Progress (1): 1.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0.6/maven-repository-metadata-2.0.6.pom (1.9 kB at 42 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0.6/maven-artifact-2.0.6.pom
+Progress (1): 1.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0.6/maven-artifact-2.0.6.pom (1.6 kB at 39 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-registry/2.0.6/maven-plugin-registry-2.0.6.pom
+Progress (1): 1.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-registry/2.0.6/maven-plugin-registry-2.0.6.pom (1.9 kB at 43 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/2.0.6/maven-core-2.0.6.pom
+Progress (1): 4.1 kBProgress (1): 6.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/2.0.6/maven-core-2.0.6.pom (6.7 kB at 149 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-parameter-documenter/2.0.6/maven-plugin-parameter-documenter-2.0.6.pom
+Progress (1): 1.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-parameter-documenter/2.0.6/maven-plugin-parameter-documenter-2.0.6.pom (1.9 kB at 42 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-api/2.0.6/maven-reporting-api-2.0.6.pom
+Progress (1): 1.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-api/2.0.6/maven-reporting-api-2.0.6.pom (1.8 kB at 39 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting/2.0.6/maven-reporting-2.0.6.pom
+Progress (1): 1.4 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting/2.0.6/maven-reporting-2.0.6.pom (1.4 kB at 32 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-7/doxia-sink-api-1.0-alpha-7.pom
+Progress (1): 424 B                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-7/doxia-sink-api-1.0-alpha-7.pom (424 B at 9.6 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia/1.0-alpha-7/doxia-1.0-alpha-7.pom
+Progress (1): 3.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia/1.0-alpha-7/doxia-1.0-alpha-7.pom (3.9 kB at 87 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-error-diagnostics/2.0.6/maven-error-diagnostics-2.0.6.pom
+Progress (1): 1.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-error-diagnostics/2.0.6/maven-error-diagnostics-2.0.6.pom (1.7 kB at 35 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/commons-cli/commons-cli/1.0/commons-cli-1.0.pom
+Progress (1): 2.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/commons-cli/commons-cli/1.0/commons-cli-1.0.pom (2.1 kB at 47 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-descriptor/2.0.6/maven-plugin-descriptor-2.0.6.pom
+Progress (1): 2.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-descriptor/2.0.6/maven-plugin-descriptor-2.0.6.pom (2.0 kB at 43 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-4/plexus-interactivity-api-1.0-alpha-4.pom
+Progress (1): 4.1 kBProgress (1): 7.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-4/plexus-interactivity-api-1.0-alpha-4.pom (7.1 kB at 165 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-monitor/2.0.6/maven-monitor-2.0.6.pom
+Progress (1): 1.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-monitor/2.0.6/maven-monitor-2.0.6.pom (1.3 kB at 29 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/1.1/maven-filtering-1.1.pom
+Progress (1): 4.1 kBProgress (1): 5.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/1.1/maven-filtering-1.1.pom (5.8 kB at 135 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/17/maven-shared-components-17.pom
+Progress (1): 4.1 kBProgress (1): 8.2 kBProgress (1): 8.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/17/maven-shared-components-17.pom (8.7 kB at 198 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/21/maven-parent-21.pom
+Progress (1): 4.1 kBProgress (1): 8.2 kBProgress (1): 12 kB Progress (1): 16 kBProgress (1): 20 kBProgress (1): 25 kBProgress (1): 26 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/21/maven-parent-21.pom (26 kB at 628 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/10/apache-10.pom
+Progress (1): 4.1 kBProgress (1): 8.2 kBProgress (1): 12 kB Progress (1): 15 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/10/apache-10.pom (15 kB at 344 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.12/plexus-interpolation-1.12.pom
+Progress (1): 889 B                   Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.12/plexus-interpolation-1.12.pom (889 B at 21 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-build-api/0.0.4/plexus-build-api-0.0.4.pom
+Progress (1): 2.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-build-api/0.0.4/plexus-build-api-0.0.4.pom (2.9 kB at 65 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/spice/spice-parent/10/spice-parent-10.pom
+Progress (1): 3.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/spice/spice-parent/10/spice-parent-10.pom (3.0 kB at 69 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/3/forge-parent-3.pom
+Progress (1): 4.1 kBProgress (1): 5.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/3/forge-parent-3.pom (5.0 kB at 123 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.8/plexus-utils-1.5.8.pom
+Progress (1): 4.1 kBProgress (1): 8.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.8/plexus-utils-1.5.8.pom (8.1 kB at 175 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.13/plexus-interpolation-1.13.pom
+Progress (1): 890 B                   Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.13/plexus-interpolation-1.13.pom (890 B at 22 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.1.15/plexus-components-1.1.15.pom
+Progress (1): 2.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.1.15/plexus-components-1.1.15.pom (2.8 kB at 65 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/2.0.3/plexus-2.0.3.pom
+Progress (1): 4.1 kBProgress (1): 8.2 kBProgress (1): 12 kB Progress (1): 15 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/2.0.3/plexus-2.0.3.pom (15 kB at 344 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/2.0.6/maven-plugin-api-2.0.6.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.0.6/maven-project-2.0.6.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0.6/maven-profile-2.0.6.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.6/maven-artifact-manager-2.0.6.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-registry/2.0.6/maven-plugin-registry-2.0.6.jar
+Progress (1): 4.1/13 kBProgress (1): 7.7/13 kBProgress (1): 12/13 kB Progress (1): 13 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/2.0.6/maven-plugin-api-2.0.6.jar (13 kB at 286 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/2.0.6/maven-core-2.0.6.jar
+Progress (1): 2.7/57 kBProgress (1): 5.5/57 kBProgress (2): 5.5/57 kB | 2.3/116 kBProgress (2): 8.2/57 kB | 2.3/116 kBProgress (2): 8.2/57 kB | 5.0/116 kBProgress (3): 8.2/57 kB | 5.0/116 kB | 2.3/35 kBProgress (3): 11/57 kB | 5.0/116 kB | 2.3/35 kB Progress (3): 11/57 kB | 7.7/116 kB | 2.3/35 kBProgress (3): 14/57 kB | 7.7/116 kB | 2.3/35 kBProgress (3): 14/57 kB | 7.7/116 kB | 5.0/35 kBProgress (3): 16/57 kB | 7.7/116 kB | 5.0/35 kBProgress (3): 16/57 kB | 7.7/116 kB | 7.7/35 kBProgress (3): 16/57 kB | 10/116 kB | 7.7/35 kB Progress (3): 16/57 kB | 10/116 kB | 10/35 kB Progress (3): 16/57 kB | 14/116 kB | 10/35 kBProgress (3): 16/57 kB | 16/116 kB | 10/35 kBProgress (4): 16/57 kB | 16/116 kB | 10/35 kB | 4.1/152 kBProgress (4): 16/57 kB | 19/116 kB | 10/35 kB | 4.1/152 kBProgress (4): 19/57 kB | 19/116 kB | 10/35 kB | 4.1/152 kBProgress (4): 19/57 kB | 22/116 kB | 10/35 kB | 4.1/152 kBProgress (5): 19/57 kB | 22/116 kB | 10/35 kB | 4.1/152 kB | 2.3/29 kBProgress (5): 19/57 kB | 22/116 kB | 13/35 kB | 4.1/152 kB | 2.3/29 kBProgress (5): 19/57 kB | 22/116 kB | 13/35 kB | 4.1/152 kB | 5.0/29 kBProgress (5): 19/57 kB | 25/116 kB | 13/35 kB | 4.1/152 kB | 5.0/29 kBProgress (5): 22/57 kB | 25/116 kB | 13/35 kB | 4.1/152 kB | 5.0/29 kBProgress (5): 22/57 kB | 25/116 kB | 13/35 kB | 8.2/152 kB | 5.0/29 kBProgress (5): 25/57 kB | 25/116 kB | 13/35 kB | 8.2/152 kB | 5.0/29 kBProgress (5): 25/57 kB | 27/116 kB | 13/35 kB | 8.2/152 kB | 5.0/29 kBProgress (5): 25/57 kB | 27/116 kB | 13/35 kB | 8.2/152 kB | 7.7/29 kBProgress (5): 25/57 kB | 27/116 kB | 16/35 kB | 8.2/152 kB | 7.7/29 kBProgress (5): 25/57 kB | 27/116 kB | 16/35 kB | 8.2/152 kB | 10/29 kB Progress (5): 25/57 kB | 30/116 kB | 16/35 kB | 8.2/152 kB | 10/29 kBProgress (5): 27/57 kB | 30/116 kB | 16/35 kB | 8.2/152 kB | 10/29 kBProgress (5): 27/57 kB | 30/116 kB | 16/35 kB | 12/152 kB | 10/29 kB Progress (5): 30/57 kB | 30/116 kB | 16/35 kB | 12/152 kB | 10/29 kBProgress (5): 30/57 kB | 33/116 kB | 16/35 kB | 12/152 kB | 10/29 kBProgress (5): 30/57 kB | 33/116 kB | 16/35 kB | 12/152 kB | 13/29 kBProgress (5): 30/57 kB | 33/116 kB | 19/35 kB | 12/152 kB | 13/29 kBProgress (5): 30/57 kB | 33/116 kB | 19/35 kB | 12/152 kB | 16/29 kBProgress (5): 30/57 kB | 33/116 kB | 21/35 kB | 12/152 kB | 16/29 kBProgress (5): 30/57 kB | 36/116 kB | 21/35 kB | 12/152 kB | 16/29 kBProgress (5): 33/57 kB | 36/116 kB | 21/35 kB | 12/152 kB | 16/29 kBProgress (5): 33/57 kB | 36/116 kB | 21/35 kB | 16/152 kB | 16/29 kBProgress (5): 36/57 kB | 36/116 kB | 21/35 kB | 16/152 kB | 16/29 kBProgress (5): 36/57 kB | 38/116 kB | 21/35 kB | 16/152 kB | 16/29 kBProgress (5): 36/57 kB | 38/116 kB | 24/35 kB | 16/152 kB | 16/29 kBProgress (5): 36/57 kB | 38/116 kB | 24/35 kB | 16/152 kB | 18/29 kBProgress (5): 36/57 kB | 38/116 kB | 27/35 kB | 16/152 kB | 18/29 kBProgress (5): 36/57 kB | 38/116 kB | 27/35 kB | 16/152 kB | 21/29 kBProgress (5): 36/57 kB | 41/116 kB | 27/35 kB | 16/152 kB | 21/29 kBProgress (5): 38/57 kB | 41/116 kB | 27/35 kB | 16/152 kB | 21/29 kBProgress (5): 38/57 kB | 41/116 kB | 27/35 kB | 20/152 kB | 21/29 kBProgress (5): 41/57 kB | 41/116 kB | 27/35 kB | 20/152 kB | 21/29 kBProgress (5): 41/57 kB | 44/116 kB | 27/35 kB | 20/152 kB | 21/29 kBProgress (5): 41/57 kB | 44/116 kB | 27/35 kB | 20/152 kB | 24/29 kBProgress (5): 41/57 kB | 44/116 kB | 30/35 kB | 20/152 kB | 24/29 kBProgress (5): 41/57 kB | 44/116 kB | 30/35 kB | 20/152 kB | 27/29 kBProgress (5): 41/57 kB | 44/116 kB | 30/35 kB | 20/152 kB | 29 kB   Progress (5): 41/57 kB | 47/116 kB | 30/35 kB | 20/152 kB | 29 kBProgress (5): 41/57 kB | 47/116 kB | 30/35 kB | 25/152 kB | 29 kBProgress (5): 44/57 kB | 47/116 kB | 30/35 kB | 25/152 kB | 29 kBProgress (5): 44/57 kB | 47/116 kB | 30/35 kB | 29/152 kB | 29 kBProgress (5): 46/57 kB | 47/116 kB | 30/35 kB | 29/152 kB | 29 kBProgress (5): 46/57 kB | 49/116 kB | 30/35 kB | 29/152 kB | 29 kBProgress (5): 49/57 kB | 49/116 kB | 30/35 kB | 29/152 kB | 29 kBProgress (5): 49/57 kB | 49/116 kB | 32/35 kB | 29/152 kB | 29 kBProgress (5): 49/57 kB | 52/116 kB | 32/35 kB | 29/152 kB | 29 kBProgress (5): 49/57 kB | 52/116 kB | 32/35 kB | 33/152 kB | 29 kBProgress (5): 49/57 kB | 55/116 kB | 32/35 kB | 33/152 kB | 29 kBProgress (5): 49/57 kB | 55/116 kB | 35/35 kB | 33/152 kB | 29 kBProgress (5): 52/57 kB | 55/116 kB | 35/35 kB | 33/152 kB | 29 kBProgress (5): 52/57 kB | 55/116 kB | 35 kB | 33/152 kB | 29 kB   Progress (5): 52/57 kB | 59/116 kB | 35 kB | 33/152 kB | 29 kBProgress (5): 52/57 kB | 59/116 kB | 35 kB | 37/152 kB | 29 kBProgress (5): 55/57 kB | 59/116 kB | 35 kB | 37/152 kB | 29 kBProgress (5): 57 kB | 59/116 kB | 35 kB | 37/152 kB | 29 kB   Progress (5): 57 kB | 59/116 kB | 35 kB | 41/152 kB | 29 kBProgress (5): 57 kB | 63/116 kB | 35 kB | 41/152 kB | 29 kBProgress (5): 57 kB | 63/116 kB | 35 kB | 45/152 kB | 29 kBProgress (5): 57 kB | 63/116 kB | 35 kB | 49/152 kB | 29 kBProgress (5): 57 kB | 67/116 kB | 35 kB | 49/152 kB | 29 kBProgress (5): 57 kB | 67/116 kB | 35 kB | 53/152 kB | 29 kBProgress (5): 57 kB | 67/116 kB | 35 kB | 57/152 kB | 29 kBProgress (5): 57 kB | 67/116 kB | 35 kB | 61/152 kB | 29 kBProgress (5): 57 kB | 71/116 kB | 35 kB | 61/152 kB | 29 kBProgress (5): 57 kB | 75/116 kB | 35 kB | 61/152 kB | 29 kBProgress (5): 57 kB | 75/116 kB | 35 kB | 66/152 kB | 29 kBProgress (5): 57 kB | 79/116 kB | 35 kB | 66/152 kB | 29 kBProgress (5): 57 kB | 79/116 kB | 35 kB | 70/152 kB | 29 kBProgress (5): 57 kB | 83/116 kB | 35 kB | 70/152 kB | 29 kBProgress (5): 57 kB | 83/116 kB | 35 kB | 74/152 kB | 29 kBProgress (5): 57 kB | 87/116 kB | 35 kB | 74/152 kB | 29 kBProgress (5): 57 kB | 87/116 kB | 35 kB | 78/152 kB | 29 kBProgress (5): 57 kB | 87/116 kB | 35 kB | 82/152 kB | 29 kBProgress (5): 57 kB | 87/116 kB | 35 kB | 86/152 kB | 29 kBProgress (5): 57 kB | 87/116 kB | 35 kB | 90/152 kB | 29 kBProgress (5): 57 kB | 87/116 kB | 35 kB | 94/152 kB | 29 kBProgress (5): 57 kB | 87/116 kB | 35 kB | 98/152 kB | 29 kBProgress (5): 57 kB | 87/116 kB | 35 kB | 102/152 kB | 29 kBProgress (5): 57 kB | 87/116 kB | 35 kB | 106/152 kB | 29 kBProgress (5): 57 kB | 87/116 kB | 35 kB | 111/152 kB | 29 kBProgress (5): 57 kB | 87/116 kB | 35 kB | 115/152 kB | 29 kBProgress (5): 57 kB | 87/116 kB | 35 kB | 119/152 kB | 29 kBProgress (5): 57 kB | 87/116 kB | 35 kB | 123/152 kB | 29 kBProgress (5): 57 kB | 87/116 kB | 35 kB | 127/152 kB | 29 kBProgress (5): 57 kB | 87/116 kB | 35 kB | 131/152 kB | 29 kBProgress (5): 57 kB | 87/116 kB | 35 kB | 135/152 kB | 29 kBProgress (5): 57 kB | 87/116 kB | 35 kB | 139/152 kB | 29 kBProgress (5): 57 kB | 87/116 kB | 35 kB | 143/152 kB | 29 kBProgress (5): 57 kB | 87/116 kB | 35 kB | 147/152 kB | 29 kBProgress (5): 57 kB | 87/116 kB | 35 kB | 152/152 kB | 29 kBProgress (5): 57 kB | 87/116 kB | 35 kB | 152 kB | 29 kB    Progress (5): 57 kB | 92/116 kB | 35 kB | 152 kB | 29 kBProgress (5): 57 kB | 96/116 kB | 35 kB | 152 kB | 29 kBProgress (5): 57 kB | 100/116 kB | 35 kB | 152 kB | 29 kBProgress (5): 57 kB | 104/116 kB | 35 kB | 152 kB | 29 kBProgress (5): 57 kB | 108/116 kB | 35 kB | 152 kB | 29 kBProgress (5): 57 kB | 112/116 kB | 35 kB | 152 kB | 29 kBProgress (5): 57 kB | 116/116 kB | 35 kB | 152 kB | 29 kBProgress (5): 57 kB | 116 kB | 35 kB | 152 kB | 29 kB                                                         Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-registry/2.0.6/maven-plugin-registry-2.0.6.jar (29 kB at 241 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-parameter-documenter/2.0.6/maven-plugin-parameter-documenter-2.0.6.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0.6/maven-profile-2.0.6.jar (35 kB at 282 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-api/2.0.6/maven-reporting-api-2.0.6.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.6/maven-artifact-manager-2.0.6.jar (57 kB at 448 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-7/doxia-sink-api-1.0-alpha-7.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/2.0.6/maven-core-2.0.6.jar (152 kB at 1.1 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0.6/maven-repository-metadata-2.0.6.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.0.6/maven-project-2.0.6.jar (116 kB at 836 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-error-diagnostics/2.0.6/maven-error-diagnostics-2.0.6.jar
+Progress (1): 2.3/21 kBProgress (1): 5.0/21 kBProgress (1): 7.7/21 kBProgress (1): 10/21 kB Progress (1): 13/21 kBProgress (1): 16/21 kBProgress (1): 19/21 kBProgress (1): 21 kB   Progress (2): 21 kB | 3.8/5.9 kBProgress (2): 21 kB | 5.9 kB    Progress (3): 21 kB | 5.9 kB | 2.3/9.9 kBProgress (3): 21 kB | 5.9 kB | 5.0/9.9 kBProgress (3): 21 kB | 5.9 kB | 7.7/9.9 kBProgress (3): 21 kB | 5.9 kB | 9.9 kB    Progress (4): 21 kB | 5.9 kB | 9.9 kB | 4.1/24 kBProgress (4): 21 kB | 5.9 kB | 9.9 kB | 7.7/24 kBProgress (4): 21 kB | 5.9 kB | 9.9 kB | 12/24 kB Progress (4): 21 kB | 5.9 kB | 9.9 kB | 16/24 kBProgress (4): 21 kB | 5.9 kB | 9.9 kB | 20/24 kBProgress (4): 21 kB | 5.9 kB | 9.9 kB | 24/24 kBProgress (4): 21 kB | 5.9 kB | 9.9 kB | 24 kB   Progress (5): 21 kB | 5.9 kB | 9.9 kB | 24 kB | 3.8/14 kBProgress (5): 21 kB | 5.9 kB | 9.9 kB | 24 kB | 7.4/14 kBProgress (5): 21 kB | 5.9 kB | 9.9 kB | 24 kB | 12/14 kB Progress (5): 21 kB | 5.9 kB | 9.9 kB | 24 kB | 14 kB                                                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-parameter-documenter/2.0.6/maven-plugin-parameter-documenter-2.0.6.jar (21 kB at 129 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/commons-cli/commons-cli/1.0/commons-cli-1.0.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-7/doxia-sink-api-1.0-alpha-7.jar (5.9 kB at 35 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-descriptor/2.0.6/maven-plugin-descriptor-2.0.6.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-api/2.0.6/maven-reporting-api-2.0.6.jar (9.9 kB at 58 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-4/plexus-interactivity-api-1.0-alpha-4.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-error-diagnostics/2.0.6/maven-error-diagnostics-2.0.6.jar (14 kB at 72 kB/s)
+Progress (2): 24 kB | 4.1/30 kB                               Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0.6/maven-repository-metadata-2.0.6.jar (24 kB at 128 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0.6/maven-artifact-2.0.6.jar
+Progress (1): 8.2/30 kBProgress (1): 12/30 kB Progress (1): 16/30 kBProgress (1): 20/30 kBProgress (1): 25/30 kBProgress (1): 29/30 kBProgress (2): 29/30 kB | 2.3/37 kB                                  Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.0.6/maven-settings-2.0.6.jar
+Progress (2): 30 kB | 2.3/37 kBProgress (2): 30 kB | 5.0/37 kBProgress (2): 30 kB | 9.1/37 kBProgress (2): 30 kB | 13/37 kB Progress (2): 30 kB | 17/37 kBProgress (2): 30 kB | 21/37 kBProgress (2): 30 kB | 25/37 kBProgress (2): 30 kB | 29/37 kBProgress (2): 30 kB | 33/37 kBProgress (2): 30 kB | 37/37 kBProgress (2): 30 kB | 37 kB   Progress (3): 30 kB | 37 kB | 4.1/87 kBProgress (3): 30 kB | 37 kB | 7.7/87 kBProgress (3): 30 kB | 37 kB | 12/87 kB Progress (3): 30 kB | 37 kB | 16/87 kBProgress (3): 30 kB | 37 kB | 20/87 kBProgress (3): 30 kB | 37 kB | 24/87 kBProgress (4): 30 kB | 37 kB | 24/87 kB | 3.8/13 kBProgress (4): 30 kB | 37 kB | 24/87 kB | 7.5/13 kBProgress (4): 30 kB | 37 kB | 24/87 kB | 12/13 kB Progress (4): 30 kB | 37 kB | 24/87 kB | 13 kB   Progress (5): 30 kB | 37 kB | 24/87 kB | 13 kB | 3.8/49 kBProgress (5): 30 kB | 37 kB | 28/87 kB | 13 kB | 3.8/49 kBProgress (5): 30 kB | 37 kB | 32/87 kB | 13 kB | 3.8/49 kBProgress (5): 30 kB | 37 kB | 32/87 kB | 13 kB | 7.8/49 kBProgress (5): 30 kB | 37 kB | 36/87 kB | 13 kB | 7.8/49 kBProgress (5): 30 kB | 37 kB | 40/87 kB | 13 kB | 7.8/49 kBProgress (5): 30 kB | 37 kB | 40/87 kB | 13 kB | 12/49 kB Progress (5): 30 kB | 37 kB | 40/87 kB | 13 kB | 16/49 kBProgress (5): 30 kB | 37 kB | 45/87 kB | 13 kB | 16/49 kBProgress (5): 30 kB | 37 kB | 45/87 kB | 13 kB | 20/49 kBProgress (5): 30 kB | 37 kB | 49/87 kB | 13 kB | 20/49 kBProgress (5): 30 kB | 37 kB | 53/87 kB | 13 kB | 20/49 kBProgress (5): 30 kB | 37 kB | 53/87 kB | 13 kB | 24/49 kBProgress (5): 30 kB | 37 kB | 57/87 kB | 13 kB | 24/49 kBProgress (5): 30 kB | 37 kB | 57/87 kB | 13 kB | 28/49 kBProgress (5): 30 kB | 37 kB | 57/87 kB | 13 kB | 32/49 kBProgress (5): 30 kB | 37 kB | 61/87 kB | 13 kB | 32/49 kB                                                         Downloaded from central: https://repo.maven.apache.org/maven2/commons-cli/commons-cli/1.0/commons-cli-1.0.jar (30 kB at 139 kB/s)
+Progress (4): 37 kB | 65/87 kB | 13 kB | 32/49 kBProgress (4): 37 kB | 65/87 kB | 13 kB | 36/49 kBProgress (4): 37 kB | 69/87 kB | 13 kB | 36/49 kB                                                 Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.0.6/maven-model-2.0.6.jar
+Progress (4): 37 kB | 69/87 kB | 13 kB | 40/49 kBProgress (4): 37 kB | 73/87 kB | 13 kB | 40/49 kBProgress (4): 37 kB | 73/87 kB | 13 kB | 44/49 kBProgress (4): 37 kB | 73/87 kB | 13 kB | 48/49 kBProgress (4): 37 kB | 77/87 kB | 13 kB | 48/49 kBProgress (4): 37 kB | 77/87 kB | 13 kB | 49 kB   Progress (4): 37 kB | 81/87 kB | 13 kB | 49 kBProgress (4): 37 kB | 86/87 kB | 13 kB | 49 kBProgress (4): 37 kB | 87 kB | 13 kB | 49 kB                                              Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-descriptor/2.0.6/maven-plugin-descriptor-2.0.6.jar (37 kB at 168 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-monitor/2.0.6/maven-monitor-2.0.6.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-4/plexus-interactivity-api-1.0-alpha-4.jar (13 kB at 58 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/junit/junit/3.8.1/junit-3.8.1.jar
+Progress (3): 87 kB | 49 kB | 3.8/86 kB                                       Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0.6/maven-artifact-2.0.6.jar (87 kB at 367 kB/s)
+Progress (2): 49 kB | 7.8/86 kBProgress (3): 49 kB | 7.8/86 kB | 3.8/10 kB                                           Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/2.0.5/plexus-utils-2.0.5.jar
+Progress (3): 49 kB | 12/86 kB | 3.8/10 kBProgress (3): 49 kB | 12/86 kB | 7.8/10 kB                                          Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.0.6/maven-settings-2.0.6.jar (49 kB at 205 kB/s)
+Progress (2): 12/86 kB | 10 kBProgress (2): 16/86 kB | 10 kBProgress (2): 20/86 kB | 10 kB                              Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/1.1/maven-filtering-1.1.jar
+Progress (2): 24/86 kB | 10 kBProgress (2): 28/86 kB | 10 kBProgress (2): 32/86 kB | 10 kBProgress (2): 37/86 kB | 10 kBProgress (2): 41/86 kB | 10 kBProgress (2): 45/86 kB | 10 kBProgress (2): 49/86 kB | 10 kBProgress (2): 53/86 kB | 10 kBProgress (2): 57/86 kB | 10 kBProgress (2): 61/86 kB | 10 kBProgress (2): 65/86 kB | 10 kBProgress (2): 69/86 kB | 10 kBProgress (2): 71/86 kB | 10 kBProgress (2): 76/86 kB | 10 kBProgress (2): 80/86 kB | 10 kBProgress (2): 84/86 kB | 10 kBProgress (2): 86 kB | 10 kB   Progress (3): 86 kB | 10 kB | 3.8/121 kBProgress (3): 86 kB | 10 kB | 7.8/121 kBProgress (3): 86 kB | 10 kB | 12/121 kB Progress (3): 86 kB | 10 kB | 16/121 kBProgress (3): 86 kB | 10 kB | 20/121 kBProgress (3): 86 kB | 10 kB | 24/121 kBProgress (3): 86 kB | 10 kB | 28/121 kBProgress (3): 86 kB | 10 kB | 32/121 kBProgress (3): 86 kB | 10 kB | 37/121 kBProgress (3): 86 kB | 10 kB | 41/121 kBProgress (3): 86 kB | 10 kB | 45/121 kBProgress (3): 86 kB | 10 kB | 49/121 kBProgress (3): 86 kB | 10 kB | 53/121 kBProgress (3): 86 kB | 10 kB | 57/121 kBProgress (3): 86 kB | 10 kB | 61/121 kBProgress (4): 86 kB | 10 kB | 61/121 kB | 4.1/43 kBProgress (4): 86 kB | 10 kB | 65/121 kB | 4.1/43 kBProgress (4): 86 kB | 10 kB | 65/121 kB | 7.7/43 kBProgress (4): 86 kB | 10 kB | 69/121 kB | 7.7/43 kBProgress (4): 86 kB | 10 kB | 69/121 kB | 12/43 kB Progress (4): 86 kB | 10 kB | 69/121 kB | 16/43 kBProgress (4): 86 kB | 10 kB | 73/121 kB | 16/43 kBProgress (4): 86 kB | 10 kB | 73/121 kB | 20/43 kBProgress (4): 86 kB | 10 kB | 77/121 kB | 20/43 kBProgress (4): 86 kB | 10 kB | 77/121 kB | 24/43 kBProgress (4): 86 kB | 10 kB | 80/121 kB | 24/43 kBProgress (5): 86 kB | 10 kB | 80/121 kB | 24/43 kB | 3.8/223 kBProgress (5): 86 kB | 10 kB | 84/121 kB | 24/43 kB | 3.8/223 kBProgress (5): 86 kB | 10 kB | 84/121 kB | 28/43 kB | 3.8/223 kBProgress (5): 86 kB | 10 kB | 88/121 kB | 28/43 kB | 3.8/223 kB                                                               Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-monitor/2.0.6/maven-monitor-2.0.6.jar (10 kB at 39 kB/s)
+Progress (4): 86 kB | 88/121 kB | 28/43 kB | 7.8/223 kB                                                       Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-build-api/0.0.4/plexus-build-api-0.0.4.jar
+Progress (4): 86 kB | 92/121 kB | 28/43 kB | 7.8/223 kBProgress (4): 86 kB | 92/121 kB | 32/43 kB | 7.8/223 kBProgress (4): 86 kB | 92/121 kB | 32/43 kB | 12/223 kB Progress (4): 86 kB | 96/121 kB | 32/43 kB | 12/223 kBProgress (4): 86 kB | 96/121 kB | 36/43 kB | 12/223 kBProgress (4): 86 kB | 96/121 kB | 36/43 kB | 16/223 kBProgress (4): 86 kB | 100/121 kB | 36/43 kB | 16/223 kBProgress (4): 86 kB | 100/121 kB | 40/43 kB | 16/223 kBProgress (4): 86 kB | 100/121 kB | 40/43 kB | 20/223 kBProgress (4): 86 kB | 104/121 kB | 40/43 kB | 20/223 kBProgress (4): 86 kB | 104/121 kB | 43 kB | 20/223 kB   Progress (4): 86 kB | 108/121 kB | 43 kB | 20/223 kBProgress (4): 86 kB | 112/121 kB | 43 kB | 20/223 kB                                                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.0.6/maven-model-2.0.6.jar (86 kB at 326 kB/s)
+Progress (3): 112/121 kB | 43 kB | 24/223 kB                                            Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.13/plexus-interpolation-1.13.jar
+Progress (3): 116/121 kB | 43 kB | 24/223 kBProgress (3): 116/121 kB | 43 kB | 28/223 kBProgress (3): 121/121 kB | 43 kB | 28/223 kBProgress (3): 121/121 kB | 43 kB | 32/223 kBProgress (3): 121 kB | 43 kB | 32/223 kB    Progress (3): 121 kB | 43 kB | 37/223 kBProgress (3): 121 kB | 43 kB | 41/223 kBProgress (3): 121 kB | 43 kB | 45/223 kBProgress (3): 121 kB | 43 kB | 49/223 kBProgress (3): 121 kB | 43 kB | 53/223 kBProgress (3): 121 kB | 43 kB | 57/223 kBProgress (3): 121 kB | 43 kB | 61/223 kBProgress (3): 121 kB | 43 kB | 65/223 kBProgress (3): 121 kB | 43 kB | 69/223 kBProgress (3): 121 kB | 43 kB | 73/223 kBProgress (3): 121 kB | 43 kB | 77/223 kBProgress (3): 121 kB | 43 kB | 82/223 kBProgress (3): 121 kB | 43 kB | 86/223 kBProgress (3): 121 kB | 43 kB | 90/223 kBProgress (3): 121 kB | 43 kB | 94/223 kBProgress (3): 121 kB | 43 kB | 98/223 kBProgress (3): 121 kB | 43 kB | 102/223 kBProgress (3): 121 kB | 43 kB | 106/223 kBProgress (3): 121 kB | 43 kB | 110/223 kBProgress (3): 121 kB | 43 kB | 114/223 kBProgress (3): 121 kB | 43 kB | 118/223 kBProgress (3): 121 kB | 43 kB | 123/223 kBProgress (3): 121 kB | 43 kB | 127/223 kBProgress (3): 121 kB | 43 kB | 131/223 kBProgress (3): 121 kB | 43 kB | 135/223 kBProgress (4): 121 kB | 43 kB | 135/223 kB | 3.8/61 kBProgress (5): 121 kB | 43 kB | 135/223 kB | 3.8/61 kB | 3.4/6.8 kB                                                                  Downloaded from central: https://repo.maven.apache.org/maven2/junit/junit/3.8.1/junit-3.8.1.jar (121 kB at 419 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/1.1/maven-filtering-1.1.jar (43 kB at 149 kB/s)
+Progress (3): 135/223 kB | 3.8/61 kB | 6.8 kBProgress (3): 135/223 kB | 7.8/61 kB | 6.8 kBProgress (3): 139/223 kB | 7.8/61 kB | 6.8 kBProgress (3): 139/223 kB | 12/61 kB | 6.8 kB Progress (3): 143/223 kB | 12/61 kB | 6.8 kBProgress (3): 143/223 kB | 16/61 kB | 6.8 kBProgress (3): 147/223 kB | 16/61 kB | 6.8 kBProgress (3): 147/223 kB | 20/61 kB | 6.8 kBProgress (3): 151/223 kB | 20/61 kB | 6.8 kBProgress (3): 151/223 kB | 24/61 kB | 6.8 kBProgress (3): 155/223 kB | 24/61 kB | 6.8 kBProgress (3): 155/223 kB | 28/61 kB | 6.8 kBProgress (3): 155/223 kB | 32/61 kB | 6.8 kBProgress (3): 159/223 kB | 32/61 kB | 6.8 kBProgress (3): 159/223 kB | 36/61 kB | 6.8 kBProgress (3): 163/223 kB | 36/61 kB | 6.8 kBProgress (3): 163/223 kB | 40/61 kB | 6.8 kBProgress (3): 168/223 kB | 40/61 kB | 6.8 kBProgress (3): 172/223 kB | 40/61 kB | 6.8 kBProgress (3): 172/223 kB | 45/61 kB | 6.8 kBProgress (3): 172/223 kB | 49/61 kB | 6.8 kBProgress (3): 176/223 kB | 49/61 kB | 6.8 kBProgress (3): 176/223 kB | 53/61 kB | 6.8 kBProgress (3): 180/223 kB | 53/61 kB | 6.8 kBProgress (3): 180/223 kB | 57/61 kB | 6.8 kBProgress (3): 184/223 kB | 57/61 kB | 6.8 kBProgress (3): 188/223 kB | 57/61 kB | 6.8 kBProgress (3): 188/223 kB | 61/61 kB | 6.8 kBProgress (3): 188/223 kB | 61 kB | 6.8 kB   Progress (3): 192/223 kB | 61 kB | 6.8 kBProgress (3): 196/223 kB | 61 kB | 6.8 kBProgress (3): 200/223 kB | 61 kB | 6.8 kBProgress (3): 204/223 kB | 61 kB | 6.8 kBProgress (3): 209/223 kB | 61 kB | 6.8 kBProgress (3): 213/223 kB | 61 kB | 6.8 kBProgress (3): 217/223 kB | 61 kB | 6.8 kBProgress (3): 221/223 kB | 61 kB | 6.8 kBProgress (3): 223 kB | 61 kB | 6.8 kB                                         Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-build-api/0.0.4/plexus-build-api-0.0.4.jar (6.8 kB at 22 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.13/plexus-interpolation-1.13.jar (61 kB at 193 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/2.0.5/plexus-utils-2.0.5.jar (223 kB at 700 kB/s)
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /IDS-Messaging-Services/core/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mflatten-maven-plugin:1.3.0:flatten[m [1m(flatten)[m @ [36mcore[0;1m ---[m
+[[1;34mINFO[m] Generating flattened POM of project ids.messaging:core:jar:7.0.1...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.10.1:compile[m [1m(default-compile)[m @ [36mcore[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------------< [0;36mids.messaging:messaging[0;1m >-----------------------[m
+[[1;34mINFO[m] [1mBuilding messaging 7.0.1                                           [3/8][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mmessaging[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /IDS-Messaging-Services/messaging/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mflatten-maven-plugin:1.3.0:flatten[m [1m(flatten)[m @ [36mmessaging[0;1m ---[m
+[[1;34mINFO[m] Generating flattened POM of project ids.messaging:messaging:jar:7.0.1...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.10.1:compile[m [1m(default-compile)[m @ [36mmessaging[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 103 source files to /IDS-Messaging-Services/messaging/target/classes
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] COMPILATION ERROR : 
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] /IDS-Messaging-Services/messaging/src/main/java/ids/messaging/protocol/MessageService.java:[39,38] cannot access org.springframework.stereotype.Service
+  bad class file: /root/.m2/repository/org/springframework/spring-context/6.0.7/spring-context-6.0.7.jar(/org/springframework/stereotype/Service.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+[[1;31mERROR[m] /IDS-Messaging-Services/messaging/src/main/java/ids/messaging/endpoint/EndpointService.java:[29,50] cannot access org.springframework.web.servlet.mvc.method.RequestMappingInfo
+  bad class file: /root/.m2/repository/org/springframework/spring-webmvc/6.0.7/spring-webmvc-6.0.7.jar(/org/springframework/web/servlet/mvc/method/RequestMappingInfo.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+[[1;31mERROR[m] /IDS-Messaging-Services/messaging/src/main/java/ids/messaging/endpoint/EndpointService.java:[30,61] cannot access org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping
+  bad class file: /root/.m2/repository/org/springframework/spring-webmvc/6.0.7/spring-webmvc-6.0.7.jar(/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerMapping.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+[[1;31mERROR[m] /IDS-Messaging-Services/messaging/src/main/java/ids/messaging/endpoint/MessageController.java:[53,38] cannot access org.springframework.stereotype.Controller
+  bad class file: /root/.m2/repository/org/springframework/spring-context/6.0.7/spring-context-6.0.7.jar(/org/springframework/stereotype/Controller.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+[[1;31mERROR[m] /IDS-Messaging-Services/messaging/src/main/java/ids/messaging/dispatcher/MessageDispatcherProvider.java:[28,46] cannot access org.springframework.context.annotation.Bean
+  bad class file: /root/.m2/repository/org/springframework/spring-context/6.0.7/spring-context-6.0.7.jar(/org/springframework/context/annotation/Bean.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+[[1;31mERROR[m] /IDS-Messaging-Services/messaging/src/main/java/ids/messaging/dispatcher/MessageDispatcherProvider.java:[29,38] cannot access org.springframework.stereotype.Component
+  bad class file: /root/.m2/repository/org/springframework/spring-context/6.0.7/spring-context-6.0.7.jar(/org/springframework/stereotype/Component.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+[[1;31mERROR[m] /IDS-Messaging-Services/messaging/src/main/java/ids/messaging/util/SerializerProvider.java:[25,46] cannot access org.springframework.context.annotation.Configuration
+  bad class file: /root/.m2/repository/org/springframework/spring-context/6.0.7/spring-context-6.0.7.jar(/org/springframework/context/annotation/Configuration.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+[[1;31mERROR[m] /IDS-Messaging-Services/messaging/src/main/java/ids/messaging/handler/request/RequestMessageHandlerService.java:[31,35] cannot access org.springframework.context.ApplicationContext
+  bad class file: /root/.m2/repository/org/springframework/spring-context/6.0.7/spring-context-6.0.7.jar(/org/springframework/context/ApplicationContext.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+[[1;31mERROR[m] /IDS-Messaging-Services/messaging/src/main/java/ids/messaging/protocol/MessageService.java:[46,2] cannot find symbol
+  symbol: class Service
+[[1;31mERROR[m] /IDS-Messaging-Services/messaging/src/main/java/ids/messaging/requests/RequestTemplateProvider.java:[58,2] cannot find symbol
+  symbol: class Service
+[[1;31mERROR[m] /IDS-Messaging-Services/messaging/src/main/java/ids/messaging/requests/NotificationTemplateProvider.java:[73,2] cannot find symbol
+  symbol: class Service
+[[1;31mERROR[m] /IDS-Messaging-Services/messaging/src/main/java/ids/messaging/protocol/http/IdsHttpService.java:[64,2] cannot find symbol
+  symbol: class Service
+[[1;31mERROR[m] /IDS-Messaging-Services/messaging/src/main/java/ids/messaging/endpoint/EndpointService.java:[36,2] cannot find symbol
+  symbol: class Service
+[[1;31mERROR[m] /IDS-Messaging-Services/messaging/src/main/java/ids/messaging/endpoint/MessageController.java:[61,2] cannot find symbol
+  symbol: class Controller
+[[1;31mERROR[m] /IDS-Messaging-Services/messaging/src/main/java/ids/messaging/endpoint/EndpointService.java:[47,13] cannot find symbol
+  symbol:   class RequestMappingHandlerMapping
+  location: class ids.messaging.endpoint.EndpointService
+[[1;31mERROR[m] /IDS-Messaging-Services/messaging/src/main/java/ids/messaging/endpoint/EndpointService.java:[57,34] cannot find symbol
+  symbol:   class RequestMappingHandlerMapping
+  location: class ids.messaging.endpoint.EndpointService
+[[1;31mERROR[m] /IDS-Messaging-Services/messaging/src/main/java/ids/messaging/endpoint/EndpointService.java:[109,13] cannot find symbol
+  symbol:   class RequestMappingInfo
+  location: class ids.messaging.endpoint.EndpointService
+[[1;31mERROR[m] /IDS-Messaging-Services/messaging/src/main/java/ids/messaging/dispatcher/MessageDispatcherProvider.java:[35,2] cannot find symbol
+  symbol: class Component
+[[1;31mERROR[m] /IDS-Messaging-Services/messaging/src/main/java/ids/messaging/requests/builder/IdsRequestBuilderService.java:[33,2] cannot find symbol
+  symbol: class Service
+[[1;31mERROR[m] /IDS-Messaging-Services/messaging/src/main/java/ids/messaging/util/SerializerProvider.java:[31,2] cannot find symbol
+  symbol: class Configuration
+[[1;31mERROR[m] /IDS-Messaging-Services/messaging/src/main/java/ids/messaging/handler/request/RequestMessageHandlerService.java:[38,2] cannot find symbol
+  symbol: class Service
+[[1;31mERROR[m] /IDS-Messaging-Services/messaging/src/main/java/ids/messaging/handler/request/RequestMessageHandlerService.java:[44,19] cannot find symbol
+  symbol:   class ApplicationContext
+  location: class ids.messaging.handler.request.RequestMessageHandlerService
+[[1;31mERROR[m] /IDS-Messaging-Services/messaging/src/main/java/ids/messaging/handler/request/RequestMessageHandlerService.java:[52,47] cannot find symbol
+  symbol:   class ApplicationContext
+  location: class ids.messaging.handler.request.RequestMessageHandlerService
+[[1;31mERROR[m] /IDS-Messaging-Services/messaging/src/main/java/ids/messaging/dispatcher/MessageDispatcherProvider.java:[49,6] cannot find symbol
+  symbol:   class Bean
+  location: class ids.messaging.dispatcher.MessageDispatcherProvider
+[[1;31mERROR[m] /IDS-Messaging-Services/messaging/src/main/java/ids/messaging/util/SerializerProvider.java:[40,6] cannot find symbol
+  symbol:   class Bean
+  location: class ids.messaging.util.SerializerProvider
+[[1;34mINFO[m] 25 errors 
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Summary for messaging-services 7.0.1:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] messaging-services ................................. [1;32mSUCCESS[m [  2.203 s]
+[[1;34mINFO[m] core ............................................... [1;32mSUCCESS[m [  2.620 s]
+[[1;34mINFO[m] messaging .......................................... [1;31mFAILURE[m [  2.571 s]
+[[1;34mINFO[m] clearinghouse ...................................... [1;33mSKIPPED[m
+[[1;34mINFO[m] broker ............................................. [1;33mSKIPPED[m
+[[1;34mINFO[m] vocol .............................................. [1;33mSKIPPED[m
+[[1;34mINFO[m] paris .............................................. [1;33mSKIPPED[m
+[[1;34mINFO[m] appstore ........................................... [1;33mSKIPPED[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  7.529 s
+[[1;34mINFO[m] Finished at: 2026-03-22T18:32:40Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-compiler-plugin:3.10.1:compile[m [1m(default-compile)[m on project [36mmessaging[m: [1;31mCompilation failure[m: Compilation failure: 
+[[1;31mERROR[m] /IDS-Messaging-Services/messaging/src/main/java/ids/messaging/protocol/MessageService.java:[39,38] cannot access org.springframework.stereotype.Service
+[[1;31mERROR[m]   bad class file: /root/.m2/repository/org/springframework/spring-context/6.0.7/spring-context-6.0.7.jar(/org/springframework/stereotype/Service.class)
+[[1;31mERROR[m]     class file has wrong version 61.0, should be 55.0
+[[1;31mERROR[m]     Please remove or make sure it appears in the correct subdirectory of the classpath.
+[[1;31mERROR[m] /IDS-Messaging-Services/messaging/src/main/java/ids/messaging/endpoint/EndpointService.java:[29,50] cannot access org.springframework.web.servlet.mvc.method.RequestMappingInfo
+[[1;31mERROR[m]   bad class file: /root/.m2/repository/org/springframework/spring-webmvc/6.0.7/spring-webmvc-6.0.7.jar(/org/springframework/web/servlet/mvc/method/RequestMappingInfo.class)
+[[1;31mERROR[m]     class file has wrong version 61.0, should be 55.0
+[[1;31mERROR[m]     Please remove or make sure it appears in the correct subdirectory of the classpath.
+[[1;31mERROR[m] /IDS-Messaging-Services/messaging/src/main/java/ids/messaging/endpoint/EndpointService.java:[30,61] cannot access org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping
+[[1;31mERROR[m]   bad class file: /root/.m2/repository/org/springframework/spring-webmvc/6.0.7/spring-webmvc-6.0.7.jar(/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerMapping.class)
+[[1;31mERROR[m]     class file has wrong version 61.0, should be 55.0
+[[1;31mERROR[m]     Please remove or make sure it appears in the correct subdirectory of the classpath.
+[[1;31mERROR[m] /IDS-Messaging-Services/messaging/src/main/java/ids/messaging/endpoint/MessageController.java:[53,38] cannot access org.springframework.stereotype.Controller
+[[1;31mERROR[m]   bad class file: /root/.m2/repository/org/springframework/spring-context/6.0.7/spring-context-6.0.7.jar(/org/springframework/stereotype/Controller.class)
+[[1;31mERROR[m]     class file has wrong version 61.0, should be 55.0
+[[1;31mERROR[m]     Please remove or make sure it appears in the correct subdirectory of the classpath.
+[[1;31mERROR[m] /IDS-Messaging-Services/messaging/src/main/java/ids/messaging/dispatcher/MessageDispatcherProvider.java:[28,46] cannot access org.springframework.context.annotation.Bean
+[[1;31mERROR[m]   bad class file: /root/.m2/repository/org/springframework/spring-context/6.0.7/spring-context-6.0.7.jar(/org/springframework/context/annotation/Bean.class)
+[[1;31mERROR[m]     class file has wrong version 61.0, should be 55.0
+[[1;31mERROR[m]     Please remove or make sure it appears in the correct subdirectory of the classpath.
+[[1;31mERROR[m] /IDS-Messaging-Services/messaging/src/main/java/ids/messaging/dispatcher/MessageDispatcherProvider.java:[29,38] cannot access org.springframework.stereotype.Component
+[[1;31mERROR[m]   bad class file: /root/.m2/repository/org/springframework/spring-context/6.0.7/spring-context-6.0.7.jar(/org/springframework/stereotype/Component.class)
+[[1;31mERROR[m]     class file has wrong version 61.0, should be 55.0
+[[1;31mERROR[m]     Please remove or make sure it appears in the correct subdirectory of the classpath.
+[[1;31mERROR[m] /IDS-Messaging-Services/messaging/src/main/java/ids/messaging/util/SerializerProvider.java:[25,46] cannot access org.springframework.context.annotation.Configuration
+[[1;31mERROR[m]   bad class file: /root/.m2/repository/org/springframework/spring-context/6.0.7/spring-context-6.0.7.jar(/org/springframework/context/annotation/Configuration.class)
+[[1;31mERROR[m]     class file has wrong version 61.0, should be 55.0
+[[1;31mERROR[m]     Please remove or make sure it appears in the correct subdirectory of the classpath.
+[[1;31mERROR[m] /IDS-Messaging-Services/messaging/src/main/java/ids/messaging/handler/request/RequestMessageHandlerService.java:[31,35] cannot access org.springframework.context.ApplicationContext
+[[1;31mERROR[m]   bad class file: /root/.m2/repository/org/springframework/spring-context/6.0.7/spring-context-6.0.7.jar(/org/springframework/context/ApplicationContext.class)
+[[1;31mERROR[m]     class file has wrong version 61.0, should be 55.0
+[[1;31mERROR[m]     Please remove or make sure it appears in the correct subdirectory of the classpath.
+[[1;31mERROR[m] /IDS-Messaging-Services/messaging/src/main/java/ids/messaging/protocol/MessageService.java:[46,2] cannot find symbol
+[[1;31mERROR[m]   symbol: class Service
+[[1;31mERROR[m] /IDS-Messaging-Services/messaging/src/main/java/ids/messaging/requests/RequestTemplateProvider.java:[58,2] cannot find symbol
+[[1;31mERROR[m]   symbol: class Service
+[[1;31mERROR[m] /IDS-Messaging-Services/messaging/src/main/java/ids/messaging/requests/NotificationTemplateProvider.java:[73,2] cannot find symbol
+[[1;31mERROR[m]   symbol: class Service
+[[1;31mERROR[m] /IDS-Messaging-Services/messaging/src/main/java/ids/messaging/protocol/http/IdsHttpService.java:[64,2] cannot find symbol
+[[1;31mERROR[m]   symbol: class Service
+[[1;31mERROR[m] /IDS-Messaging-Services/messaging/src/main/java/ids/messaging/endpoint/EndpointService.java:[36,2] cannot find symbol
+[[1;31mERROR[m]   symbol: class Service
+[[1;31mERROR[m] /IDS-Messaging-Services/messaging/src/main/java/ids/messaging/endpoint/MessageController.java:[61,2] cannot find symbol
+[[1;31mERROR[m]   symbol: class Controller
+[[1;31mERROR[m] /IDS-Messaging-Services/messaging/src/main/java/ids/messaging/endpoint/EndpointService.java:[47,13] cannot find symbol
+[[1;31mERROR[m]   symbol:   class RequestMappingHandlerMapping
+[[1;31mERROR[m]   location: class ids.messaging.endpoint.EndpointService
+[[1;31mERROR[m] /IDS-Messaging-Services/messaging/src/main/java/ids/messaging/endpoint/EndpointService.java:[57,34] cannot find symbol
+[[1;31mERROR[m]   symbol:   class RequestMappingHandlerMapping
+[[1;31mERROR[m]   location: class ids.messaging.endpoint.EndpointService
+[[1;31mERROR[m] /IDS-Messaging-Services/messaging/src/main/java/ids/messaging/endpoint/EndpointService.java:[109,13] cannot find symbol
+[[1;31mERROR[m]   symbol:   class RequestMappingInfo
+[[1;31mERROR[m]   location: class ids.messaging.endpoint.EndpointService
+[[1;31mERROR[m] /IDS-Messaging-Services/messaging/src/main/java/ids/messaging/dispatcher/MessageDispatcherProvider.java:[35,2] cannot find symbol
+[[1;31mERROR[m]   symbol: class Component
+[[1;31mERROR[m] /IDS-Messaging-Services/messaging/src/main/java/ids/messaging/requests/builder/IdsRequestBuilderService.java:[33,2] cannot find symbol
+[[1;31mERROR[m]   symbol: class Service
+[[1;31mERROR[m] /IDS-Messaging-Services/messaging/src/main/java/ids/messaging/util/SerializerProvider.java:[31,2] cannot find symbol
+[[1;31mERROR[m]   symbol: class Configuration
+[[1;31mERROR[m] /IDS-Messaging-Services/messaging/src/main/java/ids/messaging/handler/request/RequestMessageHandlerService.java:[38,2] cannot find symbol
+[[1;31mERROR[m]   symbol: class Service
+[[1;31mERROR[m] /IDS-Messaging-Services/messaging/src/main/java/ids/messaging/handler/request/RequestMessageHandlerService.java:[44,19] cannot find symbol
+[[1;31mERROR[m]   symbol:   class ApplicationContext
+[[1;31mERROR[m]   location: class ids.messaging.handler.request.RequestMessageHandlerService
+[[1;31mERROR[m] /IDS-Messaging-Services/messaging/src/main/java/ids/messaging/handler/request/RequestMessageHandlerService.java:[52,47] cannot find symbol
+[[1;31mERROR[m]   symbol:   class ApplicationContext
+[[1;31mERROR[m]   location: class ids.messaging.handler.request.RequestMessageHandlerService
+[[1;31mERROR[m] /IDS-Messaging-Services/messaging/src/main/java/ids/messaging/dispatcher/MessageDispatcherProvider.java:[49,6] cannot find symbol
+[[1;31mERROR[m]   symbol:   class Bean
+[[1;31mERROR[m]   location: class ids.messaging.dispatcher.MessageDispatcherProvider
+[[1;31mERROR[m] /IDS-Messaging-Services/messaging/src/main/java/ids/messaging/util/SerializerProvider.java:[40,6] cannot find symbol
+[[1;31mERROR[m]   symbol:   class Bean
+[[1;31mERROR[m]   location: class ids.messaging.util.SerializerProvider
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[[1;31mERROR[m] 
+[[1;31mERROR[m] After correcting the problems, you can resume the build with the command
+[[1;31mERROR[m]   [1mmvn <args> -rf :messaging[m

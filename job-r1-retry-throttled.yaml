@@ -1,0 +1,26 @@
+job_name: bump-dep-fix-100-skill-retry
+jobs_dir: /root/harbor-bump-eval/jobs
+
+orchestrator:
+  n_concurrent_trials: 2
+
+agents:
+  - name: claude-code
+    env:
+      ANTHROPIC_AUTH_TOKEN: "sk-sp-xxx"
+      ANTHROPIC_BASE_URL: "https://coding.dashscope.aliyuncs.com/apps/anthropic"
+      ANTHROPIC_MODEL: "qwen3.5-plus"
+      ANTHROPIC_SMALL_FAST_MODEL: "qwen3.5-plus"
+
+datasets:
+  - path: /root/harbor-bump-eval
+    task_names:
+      - task-artipie-docker-adapter-asto-core
+      - task-bump-games647-spongeapi
+      - task-bump-googleapis-google-api-service
+      - task-bump-googleapis-google-cloud-pubsu
+      - task-bump-redisgraph-jedis
+      - task-bump-wireapp-dropwizard-client
+      - task-bump-zold-io-cactoos
+      - task-games647-changeskin-spongeapi
+      - task-googleapis-java-pubsub-gro-google-cloud-pu

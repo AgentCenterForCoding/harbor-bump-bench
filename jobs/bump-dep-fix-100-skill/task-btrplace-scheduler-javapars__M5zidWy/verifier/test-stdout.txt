@@ -1,0 +1,4 @@
+=== Running mvn compile to verify fix ===
+ANTLR Parser Generator  Version 3.5.2
+Grammar /scheduler/btrpsl/src/main/antlr3/org/btrplace/btrpsl/antlr/ANTLRBtrplaceSL2.g is up to date - build skipped
+COMPILATION SUCCESS

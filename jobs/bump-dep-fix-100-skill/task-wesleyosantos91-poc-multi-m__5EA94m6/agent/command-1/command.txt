@@ -1,0 +1,13 @@
+export PATH="$HOME/.local/bin:$PATH"; claude --verbose --output-format=stream-json --permission-mode=bypassPermissions  --print -- '﻿# Fix Maven Compilation Failure: mapstruct-processor 1.4.2.Final -> 1.5.0.Final
+
+## Context
+
+Project `poc-multi-module-arch-hexagonal-springboot` (by wesleyosantos91) has a **COMPILATION_FAILURE** after a dependency upgrade bot bumped
+`org.mapstruct:mapstruct-processor` from `1.4.2.Final` to `1.5.0.Final` (other update).
+
+Reference PR: https://github.com/wesleyosantos91/poc-multi-module-arch-hexagonal-springboot/pull/8
+
+## Your Task
+
+The source code is in `/poc-multi-module-arch-hexagonal-springboot`. Fix all compilation errors so that `mvn compile` succeeds.
+' 2>&1 </dev/null | stdbuf -oL tee /logs/agent/claude-code.txt

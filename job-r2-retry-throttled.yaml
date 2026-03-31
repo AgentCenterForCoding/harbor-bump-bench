@@ -1,0 +1,34 @@
+job_name: bump-dep-fix-100-skill-v2-retry
+jobs_dir: /root/harbor-bump-eval/jobs
+
+orchestrator:
+  n_concurrent_trials: 2
+
+agents:
+  - name: claude-code
+    env:
+      ANTHROPIC_AUTH_TOKEN: "sk-sp-xxx"
+      ANTHROPIC_BASE_URL: "https://coding.dashscope.aliyuncs.com/apps/anthropic"
+      ANTHROPIC_MODEL: "qwen3.5-plus"
+      ANTHROPIC_SMALL_FAST_MODEL: "qwen3.5-plus"
+
+datasets:
+  - path: /root/harbor-bump-eval
+    task_names:
+      - task-1and1-snmpman-snmp4j-agent
+      - task-artipie-http-asto-core
+      - task-assertkth-flacoco
+      - task-bump-artipie-http
+      - task-bump-assert-kth-plexus-utils
+      - task-bump-googleapis-google-api-service
+      - task-bump-jadler-mocki-jetty-server
+      - task-bump-premium-mind-jakarta-validation
+      - task-bump-zold-io-cactoos
+      - task-hantsy-jakartaee-mvc-s-jakarta.mvc-api
+      - task-international-d-ids-messaging-s-spring-core
+      - task-jcabi-jcabi-ssh-jcabi-aspects
+      - task-pinterest-singer
+      - task-pkiraly-qa-catalogue-metadata-qa-api
+      - task-quickfixj-mina
+      - task-redisgraph-jredisgraph-jedis
+      - task-zold-io-java-api-cactoos

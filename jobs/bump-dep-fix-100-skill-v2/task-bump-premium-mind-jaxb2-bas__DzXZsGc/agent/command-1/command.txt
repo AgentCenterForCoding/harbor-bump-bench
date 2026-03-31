@@ -1,0 +1,13 @@
+export PATH="$HOME/.local/bin:$PATH"; claude --verbose --output-format=stream-json --permission-mode=bypassPermissions  --print -- '﻿# Fix Maven Compilation Failure: jaxb2-basics-runtime 0.13.1 -> 1.11.1-PUBLISHED-BY-MISTAKE
+
+## Context
+
+Project `billy` (by premium-minds) has a **COMPILATION_FAILURE** after a dependency upgrade bot bumped
+`org.jvnet.jaxb2_commons:jaxb2-basics-runtime` from `0.13.1` to `1.11.1-PUBLISHED-BY-MISTAKE` (other update).
+
+Reference PR: https://github.com/premium-minds/billy/pull/317
+
+## Your Task
+
+The source code is in `/billy`. Fix all compilation errors so that `mvn compile` succeeds.
+' 2>&1 </dev/null | stdbuf -oL tee /logs/agent/claude-code.txt

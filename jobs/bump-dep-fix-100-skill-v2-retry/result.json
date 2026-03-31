@@ -1,0 +1,51 @@
+{
+    "id": "1d5a00e8-585b-4376-a21f-694b4c5354b8",
+    "started_at": "2026-03-23T06:17:07.091635",
+    "finished_at": "2026-03-23T07:33:14.613288",
+    "n_total_trials": 17,
+    "stats": {
+        "n_trials": 17,
+        "n_errors": 1,
+        "evals": {
+            "claude-code__harbor-bump-eval": {
+                "n_trials": 17,
+                "n_errors": 1,
+                "metrics": [
+                    {
+                        "mean": 0.9411764705882353
+                    }
+                ],
+                "reward_stats": {
+                    "reward": {
+                        "1.0": [
+                            "task-redisgraph-jredisgraph-jedi__bAf6XrJ",
+                            "task-quickfixj-mina__3qVBxxp",
+                            "task-zold-io-java-api-cactoos__zfvBJTV",
+                            "task-bump-jadler-mocki-jetty-ser__jFPYvFU",
+                            "task-pinterest-singer__RcXaX43",
+                            "task-hantsy-jakartaee-mvc-s-jaka__VaUrSRN",
+                            "task-1and1-snmpman-snmp4j-agent__KEtxFfq",
+                            "task-bump-googleapis-google-api-__Q7f2zig",
+                            "task-bump-artipie-http__VzkEuC4",
+                            "task-bump-assert-kth-plexus-util__AANqho3",
+                            "task-pkiraly-qa-catalogue-metada__gKePGqv",
+                            "task-assertkth-flacoco__NUJqEH6",
+                            "task-bump-premium-mind-jakarta-v__oozziRy",
+                            "task-artipie-http-asto-core__KDz8MKp",
+                            "task-international-d-ids-messagi__9s2KGBW",
+                            "task-jcabi-jcabi-ssh-jcabi-aspec__VvVwu35"
+                        ],
+                        "0.0": [
+                            "task-bump-zold-io-cactoos__GFQ3ePK"
+                        ]
+                    }
+                },
+                "exception_stats": {
+                    "AgentTimeoutError": [
+                        "task-bump-zold-io-cactoos__GFQ3ePK"
+                    ]
+                }
+            }
+        }
+    }
+}

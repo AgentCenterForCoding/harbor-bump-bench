@@ -1,0 +1,23 @@
+{
+    "id": "7e2dbe2a-c90b-48a4-af0c-6d2bf55f7c56",
+    "started_at": "2026-03-25T17:51:27.624029",
+    "finished_at": "2026-03-25T17:53:16.765484",
+    "n_total_trials": 1,
+    "stats": {
+        "n_trials": 1,
+        "n_errors": 0,
+        "evals": {
+            "opencode__qwen3.5-plus__harbor-bump-eval": {
+                "n_trials": 0,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "mean": 0.0
+                    }
+                ],
+                "reward_stats": {},
+                "exception_stats": {}
+            }
+        }
+    }
+}

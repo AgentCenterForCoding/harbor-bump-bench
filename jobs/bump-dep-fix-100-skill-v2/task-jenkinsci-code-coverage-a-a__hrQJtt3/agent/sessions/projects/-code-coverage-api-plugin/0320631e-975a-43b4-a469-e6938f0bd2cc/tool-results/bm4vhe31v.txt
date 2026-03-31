@@ -1,0 +1,200 @@
+[[1;36mDEBUG[m]  /root/.m2/repository/org/apache/maven/resolver/maven-resolver-spi/1.6.2/maven-resolver-spi-1.6.2.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/org/apache/maven/resolver/maven-resolver-util/1.6.2/maven-resolver-util-1.6.2.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/org/apache/maven/resolver/maven-resolver-impl/1.6.2/maven-resolver-impl-1.6.2.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/org/codehaus/plexus/plexus-utils/3.2.1/plexus-utils-3.2.1.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/org/apache/maven/maven-settings-builder/3.8.1/maven-settings-builder-3.8.1.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/org/apache/maven/maven-builder-support/3.8.1/maven-builder-support-3.8.1.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.25/plexus-interpolation-1.25.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/org/apache/maven/maven-settings/3.8.1/maven-settings-3.8.1.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.4/plexus-sec-dispatcher-1.4.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/org/apache/maven/resolver/maven-resolver-connector-basic/1.6.2/maven-resolver-connector-basic-1.6.2.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/org/apache/maven/resolver/maven-resolver-transport-file/1.6.2/maven-resolver-transport-file-1.6.2.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/org/apache/maven/resolver/maven-resolver-transport-http/1.6.2/maven-resolver-transport-http-1.6.2.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/org/bouncycastle/bcpkix-jdk18on/1.73/bcpkix-jdk18on-1.73.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/org/bouncycastle/bcprov-jdk18on/1.73/bcprov-jdk18on-1.73.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/org/bouncycastle/bcutil-jdk18on/1.73/bcutil-jdk18on-1.73.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/org/codehaus/groovy/groovy/3.0.17/groovy-3.0.17.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/org/codehaus/groovy/groovy-console/3.0.17/groovy-console-3.0.17.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/org/jenkins-ci/crypto-util/1.8/crypto-util-1.8.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/org/jenkins-ci/groovy-guice-binder/1.2/groovy-guice-binder-1.2.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/org/jenkins-ci/jira-api/1.3/jira-api-1.3.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/commons-discovery/commons-discovery/0.4/commons-discovery-0.4.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/javax/xml/jaxrpc-api/1.1/jaxrpc-api-1.1.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/javax/xml/soap/saaj-api/1.3/saaj-api-1.3.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/org/apache/axis/axis/1.4/axis-1.4.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/wsdl4j/wsdl4j/1.6.1/wsdl4j-1.6.1.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/org/jenkins-ci/test-annotations/1.4/test-annotations-1.4.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/org/jenkins-ci/version-number/1.11/version-number-1.11.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/org/jenkins-ci/main/remoting/3107.v665000b_51092/remoting-3107.v665000b_51092.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/org/jenkins-ci/test/docker-fixtures/166.v912b_95083ffe/docker-fixtures-166.v912b_95083ffe.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/org/jenkins-ci/process-utils/1.3/process-utils-1.3.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/org/json/json/20230227/json-20230227.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/org/kohsuke/wordnet-random-name/1.5/wordnet-random-name-1.5.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/org/seleniumhq/selenium/lift/4.9.1/lift-4.9.1.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/org/seleniumhq/selenium/selenium-api/4.9.1/selenium-api-4.9.1.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.9.1/selenium-chrome-driver-4.9.1.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.9.1/selenium-chromium-driver-4.9.1.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/org/seleniumhq/selenium/selenium-json/4.9.1/selenium-json-4.9.1.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.9.1/selenium-manager-4.9.1.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.9.1/selenium-remote-driver-4.9.1.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/io/netty/netty-codec-http/4.1.91.Final/netty-codec-http-4.1.91.Final.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/io/netty/netty-handler/4.1.91.Final/netty-handler-4.1.91.Final.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.91.Final/netty-transport-classes-epoll-4.1.91.Final.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.91.Final/netty-transport-classes-kqueue-4.1.91.Final.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/io/netty/netty-transport-native-epoll/4.1.91.Final/netty-transport-native-epoll-4.1.91.Final.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.91.Final/netty-transport-native-kqueue-4.1.91.Final.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.91.Final/netty-transport-native-unix-common-4.1.91.Final.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/io/opentelemetry/opentelemetry-api/1.25.0/opentelemetry-api-1.25.0.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/io/opentelemetry/opentelemetry-context/1.25.0/opentelemetry-context-1.25.0.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.25.0/opentelemetry-exporter-logging-1.25.0.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.25.0/opentelemetry-sdk-metrics-1.25.0.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.25.0-alpha/opentelemetry-sdk-logs-1.25.0-alpha.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/io/opentelemetry/opentelemetry-api-logs/1.25.0-alpha/opentelemetry-api-logs-1.25.0-alpha.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.25.0-alpha/opentelemetry-api-events-1.25.0-alpha.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.25.0/opentelemetry-sdk-common-1.25.0.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.25.0/opentelemetry-sdk-extension-autoconfigure-spi-1.25.0.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.25.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.25.0-alpha.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.25.0/opentelemetry-sdk-trace-1.25.0.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.25.0/opentelemetry-sdk-1.25.0.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.25.0-alpha/opentelemetry-semconv-1.25.0-alpha.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.9.1/selenium-firefox-driver-4.9.1.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.9.1/selenium-devtools-v85-4.9.1.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/org/seleniumhq/selenium/selenium-http/4.9.1/selenium-http-4.9.1.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/dev/failsafe/failsafe/3.3.1/failsafe-3.3.1.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/org/seleniumhq/selenium/selenium-java/4.9.1/selenium-java-4.9.1.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v111/4.9.1/selenium-devtools-v111-4.9.1.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v112/4.9.1/selenium-devtools-v112-4.9.1.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v113/4.9.1/selenium-devtools-v113-4.9.1.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.9.1/selenium-edge-driver-4.9.1.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.9.1/selenium-safari-driver-4.9.1.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/org/seleniumhq/selenium/selenium-support/4.9.1/selenium-support-4.9.1.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/org/slf4j/slf4j-jdk14/2.0.7/slf4j-jdk14-2.0.7.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/org/zeroturnaround/zt-zip/1.15/zt-zip-1.15.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/org/apache/httpcomponents/httpcore/4.4.16/httpcore-4.4.16.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/com/github/spotbugs/spotbugs-annotations/4.7.1/spotbugs-annotations-4.7.1.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/com/google/errorprone/error_prone_annotations/2.14.0/error_prone_annotations-2.14.0.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/one/util/streamex/0.8.1/streamex-0.8.1.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/edu/hm/hafner/codingstyle/2.25.0/codingstyle-2.25.0.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/net/bytebuddy/byte-buddy/1.12.10/byte-buddy-1.12.10.jar
+[[1;36mDEBUG[m]  /root/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar
+[[1;36mDEBUG[m] Source roots:
+[[1;36mDEBUG[m]  /code-coverage-api-plugin/ui-tests/src/main/java
+[[1;36mDEBUG[m]  /code-coverage-api-plugin/ui-tests/target/generated-sources/annotations
+[[1;36mDEBUG[m] Command line options:
+[[1;36mDEBUG[m] -d /code-coverage-api-plugin/ui-tests/target/classes -classpath /code-coverage-api-plugin/ui-tests/target/classes:/root/.m2/repository/org/jenkins-ci/acceptance-test-harness/5623.v3e1d330b_89e0/acceptance-test-harness-5623.v3e1d330b_89e0.jar:/root/.m2/repository/args4j/args4j/2.33/args4j-2.33.jar:/root/.m2/repository/com/browserup/browserup-proxy-core/2.1.2/browserup-proxy-core-2.1.2.jar:/root/.m2/repository/io/netty/netty-codec/4.1.50.Final/netty-codec-4.1.50.Final.jar:/root/.m2/repository/io/netty/netty-common/4.1.50.Final/netty-common-4.1.50.Final.jar:/root/.m2/repository/io/netty/netty-buffer/4.1.50.Final/netty-buffer-4.1.50.Final.jar:/root/.m2/repository/io/netty/netty-transport/4.1.50.Final/netty-transport-4.1.50.Final.jar:/root/.m2/repository/io/netty/netty-resolver/4.1.50.Final/netty-resolver-4.1.50.Final.jar:/root/.m2/repository/xyz/rogfam/littleproxy/2.0.0-beta-5/littleproxy-2.0.0-beta-5.jar:/root/.m2/repository/com/barchart/udt/barchart-udt-bundle/2.3.0/barchart-udt-bundle-2.3.0.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/root/.m2/repository/com/cloudbees/extensibility/1.7/extensibility-1.7.jar:/root/.m2/repository/org/jenkins-ci/annotation-indexer/1.17/annotation-indexer-1.17.jar:/root/.m2/repository/org/kohsuke/metainf-services/metainf-services/1.9/metainf-services-1.9.jar:/root/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.2/jackson-databind-2.15.2.jar:/root/.m2/repository/com/github/jnr/jffi/1.3.11/jffi-1.3.11.jar:/root/.m2/repository/com/github/jnr/jffi/1.3.11/jffi-1.3.11-native.jar:/root/.m2/repository/com/github/jnr/jnr-unixsocket/0.38.19/jnr-unixsocket-0.38.19.jar:/root/.m2/repository/com/github/jnr/jnr-ffi/2.2.13/jnr-ffi-2.2.13.jar:/root/.m2/repository/org/ow2/asm/asm/9.2/asm-9.2.jar:/root/.m2/repository/org/ow2/asm/asm-commons/9.2/asm-commons-9.2.jar:/root/.m2/repository/org/ow2/asm/asm-analysis/9.2/asm-analysis-9.2.jar:/root/.m2/repository/org/ow2/asm/asm-tree/9.2/asm-tree-9.2.jar:/root/.m2/repository/org/ow2/asm/asm-util/9.2/asm-util-9.2.jar:/root/.m2/repository/com/github/jnr/jnr-a64asm/1.0.0/jnr-a64asm-1.0.0.jar:/root/.m2/repository/com/github/jnr/jnr-x86asm/1.0.2/jnr-x86asm-1.0.2.jar:/root/.m2/repository/com/github/jnr/jnr-constants/0.10.4/jnr-constants-0.10.4.jar:/root/.m2/repository/com/github/jnr/jnr-enxio/0.32.14/jnr-enxio-0.32.14.jar:/root/.m2/repository/com/github/jnr/jnr-posix/3.1.16/jnr-posix-3.1.16.jar:/root/.m2/repository/com/github/olivergondza/dumpling/dumpling/2.6/dumpling-2.6.jar:/root/.m2/repository/com/github/olivergondza/maven-jdk-tools-wrapper/0.1/maven-jdk-tools-wrapper-0.1.jar:/root/.m2/repository/com/github/stephenc/monte/monte-screen-recorder/0.7.7.0/monte-screen-recorder-0.7.7.0.jar:/root/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/root/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/root/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/root/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/root/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/root/.m2/repository/com/google/inject/guice/6.0.0/guice-6.0.0.jar:/root/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/root/.m2/repository/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar:/root/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/root/.m2/repository/com/jcraft/jsch/0.1.55/jsch-0.1.55.jar:/root/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/root/.m2/repository/commons-net/commons-net/3.9.0/commons-net-3.9.0.jar:/root/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/root/.m2/repository/org/apache/commons/commons-configuration2/2.9.0/commons-configuration2-2.9.0.jar:/root/.m2/repository/org/apache/commons/commons-text/1.10.0/commons-text-1.10.0.jar:/root/.m2/repository/org/apache/maven/maven-resolver-provider/3.8.1/maven-resolver-provider-3.8.1.jar:/root/.m2/repository/org/apache/maven/maven-model/3.8.1/maven-model-3.8.1.jar:/root/.m2/repository/org/apache/maven/maven-model-builder/3.8.1/maven-model-builder-3.8.1.jar:/root/.m2/repository/org/apache/maven/maven-artifact/3.8.1/maven-artifact-3.8.1.jar:/root/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.4/org.eclipse.sisu.inject-0.3.4.jar:/root/.m2/repository/org/apache/maven/maven-repository-metadata/3.8.1/maven-repository-metadata-3.8.1.jar:/root/.m2/repository/org/apache/maven/resolver/maven-resolver-api/1.6.2/maven-resolver-api-1.6.2.jar:/root/.m2/repository/org/apache/maven/resolver/maven-resolver-spi/1.6.2/maven-resolver-spi-1.6.2.jar:/root/.m2/repository/org/apache/maven/resolver/maven-resolver-util/1.6.2/maven-resolver-util-1.6.2.jar:/root/.m2/repository/org/apache/maven/resolver/maven-resolver-impl/1.6.2/maven-resolver-impl-1.6.2.jar:/root/.m2/repository/org/codehaus/plexus/plexus-utils/3.2.1/plexus-utils-3.2.1.jar:/root/.m2/repository/org/apache/maven/maven-settings-builder/3.8.1/maven-settings-builder-3.8.1.jar:/root/.m2/repository/org/apache/maven/maven-builder-support/3.8.1/maven-builder-support-3.8.1.jar:/root/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.25/plexus-interpolation-1.25.jar:/root/.m2/repository/org/apache/maven/maven-settings/3.8.1/maven-settings-3.8.1.jar:/root/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.4/plexus-sec-dispatcher-1.4.jar:/root/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar:/root/.m2/repository/org/apache/maven/resolver/maven-resolver-connector-basic/1.6.2/maven-resolver-connector-basic-1.6.2.jar:/root/.m2/repository/org/apache/maven/resolver/maven-resolver-transport-file/1.6.2/maven-resolver-transport-file-1.6.2.jar:/root/.m2/repository/org/apache/maven/resolver/maven-resolver-transport-http/1.6.2/maven-resolver-transport-http-1.6.2.jar:/root/.m2/repository/org/bouncycastle/bcpkix-jdk18on/1.73/bcpkix-jdk18on-1.73.jar:/root/.m2/repository/org/bouncycastle/bcprov-jdk18on/1.73/bcprov-jdk18on-1.73.jar:/root/.m2/repository/org/bouncycastle/bcutil-jdk18on/1.73/bcutil-jdk18on-1.73.jar:/root/.m2/repository/org/codehaus/groovy/groovy/3.0.17/groovy-3.0.17.jar:/root/.m2/repository/org/codehaus/groovy/groovy-console/3.0.17/groovy-console-3.0.17.jar:/root/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/root/.m2/repository/org/jenkins-ci/crypto-util/1.8/crypto-util-1.8.jar:/root/.m2/repository/org/jenkins-ci/groovy-guice-binder/1.2/groovy-guice-binder-1.2.jar:/root/.m2/repository/org/jenkins-ci/jira-api/1.3/jira-api-1.3.jar:/root/.m2/repository/commons-discovery/commons-discovery/0.4/commons-discovery-0.4.jar:/root/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:/root/.m2/repository/javax/xml/jaxrpc-api/1.1/jaxrpc-api-1.1.jar:/root/.m2/repository/javax/xml/soap/saaj-api/1.3/saaj-api-1.3.jar:/root/.m2/repository/org/apache/axis/axis/1.4/axis-1.4.jar:/root/.m2/repository/wsdl4j/wsdl4j/1.6.1/wsdl4j-1.6.1.jar:/root/.m2/repository/org/jenkins-ci/test-annotations/1.4/test-annotations-1.4.jar:/root/.m2/repository/org/jenkins-ci/version-number/1.11/version-number-1.11.jar:/root/.m2/repository/org/jenkins-ci/main/remoting/3107.v665000b_51092/remoting-3107.v665000b_51092.jar:/root/.m2/repository/org/jenkins-ci/test/docker-fixtures/166.v912b_95083ffe/docker-fixtures-166.v912b_95083ffe.jar:/root/.m2/repository/org/jenkins-ci/process-utils/1.3/process-utils-1.3.jar:/root/.m2/repository/org/json/json/20230227/json-20230227.jar:/root/.m2/repository/org/kohsuke/wordnet-random-name/1.5/wordnet-random-name-1.5.jar:/root/.m2/repository/org/seleniumhq/selenium/lift/4.9.1/lift-4.9.1.jar:/root/.m2/repository/org/seleniumhq/selenium/selenium-api/4.9.1/selenium-api-4.9.1.jar:/root/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.9.1/selenium-chrome-driver-4.9.1.jar:/root/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/root/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar:/root/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar:/root/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.9.1/selenium-chromium-driver-4.9.1.jar:/root/.m2/repository/org/seleniumhq/selenium/selenium-json/4.9.1/selenium-json-4.9.1.jar:/root/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.9.1/selenium-manager-4.9.1.jar:/root/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.9.1/selenium-remote-driver-4.9.1.jar:/root/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/root/.m2/repository/io/netty/netty-codec-http/4.1.91.Final/netty-codec-http-4.1.91.Final.jar:/root/.m2/repository/io/netty/netty-handler/4.1.91.Final/netty-handler-4.1.91.Final.jar:/root/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.91.Final/netty-transport-classes-epoll-4.1.91.Final.jar:/root/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.91.Final/netty-transport-classes-kqueue-4.1.91.Final.jar:/root/.m2/repository/io/netty/netty-transport-native-epoll/4.1.91.Final/netty-transport-native-epoll-4.1.91.Final.jar:/root/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.91.Final/netty-transport-native-kqueue-4.1.91.Final.jar:/root/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.91.Final/netty-transport-native-unix-common-4.1.91.Final.jar:/root/.m2/repository/io/opentelemetry/opentelemetry-api/1.25.0/opentelemetry-api-1.25.0.jar:/root/.m2/repository/io/opentelemetry/opentelemetry-context/1.25.0/opentelemetry-context-1.25.0.jar:/root/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.25.0/opentelemetry-exporter-logging-1.25.0.jar:/root/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.25.0/opentelemetry-sdk-metrics-1.25.0.jar:/root/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.25.0-alpha/opentelemetry-sdk-logs-1.25.0-alpha.jar:/root/.m2/repository/io/opentelemetry/opentelemetry-api-logs/1.25.0-alpha/opentelemetry-api-logs-1.25.0-alpha.jar:/root/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.25.0-alpha/opentelemetry-api-events-1.25.0-alpha.jar:/root/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.25.0/opentelemetry-sdk-common-1.25.0.jar:/root/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.25.0/opentelemetry-sdk-extension-autoconfigure-spi-1.25.0.jar:/root/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.25.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.25.0-alpha.jar:/root/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.25.0/opentelemetry-sdk-trace-1.25.0.jar:/root/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.25.0/opentelemetry-sdk-1.25.0.jar:/root/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.25.0-alpha/opentelemetry-semconv-1.25.0-alpha.jar:/root/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/root/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/root/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/root/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/root/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/root/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/root/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/root/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/root/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/root/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/root/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/root/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.9.1/selenium-firefox-driver-4.9.1.jar:/root/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.9.1/selenium-devtools-v85-4.9.1.jar:/root/.m2/repository/org/seleniumhq/selenium/selenium-http/4.9.1/selenium-http-4.9.1.jar:/root/.m2/repository/dev/failsafe/failsafe/3.3.1/failsafe-3.3.1.jar:/root/.m2/repository/org/seleniumhq/selenium/selenium-java/4.9.1/selenium-java-4.9.1.jar:/root/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v111/4.9.1/selenium-devtools-v111-4.9.1.jar:/root/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v112/4.9.1/selenium-devtools-v112-4.9.1.jar:/root/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v113/4.9.1/selenium-devtools-v113-4.9.1.jar:/root/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.9.1/selenium-edge-driver-4.9.1.jar:/root/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.9.1/selenium-safari-driver-4.9.1.jar:/root/.m2/repository/org/seleniumhq/selenium/selenium-support/4.9.1/selenium-support-4.9.1.jar:/root/.m2/repository/org/slf4j/slf4j-jdk14/2.0.7/slf4j-jdk14-2.0.7.jar:/root/.m2/repository/org/zeroturnaround/zt-zip/1.15/zt-zip-1.15.jar:/root/.m2/repository/org/apache/httpcomponents/httpcore/4.4.16/httpcore-4.4.16.jar:/root/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/root/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar:/root/.m2/repository/com/github/spotbugs/spotbugs-annotations/4.7.1/spotbugs-annotations-4.7.1.jar:/root/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/root/.m2/repository/com/google/errorprone/error_prone_annotations/2.14.0/error_prone_annotations-2.14.0.jar:/root/.m2/repository/one/util/streamex/0.8.1/streamex-0.8.1.jar:/root/.m2/repository/edu/hm/hafner/codingstyle/2.25.0/codingstyle-2.25.0.jar:/root/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/root/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/root/.m2/repository/net/bytebuddy/byte-buddy/1.12.10/byte-buddy-1.12.10.jar:/root/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar: -sourcepath /code-coverage-api-plugin/ui-tests/src/main/java:/code-coverage-api-plugin/ui-tests/target/generated-sources/annotations: /code-coverage-api-plugin/ui-tests/src/main/java/io/jenkins/plugins/coverage/FileCoverageTableRow.java /code-coverage-api-plugin/ui-tests/src/main/java/io/jenkins/plugins/coverage/CoverageSummary.java /code-coverage-api-plugin/ui-tests/src/main/java/io/jenkins/plugins/coverage/util/ChartUtil.java /code-coverage-api-plugin/ui-tests/src/main/java/io/jenkins/plugins/coverage/MainPanel.java /code-coverage-api-plugin/ui-tests/src/main/java/io/jenkins/plugins/coverage/CoveragePublisher/Threshold/AbstractThreshold.java /code-coverage-api-plugin/ui-tests/src/main/java/io/jenkins/plugins/coverage/FileCoverageTable.java /code-coverage-api-plugin/ui-tests/src/main/java/io/jenkins/plugins/coverage/CoveragePublisher/CoveragePublisher.java /code-coverage-api-plugin/ui-tests/src/main/java/io/jenkins/plugins/coverage/CoveragePublisher/Threshold/GlobalThreshold.java /code-coverage-api-plugin/ui-tests/src/main/java/io/jenkins/plugins/coverage/CoveragePublisher/Threshold/AdapterThreshold.java /code-coverage-api-plugin/ui-tests/src/main/java/io/jenkins/plugins/coverage/CoveragePublisher/Adapter.java /code-coverage-api-plugin/ui-tests/src/main/java/io/jenkins/plugins/coverage/CoverageReport.java -s /code-coverage-api-plugin/ui-tests/target/generated-sources/annotations -processorpath /root/.m2/repository/com/google/errorprone/error_prone_core/2.14.0/error_prone_core-2.14.0.jar:/root/.m2/repository/com/google/errorprone/error_prone_annotation/2.14.0/error_prone_annotation-2.14.0.jar:/root/.m2/repository/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar:/root/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/root/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/root/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/root/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/root/.m2/repository/com/google/errorprone/error_prone_annotations/2.14.0/error_prone_annotations-2.14.0.jar:/root/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/root/.m2/repository/com/google/errorprone/error_prone_type_annotations/2.14.0/error_prone_type_annotations-2.14.0.jar:/root/.m2/repository/com/google/errorprone/error_prone_check_api/2.14.0/error_prone_check_api-2.14.0.jar:/root/.m2/repository/org/checkerframework/dataflow-errorprone/3.21.1/dataflow-errorprone-3.21.1.jar:/root/.m2/repository/io/github/java-diff-utils/java-diff-utils/4.0/java-diff-utils-4.0.jar:/root/.m2/repository/org/eclipse/jgit/org.eclipse.jgit/4.4.1.201607150455-r/org.eclipse.jgit-4.4.1.201607150455-r.jar:/root/.m2/repository/com/google/auto/value/auto-value-annotations/1.9/auto-value-annotations-1.9.jar:/root/.m2/repository/com/github/kevinstern/software-and-algorithms/1.0/software-and-algorithms-1.0.jar:/root/.m2/repository/com/github/ben-manes/caffeine/caffeine/3.0.5/caffeine-3.0.5.jar:/root/.m2/repository/org/pcollections/pcollections/3.1.4/pcollections-3.1.4.jar:/root/.m2/repository/com/google/auto/auto-common/1.2.1/auto-common-1.2.1.jar:/root/.m2/repository/com/google/protobuf/protobuf-java/3.19.2/protobuf-java-3.19.2.jar:/root/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/root/.m2/repository/com/uber/nullaway/nullaway/0.9.8/nullaway-0.9.8.jar:/root/.m2/repository/org/checkerframework/dataflow-nullaway/3.22.2/dataflow-nullaway-3.22.2.jar:/root/.m2/repository/com/google/guava/guava/24.1.1-jre/guava-24.1.1-jre.jar:/root/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/root/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/root/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/root/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/root/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar: -g -target 1.8 -source 1.8 -encoding UTF-8 -Xplugin:ErrorProne  -XepExcludedPaths:.*/generated-test-sources/.*  -XepAllDisabledChecksAsWarnings  -XepIgnoreUnknownCheckNames  -XepDisableWarningsInGeneratedCode  -XepAllErrorsAsWarnings  -Xep:NullAway:WARN  -XepOpt:NullAway:AnnotatedPackages=edu.hm.hafner  -Xep:ReturnMissingNullable:OFF  -Xep:PreferJavaTimeOverload:OFF  -Xep:EqualsGetClass:OFF  -Xep:AndroidJdkLibsChecker:OFF  -Xep:Java7ApiChecker:OFF  -Xep:Var:OFF  -Xep:PrivateConstructorForUtilityClass:OFF  -Xep:MethodCanBeStatic:OFF  -Xep:WildcardImport:OFF  -Xep:ThrowsUncheckedException:OFF  -Xep:UnusedMethod:OFF  -Xep:ImmutableMemberCollection:OFF  -Xep:BooleanParameter:OFF  -Xep:UnnecessaryFinal:OFF  -Xep:NullableDereference:OFF -XDcompilePolicy=simple
+[[1;36mDEBUG[m] incrementalBuildHelper#beforeRebuildExecution
+[[1;34mINFO[m] Compiling 11 source files to /code-coverage-api-plugin/ui-tests/target/classes
+[[1;36mDEBUG[m] incrementalBuildHelper#afterRebuildExecution
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;33mWARNING[m] COMPILATION WARNING : 
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;33mWARNING[m] [options] bootstrap class path not set in conjunction with -source 8
+[[1;34mINFO[m] 1 warning
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] COMPILATION ERROR : 
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;31mERROR[m] /code-coverage-api-plugin/ui-tests/src/main/java/io/jenkins/plugins/coverage/util/ChartUtil.java:[7,36] error: package com.gargoylesoftware.htmlunit does not exist
+[[1;31mERROR[m] /code-coverage-api-plugin/ui-tests/src/main/java/io/jenkins/plugins/coverage/util/ChartUtil.java:[35,12] error: cannot find symbol
+  symbol:   class ScriptResult
+  location: class ChartUtil
+[[1;31mERROR[m] /code-coverage-api-plugin/ui-tests/src/main/java/io/jenkins/plugins/coverage/util/ChartUtil.java:[35,44] error: cannot find symbol
+  symbol:   class ScriptResult
+  location: class ChartUtil
+[[1;31mERROR[m] /code-coverage-api-plugin/ui-tests/src/main/java/io/jenkins/plugins/coverage/util/ChartUtil.java:[60,42] error: cannot find symbol
+  symbol:   class ScriptResult
+  location: class ChartUtil
+[[1;34mINFO[m] 4 errors 
+[[1;34mINFO[m] -------------------------------------------------------------
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  7.802 s
+[[1;34mINFO[m] Finished at: 2026-03-22T14:34:27Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-compiler-plugin:3.10.1:compile[m [1m(default-compile)[m on project [36mcode-coverage-api-ui-tests[m: [1;31mCompilation failure[m: Compilation failure: 
+[[1;31mERROR[m] /code-coverage-api-plugin/ui-tests/src/main/java/io/jenkins/plugins/coverage/util/ChartUtil.java:[7,36] error: package com.gargoylesoftware.htmlunit does not exist
+[[1;31mERROR[m] /code-coverage-api-plugin/ui-tests/src/main/java/io/jenkins/plugins/coverage/util/ChartUtil.java:[35,12] error: cannot find symbol
+[[1;31mERROR[m]   symbol:   class ScriptResult
+[[1;31mERROR[m]   location: class ChartUtil
+[[1;31mERROR[m] /code-coverage-api-plugin/ui-tests/src/main/java/io/jenkins/plugins/coverage/util/ChartUtil.java:[35,44] error: cannot find symbol
+[[1;31mERROR[m]   symbol:   class ScriptResult
+[[1;31mERROR[m]   location: class ChartUtil
+[[1;31mERROR[m] /code-coverage-api-plugin/ui-tests/src/main/java/io/jenkins/plugins/coverage/util/ChartUtil.java:[60,42] error: cannot find symbol
+[[1;31mERROR[m]   symbol:   class ScriptResult
+[[1;31mERROR[m]   location: class ChartUtil
+[[1;31mERROR[m] -> [1m[Help 1][m
+[1;31morg.apache.maven.lifecycle.LifecycleExecutionException[m: [1;31mFailed to execute goal [32morg.apache.maven.plugins:maven-compiler-plugin:3.10.1:compile[m [1m(default-compile)[m on project [36mcode-coverage-api-ui-tests[m: [1;31mCompilation failure[m[m
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:215[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:156[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:148[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:117[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:81[m)
+    [1mat[m org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build ([1mSingleThreadedBuilder.java:56[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleStarter.execute ([1mLifecycleStarter.java:128[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:305[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:192[m)
+    [1mat[m org.apache.maven.DefaultMaven.execute ([1mDefaultMaven.java:105[m)
+    [1mat[m org.apache.maven.cli.MavenCli.execute ([1mMavenCli.java:957[m)
+    [1mat[m org.apache.maven.cli.MavenCli.doMain ([1mMavenCli.java:289[m)
+    [1mat[m org.apache.maven.cli.MavenCli.main ([1mMavenCli.java:193[m)
+    [1mat[m jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 ([1mNative Method[m)
+    [1mat[m jdk.internal.reflect.NativeMethodAccessorImpl.invoke ([1mNativeMethodAccessorImpl.java:62[m)
+    [1mat[m jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke ([1mDelegatingMethodAccessorImpl.java:43[m)
+    [1mat[m java.lang.reflect.Method.invoke ([1mMethod.java:566[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced ([1mLauncher.java:282[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launch ([1mLauncher.java:225[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode ([1mLauncher.java:406[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.main ([1mLauncher.java:347[m)
+[1mCaused by[m: org.apache.maven.plugin.compiler.CompilationFailureException: [1;31mCompilation failure[m
+    [1mat[m org.apache.maven.plugin.compiler.AbstractCompilerMojo.execute ([1mAbstractCompilerMojo.java:1310[m)
+    [1mat[m org.apache.maven.plugin.compiler.CompilerMojo.execute ([1mCompilerMojo.java:198[m)
+    [1mat[m org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo ([1mDefaultBuildPluginManager.java:137[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:210[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:156[m)
+    [1mat[m org.apache.maven.lifecycle.internal.MojoExecutor.execute ([1mMojoExecutor.java:148[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:117[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject ([1mLifecycleModuleBuilder.java:81[m)
+    [1mat[m org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build ([1mSingleThreadedBuilder.java:56[m)
+    [1mat[m org.apache.maven.lifecycle.internal.LifecycleStarter.execute ([1mLifecycleStarter.java:128[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:305[m)
+    [1mat[m org.apache.maven.DefaultMaven.doExecute ([1mDefaultMaven.java:192[m)
+    [1mat[m org.apache.maven.DefaultMaven.execute ([1mDefaultMaven.java:105[m)
+    [1mat[m org.apache.maven.cli.MavenCli.execute ([1mMavenCli.java:957[m)
+    [1mat[m org.apache.maven.cli.MavenCli.doMain ([1mMavenCli.java:289[m)
+    [1mat[m org.apache.maven.cli.MavenCli.main ([1mMavenCli.java:193[m)
+    [1mat[m jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 ([1mNative Method[m)
+    [1mat[m jdk.internal.reflect.NativeMethodAccessorImpl.invoke ([1mNativeMethodAccessorImpl.java:62[m)
+    [1mat[m jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke ([1mDelegatingMethodAccessorImpl.java:43[m)
+    [1mat[m java.lang.reflect.Method.invoke ([1mMethod.java:566[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced ([1mLauncher.java:282[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.launch ([1mLauncher.java:225[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode ([1mLauncher.java:406[m)
+    [1mat[m org.codehaus.plexus.classworlds.launcher.Launcher.main ([1mLauncher.java:347[m)
+[[1;31mERROR[m] 
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

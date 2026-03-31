@@ -1,0 +1,28 @@
+{
+    "id": "cf505877-4f71-48e7-809a-aeb93dcbcd2c",
+    "started_at": "2026-03-21T13:14:54.122965",
+    "finished_at": null,
+    "n_total_trials": 1,
+    "stats": {
+        "n_trials": 1,
+        "n_errors": 1,
+        "evals": {
+            "claude-code__harbor-bump-eval": {
+                "n_trials": 0,
+                "n_errors": 1,
+                "metrics": [
+                    {
+                        "mean": 0.0
+                    }
+                ],
+                "reward_stats": {},
+                "exception_stats": {
+                    "CancelledError": [
+                        "task-quickfixj-mina__uejQRKK"
+                    ]
+                }
+            }
+        }
+    },
+    "trial_results": []
+}

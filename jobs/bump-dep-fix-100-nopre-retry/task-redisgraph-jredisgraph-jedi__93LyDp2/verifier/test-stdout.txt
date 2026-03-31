@@ -1,0 +1,13 @@
+=== Running mvn compile to verify fix ===
+[ERROR] COMPILATION ERROR : 
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphTransaction.java:[23,8] com.redislabs.redisgraph.impl.api.RedisGraphTransaction is not abstract and does not override abstract method execGetResponse() in com.redislabs.redisgraph.RedisGraphTransaction
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project jredisgraph: Compilation failure
+[ERROR] /JRedisGraph/src/main/java/com/redislabs/redisgraph/impl/api/RedisGraphTransaction.java:[23,8] com.redislabs.redisgraph.impl.api.RedisGraphTransaction is not abstract and does not override abstract method execGetResponse() in com.redislabs.redisgraph.RedisGraphTransaction
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+COMPILATION FAILED

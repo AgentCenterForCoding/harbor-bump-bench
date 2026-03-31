@@ -1,0 +1,200 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------< [0;36mml.peya.plugins:PeyangSuperbAntiCheat[0;1m >----------------[m
+[[1;34mINFO[m] [1mBuilding PeyangSuperbAntiCheat 0.2.1a[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.pom
+Progress (1): 4.1 kBProgress (1): 8.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.pom (8.1 kB at 27 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/23/maven-plugins-23.pom
+Progress (1): 4.1 kBProgress (1): 8.2 kBProgress (1): 9.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/23/maven-plugins-23.pom (9.2 kB at 174 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.jar
+Progress (1): 2.3/30 kBProgress (1): 5.0/30 kBProgress (1): 7.7/30 kBProgress (1): 10/30 kB Progress (1): 13/30 kBProgress (1): 16/30 kBProgress (1): 19/30 kBProgress (1): 21/30 kBProgress (1): 24/30 kBProgress (1): 27/30 kBProgress (1): 30 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.jar (30 kB at 547 kB/s)
+Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/md-5/bungeecord-api/1.12-SNAPSHOT/maven-metadata.xml
+Downloading from minecraft-repo: https://libraries.minecraft.net/net/md-5/bungeecord-api/1.12-SNAPSHOT/maven-metadata.xml
+Downloading from dmulloy2-repo: https://repo.dmulloy2.net/content/groups/public/net/md-5/bungeecord-api/1.12-SNAPSHOT/maven-metadata.xml
+Downloading from jitpack.io: https://jitpack.io/net/md-5/bungeecord-api/1.12-SNAPSHOT/maven-metadata.xml
+Downloading from bungeecord-repo: https://oss.sonatype.org/content/repositories/snapshots/net/md-5/bungeecord-api/1.12-SNAPSHOT/maven-metadata.xml
+Downloading from md_5-snapshots: https://repo.md-5.net/content/repositories/snapshots/net/md-5/bungeecord-api/1.12-SNAPSHOT/maven-metadata.xml
+Downloading from md_5-releases: https://repo.md-5.net/content/repositories/releases/net/md-5/bungeecord-api/1.12-SNAPSHOT/maven-metadata.xml
+Downloading from sonatype-repo: https://oss.sonatype.org/content/groups/public/net/md-5/bungeecord-api/1.12-SNAPSHOT/maven-metadata.xml
+Downloading from dmulloy2-repo: https://repo.dmulloy2.net/content/groups/public/net/md-5/bungeecord-parent/1.12-SNAPSHOT/maven-metadata.xml
+Downloading from jitpack.io: https://jitpack.io/net/md-5/bungeecord-parent/1.12-SNAPSHOT/maven-metadata.xml
+Downloading from minecraft-repo: https://libraries.minecraft.net/net/md-5/bungeecord-parent/1.12-SNAPSHOT/maven-metadata.xml
+Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/md-5/bungeecord-parent/1.12-SNAPSHOT/maven-metadata.xml
+Downloading from bungeecord-repo: https://oss.sonatype.org/content/repositories/snapshots/net/md-5/bungeecord-parent/1.12-SNAPSHOT/maven-metadata.xml
+Downloading from md_5-snapshots: https://repo.md-5.net/content/repositories/snapshots/net/md-5/bungeecord-parent/1.12-SNAPSHOT/maven-metadata.xml
+Downloading from md_5-releases: https://repo.md-5.net/content/repositories/releases/net/md-5/bungeecord-parent/1.12-SNAPSHOT/maven-metadata.xml
+Downloading from sonatype-repo: https://oss.sonatype.org/content/groups/public/net/md-5/bungeecord-parent/1.12-SNAPSHOT/maven-metadata.xml
+Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/md-5/bungeecord-chat/1.12-SNAPSHOT/maven-metadata.xml
+Downloading from dmulloy2-repo: https://repo.dmulloy2.net/content/groups/public/net/md-5/bungeecord-chat/1.12-SNAPSHOT/maven-metadata.xml
+Downloading from jitpack.io: https://jitpack.io/net/md-5/bungeecord-chat/1.12-SNAPSHOT/maven-metadata.xml
+Downloading from minecraft-repo: https://libraries.minecraft.net/net/md-5/bungeecord-chat/1.12-SNAPSHOT/maven-metadata.xml
+Downloading from bungeecord-repo: https://oss.sonatype.org/content/repositories/snapshots/net/md-5/bungeecord-chat/1.12-SNAPSHOT/maven-metadata.xml
+Downloading from md_5-snapshots: https://repo.md-5.net/content/repositories/snapshots/net/md-5/bungeecord-chat/1.12-SNAPSHOT/maven-metadata.xml
+Downloading from md_5-releases: https://repo.md-5.net/content/repositories/releases/net/md-5/bungeecord-chat/1.12-SNAPSHOT/maven-metadata.xml
+Downloading from sonatype-repo: https://oss.sonatype.org/content/groups/public/net/md-5/bungeecord-chat/1.12-SNAPSHOT/maven-metadata.xml
+Downloading from jitpack.io: https://jitpack.io/net/md-5/bungeecord-config/1.12-SNAPSHOT/maven-metadata.xml
+Downloading from minecraft-repo: https://libraries.minecraft.net/net/md-5/bungeecord-config/1.12-SNAPSHOT/maven-metadata.xml
+Downloading from dmulloy2-repo: https://repo.dmulloy2.net/content/groups/public/net/md-5/bungeecord-config/1.12-SNAPSHOT/maven-metadata.xml
+Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/md-5/bungeecord-config/1.12-SNAPSHOT/maven-metadata.xml
+Downloading from bungeecord-repo: https://oss.sonatype.org/content/repositories/snapshots/net/md-5/bungeecord-config/1.12-SNAPSHOT/maven-metadata.xml
+Downloading from md_5-snapshots: https://repo.md-5.net/content/repositories/snapshots/net/md-5/bungeecord-config/1.12-SNAPSHOT/maven-metadata.xml
+Downloading from md_5-releases: https://repo.md-5.net/content/repositories/releases/net/md-5/bungeecord-config/1.12-SNAPSHOT/maven-metadata.xml
+Downloading from sonatype-repo: https://oss.sonatype.org/content/groups/public/net/md-5/bungeecord-config/1.12-SNAPSHOT/maven-metadata.xml
+Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/md-5/bungeecord-event/1.12-SNAPSHOT/maven-metadata.xml
+Downloading from minecraft-repo: https://libraries.minecraft.net/net/md-5/bungeecord-event/1.12-SNAPSHOT/maven-metadata.xml
+Downloading from dmulloy2-repo: https://repo.dmulloy2.net/content/groups/public/net/md-5/bungeecord-event/1.12-SNAPSHOT/maven-metadata.xml
+Downloading from jitpack.io: https://jitpack.io/net/md-5/bungeecord-event/1.12-SNAPSHOT/maven-metadata.xml
+Downloading from bungeecord-repo: https://oss.sonatype.org/content/repositories/snapshots/net/md-5/bungeecord-event/1.12-SNAPSHOT/maven-metadata.xml
+Downloading from md_5-snapshots: https://repo.md-5.net/content/repositories/snapshots/net/md-5/bungeecord-event/1.12-SNAPSHOT/maven-metadata.xml
+Downloading from md_5-releases: https://repo.md-5.net/content/repositories/releases/net/md-5/bungeecord-event/1.12-SNAPSHOT/maven-metadata.xml
+Downloading from sonatype-repo: https://oss.sonatype.org/content/groups/public/net/md-5/bungeecord-event/1.12-SNAPSHOT/maven-metadata.xml
+Downloading from dmulloy2-repo: https://repo.dmulloy2.net/content/groups/public/net/md-5/bungeecord-protocol/1.12-SNAPSHOT/maven-metadata.xml
+Downloading from jitpack.io: https://jitpack.io/net/md-5/bungeecord-protocol/1.12-SNAPSHOT/maven-metadata.xml
+Downloading from minecraft-repo: https://libraries.minecraft.net/net/md-5/bungeecord-protocol/1.12-SNAPSHOT/maven-metadata.xml
+Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/md-5/bungeecord-protocol/1.12-SNAPSHOT/maven-metadata.xml
+Downloading from bungeecord-repo: https://oss.sonatype.org/content/repositories/snapshots/net/md-5/bungeecord-protocol/1.12-SNAPSHOT/maven-metadata.xml
+Downloading from md_5-snapshots: https://repo.md-5.net/content/repositories/snapshots/net/md-5/bungeecord-protocol/1.12-SNAPSHOT/maven-metadata.xml
+Downloading from md_5-releases: https://repo.md-5.net/content/repositories/releases/net/md-5/bungeecord-protocol/1.12-SNAPSHOT/maven-metadata.xml
+Downloading from sonatype-repo: https://oss.sonatype.org/content/groups/public/net/md-5/bungeecord-protocol/1.12-SNAPSHOT/maven-metadata.xml
+Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.12.2-R0.1-SNAPSHOT/maven-metadata.xml
+Downloading from minecraft-repo: https://libraries.minecraft.net/org/spigotmc/spigot-api/1.12.2-R0.1-SNAPSHOT/maven-metadata.xml
+Downloading from dmulloy2-repo: https://repo.dmulloy2.net/content/groups/public/org/spigotmc/spigot-api/1.12.2-R0.1-SNAPSHOT/maven-metadata.xml
+Downloading from jitpack.io: https://jitpack.io/org/spigotmc/spigot-api/1.12.2-R0.1-SNAPSHOT/maven-metadata.xml
+Downloading from bungeecord-repo: https://oss.sonatype.org/content/repositories/snapshots/org/spigotmc/spigot-api/1.12.2-R0.1-SNAPSHOT/maven-metadata.xml
+Downloading from md_5-snapshots: https://repo.md-5.net/content/repositories/snapshots/org/spigotmc/spigot-api/1.12.2-R0.1-SNAPSHOT/maven-metadata.xml
+Downloading from md_5-releases: https://repo.md-5.net/content/repositories/releases/org/spigotmc/spigot-api/1.12.2-R0.1-SNAPSHOT/maven-metadata.xml
+Progress (1): 1.5 kB                    Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.12.2-R0.1-SNAPSHOT/maven-metadata.xml (1.5 kB at 2.9 kB/s)
+Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot/1.12.2-R0.1-SNAPSHOT/maven-metadata.xml
+Downloading from dmulloy2-repo: https://repo.dmulloy2.net/content/groups/public/org/spigotmc/spigot/1.12.2-R0.1-SNAPSHOT/maven-metadata.xml
+Downloading from jitpack.io: https://jitpack.io/org/spigotmc/spigot/1.12.2-R0.1-SNAPSHOT/maven-metadata.xml
+Downloading from minecraft-repo: https://libraries.minecraft.net/org/spigotmc/spigot/1.12.2-R0.1-SNAPSHOT/maven-metadata.xml
+Downloading from bungeecord-repo: https://oss.sonatype.org/content/repositories/snapshots/org/spigotmc/spigot/1.12.2-R0.1-SNAPSHOT/maven-metadata.xml
+Downloading from md_5-snapshots: https://repo.md-5.net/content/repositories/snapshots/org/spigotmc/spigot/1.12.2-R0.1-SNAPSHOT/maven-metadata.xml
+Downloading from md_5-releases: https://repo.md-5.net/content/repositories/releases/org/spigotmc/spigot/1.12.2-R0.1-SNAPSHOT/maven-metadata.xml
+Downloading from dmulloy2-repo: https://repo.dmulloy2.net/content/groups/public/org/spigotmc/spigot-parent/dev-SNAPSHOT/maven-metadata.xml
+Downloading from jitpack.io: https://jitpack.io/org/spigotmc/spigot-parent/dev-SNAPSHOT/maven-metadata.xml
+Downloading from minecraft-repo: https://libraries.minecraft.net/org/spigotmc/spigot-parent/dev-SNAPSHOT/maven-metadata.xml
+Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-parent/dev-SNAPSHOT/maven-metadata.xml
+Downloading from bungeecord-repo: https://oss.sonatype.org/content/repositories/snapshots/org/spigotmc/spigot-parent/dev-SNAPSHOT/maven-metadata.xml
+Downloading from md_5-snapshots: https://repo.md-5.net/content/repositories/snapshots/org/spigotmc/spigot-parent/dev-SNAPSHOT/maven-metadata.xml
+Downloading from md_5-releases: https://repo.md-5.net/content/repositories/releases/org/spigotmc/spigot-parent/dev-SNAPSHOT/maven-metadata.xml
+Downloading from spigotmc-public: https://hub.spigotmc.org/nexus/content/groups/public/org/spigotmc/spigot-parent/dev-SNAPSHOT/maven-metadata.xml
+Progress (1): 604 B                   Downloaded from md_5-snapshots: https://repo.md-5.net/content/repositories/snapshots/org/spigotmc/spigot-parent/dev-SNAPSHOT/maven-metadata.xml (604 B at 7.3 kB/s)
+Downloading from md_5-snapshots: https://repo.md-5.net/content/repositories/snapshots/org/spigotmc/spigot-parent/dev-SNAPSHOT/spigot-parent-dev-20140904.092435-1106.pom
+Progress (1): 1.6 kB                    Downloaded from md_5-snapshots: https://repo.md-5.net/content/repositories/snapshots/org/spigotmc/spigot-parent/dev-SNAPSHOT/spigot-parent-dev-20140904.092435-1106.pom (1.6 kB at 19 kB/s)
+Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.12.2-R0.1-SNAPSHOT/maven-metadata.xml
+Downloading from jitpack.io: https://jitpack.io/org/bukkit/bukkit/1.12.2-R0.1-SNAPSHOT/maven-metadata.xml
+Downloading from minecraft-repo: https://libraries.minecraft.net/org/bukkit/bukkit/1.12.2-R0.1-SNAPSHOT/maven-metadata.xml
+Downloading from dmulloy2-repo: https://repo.dmulloy2.net/content/groups/public/org/bukkit/bukkit/1.12.2-R0.1-SNAPSHOT/maven-metadata.xml
+Downloading from bungeecord-repo: https://oss.sonatype.org/content/repositories/snapshots/org/bukkit/bukkit/1.12.2-R0.1-SNAPSHOT/maven-metadata.xml
+Downloading from md_5-snapshots: https://repo.md-5.net/content/repositories/snapshots/org/bukkit/bukkit/1.12.2-R0.1-SNAPSHOT/maven-metadata.xml
+Downloading from md_5-releases: https://repo.md-5.net/content/repositories/releases/org/bukkit/bukkit/1.12.2-R0.1-SNAPSHOT/maven-metadata.xml
+Progress (1): 1.5 kB                    Downloaded from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/1.12.2-R0.1-SNAPSHOT/maven-metadata.xml (1.5 kB at 2.7 kB/s)
+Downloading from dmulloy2-repo: https://repo.dmulloy2.net/content/groups/public/net/md-5/brigadier/1.0.16-SNAPSHOT/maven-metadata.xml
+Downloading from jitpack.io: https://jitpack.io/net/md-5/brigadier/1.0.16-SNAPSHOT/maven-metadata.xml
+Downloading from minecraft-repo: https://libraries.minecraft.net/net/md-5/brigadier/1.0.16-SNAPSHOT/maven-metadata.xml
+Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/net/md-5/brigadier/1.0.16-SNAPSHOT/maven-metadata.xml
+Downloading from bungeecord-repo: https://oss.sonatype.org/content/repositories/snapshots/net/md-5/brigadier/1.0.16-SNAPSHOT/maven-metadata.xml
+Downloading from md_5-snapshots: https://repo.md-5.net/content/repositories/snapshots/net/md-5/brigadier/1.0.16-SNAPSHOT/maven-metadata.xml
+Downloading from md_5-releases: https://repo.md-5.net/content/repositories/releases/net/md-5/brigadier/1.0.16-SNAPSHOT/maven-metadata.xml
+Downloading from sonatype-nexus-snapshots: https://oss.sonatype.org/content/repositories/snapshots/net/md-5/brigadier/1.0.16-SNAPSHOT/maven-metadata.xml
+Downloading from spigot-repo: https://hub.spigotmc.org/nexus/content/repositories/snapshots/fr/neatmonster/nocheatplus/3.16.1-SNAPSHOT/maven-metadata.xml
+Downloading from minecraft-repo: https://libraries.minecraft.net/fr/neatmonster/nocheatplus/3.16.1-SNAPSHOT/maven-metadata.xml
+Downloading from dmulloy2-repo: https://repo.dmulloy2.net/content/groups/public/fr/neatmonster/nocheatplus/3.16.1-SNAPSHOT/maven-metadata.xml
+Downloading from jitpack.io: https://jitpack.io/fr/neatmonster/nocheatplus/3.16.1-SNAPSHOT/maven-metadata.xml
+Downloading from bungeecord-repo: https://oss.sonatype.org/content/repositories/snapshots/fr/neatmonster/nocheatplus/3.16.1-SNAPSHOT/maven-metadata.xml
+Downloading from md_5-snapshots: https://repo.md-5.net/content/repositories/snapshots/fr/neatmonster/nocheatplus/3.16.1-SNAPSHOT/maven-metadata.xml
+Downloading from md_5-releases: https://repo.md-5.net/content/repositories/releases/fr/neatmonster/nocheatplus/3.16.1-SNAPSHOT/maven-metadata.xml
+Progress (1): 781 B                   Downloaded from md_5-snapshots: https://repo.md-5.net/content/repositories/snapshots/fr/neatmonster/nocheatplus/3.16.1-SNAPSHOT/maven-metadata.xml (781 B at 8.8 kB/s)
+Downloading from spigotmc-public: https://hub.spigotmc.org/nexus/content/groups/public/net/md-5/bungeecord-chat/1.12-SNAPSHOT/maven-metadata.xml
+Progress (1): 1.2 kB                    Downloaded from spigotmc-public: https://hub.spigotmc.org/nexus/content/groups/public/net/md-5/bungeecord-chat/1.12-SNAPSHOT/maven-metadata.xml (1.2 kB at 2.2 kB/s)
+Downloading from spigotmc-public: https://hub.spigotmc.org/nexus/content/groups/public/net/md-5/bungeecord-chat/1.12-SNAPSHOT/bungeecord-chat-1.12-20180712.114550-97.jar
+Downloaded from spigotmc-public: https://hub.spigotmc.org/nexus/content/groups/public/net/md-5/bungeecord-chat/1.12-SNAPSHOT/bungeecord-chat-1.12-20180712.114550-97.jar (0 B at 0 B/s)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mPeyangSuperbAntiCheat[0;1m ---[m
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/2.0.6/maven-plugin-api-2.0.6.pom
+Progress (1): 1.5 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/2.0.6/maven-plugin-api-2.0.6.pom (1.5 kB at 28 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/2.0.6/maven-2.0.6.pom
+Progress (1): 4.1 kBProgress (1): 8.2 kBProgress (1): 9.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/2.0.6/maven-2.0.6.pom (9.0 kB at 197 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/5/maven-parent-5.pom
+Progress (1): 4.1 kBProgress (1): 8.2 kBProgress (1): 12 kB Progress (1): 15 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/5/maven-parent-5.pom (15 kB at 346 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/3/apache-3.pom
+Progress (1): 3.4 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/3/apache-3.pom (3.4 kB at 76 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.0.6/maven-project-2.0.6.pom
+Progress (1): 2.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.0.6/maven-project-2.0.6.pom (2.6 kB at 49 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.0.6/maven-settings-2.0.6.pom
+Progress (1): 2.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.0.6/maven-settings-2.0.6.pom (2.0 kB at 47 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.0.6/maven-model-2.0.6.pom
+Progress (1): 3.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.0.6/maven-model-2.0.6.pom (3.0 kB at 69 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.4.1/plexus-utils-1.4.1.pom
+Progress (1): 1.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.4.1/plexus-utils-1.4.1.pom (1.9 kB at 42 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.pom
+Progress (1): 3.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.pom (3.9 kB at 90 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/1.0.3/plexus-containers-1.0.3.pom
+Progress (1): 492 B                   Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/1.0.3/plexus-containers-1.0.3.pom (492 B at 11 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/1.0.4/plexus-1.0.4.pom
+Progress (1): 4.1 kBProgress (1): 5.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/1.0.4/plexus-1.0.4.pom (5.7 kB at 127 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/junit/junit/3.8.1/junit-3.8.1.pom
+Progress (1): 998 B                   Downloaded from central: https://repo.maven.apache.org/maven2/junit/junit/3.8.1/junit-3.8.1.pom (998 B at 23 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.0.4/plexus-utils-1.0.4.pom
+Progress (1): 4.1 kBProgress (1): 6.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.0.4/plexus-utils-1.0.4.pom (6.9 kB at 149 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.pom
+Progress (1): 3.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.pom (3.1 kB at 68 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0.6/maven-profile-2.0.6.pom
+Progress (1): 2.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0.6/maven-profile-2.0.6.pom (2.0 kB at 42 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.6/maven-artifact-manager-2.0.6.pom
+Progress (1): 2.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.6/maven-artifact-manager-2.0.6.pom (2.6 kB at 58 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0.6/maven-repository-metadata-2.0.6.pom
+Progress (1): 1.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0.6/maven-repository-metadata-2.0.6.pom (1.9 kB at 39 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0.6/maven-artifact-2.0.6.pom
+Progress (1): 1.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0.6/maven-artifact-2.0.6.pom (1.6 kB at 30 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-registry/2.0.6/maven-plugin-registry-2.0.6.pom
+Progress (1): 1.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-registry/2.0.6/maven-plugin-registry-2.0.6.pom (1.9 kB at 40 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/2.0.6/maven-core-2.0.6.pom
+Progress (1): 4.1 kBProgress (1): 6.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/2.0.6/maven-core-2.0.6.pom (6.7 kB at 134 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-parameter-documenter/2.0.6/maven-plugin-parameter-documenter-2.0.6.pom
+Progress (1): 1.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-parameter-documenter/2.0.6/maven-plugin-parameter-documenter-2.0.6.pom (1.9 kB at 40 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-api/2.0.6/maven-reporting-api-2.0.6.pom
+Progress (1): 1.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-api/2.0.6/maven-reporting-api-2.0.6.pom (1.8 kB at 36 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting/2.0.6/maven-reporting-2.0.6.pom
+Progress (1): 1.4 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting/2.0.6/maven-reporting-2.0.6.pom (1.4 kB at 33 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-7/doxia-sink-api-1.0-alpha-7.pom
+Progress (1): 424 B                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-7/doxia-sink-api-1.0-alpha-7.pom (424 B at 8.2 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia/1.0-alpha-7/doxia-1.0-alpha-7.pom
+Progress (1): 3.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia/1.0-alpha-7/doxia-1.0-alpha-7.pom (3.9 kB at 83 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-error-diagnostics/2.0.6/maven-error-diagnostics-2.0.6.pom
+Progress (1): 1.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-error-diagnostics/2.0.6/maven-error-diagnostics-2.0.6.pom (1.7 kB at 37 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/commons-cli/commons-cli/1.0/commons-cli-1.0.pom
+Progress (1): 2.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/commons-cli/commons-cli/1.0/commons-cli-1.0.pom (2.1 kB at 47 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-descriptor/2.0.6/maven-plugin-descriptor-2.0.6.pom
+Progress (1): 2.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-descriptor/2.0.6/maven-plugin-descriptor-2.0.6.pom (2.0 kB at 36 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-4/plexus-interactivity-api-1.0-alpha-4.pom
+Progress (1): 4.1 kBProgress (1): 7.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-4/plexus-interactivity-api-1.0-alpha-4.pom (7.1 kB at 151 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-monitor/2.0.6/maven-monitor-2.0.6.pom
+Progress (1): 1.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-monitor/2.0.6/maven-monitor-2.0.6.pom (1.3 kB at 27 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/classworlds/classworlds/1.1/classworlds-1.1.pom
+Progress (1): 3.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/classworlds/classworlds/1.1/classworlds-1.1.pom (3.3 kB at 63 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/1.1/maven-filtering-1.1.pom
+Progress (1): 4.1 kBProgress (1): 5.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/1.1/maven-filtering-1.1.pom (5.8 kB at 135 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/17/maven-shared-components-17.pom
+Progress (1): 4.1 kBProgress (1): 8.2 kBProgress (1): 8.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/17/maven-shared-components-17.pom (8.7 kB at 193 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/21/maven-parent-21.pom
+Progress (1): 4.1 kBProgress (1): 8.2 kBProgress (1): 12 kB Progress (1): 16 kBProgress (1): 20 kBProgress (1): 25 kBProgress (1): 26 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/21/maven-parent-21.pom (26 kB at 628 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/10/apache-10.pom
+Progress (1): 4.1 kBProgress (1): 8.2 kBProgress (1): 12 kB Progress (1): 15 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/10/apache-10.pom (15 kB at 308 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.12/plexus-interpolation-1.12.pom
+Progress (1): 889 B                   Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.12/plexus-interpolation-1.12.pom (889 B at 20 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-build-api/0.0.4/plexus-build-api-0.0.4.pom
+Progress (1): 2.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-build-api/0.0.4/plexus-build-api-0.0.4.pom (2.9 kB at 61 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/spice/spice-parent/10/spice-parent-10.pom
+Progress (1): 3.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/spice/spice-parent/10/spice-parent-10.pom (3.0 kB at 62 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/3/forge-parent-3.pom
+Progress (1): 4.1 kBProgress (1): 5.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/3/forge-parent-3.pom (5.0 kB at 112 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.8/plexus-utils-1.5.8.pom
+Progress (1): 4.1 kBProgress (1): 8.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.8/plexus-utils-1.5.8.pom (8.1 kB at 172 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.13/plexus-interpolation-1.13.pom
+Progress (1): 890 B                   Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.13/plexus-interpolation-1.13.pom (890 B at 22 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.1.15/plexus-components-1.1.15.pom
+Progress (1): 2.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.1.15/plexus-components-1.1.15.pom (2.8 kB at 66 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/2.0.3/plexus-2.0.3.pom

@@ -1,0 +1,48 @@
+=== Running mvn compile to verify fix ===
+[ERROR] COMPILATION ERROR : 
+[ERROR] To suppress warnings about obsolete options, use -Xlint:-options.
+/jadler/jadler-jetty/src/main/java/net/jadler/stubbing/server/jetty/JettyStubHttpServer.java:[14,35] error: cannot find symbol
+[ERROR]   symbol:   class SelectChannelConnector
+  location: package org.eclipse.jetty.server.nio
+/jadler/jadler-jetty/src/main/java/net/jadler/stubbing/server/jetty/JettyStubHttpServer.java:[33,19] error: cannot find symbol
+[ERROR]   symbol:   method setSendServerVersion(boolean)
+  location: variable server of type Server
+/jadler/jadler-jetty/src/main/java/net/jadler/stubbing/server/jetty/JettyStubHttpServer.java:[34,19] error: cannot find symbol
+[ERROR]   symbol:   method setSendDateHeader(boolean)
+  location: variable server of type Server
+/jadler/jadler-jetty/src/main/java/net/jadler/stubbing/server/jetty/JettyStubHttpServer.java:[36,33] error: cannot find symbol
+[ERROR]   symbol:   class SelectChannelConnector
+  location: class JettyStubHttpServer
+/jadler/jadler-jetty/src/main/java/net/jadler/stubbing/server/jetty/JettyStubHttpServer.java:[37,26] error: cannot find symbol
+[ERROR]   symbol:   method setPort(int)
+  location: variable httpConnector of type Connector
+/jadler/jadler-jetty/src/main/java/net/jadler/stubbing/server/jetty/JettyStubHttpServer.java:[80,28] error: cannot find symbol
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.5.1:compile (default-compile) on project jadler-jetty: Compilation failure: Compilation failure: 
+[ERROR] To suppress warnings about obsolete options, use -Xlint:-options.
+[ERROR] /jadler/jadler-jetty/src/main/java/net/jadler/stubbing/server/jetty/JettyStubHttpServer.java:[14,35] error: cannot find symbol
+[ERROR]   symbol:   class SelectChannelConnector
+[ERROR]   location: package org.eclipse.jetty.server.nio
+[ERROR] /jadler/jadler-jetty/src/main/java/net/jadler/stubbing/server/jetty/JettyStubHttpServer.java:[33,19] error: cannot find symbol
+[ERROR]   symbol:   method setSendServerVersion(boolean)
+[ERROR]   location: variable server of type Server
+[ERROR] /jadler/jadler-jetty/src/main/java/net/jadler/stubbing/server/jetty/JettyStubHttpServer.java:[34,19] error: cannot find symbol
+[ERROR]   symbol:   method setSendDateHeader(boolean)
+[ERROR]   location: variable server of type Server
+[ERROR] /jadler/jadler-jetty/src/main/java/net/jadler/stubbing/server/jetty/JettyStubHttpServer.java:[36,33] error: cannot find symbol
+[ERROR]   symbol:   class SelectChannelConnector
+[ERROR]   location: class JettyStubHttpServer
+[ERROR] /jadler/jadler-jetty/src/main/java/net/jadler/stubbing/server/jetty/JettyStubHttpServer.java:[37,26] error: cannot find symbol
+[ERROR]   symbol:   method setPort(int)
+[ERROR]   location: variable httpConnector of type Connector
+[ERROR] /jadler/jadler-jetty/src/main/java/net/jadler/stubbing/server/jetty/JettyStubHttpServer.java:[80,28] error: cannot find symbol
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <args> -rf :jadler-jetty
+COMPILATION FAILED

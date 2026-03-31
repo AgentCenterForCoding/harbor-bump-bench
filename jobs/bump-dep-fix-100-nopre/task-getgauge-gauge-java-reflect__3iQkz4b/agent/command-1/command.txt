@@ -1,0 +1,13 @@
+export PATH="$HOME/.local/bin:$PATH"; claude --verbose --output-format=stream-json --permission-mode=bypassPermissions  --print -- '﻿# Fix Maven Compilation Failure: reflections 0.9.9 -> 0.10.2
+
+## Context
+
+Project `gauge-java` (by getgauge) has a **COMPILATION_FAILURE** after a dependency upgrade bot bumped
+`org.reflections:reflections` from `0.9.9` to `0.10.2` (minor update).
+
+Reference PR: https://github.com/getgauge/gauge-java/pull/633
+
+## Your Task
+
+The source code is in `/gauge-java`. Fix all compilation errors so that `mvn compile` succeeds.
+' 2>&1 </dev/null | stdbuf -oL tee /logs/agent/claude-code.txt

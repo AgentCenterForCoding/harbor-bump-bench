@@ -1,0 +1,27 @@
+=== Running mvn compile to verify fix ===
+warning: there were three feature warnings; re-run with -feature for details
+one warning found
+Compiling org.sonatype.maven.polyglot.clojure.dsl.util to /polyglot-maven/polyglot-clojure/target/classes
+Compiling org.sonatype.maven.polyglot.clojure.dsl.pretty-printer to /polyglot-maven/polyglot-clojure/target/classes
+Compiling org.sonatype.maven.polyglot.clojure.dsl.reader to /polyglot-maven/polyglot-clojure/target/classes
+Warning: *uncoerced-classes* not declared dynamic and thus is not dynamically rebindable, but its name suggests otherwise. Please either indicate ^:dynamic *uncoerced-classes* or change the name. (org/sonatype/maven/polyglot/clojure/dsl/reader.clj:14)
+Warning: *MODEL* not declared dynamic and thus is not dynamically rebindable, but its name suggests otherwise. Please either indicate ^:dynamic *MODEL* or change the name. (org/sonatype/maven/polyglot/clojure/dsl/reader.clj:178)
+Compiling org.sonatype.maven.polyglot.clojure.dsl.writer to /polyglot-maven/polyglot-clojure/target/classes
+WARNING: group-by already refers to: #'clojure.core/group-by in namespace: org.sonatype.maven.polyglot.clojure.dsl.writer, being replaced by: #'org.sonatype.maven.polyglot.clojure.dsl.writer/group-by
+Warning: *field-defaults* not declared dynamic and thus is not dynamically rebindable, but its name suggests otherwise. Please either indicate ^:dynamic *field-defaults* or change the name. (org/sonatype/maven/polyglot/clojure/dsl/writer.clj:156)
+Warning: *field-order* not declared dynamic and thus is not dynamically rebindable, but its name suggests otherwise. Please either indicate ^:dynamic *field-order* or change the name. (org/sonatype/maven/polyglot/clojure/dsl/writer.clj:164)
+Compiling org.sonatype.maven.polyglot.clojure.dsl.leiningen to /polyglot-maven/polyglot-clojure/target/classes
+Warning: *leiningen-defaults* not declared dynamic and thus is not dynamically rebindable, but its name suggests otherwise. Please either indicate ^:dynamic *leiningen-defaults* or change the name. (org/sonatype/maven/polyglot/clojure/dsl/leiningen.clj:21)
+Warning: *leiningen-valid-properties* not declared dynamic and thus is not dynamically rebindable, but its name suggests otherwise. Please either indicate ^:dynamic *leiningen-valid-properties* or change the name. (org/sonatype/maven/polyglot/clojure/dsl/leiningen.clj:33)
+Compiling org.sonatype.maven.polyglot.clojure.dsl.debug to /polyglot-maven/polyglot-clojure/target/classes
+[ERROR] Failed to execute goal on project polyglot-translate-plugin: Could not resolve dependencies for project io.takari.polyglot:polyglot-translate-plugin:takari-maven-plugin:0.4.10-SNAPSHOT: Could not find artifact io.takari.polyglot:polyglot-ruby:jar:0.4.10-SNAPSHOT -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <args> -rf :polyglot-translate-plugin
+COMPILATION FAILED

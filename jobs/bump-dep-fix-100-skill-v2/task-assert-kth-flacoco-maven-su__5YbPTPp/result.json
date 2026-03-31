@@ -1,0 +1,84 @@
+{
+    "id": "d5b14ae1-2ca6-44e5-bd5d-f993492e8949",
+    "task_name": "task-assert-kth-flacoco-maven-surefire-",
+    "trial_name": "task-assert-kth-flacoco-maven-su__5YbPTPp",
+    "trial_uri": "file:///root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-assert-kth-flacoco-maven-su__5YbPTPp",
+    "task_id": {
+        "path": "/root/harbor-bump-eval/task-assert-kth-flacoco-maven-surefire-"
+    },
+    "source": "harbor-bump-eval",
+    "task_checksum": "d8cac2791a750667ae78dd3097512280afeadd221acfe479512fd86989f1055c",
+    "config": {
+        "task": {
+            "path": "/root/harbor-bump-eval/task-assert-kth-flacoco-maven-surefire-",
+            "git_url": null,
+            "git_commit_id": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": "harbor-bump-eval"
+        },
+        "trial_name": "task-assert-kth-flacoco-maven-su__5YbPTPp",
+        "trials_dir": "/root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2",
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "claude-code",
+            "import_path": null,
+            "model_name": null,
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "kwargs": {},
+            "env": {
+                "ANTHROPIC_AUTH_TOKEN": "sk-sp-xxx",
+                "ANTHROPIC_BASE_URL": "https://coding.dashscope.aliyuncs.com/apps/anthropic",
+                "ANTHROPIC_MODEL": "qwen3.5-plus",
+                "ANTHROPIC_SMALL_FAST_MODEL": "qwen3.5-plus"
+            }
+        },
+        "environment": {
+            "type": "docker",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "suppress_override_warnings": false,
+            "kwargs": {}
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "disable": false
+        },
+        "artifacts": [],
+        "job_id": "2691ce05-170f-443c-a118-1702396842b1"
+    },
+    "agent_info": {
+        "name": "claude-code",
+        "version": "unknown",
+        "model_info": null
+    },
+    "agent_result": null,
+    "verifier_result": null,
+    "exception_info": {
+        "exception_type": "RuntimeError",
+        "exception_message": "Docker compose command failed for environment task-assert-kth-flacoco-maven-surefire-. Command: docker compose -p task-assert-kth-flacoco-maven-su__5ybptpp --project-directory /root/harbor-bump-eval/task-assert-kth-flacoco-maven-surefire-/environment -f /root/.local/share/uv/tools/harbor/lib/python3.12/site-packages/harbor/environments/docker/docker-compose-base.yaml -f /root/.local/share/uv/tools/harbor/lib/python3.12/site-packages/harbor/environments/docker/docker-compose-build.yaml build. Return code: 17. Stdout: invalid tag \"hb__task-assert-kth-flacoco-maven-surefire-\": invalid reference format\n. Stderr: None. ",
+        "exception_traceback": "Traceback (most recent call last):\n  File \"/root/.local/share/uv/tools/harbor/lib/python3.12/site-packages/harbor/trial/trial.py\", line 479, in run\n    await self._setup_environment()\n  File \"/root/.local/share/uv/tools/harbor/lib/python3.12/site-packages/harbor/trial/trial.py\", line 212, in _setup_environment\n    await self._start_environment_with_retry()\n  File \"/root/.local/share/uv/tools/harbor/lib/python3.12/site-packages/tenacity/asyncio/__init__.py\", line 193, in async_wrapped\n    return await copy(fn, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/root/.local/share/uv/tools/harbor/lib/python3.12/site-packages/tenacity/asyncio/__init__.py\", line 112, in __call__\n    do = await self.iter(retry_state=retry_state)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/root/.local/share/uv/tools/harbor/lib/python3.12/site-packages/tenacity/asyncio/__init__.py\", line 157, in iter\n    result = await action(retry_state)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/root/.local/share/uv/tools/harbor/lib/python3.12/site-packages/tenacity/_utils.py\", line 111, in inner\n    return call(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/root/.local/share/uv/tools/harbor/lib/python3.12/site-packages/tenacity/__init__.py\", line 393, in <lambda>\n    self._add_action_func(lambda rs: rs.outcome.result())\n                                     ^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/python3.12/lib/python3.12/concurrent/futures/_base.py\", line 449, in result\n    return self.__get_result()\n           ^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/python3.12/lib/python3.12/concurrent/futures/_base.py\", line 401, in __get_result\n    raise self._exception\n  File \"/root/.local/share/uv/tools/harbor/lib/python3.12/site-packages/tenacity/asyncio/__init__.py\", line 116, in __call__\n    result = await fn(*args, **kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/root/.local/share/uv/tools/harbor/lib/python3.12/site-packages/harbor/trial/trial.py\", line 224, in _start_environment_with_retry\n    await asyncio.wait_for(\n  File \"/usr/local/python3.12/lib/python3.12/asyncio/tasks.py\", line 520, in wait_for\n    return await fut\n           ^^^^^^^^^\n  File \"/root/.local/share/uv/tools/harbor/lib/python3.12/site-packages/harbor/environments/docker/docker.py\", line 238, in start\n    await self._run_docker_compose_command([\"build\"])\n  File \"/root/.local/share/uv/tools/harbor/lib/python3.12/site-packages/harbor/environments/docker/docker.py\", line 219, in _run_docker_compose_command\n    raise RuntimeError(\nRuntimeError: Docker compose command failed for environment task-assert-kth-flacoco-maven-surefire-. Command: docker compose -p task-assert-kth-flacoco-maven-su__5ybptpp --project-directory /root/harbor-bump-eval/task-assert-kth-flacoco-maven-surefire-/environment -f /root/.local/share/uv/tools/harbor/lib/python3.12/site-packages/harbor/environments/docker/docker-compose-base.yaml -f /root/.local/share/uv/tools/harbor/lib/python3.12/site-packages/harbor/environments/docker/docker-compose-build.yaml build. Return code: 17. Stdout: invalid tag \"hb__task-assert-kth-flacoco-maven-surefire-\": invalid reference format\n. Stderr: None. \n",
+        "occurred_at": "2026-03-22T13:38:53.175071"
+    },
+    "started_at": "2026-03-22T05:38:53.006747Z",
+    "finished_at": "2026-03-22T05:38:53.361830Z",
+    "environment_setup": {
+        "started_at": "2026-03-22T05:38:53.007811Z",
+        "finished_at": "2026-03-22T05:38:53.148110Z"
+    },
+    "agent_setup": null,
+    "agent_execution": null,
+    "verifier": null
+}

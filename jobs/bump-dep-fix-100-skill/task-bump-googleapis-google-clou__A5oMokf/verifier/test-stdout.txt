@@ -1,0 +1,17 @@
+=== Running mvn compile to verify fix ===
+[ERROR] COMPILATION ERROR : 
+[ERROR] /java-pubsub-group-kafka-connector/src/main/java/com/google/pubsublite/kafka/sink/PublisherFactoryImpl.java:[57,13] cannot find symbol
+  symbol:   method setContext(com.google.cloud.pubsublite.internal.wire.PubsubContext)
+  location: class com.google.cloud.pubsublite.internal.wire.SinglePartitionPublisherBuilder.Builder
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project pubsub-group-kafka-connector: Compilation failure
+[ERROR] /java-pubsub-group-kafka-connector/src/main/java/com/google/pubsublite/kafka/sink/PublisherFactoryImpl.java:[57,13] cannot find symbol
+[ERROR]   symbol:   method setContext(com.google.cloud.pubsublite.internal.wire.PubsubContext)
+[ERROR]   location: class com.google.cloud.pubsublite.internal.wire.SinglePartitionPublisherBuilder.Builder
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+COMPILATION FAILED

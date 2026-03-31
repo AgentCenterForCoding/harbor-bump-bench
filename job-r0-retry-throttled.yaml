@@ -1,0 +1,35 @@
+job_name: bump-dep-fix-100-nopre-retry
+jobs_dir: /root/harbor-bump-eval/jobs
+
+orchestrator:
+  n_concurrent_trials: 2
+
+agents:
+  - name: claude-code
+    env:
+      ANTHROPIC_AUTH_TOKEN: "sk-sp-xxx"
+      ANTHROPIC_BASE_URL: "https://coding.dashscope.aliyuncs.com/apps/anthropic"
+      ANTHROPIC_MODEL: "qwen3.5-plus"
+      ANTHROPIC_SMALL_FAST_MODEL: "qwen3.5-plus"
+
+datasets:
+  - path: /root/harbor-bump-eval
+    task_names:
+      - task-artipie-docker-adapter-asto-core
+      - task-bump-artipie-asto-core
+      - task-bump-games647-spongeapi
+      - task-bump-googleapis-google-cloud-pubsu
+      - task-bump-hantsy-jakarta-mvc-api
+      - task-bump-redisgraph-jedis
+      - task-bump-wireapp-dropwizard-client
+      - task-bump-wmaarts-pitest-entry
+      - task-bump-zold-io-cactoos
+      - task-feedzai-pdb-logback-classic
+      - task-googleapis-google-cloud-ja-google-api-serv
+      - task-googleapis-java-pubsub-gro-google-cloud-pu
+      - task-jcabi-jcabi-github-jcabi-aspects
+      - task-jcabi-jcabi-http-hamcrest-librar
+      - task-premium-minds-wicket-crudifie-jakarta.validat
+      - task-redisgraph-jredisgraph-jedis
+      - task-wmaarts-pitest-mutation-pitest-entry
+      - task-zold-io-java-api-cactoos

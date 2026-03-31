@@ -1,0 +1,13 @@
+export PATH="$HOME/.local/bin:$PATH"; claude --verbose --output-format=stream-json --permission-mode=bypassPermissions  --print -- '﻿# Fix Maven Compilation Failure: maven-surefire-common 3.0.0-M5->3.0.0-M7
+
+## Context
+
+Project has a **COMPILATION_FAILURE** after a dependency upgrade bot bumped `maven-surefire-common` from `3.0.0-M5` to `3.0.0-M7`.
+
+## Your Task
+
+The source code is in the WORKDIR. Fix all compilation errors so that `mvn compile` succeeds.
+
+## Steps
+
+' 2>&1 </dev/null | stdbuf -oL tee /logs/agent/claude-code.txt

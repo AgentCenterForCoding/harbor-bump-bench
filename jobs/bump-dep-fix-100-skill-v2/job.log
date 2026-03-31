@@ -1,0 +1,198 @@
+Trial task-assert-kth-flacoco-maven-su__5YbPTPp failed: Docker compose command failed for environment task-assert-kth-flacoco-maven-surefire-. Command: docker compose -p task-assert-kth-flacoco-maven-su__5ybptpp --project-directory /root/harbor-bump-eval/task-assert-kth-flacoco-maven-surefire-/environment -f /root/.local/share/uv/tools/harbor/lib/python3.12/site-packages/harbor/environments/docker/docker-compose-base.yaml -f /root/.local/share/uv/tools/harbor/lib/python3.12/site-packages/harbor/environments/docker/docker-compose-build.yaml build. Return code: 17. Stdout: invalid tag "hb__task-assert-kth-flacoco-maven-surefire-": invalid reference format
+. Stderr: None. 
+Docker compose down failed: Docker compose command failed for environment task-assert-kth-flacoco-maven-surefire-. Command: docker compose -p task-assert-kth-flacoco-maven-su__5ybptpp --project-directory /root/harbor-bump-eval/task-assert-kth-flacoco-maven-surefire-/environment -f /root/.local/share/uv/tools/harbor/lib/python3.12/site-packages/harbor/environments/docker/docker-compose-base.yaml -f /root/.local/share/uv/tools/harbor/lib/python3.12/site-packages/harbor/environments/docker/docker-compose-build.yaml down --rmi all --volumes --remove-orphans. Return code: 1. Stdout:  Image hb__task-assert-kth-flacoco-maven-surefire-  Removing
+Error response from daemon: invalid reference format
+. Stderr: None. 
+Not retrying trial because the maximum number of retries has been reached
+Exception AgentTimeoutError is in exclude_exceptions, not retrying
+Not retrying trial because the exception is not in include_exceptions or the maximum number of retries has been reached
+Exception AgentTimeoutError is in exclude_exceptions, not retrying
+Not retrying trial because the exception is not in include_exceptions or the maximum number of retries has been reached
+Exception AgentTimeoutError is in exclude_exceptions, not retrying
+Not retrying trial because the exception is not in include_exceptions or the maximum number of retries has been reached
+Trial task-bump-artipie-asto-core__yKNhXW2 failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-bump-artipie-asto-core__yKNhXW2/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Trial task-bump-internationa-spring-co__5TZknfi failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-bump-internationa-spring-co__5TZknfi/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Trial task-volodya-lombroz-jtcop-openn__Cz7LJr8 failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-volodya-lombroz-jtcop-openn__Cz7LJr8/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Trial task-bump-nemproject-flyway-core__VNRb5oW failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-bump-nemproject-flyway-core__VNRb5oW/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Trial task-bump-internationa-spring-bo__LDQ8h4S failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-bump-internationa-spring-bo__LDQ8h4S/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Trial task-bump-feedzai-logback-classi__ptoex7k failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-bump-feedzai-logback-classi__ptoex7k/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Trial task-international-d-ids-messagi__66Lrs6P failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-international-d-ids-messagi__66Lrs6P/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Trial task-polyglot-snakeyaml__Zj2P45F failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-polyglot-snakeyaml__Zj2P45F/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Trial task-bump-assert-kth-sonarlint-c__x5SrHQG failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-bump-assert-kth-sonarlint-c__x5SrHQG/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Trial task-jadler-mocking-jadler-jetty__AjybXCz failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-jadler-mocking-jadler-jetty__AjybXCz/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Trial task-googleapis-java-pubsub-gro-__aTvgJPz failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-googleapis-java-pubsub-gro-__aTvgJPz/agent/setup
+Exception AgentTimeoutError is in exclude_exceptions, not retrying
+Not retrying trial because the exception is not in include_exceptions or the maximum number of retries has been reached
+Trial task-xdev-software-biapi-jasperr__igkWwva failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-xdev-software-biapi-jasperr__igkWwva/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Trial task-jenkinsci-code-coverage-a-a__JNQa2Be failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-jenkinsci-code-coverage-a-a__JNQa2Be/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Trial task-bump-getgauge-reflections__ha5hMgS failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-bump-getgauge-reflections__ha5hMgS/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Trial task-bump-alphagov-logback-class__SCLmtw7 failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-bump-alphagov-logback-class__SCLmtw7/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Trial task-bump-p2p-develop-peyangsupe__MnEFwFZ failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-bump-p2p-develop-peyangsupe__MnEFwFZ/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Trial task-bump-maxmind-geoip2__AmFapwE failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-bump-maxmind-geoip2__AmFapwE/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Trial task-bump-jenkinsci-acceptance-t__BdHffBt failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-bump-jenkinsci-acceptance-t__BdHffBt/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Trial task-bump-kokuwaio-spring-contex__aEHjiKc failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-bump-kokuwaio-spring-contex__aEHjiKc/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Trial task-zold-io-java-api-cactoos__tZtYb5i failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-zold-io-java-api-cactoos__tZtYb5i/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Trial task-wmaarts-pitest-mutation-pit__jviUAuq failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-wmaarts-pitest-mutation-pit__jviUAuq/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Trial task-bump-jadler-mocki-jetty-ser__7URRAoR failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-bump-jadler-mocki-jetty-ser__7URRAoR/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Trial task-jcabi-jcabi-simpledb-jcabi-__CHCRaU5 failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-jcabi-jcabi-simpledb-jcabi-__CHCRaU5/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Trial task-pinterest-singer__hnvTrLA failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-pinterest-singer__hnvTrLA/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Trial task-hantsy-jakartaee-mvc-s-jaka__xmmEgLK failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-hantsy-jakartaee-mvc-s-jaka__xmmEgLK/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Trial task-maxmind-minfraud-api-ja-geo__rduXTCn failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-maxmind-minfraud-api-ja-geo__rduXTCn/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Trial task-1and1-snmpman-snmp4j-agent__cYDPTe8 failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-1and1-snmpman-snmp4j-agent__cYDPTe8/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Trial task-bump-lukas-krecan-spring-co__SjXpnnH failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-bump-lukas-krecan-spring-co__SjXpnnH/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Trial task-premium-minds-billy-jaxb2-b__J5xNSwG failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-premium-minds-billy-jaxb2-b__J5xNSwG/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Trial task-wireapp-lithium-dropwizard-__p8hfE8W failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-wireapp-lithium-dropwizard-__p8hfE8W/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Trial task-bump-volodya-lomb-opennlp-t__ftnvhQj failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-bump-volodya-lomb-opennlp-t__ftnvhQj/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Trial task-bump-jcabi-jcabi-aspects__d2CuSWf failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-bump-jcabi-jcabi-aspects__d2CuSWf/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Trial task-wesleyosantos91-poc-multi-m__GBpeYJM failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-wesleyosantos91-poc-multi-m__GBpeYJM/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Trial task-bump-samsung-spring-core__9VEsTan failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-bump-samsung-spring-core__9VEsTan/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Trial task-games647-changeskin-spongea__qDk67oR failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-games647-changeskin-spongea__qDk67oR/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Trial task-bump-googleapis-google-api-__jJvDYV5 failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-bump-googleapis-google-api-__jJvDYV5/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Trial task-bump-micycle1-tinspin-index__MAsisXk failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-bump-micycle1-tinspin-index__MAsisXk/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Trial task-micycle1-pgs-tinspin-indexe__MSphc39 failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-micycle1-pgs-tinspin-indexe__MSphc39/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Not retrying trial because the maximum number of retries has been reached
+Trial task-saucelabs-ci-sauce-plexus-a__HUC68eE failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-saucelabs-ci-sauce-plexus-a__HUC68eE/agent/setup
+Trial task-qqxx6661-log-record-spring-__KUVKNgp failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-qqxx6661-log-record-spring-__KUVKNgp/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Not retrying trial because the maximum number of retries has been reached
+Trial task-allure-framewor-allure-mave__d6wnLSu failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-allure-framewor-allure-mave__d6wnLSu/agent/setup
+Trial task-bump-pkiraly-metadata-qa-ap__Zv4gZam failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-bump-pkiraly-metadata-qa-ap__Zv4gZam/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Trial task-bump-nemproject-hibernate-v__K7fr3Qn failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-bump-nemproject-hibernate-v__K7fr3Qn/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Trial task-google-guice-struts2-core__Gh7Qgz9 failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-google-guice-struts2-core__Gh7Qgz9/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Not retrying trial because the maximum number of retries has been reached
+Trial task-bump-allure-frame-zip4j__aprN8EL failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-bump-allure-frame-zip4j__aprN8EL/agent/setup
+Trial task-bump-wesleyosanto-mapstruct__DYPFn2S failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-bump-wesleyosanto-mapstruct__DYPFn2S/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Not retrying trial because the maximum number of retries has been reached
+Trial task-bump-jcabi-hamcrest-library__nbLECMP failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-bump-jcabi-hamcrest-library__nbLECMP/agent/setup
+Trial task-sabomichal-jooq-meta-postg-__9zbD8oC failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-sabomichal-jooq-meta-postg-__9zbD8oC/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Trial task-bump-pac4j-jakarta-servlet-__CJyGa6i failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-bump-pac4j-jakarta-servlet-__CJyGa6i/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Trial task-bump-premium-mind-jaxb2-bas__eaAYZXJ failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-bump-premium-mind-jaxb2-bas__eaAYZXJ/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Not retrying trial because the maximum number of retries has been reached
+Trial task-bump-mathieucarbo-maven-dep__KdesErY failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-bump-mathieucarbo-maven-dep__KdesErY/agent/setup
+Trial task-ids-spring__mjTAvGA failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-ids-spring__mjTAvGA/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Not retrying trial because the maximum number of retries has been reached
+Trial task-assert-kth-sorald-sonarlint__e6ChYKo failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-assert-kth-sorald-sonarlint__e6ChYKo/agent/setup
+Trial task-bump-saucelabs-plexus-archi__Lm7eoVa failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-bump-saucelabs-plexus-archi__Lm7eoVa/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Not retrying trial because the maximum number of retries has been reached
+Trial task-bump-guhilling-jakarta-anno__gK8h4mw failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-bump-guhilling-jakarta-anno__gK8h4mw/agent/setup
+Trial task-bump-takari-snakeyaml__Msbdwui failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-bump-takari-snakeyaml__Msbdwui/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Not retrying trial because the maximum number of retries has been reached
+Trial task-nemproject-nem-flyway-core__8RPUGpP failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-nemproject-nem-flyway-core__8RPUGpP/agent/setup
+Trial task-bump-internationa-spring-we__DniHHK6 failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-bump-internationa-spring-we__DniHHK6/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Not retrying trial because the maximum number of retries has been reached
+Trial task-assert-kth-depclean-plexus-__4Bbbqap failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-assert-kth-depclean-plexus-__4Bbbqap/agent/setup
+Trial task-lukas-krecan-future-convert__Ba9UdPz failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-lukas-krecan-future-convert__Ba9UdPz/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Not retrying trial because the maximum number of retries has been reached
+Trial task-bump-qqxx6661-spring-cloud-__i8k4M9C failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-bump-qqxx6661-spring-cloud-__i8k4M9C/agent/setup
+Trial task-feedzai-pdb__YsMSpSQ failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-feedzai-pdb__YsMSpSQ/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Not retrying trial because the maximum number of retries has been reached
+Trial task-samsung-lpvs-spring-core__4CzpS33 failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-samsung-lpvs-spring-core__4CzpS33/agent/setup
+Trial task-feedzai-pdb-logback-classic__AKbxSuk failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-feedzai-pdb-logback-classic__AKbxSuk/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Trial task-bump-1and1-snmp4j-agent__y4skMiY failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-bump-1and1-snmp4j-agent__y4skMiY/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Trial task-jcabi-jcabi-http-hamcrest-l__qgVw4Fv failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-jcabi-jcabi-http-hamcrest-l__qgVw4Fv/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Not retrying trial because the maximum number of retries has been reached
+Trial task-premium-minds-wicket-crudif__9Xsm4tp failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-premium-minds-wicket-crudif__9Xsm4tp/agent/setup
+Trial task-bump-sabomichal-jooq-meta__7ikjYPt failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-bump-sabomichal-jooq-meta__7ikjYPt/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Not retrying trial because the maximum number of retries has been reached
+Trial task-bump-zold-io-cactoos__SrHaFk6 failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-bump-zold-io-cactoos__SrHaFk6/agent/setup
+Trial task-bump-xdev-softwar-jasperrep__trKZhsB failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-bump-xdev-softwar-jasperrep__trKZhsB/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Not retrying trial because the maximum number of retries has been reached
+Trial task-googleapis-google-cloud-ja-__Yz5a3fT failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-googleapis-google-cloud-ja-__Yz5a3fT/agent/setup
+Trial task-bump-wmaarts-pitest-entry__Qb26wib failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-bump-wmaarts-pitest-entry__Qb26wib/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Trial task-alphagov-pay-adminusers-log__V97Gcja failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-alphagov-pay-adminusers-log__V97Gcja/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Trial task-kokuwaio-micronaut-opena-sp__d3dsVUp failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-kokuwaio-micronaut-opena-sp__d3dsVUp/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Trial task-bump-assert-kth-maven-suref__5uGNXiN failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-bump-assert-kth-maven-suref__5uGNXiN/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Trial task-bump-hantsy-jakarta-mvc-api__ue3Dvvv failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-bump-hantsy-jakarta-mvc-api__ue3Dvvv/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Not retrying trial because the maximum number of retries has been reached
+Trial task-artipie-docker-adapter-asto__fhhGZZv failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-artipie-docker-adapter-asto__fhhGZZv/agent/setup
+Trial task-bump-artipie-http__om9uwXX failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-bump-artipie-http__om9uwXX/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Not retrying trial because the maximum number of retries has been reached
+Trial task-bump-assert-kth-plexus-util__2bRRJLP failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-bump-assert-kth-plexus-util__2bRRJLP/agent/setup
+Trial task-pkiraly-qa-catalogue-metada__VgByLdx failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-pkiraly-qa-catalogue-metada__VgByLdx/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Trial task-assertkth-flacoco__ohvzJBH failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-assertkth-flacoco__ohvzJBH/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Trial task-bump-premium-mind-jakarta-v__JRgNUv5 failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-bump-premium-mind-jakarta-v__JRgNUv5/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Not retrying trial because the maximum number of retries has been reached
+Trial task-mathieucarbou-license-maven__7QMckAC failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-mathieucarbou-license-maven__7QMckAC/agent/setup
+Trial task-artipie-http-asto-core__EbL9YLs failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-artipie-http-asto-core__EbL9YLs/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Not retrying trial because the maximum number of retries has been reached
+Trial task-international-d-ids-messagi__G4ankoX failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-international-d-ids-messagi__G4ankoX/agent/setup
+Trial task-jcabi-jcabi-ssh-jcabi-aspec__ioEkdJF failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-jcabi-jcabi-ssh-jcabi-aspec__ioEkdJF/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Not retrying trial because the maximum number of retries has been reached
+Trial task-bump-wireapp-dropwizard-cli__XBanRWD failed: Agent setup failed with exit code 100. See logs in /root/harbor-bump-eval/jobs/bump-dep-fix-100-skill-v2/task-bump-wireapp-dropwizard-cli__XBanRWD/agent/setup
+Not retrying trial because the maximum number of retries has been reached
+Exception AgentTimeoutError is in exclude_exceptions, not retrying
+Not retrying trial because the exception is not in include_exceptions or the maximum number of retries has been reached
+Exception AgentTimeoutError is in exclude_exceptions, not retrying
+Not retrying trial because the exception is not in include_exceptions or the maximum number of retries has been reached
+Exception AgentTimeoutError is in exclude_exceptions, not retrying
+Not retrying trial because the exception is not in include_exceptions or the maximum number of retries has been reached
+Exception AgentTimeoutError is in exclude_exceptions, not retrying
+Not retrying trial because the exception is not in include_exceptions or the maximum number of retries has been reached
+Exception AgentTimeoutError is in exclude_exceptions, not retrying
+Not retrying trial because the exception is not in include_exceptions or the maximum number of retries has been reached

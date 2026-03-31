@@ -1,0 +1,99 @@
+{
+    "id": "0a998306-1d9e-43ac-81e4-b8ad9c751e73",
+    "task_name": "task-opencode-allure-maven-zip4j",
+    "trial_name": "task-opencode-allure-maven-zip4j__bWcXE3g",
+    "trial_uri": "file:///root/harbor-bump-eval/jobs/opencode-allure-maven-zip4j-eval/task-opencode-allure-maven-zip4j__bWcXE3g",
+    "task_id": {
+        "path": "/root/harbor-bump-eval/task-opencode-allure-maven-zip4j"
+    },
+    "source": "harbor-bump-eval",
+    "task_checksum": "00571333c1b1f0fd635ff0ac3b61747730536558a8d3142b112e48514f26a680",
+    "config": {
+        "task": {
+            "path": "/root/harbor-bump-eval/task-opencode-allure-maven-zip4j",
+            "git_url": null,
+            "git_commit_id": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": "harbor-bump-eval"
+        },
+        "trial_name": "task-opencode-allure-maven-zip4j__bWcXE3g",
+        "trials_dir": "/root/harbor-bump-eval/jobs/opencode-allure-maven-zip4j-eval",
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "opencode",
+            "import_path": null,
+            "model_name": "anthropic/qwen3.5-plus",
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "kwargs": {},
+            "env": {
+                "ANTHROPIC_API_KEY": "sk-sp-xxx"
+            }
+        },
+        "environment": {
+            "type": "docker",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "suppress_override_warnings": false,
+            "kwargs": {}
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "disable": false
+        },
+        "artifacts": [],
+        "job_id": "ee571e6a-a3bb-40c9-a1e0-5f822c6a3b24"
+    },
+    "agent_info": {
+        "name": "opencode",
+        "version": "unknown",
+        "model_info": {
+            "name": "qwen3.5-plus",
+            "provider": "anthropic"
+        }
+    },
+    "agent_result": {
+        "n_input_tokens": 149733,
+        "n_cache_tokens": 63486,
+        "n_output_tokens": 990,
+        "cost_usd": null,
+        "rollout_details": null,
+        "metadata": null
+    },
+    "verifier_result": {
+        "rewards": {
+            "reward": 1.0
+        }
+    },
+    "exception_info": null,
+    "started_at": "2026-03-25T09:45:11.175772Z",
+    "finished_at": "2026-03-25T09:47:10.194667Z",
+    "environment_setup": {
+        "started_at": "2026-03-25T09:45:11.176472Z",
+        "finished_at": "2026-03-25T09:45:13.432942Z"
+    },
+    "agent_setup": {
+        "started_at": "2026-03-25T09:45:13.432981Z",
+        "finished_at": "2026-03-25T09:45:36.038683Z"
+    },
+    "agent_execution": {
+        "started_at": "2026-03-25T09:45:36.038781Z",
+        "finished_at": "2026-03-25T09:46:52.138012Z"
+    },
+    "verifier": {
+        "started_at": "2026-03-25T09:46:52.138108Z",
+        "finished_at": "2026-03-25T09:46:59.552567Z"
+    }
+}

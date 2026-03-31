@@ -1,0 +1,29 @@
+{
+    "id": "2ef6e956-cfd7-4401-ba96-b3a771c6b595",
+    "started_at": "2026-03-26T14:50:54.914410",
+    "finished_at": "2026-03-26T14:53:14.602443",
+    "n_total_trials": 1,
+    "stats": {
+        "n_trials": 1,
+        "n_errors": 0,
+        "evals": {
+            "opencode__qwen3.5-plus__harbor-bump-eval": {
+                "n_trials": 1,
+                "n_errors": 0,
+                "metrics": [
+                    {
+                        "mean": 1.0
+                    }
+                ],
+                "reward_stats": {
+                    "reward": {
+                        "1.0": [
+                            "task-opencode-allure-maven-zip4j__p2r9ZMw"
+                        ]
+                    }
+                },
+                "exception_stats": {}
+            }
+        }
+    }
+}

@@ -1,0 +1,99 @@
+{
+    "id": "8fb29489-c0fe-4062-a224-44da8684c976",
+    "task_name": "task-international-d-ids-messaging-s-spring-webmvc",
+    "trial_name": "task-international-d-ids-messagi__8otNuG8",
+    "trial_uri": "file:///root/harbor-bump-eval/jobs/bump-dep-fix-100-skill/task-international-d-ids-messagi__8otNuG8",
+    "task_id": {
+        "path": "/root/harbor-bump-eval/task-international-d-ids-messaging-s-spring-webmvc"
+    },
+    "source": "harbor-bump-eval",
+    "task_checksum": "d60e2fd17544237d392857a17014b6fecd8805acf3826b4bf7a607d0a3086ecb",
+    "config": {
+        "task": {
+            "path": "/root/harbor-bump-eval/task-international-d-ids-messaging-s-spring-webmvc",
+            "git_url": null,
+            "git_commit_id": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": "harbor-bump-eval"
+        },
+        "trial_name": "task-international-d-ids-messagi__8otNuG8",
+        "trials_dir": "/root/harbor-bump-eval/jobs/bump-dep-fix-100-skill",
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "claude-code",
+            "import_path": null,
+            "model_name": null,
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "kwargs": {},
+            "env": {
+                "ANTHROPIC_AUTH_TOKEN": "sk-sp-xxx",
+                "ANTHROPIC_BASE_URL": "https://coding.dashscope.aliyuncs.com/apps/anthropic",
+                "ANTHROPIC_MODEL": "qwen3.5-plus",
+                "ANTHROPIC_SMALL_FAST_MODEL": "qwen3.5-plus"
+            }
+        },
+        "environment": {
+            "type": "docker",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "suppress_override_warnings": false,
+            "kwargs": {}
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "disable": false
+        },
+        "artifacts": [],
+        "job_id": "96fefdaa-53c1-4714-9cab-255f16417bce"
+    },
+    "agent_info": {
+        "name": "claude-code",
+        "version": "unknown",
+        "model_info": null
+    },
+    "agent_result": {
+        "n_input_tokens": null,
+        "n_cache_tokens": null,
+        "n_output_tokens": null,
+        "cost_usd": null,
+        "rollout_details": null,
+        "metadata": null
+    },
+    "verifier_result": {
+        "rewards": {
+            "reward": 1.0
+        }
+    },
+    "exception_info": null,
+    "started_at": "2026-03-21T17:21:22.291362Z",
+    "finished_at": "2026-03-21T17:25:48.549302Z",
+    "environment_setup": {
+        "started_at": "2026-03-21T17:21:22.291921Z",
+        "finished_at": "2026-03-21T17:21:24.247248Z"
+    },
+    "agent_setup": {
+        "started_at": "2026-03-21T17:21:24.247260Z",
+        "finished_at": "2026-03-21T17:21:48.802352Z"
+    },
+    "agent_execution": {
+        "started_at": "2026-03-21T17:21:48.802417Z",
+        "finished_at": "2026-03-21T17:25:34.859553Z"
+    },
+    "verifier": {
+        "started_at": "2026-03-21T17:25:34.860096Z",
+        "finished_at": "2026-03-21T17:25:37.960702Z"
+    }
+}

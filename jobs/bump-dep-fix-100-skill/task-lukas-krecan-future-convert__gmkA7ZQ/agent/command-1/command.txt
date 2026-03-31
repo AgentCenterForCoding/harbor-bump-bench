@@ -1,0 +1,13 @@
+export PATH="$HOME/.local/bin:$PATH"; claude --verbose --output-format=stream-json --permission-mode=bypassPermissions  --print -- '﻿# Fix Maven Compilation Failure: spring-core 5.3.19 -> 6.0.4
+
+## Context
+
+Project `future-converter` (by lukas-krecan) has a **COMPILATION_FAILURE** after a dependency upgrade bot bumped
+`org.springframework:spring-core` from `5.3.19` to `6.0.4` (major update).
+
+Reference PR: https://github.com/lukas-krecan/future-converter/pull/85
+
+## Your Task
+
+The source code is in `/future-converter`. Fix all compilation errors so that `mvn compile` succeeds.
+' 2>&1 </dev/null | stdbuf -oL tee /logs/agent/claude-code.txt

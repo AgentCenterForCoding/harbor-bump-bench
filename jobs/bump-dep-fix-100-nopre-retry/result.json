@@ -1,0 +1,59 @@
+{
+    "id": "9c50c9f7-9088-4d9d-87b0-db5c1c050f76",
+    "started_at": "2026-03-23T08:49:21.968918",
+    "finished_at": "2026-03-23T11:47:49.081282",
+    "n_total_trials": 18,
+    "stats": {
+        "n_trials": 18,
+        "n_errors": 8,
+        "evals": {
+            "claude-code__harbor-bump-eval": {
+                "n_trials": 18,
+                "n_errors": 8,
+                "metrics": [
+                    {
+                        "mean": 0.6111111111111112
+                    }
+                ],
+                "reward_stats": {
+                    "reward": {
+                        "0.0": [
+                            "task-bump-redisgraph-jedis__AJSwsgc",
+                            "task-redisgraph-jredisgraph-jedi__93LyDp2",
+                            "task-bump-games647-spongeapi__XnXM2Br",
+                            "task-bump-googleapis-google-clou__iZAjUew",
+                            "task-googleapis-java-pubsub-gro-__hAXVQCc",
+                            "task-zold-io-java-api-cactoos__2z6XL8w",
+                            "task-bump-zold-io-cactoos__VkeWHpn"
+                        ],
+                        "1.0": [
+                            "task-jcabi-jcabi-github-jcabi-as__9vb2MGF",
+                            "task-bump-artipie-asto-core__aV8jSFL",
+                            "task-wmaarts-pitest-mutation-pit__ykt7x5a",
+                            "task-feedzai-pdb-logback-classic__q4VyuyV",
+                            "task-jcabi-jcabi-http-hamcrest-l__NepoC7w",
+                            "task-premium-minds-wicket-crudif__Qmqm8Te",
+                            "task-googleapis-google-cloud-ja-__3fPGh83",
+                            "task-bump-wmaarts-pitest-entry__tKuMSNh",
+                            "task-bump-hantsy-jakarta-mvc-api__nTfKtcf",
+                            "task-artipie-docker-adapter-asto__SHhPYfh",
+                            "task-bump-wireapp-dropwizard-cli__qez6GUf"
+                        ]
+                    }
+                },
+                "exception_stats": {
+                    "AgentTimeoutError": [
+                        "task-bump-redisgraph-jedis__AJSwsgc",
+                        "task-redisgraph-jredisgraph-jedi__93LyDp2",
+                        "task-bump-games647-spongeapi__XnXM2Br",
+                        "task-bump-googleapis-google-clou__iZAjUew",
+                        "task-googleapis-java-pubsub-gro-__hAXVQCc",
+                        "task-zold-io-java-api-cactoos__2z6XL8w",
+                        "task-wmaarts-pitest-mutation-pit__ykt7x5a",
+                        "task-bump-zold-io-cactoos__VkeWHpn"
+                    ]
+                }
+            }
+        }
+    }
+}

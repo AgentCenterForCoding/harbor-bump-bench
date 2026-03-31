@@ -1,0 +1,13 @@
+export PATH="$HOME/.local/bin:$PATH"; claude --verbose --output-format=stream-json --permission-mode=bypassPermissions  --print -- '﻿# Fix Maven Compilation Failure: spring-context 5.3.23 -> 6.0.10
+
+## Context
+
+Project `camunda-platform-7-mockito` (by camunda-community-hub) has a **COMPILATION_FAILURE** after a dependency upgrade bot bumped
+`org.springframework:spring-context` from `5.3.23` to `6.0.10` (major update).
+
+Reference PR: https://github.com/camunda-community-hub/camunda-platform-7-mockito/pull/320
+
+## Your Task
+
+The source code is in `/camunda-platform-7-mockito`. Fix all compilation errors so that `mvn compile` succeeds.
+' 2>&1 </dev/null | stdbuf -oL tee /logs/agent/claude-code.txt

@@ -17,10 +17,10 @@
             "include_exceptions": null,
             "exclude_exceptions": [
                 "RewardFileEmptyError",
+                "AgentTimeoutError",
                 "RewardFileNotFoundError",
-                "VerifierTimeoutError",
                 "VerifierOutputParseError",
-                "AgentTimeoutError"
+                "VerifierTimeoutError"
             ],
             "wait_multiplier": 1.0,
             "min_wait_sec": 1.0,
@@ -56,7 +56,7 @@
             "max_timeout_sec": null,
             "kwargs": {},
             "env": {
-                "ANTHROPIC_API_KEY": "sk-sp-42b25fd4e522463e98fb7469b6cf2ec9"
+                "ANTHROPIC_API_KEY": "sk-sp-xxx"
             }
         }
     ],

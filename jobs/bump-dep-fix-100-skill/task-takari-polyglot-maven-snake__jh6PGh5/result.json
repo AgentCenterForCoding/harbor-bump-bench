@@ -1,0 +1,99 @@
+{
+    "id": "a2038058-3d2d-414a-8385-30fe8215897f",
+    "task_name": "task-takari-polyglot-maven-snakeyaml",
+    "trial_name": "task-takari-polyglot-maven-snake__jh6PGh5",
+    "trial_uri": "file:///root/harbor-bump-eval/jobs/bump-dep-fix-100-skill/task-takari-polyglot-maven-snake__jh6PGh5",
+    "task_id": {
+        "path": "/root/harbor-bump-eval/task-takari-polyglot-maven-snakeyaml"
+    },
+    "source": "harbor-bump-eval",
+    "task_checksum": "dc5586e99dd7770dc6844498a63e7d06f3ddab35683d2e67b88308845a983107",
+    "config": {
+        "task": {
+            "path": "/root/harbor-bump-eval/task-takari-polyglot-maven-snakeyaml",
+            "git_url": null,
+            "git_commit_id": null,
+            "overwrite": false,
+            "download_dir": null,
+            "source": "harbor-bump-eval"
+        },
+        "trial_name": "task-takari-polyglot-maven-snake__jh6PGh5",
+        "trials_dir": "/root/harbor-bump-eval/jobs/bump-dep-fix-100-skill",
+        "timeout_multiplier": 1.0,
+        "agent_timeout_multiplier": null,
+        "verifier_timeout_multiplier": null,
+        "agent_setup_timeout_multiplier": null,
+        "environment_build_timeout_multiplier": null,
+        "agent": {
+            "name": "claude-code",
+            "import_path": null,
+            "model_name": null,
+            "override_timeout_sec": null,
+            "override_setup_timeout_sec": null,
+            "max_timeout_sec": null,
+            "kwargs": {},
+            "env": {
+                "ANTHROPIC_AUTH_TOKEN": "sk-sp-xxx",
+                "ANTHROPIC_BASE_URL": "https://coding.dashscope.aliyuncs.com/apps/anthropic",
+                "ANTHROPIC_MODEL": "qwen3.5-plus",
+                "ANTHROPIC_SMALL_FAST_MODEL": "qwen3.5-plus"
+            }
+        },
+        "environment": {
+            "type": "docker",
+            "import_path": null,
+            "force_build": false,
+            "delete": true,
+            "override_cpus": null,
+            "override_memory_mb": null,
+            "override_storage_mb": null,
+            "override_gpus": null,
+            "suppress_override_warnings": false,
+            "kwargs": {}
+        },
+        "verifier": {
+            "override_timeout_sec": null,
+            "max_timeout_sec": null,
+            "disable": false
+        },
+        "artifacts": [],
+        "job_id": "96fefdaa-53c1-4714-9cab-255f16417bce"
+    },
+    "agent_info": {
+        "name": "claude-code",
+        "version": "unknown",
+        "model_info": null
+    },
+    "agent_result": {
+        "n_input_tokens": 1344910,
+        "n_cache_tokens": 0,
+        "n_output_tokens": 5920,
+        "cost_usd": null,
+        "rollout_details": null,
+        "metadata": null
+    },
+    "verifier_result": {
+        "rewards": {
+            "reward": 0.0
+        }
+    },
+    "exception_info": null,
+    "started_at": "2026-03-21T15:39:55.863058Z",
+    "finished_at": "2026-03-21T16:00:53.047011Z",
+    "environment_setup": {
+        "started_at": "2026-03-21T15:39:55.863767Z",
+        "finished_at": "2026-03-21T15:39:57.969335Z"
+    },
+    "agent_setup": {
+        "started_at": "2026-03-21T15:39:57.969346Z",
+        "finished_at": "2026-03-21T15:40:25.787311Z"
+    },
+    "agent_execution": {
+        "started_at": "2026-03-21T15:40:25.787373Z",
+        "finished_at": "2026-03-21T16:00:37.942499Z"
+    },
+    "verifier": {
+        "started_at": "2026-03-21T16:00:37.942629Z",
+        "finished_at": "2026-03-21T16:00:42.276383Z"
+    }
+}

@@ -1,0 +1,6 @@
+=== Running mvn compile to verify fix ===
+[WARNING] 
+
+A help goal (HelpMojo) already exists in this plugin. SKIPPED THE io.qameta.allure.maven.HelpMojo GENERATION.
+
+COMPILATION SUCCESS

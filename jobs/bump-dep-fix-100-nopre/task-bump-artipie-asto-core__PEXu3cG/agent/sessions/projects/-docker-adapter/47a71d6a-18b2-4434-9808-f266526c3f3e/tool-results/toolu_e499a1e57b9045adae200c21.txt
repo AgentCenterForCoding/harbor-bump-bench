@@ -1,0 +1,1159 @@
+/docker-adapter/src/test/java/com/artipie/docker/fake/EmptyGetManifests.java-5-package com.artipie.docker.fake;
+/docker-adapter/src/test/java/com/artipie/docker/fake/EmptyGetManifests.java-6-
+src/test/java/com/artipie/docker/fake/EmptyGetManifests.java:7:import com.artipie.asto.Content;
+/docker-adapter/src/test/java/com/artipie/docker/fake/EmptyGetManifests.java-8-import com.artipie.docker.Manifests;
+/docker-adapter/src/test/java/com/artipie/docker/fake/EmptyGetManifests.java-9-import com.artipie.docker.Tag;
+--
+/docker-adapter/src/test/java/com/artipie/docker/composite/ReadWriteManifestsTest.java-5-package com.artipie.docker.composite;
+/docker-adapter/src/test/java/com/artipie/docker/composite/ReadWriteManifestsTest.java-6-
+src/test/java/com/artipie/docker/composite/ReadWriteManifestsTest.java:7:import com.artipie.asto.Content;
+/docker-adapter/src/test/java/com/artipie/docker/composite/ReadWriteManifestsTest.java-8-import com.artipie.docker.Manifests;
+/docker-adapter/src/test/java/com/artipie/docker/composite/ReadWriteManifestsTest.java-9-import com.artipie.docker.Tag;
+--
+/docker-adapter/src/test/java/com/artipie/docker/fake/FakeManifests.java-5-package com.artipie.docker.fake;
+/docker-adapter/src/test/java/com/artipie/docker/fake/FakeManifests.java-6-
+src/test/java/com/artipie/docker/fake/FakeManifests.java:7:import com.artipie.asto.Content;
+/docker-adapter/src/test/java/com/artipie/docker/fake/FakeManifests.java-8-import com.artipie.docker.Manifests;
+/docker-adapter/src/test/java/com/artipie/docker/fake/FakeManifests.java-9-import com.artipie.docker.Tag;
+--
+/docker-adapter/src/test/java/com/artipie/docker/fake/FullTagsManifests.java-5-package com.artipie.docker.fake;
+/docker-adapter/src/test/java/com/artipie/docker/fake/FullTagsManifests.java-6-
+src/test/java/com/artipie/docker/fake/FullTagsManifests.java:7:import com.artipie.asto.Content;
+/docker-adapter/src/test/java/com/artipie/docker/fake/FullTagsManifests.java-8-import com.artipie.docker.Manifests;
+/docker-adapter/src/test/java/com/artipie/docker/fake/FullTagsManifests.java-9-import com.artipie.docker.Tag;
+--
+/docker-adapter/src/test/java/com/artipie/docker/composite/MultiReadDockerTest.java-5-package com.artipie.docker.composite;
+/docker-adapter/src/test/java/com/artipie/docker/composite/MultiReadDockerTest.java-6-
+src/test/java/com/artipie/docker/composite/MultiReadDockerTest.java:7:import com.artipie.asto.Content;
+src/test/java/com/artipie/docker/composite/MultiReadDockerTest.java:8:import com.artipie.asto.ext.PublisherAs;
+src/test/java/com/artipie/docker/composite/MultiReadDockerTest.java:9:import com.artipie.asto.memory.InMemoryStorage;
+/docker-adapter/src/test/java/com/artipie/docker/composite/MultiReadDockerTest.java-10-import com.artipie.docker.RepoName;
+src/test/java/com/artipie/docker/composite/MultiReadDockerTest.java:11:import com.artipie.docker.asto.AstoDocker;
+/docker-adapter/src/test/java/com/artipie/docker/composite/MultiReadDockerTest.java-12-import com.artipie.docker.fake.FakeCatalogDocker;
+/docker-adapter/src/test/java/com/artipie/docker/composite/MultiReadDockerTest.java-13-import com.artipie.docker.proxy.ProxyDocker;
+--
+/docker-adapter/src/test/java/com/artipie/docker/fake/FaultyGetLayers.java-5-package com.artipie.docker.fake;
+/docker-adapter/src/test/java/com/artipie/docker/fake/FaultyGetLayers.java-6-
+src/test/java/com/artipie/docker/fake/FaultyGetLayers.java:7:import com.artipie.asto.FailedCompletionStage;
+/docker-adapter/src/test/java/com/artipie/docker/fake/FaultyGetLayers.java-8-import com.artipie.docker.Blob;
+/docker-adapter/src/test/java/com/artipie/docker/fake/FaultyGetLayers.java-9-import com.artipie.docker.Digest;
+/docker-adapter/src/test/java/com/artipie/docker/fake/FaultyGetLayers.java-10-import com.artipie.docker.Layers;
+src/test/java/com/artipie/docker/fake/FaultyGetLayers.java:11:import com.artipie.docker.asto.BlobSource;
+/docker-adapter/src/test/java/com/artipie/docker/fake/FaultyGetLayers.java-12-import java.util.Optional;
+/docker-adapter/src/test/java/com/artipie/docker/fake/FaultyGetLayers.java-13-import java.util.concurrent.CompletionStage;
+--
+/docker-adapter/src/test/java/com/artipie/docker/fake/FullGetManifests.java-5-package com.artipie.docker.fake;
+/docker-adapter/src/test/java/com/artipie/docker/fake/FullGetManifests.java-6-
+src/test/java/com/artipie/docker/fake/FullGetManifests.java:7:import com.artipie.asto.Content;
+/docker-adapter/src/test/java/com/artipie/docker/fake/FullGetManifests.java-8-import com.artipie.docker.Digest;
+/docker-adapter/src/test/java/com/artipie/docker/fake/FullGetManifests.java-9-import com.artipie.docker.Manifests;
+--
+/docker-adapter/src/test/java/com/artipie/docker/composite/ReadWriteDockerTest.java-5-package com.artipie.docker.composite;
+/docker-adapter/src/test/java/com/artipie/docker/composite/ReadWriteDockerTest.java-6-
+src/test/java/com/artipie/docker/composite/ReadWriteDockerTest.java:7:import com.artipie.asto.Content;
+src/test/java/com/artipie/docker/composite/ReadWriteDockerTest.java:8:import com.artipie.asto.memory.InMemoryStorage;
+/docker-adapter/src/test/java/com/artipie/docker/composite/ReadWriteDockerTest.java-9-import com.artipie.docker.Catalog;
+/docker-adapter/src/test/java/com/artipie/docker/composite/ReadWriteDockerTest.java-10-import com.artipie.docker.RepoName;
+src/test/java/com/artipie/docker/composite/ReadWriteDockerTest.java:11:import com.artipie.docker.asto.AstoDocker;
+/docker-adapter/src/test/java/com/artipie/docker/composite/ReadWriteDockerTest.java-12-import com.artipie.docker.fake.FakeCatalogDocker;
+/docker-adapter/src/test/java/com/artipie/docker/composite/ReadWriteDockerTest.java-13-import com.artipie.docker.proxy.ProxyDocker;
+--
+/docker-adapter/src/test/java/com/artipie/docker/fake/FakeLayers.java-8-import com.artipie.docker.Digest;
+/docker-adapter/src/test/java/com/artipie/docker/fake/FakeLayers.java-9-import com.artipie.docker.Layers;
+src/test/java/com/artipie/docker/fake/FakeLayers.java:10:import com.artipie.docker.asto.BlobSource;
+/docker-adapter/src/test/java/com/artipie/docker/fake/FakeLayers.java-11-import java.util.Optional;
+/docker-adapter/src/test/java/com/artipie/docker/fake/FakeLayers.java-12-import java.util.concurrent.CompletionStage;
+--
+/docker-adapter/src/test/java/com/artipie/docker/fake/FullGetLayers.java-5-package com.artipie.docker.fake;
+/docker-adapter/src/test/java/com/artipie/docker/fake/FullGetLayers.java-6-
+src/test/java/com/artipie/docker/fake/FullGetLayers.java:7:import com.artipie.asto.Key;
+src/test/java/com/artipie/docker/fake/FullGetLayers.java:8:import com.artipie.asto.memory.InMemoryStorage;
+/docker-adapter/src/test/java/com/artipie/docker/fake/FullGetLayers.java-9-import com.artipie.docker.Blob;
+/docker-adapter/src/test/java/com/artipie/docker/fake/FullGetLayers.java-10-import com.artipie.docker.Digest;
+/docker-adapter/src/test/java/com/artipie/docker/fake/FullGetLayers.java-11-import com.artipie.docker.Layers;
+src/test/java/com/artipie/docker/fake/FullGetLayers.java:12:import com.artipie.docker.asto.AstoBlob;
+src/test/java/com/artipie/docker/fake/FullGetLayers.java:13:import com.artipie.docker.asto.BlobSource;
+/docker-adapter/src/test/java/com/artipie/docker/fake/FullGetLayers.java-14-import java.util.Optional;
+/docker-adapter/src/test/java/com/artipie/docker/fake/FullGetLayers.java-15-import java.util.concurrent.CompletableFuture;
+--
+/docker-adapter/src/test/java/com/artipie/docker/composite/MultiReadManifestsTest.java-5-package com.artipie.docker.composite;
+/docker-adapter/src/test/java/com/artipie/docker/composite/MultiReadManifestsTest.java-6-
+src/test/java/com/artipie/docker/composite/MultiReadManifestsTest.java:7:import com.artipie.asto.Content;
+src/test/java/com/artipie/docker/composite/MultiReadManifestsTest.java:8:import com.artipie.asto.ext.PublisherAs;
+/docker-adapter/src/test/java/com/artipie/docker/composite/MultiReadManifestsTest.java-9-import com.artipie.docker.Digest;
+/docker-adapter/src/test/java/com/artipie/docker/composite/MultiReadManifestsTest.java-10-import com.artipie.docker.RepoName;
+--
+/docker-adapter/src/test/java/com/artipie/docker/fake/EmptyGetLayers.java-8-import com.artipie.docker.Digest;
+/docker-adapter/src/test/java/com/artipie/docker/fake/EmptyGetLayers.java-9-import com.artipie.docker.Layers;
+src/test/java/com/artipie/docker/fake/EmptyGetLayers.java:10:import com.artipie.docker.asto.BlobSource;
+/docker-adapter/src/test/java/com/artipie/docker/fake/EmptyGetLayers.java-11-import java.util.Optional;
+/docker-adapter/src/test/java/com/artipie/docker/fake/EmptyGetLayers.java-12-import java.util.concurrent.CompletableFuture;
+--
+/docker-adapter/src/test/java/com/artipie/docker/composite/ReadWriteRepoTest.java-5-package com.artipie.docker.composite;
+/docker-adapter/src/test/java/com/artipie/docker/composite/ReadWriteRepoTest.java-6-
+src/test/java/com/artipie/docker/composite/ReadWriteRepoTest.java:7:import com.artipie.asto.memory.InMemoryStorage;
+/docker-adapter/src/test/java/com/artipie/docker/composite/ReadWriteRepoTest.java-8-import com.artipie.docker.Layers;
+/docker-adapter/src/test/java/com/artipie/docker/composite/ReadWriteRepoTest.java-9-import com.artipie.docker.Manifests;
+--
+/docker-adapter/src/test/java/com/artipie/docker/composite/ReadWriteRepoTest.java-11-import com.artipie.docker.RepoName;
+/docker-adapter/src/test/java/com/artipie/docker/composite/ReadWriteRepoTest.java-12-import com.artipie.docker.Uploads;
+src/test/java/com/artipie/docker/composite/ReadWriteRepoTest.java:13:import com.artipie.docker.asto.AstoRepo;
+src/test/java/com/artipie/docker/composite/ReadWriteRepoTest.java:14:import com.artipie.docker.asto.AstoUploads;
+src/test/java/com/artipie/docker/composite/ReadWriteRepoTest.java:15:import com.artipie.docker.asto.DefaultLayout;
+/docker-adapter/src/test/java/com/artipie/docker/composite/ReadWriteRepoTest.java-16-import org.hamcrest.MatcherAssert;
+/docker-adapter/src/test/java/com/artipie/docker/composite/ReadWriteRepoTest.java-17-import org.hamcrest.core.IsEqual;
+--
+/docker-adapter/src/test/java/com/artipie/docker/composite/ReadWriteLayersTest.java-5-package com.artipie.docker.composite;
+/docker-adapter/src/test/java/com/artipie/docker/composite/ReadWriteLayersTest.java-6-
+src/test/java/com/artipie/docker/composite/ReadWriteLayersTest.java:7:import com.artipie.asto.Content;
+/docker-adapter/src/test/java/com/artipie/docker/composite/ReadWriteLayersTest.java-8-import com.artipie.docker.Blob;
+/docker-adapter/src/test/java/com/artipie/docker/composite/ReadWriteLayersTest.java-9-import com.artipie.docker.Digest;
+/docker-adapter/src/test/java/com/artipie/docker/composite/ReadWriteLayersTest.java-10-import com.artipie.docker.Layers;
+src/test/java/com/artipie/docker/composite/ReadWriteLayersTest.java:11:import com.artipie.docker.asto.BlobSource;
+src/test/java/com/artipie/docker/composite/ReadWriteLayersTest.java:12:import com.artipie.docker.asto.TrustedBlobSource;
+/docker-adapter/src/test/java/com/artipie/docker/composite/ReadWriteLayersTest.java-13-import java.util.Optional;
+/docker-adapter/src/test/java/com/artipie/docker/composite/ReadWriteLayersTest.java-14-import java.util.concurrent.CompletableFuture;
+--
+/docker-adapter/src/test/java/com/artipie/docker/fake/FaultyGetManifests.java-5-package com.artipie.docker.fake;
+/docker-adapter/src/test/java/com/artipie/docker/fake/FaultyGetManifests.java-6-
+src/test/java/com/artipie/docker/fake/FaultyGetManifests.java:7:import com.artipie.asto.Content;
+src/test/java/com/artipie/docker/fake/FaultyGetManifests.java:8:import com.artipie.asto.FailedCompletionStage;
+/docker-adapter/src/test/java/com/artipie/docker/fake/FaultyGetManifests.java-9-import com.artipie.docker.Manifests;
+/docker-adapter/src/test/java/com/artipie/docker/fake/FaultyGetManifests.java-10-import com.artipie.docker.Tag;
+--
+/docker-adapter/src/test/java/com/artipie/docker/http/TrimmedDockerTest.java-5-package com.artipie.docker.http;
+/docker-adapter/src/test/java/com/artipie/docker/http/TrimmedDockerTest.java-6-
+src/test/java/com/artipie/docker/http/TrimmedDockerTest.java:7:import com.artipie.asto.Content;
+src/test/java/com/artipie/docker/http/TrimmedDockerTest.java:8:import com.artipie.asto.ext.PublisherAs;
+/docker-adapter/src/test/java/com/artipie/docker/http/TrimmedDockerTest.java-9-import com.artipie.docker.Catalog;
+/docker-adapter/src/test/java/com/artipie/docker/http/TrimmedDockerTest.java-10-import com.artipie.docker.Docker;
+--
+/docker-adapter/src/test/java/com/artipie/docker/proxy/ProxyManifestsTest.java-5-package com.artipie.docker.proxy;
+/docker-adapter/src/test/java/com/artipie/docker/proxy/ProxyManifestsTest.java-6-
+src/test/java/com/artipie/docker/proxy/ProxyManifestsTest.java:7:import com.artipie.asto.Content;
+src/test/java/com/artipie/docker/proxy/ProxyManifestsTest.java:8:import com.artipie.asto.ext.PublisherAs;
+/docker-adapter/src/test/java/com/artipie/docker/proxy/ProxyManifestsTest.java-9-import com.artipie.docker.Catalog;
+/docker-adapter/src/test/java/com/artipie/docker/proxy/ProxyManifestsTest.java-10-import com.artipie.docker.Digest;
+--
+/docker-adapter/src/test/java/com/artipie/docker/http/DockerAuthSliceTest.java-5-package com.artipie.docker.http;
+/docker-adapter/src/test/java/com/artipie/docker/http/DockerAuthSliceTest.java-6-
+src/test/java/com/artipie/docker/http/DockerAuthSliceTest.java:7:import com.artipie.asto.Content;
+/docker-adapter/src/test/java/com/artipie/docker/http/DockerAuthSliceTest.java-8-import com.artipie.http.Headers;
+/docker-adapter/src/test/java/com/artipie/docker/http/DockerAuthSliceTest.java-9-import com.artipie.http.headers.ContentLength;
+--
+/docker-adapter/src/test/java/com/artipie/docker/proxy/ProxyBlobTest.java-5-package com.artipie.docker.proxy;
+/docker-adapter/src/test/java/com/artipie/docker/proxy/ProxyBlobTest.java-6-
+src/test/java/com/artipie/docker/proxy/ProxyBlobTest.java:7:import com.artipie.asto.Content;
+src/test/java/com/artipie/docker/proxy/ProxyBlobTest.java:8:import com.artipie.asto.ext.PublisherAs;
+/docker-adapter/src/test/java/com/artipie/docker/proxy/ProxyBlobTest.java-9-import com.artipie.docker.Digest;
+/docker-adapter/src/test/java/com/artipie/docker/proxy/ProxyBlobTest.java-10-import com.artipie.docker.RepoName;
+--
+/docker-adapter/src/test/java/com/artipie/docker/http/BaseEntityGetTest.java-5-package com.artipie.docker.http;
+/docker-adapter/src/test/java/com/artipie/docker/http/BaseEntityGetTest.java-6-
+src/test/java/com/artipie/docker/http/BaseEntityGetTest.java:7:import com.artipie.asto.memory.InMemoryStorage;
+src/test/java/com/artipie/docker/http/BaseEntityGetTest.java:8:import com.artipie.docker.asto.AstoDocker;
+/docker-adapter/src/test/java/com/artipie/docker/http/BaseEntityGetTest.java-9-import com.artipie.http.Headers;
+/docker-adapter/src/test/java/com/artipie/docker/http/BaseEntityGetTest.java-10-import com.artipie.http.Response;
+--
+/docker-adapter/src/test/java/com/artipie/docker/http/ManifestEntityPutTest.java-5-package com.artipie.docker.http;
+/docker-adapter/src/test/java/com/artipie/docker/http/ManifestEntityPutTest.java-6-
+src/test/java/com/artipie/docker/http/ManifestEntityPutTest.java:7:import com.artipie.asto.memory.InMemoryStorage;
+/docker-adapter/src/test/java/com/artipie/docker/http/ManifestEntityPutTest.java-8-import com.artipie.docker.Blob;
+/docker-adapter/src/test/java/com/artipie/docker/http/ManifestEntityPutTest.java-9-import com.artipie.docker.Docker;
+/docker-adapter/src/test/java/com/artipie/docker/http/ManifestEntityPutTest.java-10-import com.artipie.docker.RepoName;
+src/test/java/com/artipie/docker/http/ManifestEntityPutTest.java:11:import com.artipie.docker.asto.AstoDocker;
+src/test/java/com/artipie/docker/http/ManifestEntityPutTest.java:12:import com.artipie.docker.asto.TrustedBlobSource;
+/docker-adapter/src/test/java/com/artipie/docker/http/ManifestEntityPutTest.java-13-import com.artipie.http.Headers;
+/docker-adapter/src/test/java/com/artipie/docker/http/ManifestEntityPutTest.java-14-import com.artipie.http.headers.Header;
+--
+/docker-adapter/src/test/java/com/artipie/docker/proxy/ProxyDockerTest.java-5-package com.artipie.docker.proxy;
+/docker-adapter/src/test/java/com/artipie/docker/proxy/ProxyDockerTest.java-6-
+src/test/java/com/artipie/docker/proxy/ProxyDockerTest.java:7:import com.artipie.asto.Content;
+src/test/java/com/artipie/docker/proxy/ProxyDockerTest.java:8:import com.artipie.asto.ext.PublisherAs;
+/docker-adapter/src/test/java/com/artipie/docker/proxy/ProxyDockerTest.java-9-import com.artipie.docker.Catalog;
+/docker-adapter/src/test/java/com/artipie/docker/proxy/ProxyDockerTest.java-10-import com.artipie.docker.RepoName;
+--
+/docker-adapter/src/test/java/com/artipie/docker/proxy/ProxyDockerIT.java-5-package com.artipie.docker.proxy;
+/docker-adapter/src/test/java/com/artipie/docker/proxy/ProxyDockerIT.java-6-
+src/test/java/com/artipie/docker/proxy/ProxyDockerIT.java:7:import com.artipie.asto.ext.PublisherAs;
+/docker-adapter/src/test/java/com/artipie/docker/proxy/ProxyDockerIT.java-8-import com.artipie.docker.Catalog;
+/docker-adapter/src/test/java/com/artipie/docker/proxy/ProxyDockerIT.java-9-import com.artipie.http.client.Settings;
+--
+/docker-adapter/src/test/java/com/artipie/docker/proxy/ProxyManifestsIT.java-5-package com.artipie.docker.proxy;
+/docker-adapter/src/test/java/com/artipie/docker/proxy/ProxyManifestsIT.java-6-
+src/test/java/com/artipie/docker/proxy/ProxyManifestsIT.java:7:import com.artipie.asto.ext.PublisherAs;
+/docker-adapter/src/test/java/com/artipie/docker/proxy/ProxyManifestsIT.java-8-import com.artipie.docker.RepoName;
+/docker-adapter/src/test/java/com/artipie/docker/proxy/ProxyManifestsIT.java-9-import com.artipie.docker.Tags;
+--
+/docker-adapter/src/test/java/com/artipie/docker/http/UploadEntityGetTest.java-5-package com.artipie.docker.http;
+/docker-adapter/src/test/java/com/artipie/docker/http/UploadEntityGetTest.java-6-
+src/test/java/com/artipie/docker/http/UploadEntityGetTest.java:7:import com.artipie.asto.Content;
+src/test/java/com/artipie/docker/http/UploadEntityGetTest.java:8:import com.artipie.asto.memory.InMemoryStorage;
+/docker-adapter/src/test/java/com/artipie/docker/http/UploadEntityGetTest.java-9-import com.artipie.docker.Docker;
+/docker-adapter/src/test/java/com/artipie/docker/http/UploadEntityGetTest.java-10-import com.artipie.docker.RepoName;
+/docker-adapter/src/test/java/com/artipie/docker/http/UploadEntityGetTest.java-11-import com.artipie.docker.Upload;
+src/test/java/com/artipie/docker/http/UploadEntityGetTest.java:12:import com.artipie.docker.asto.AstoDocker;
+/docker-adapter/src/test/java/com/artipie/docker/http/UploadEntityGetTest.java-13-import com.artipie.http.Headers;
+/docker-adapter/src/test/java/com/artipie/docker/http/UploadEntityGetTest.java-14-import com.artipie.http.Response;
+--
+/docker-adapter/src/test/java/com/artipie/docker/http/ManifestEntityGetTest.java-5-package com.artipie.docker.http;
+/docker-adapter/src/test/java/com/artipie/docker/http/ManifestEntityGetTest.java-6-
+src/test/java/com/artipie/docker/http/ManifestEntityGetTest.java:7:import com.artipie.asto.Key;
+src/test/java/com/artipie/docker/http/ManifestEntityGetTest.java:8:import com.artipie.asto.ext.PublisherAs;
+/docker-adapter/src/test/java/com/artipie/docker/http/ManifestEntityGetTest.java-9-import com.artipie.docker.ExampleStorage;
+src/test/java/com/artipie/docker/http/ManifestEntityGetTest.java:10:import com.artipie.docker.asto.AstoDocker;
+/docker-adapter/src/test/java/com/artipie/docker/http/ManifestEntityGetTest.java-11-import com.artipie.http.Response;
+/docker-adapter/src/test/java/com/artipie/docker/http/ManifestEntityGetTest.java-12-import com.artipie.http.headers.Header;
+--
+/docker-adapter/src/test/java/com/artipie/docker/http/AuthTest.java-5-package com.artipie.docker.http;
+/docker-adapter/src/test/java/com/artipie/docker/http/AuthTest.java-6-
+src/test/java/com/artipie/docker/http/AuthTest.java:7:import com.artipie.asto.Content;
+src/test/java/com/artipie/docker/http/AuthTest.java:8:import com.artipie.asto.memory.InMemoryStorage;
+/docker-adapter/src/test/java/com/artipie/docker/http/AuthTest.java-9-import com.artipie.docker.Blob;
+/docker-adapter/src/test/java/com/artipie/docker/http/AuthTest.java-10-import com.artipie.docker.Docker;
+/docker-adapter/src/test/java/com/artipie/docker/http/AuthTest.java-11-import com.artipie.docker.RepoName;
+src/test/java/com/artipie/docker/http/AuthTest.java:12:import com.artipie.docker.asto.AstoDocker;
+src/test/java/com/artipie/docker/http/AuthTest.java:13:import com.artipie.docker.asto.TrustedBlobSource;
+/docker-adapter/src/test/java/com/artipie/docker/http/AuthTest.java-14-import com.artipie.http.Headers;
+/docker-adapter/src/test/java/com/artipie/docker/http/AuthTest.java-15-import com.artipie.http.Response;
+--
+/docker-adapter/src/test/java/com/artipie/docker/http/DockerSliceITCase.java-5-package com.artipie.docker.http;
+/docker-adapter/src/test/java/com/artipie/docker/http/DockerSliceITCase.java-6-
+src/test/java/com/artipie/docker/http/DockerSliceITCase.java:7:import com.artipie.asto.memory.InMemoryStorage;
+src/test/java/com/artipie/docker/http/DockerSliceITCase.java:8:import com.artipie.docker.asto.AstoDocker;
+/docker-adapter/src/test/java/com/artipie/docker/http/DockerSliceITCase.java-9-import com.artipie.docker.junit.DockerClient;
+/docker-adapter/src/test/java/com/artipie/docker/http/DockerSliceITCase.java-10-import com.artipie.docker.junit.DockerClientSupport;
+--
+/docker-adapter/src/test/java/com/artipie/docker/http/BlobEntityGetTest.java-5-package com.artipie.docker.http;
+/docker-adapter/src/test/java/com/artipie/docker/http/BlobEntityGetTest.java-6-
+src/test/java/com/artipie/docker/http/BlobEntityGetTest.java:7:import com.artipie.asto.Key;
+src/test/java/com/artipie/docker/http/BlobEntityGetTest.java:8:import com.artipie.asto.blocking.BlockingStorage;
+/docker-adapter/src/test/java/com/artipie/docker/http/BlobEntityGetTest.java-9-import com.artipie.docker.ExampleStorage;
+src/test/java/com/artipie/docker/http/BlobEntityGetTest.java:10:import com.artipie.docker.asto.AstoDocker;
+/docker-adapter/src/test/java/com/artipie/docker/http/BlobEntityGetTest.java-11-import com.artipie.http.Headers;
+/docker-adapter/src/test/java/com/artipie/docker/http/BlobEntityGetTest.java-12-import com.artipie.http.Response;
+--
+/docker-adapter/src/test/java/com/artipie/docker/cache/CacheRepoTest.java-5-package com.artipie.docker.cache;
+/docker-adapter/src/test/java/com/artipie/docker/cache/CacheRepoTest.java-6-
+src/test/java/com/artipie/docker/cache/CacheRepoTest.java:7:import com.artipie.asto.memory.InMemoryStorage;
+/docker-adapter/src/test/java/com/artipie/docker/cache/CacheRepoTest.java-8-import com.artipie.docker.RepoName;
+src/test/java/com/artipie/docker/cache/CacheRepoTest.java:9:import com.artipie.docker.asto.AstoDocker;
+/docker-adapter/src/test/java/com/artipie/docker/cache/CacheRepoTest.java-10-import com.artipie.docker.proxy.ProxyRepo;
+/docker-adapter/src/test/java/com/artipie/docker/cache/CacheRepoTest.java-11-import com.artipie.http.rs.StandardRs;
+--
+/docker-adapter/src/test/java/com/artipie/docker/http/DockerAuthITCase.java-5-package com.artipie.docker.http;
+/docker-adapter/src/test/java/com/artipie/docker/http/DockerAuthITCase.java-6-
+src/test/java/com/artipie/docker/http/DockerAuthITCase.java:7:import com.artipie.asto.memory.InMemoryStorage;
+src/test/java/com/artipie/docker/http/DockerAuthITCase.java:8:import com.artipie.docker.asto.AstoDocker;
+/docker-adapter/src/test/java/com/artipie/docker/http/DockerAuthITCase.java-9-import com.artipie.docker.junit.DockerClient;
+/docker-adapter/src/test/java/com/artipie/docker/http/DockerAuthITCase.java-10-import com.artipie.docker.junit.DockerClientSupport;
+--
+/docker-adapter/src/test/java/com/artipie/docker/cache/CacheManifestsTest.java-5-package com.artipie.docker.cache;
+/docker-adapter/src/test/java/com/artipie/docker/cache/CacheManifestsTest.java-6-
+src/test/java/com/artipie/docker/cache/CacheManifestsTest.java:7:import com.artipie.asto.Content;
+src/test/java/com/artipie/docker/cache/CacheManifestsTest.java:8:import com.artipie.asto.LoggingStorage;
+src/test/java/com/artipie/docker/cache/CacheManifestsTest.java:9:import com.artipie.asto.ext.PublisherAs;
+src/test/java/com/artipie/docker/cache/CacheManifestsTest.java:10:import com.artipie.asto.memory.InMemoryStorage;
+/docker-adapter/src/test/java/com/artipie/docker/cache/CacheManifestsTest.java-11-import com.artipie.docker.Digest;
+/docker-adapter/src/test/java/com/artipie/docker/cache/CacheManifestsTest.java-12-import com.artipie.docker.ExampleStorage;
+--
+/docker-adapter/src/test/java/com/artipie/docker/cache/CacheManifestsTest.java-17-import com.artipie.docker.Tag;
+/docker-adapter/src/test/java/com/artipie/docker/cache/CacheManifestsTest.java-18-import com.artipie.docker.Uploads;
+src/test/java/com/artipie/docker/cache/CacheManifestsTest.java:19:import com.artipie.docker.asto.AstoDocker;
+/docker-adapter/src/test/java/com/artipie/docker/cache/CacheManifestsTest.java-20-import com.artipie.docker.fake.FakeManifests;
+/docker-adapter/src/test/java/com/artipie/docker/cache/CacheManifestsTest.java-21-import com.artipie.docker.fake.FullTagsManifests;
+--
+/docker-adapter/src/test/java/com/artipie/docker/http/TagsEntityGetTest.java-5-package com.artipie.docker.http;
+/docker-adapter/src/test/java/com/artipie/docker/http/TagsEntityGetTest.java-6-
+src/test/java/com/artipie/docker/http/TagsEntityGetTest.java:7:import com.artipie.asto.Content;
+/docker-adapter/src/test/java/com/artipie/docker/http/TagsEntityGetTest.java-8-import com.artipie.docker.Catalog;
+/docker-adapter/src/test/java/com/artipie/docker/http/TagsEntityGetTest.java-9-import com.artipie.docker.Docker;
+--
+/docker-adapter/src/test/java/com/artipie/docker/cache/CacheDockerTest.java-5-package com.artipie.docker.cache;
+/docker-adapter/src/test/java/com/artipie/docker/cache/CacheDockerTest.java-6-
+src/test/java/com/artipie/docker/cache/CacheDockerTest.java:7:import com.artipie.asto.Content;
+src/test/java/com/artipie/docker/cache/CacheDockerTest.java:8:import com.artipie.asto.ext.PublisherAs;
+src/test/java/com/artipie/docker/cache/CacheDockerTest.java:9:import com.artipie.asto.memory.InMemoryStorage;
+/docker-adapter/src/test/java/com/artipie/docker/cache/CacheDockerTest.java-10-import com.artipie.docker.RepoName;
+src/test/java/com/artipie/docker/cache/CacheDockerTest.java:11:import com.artipie.docker.asto.AstoDocker;
+/docker-adapter/src/test/java/com/artipie/docker/cache/CacheDockerTest.java-12-import com.artipie.docker.fake.FakeCatalogDocker;
+/docker-adapter/src/test/java/com/artipie/docker/cache/CacheDockerTest.java-13-import com.artipie.docker.proxy.ProxyDocker;
+--
+/docker-adapter/src/test/java/com/artipie/docker/http/CatalogEntityGetTest.java-5-package com.artipie.docker.http;
+/docker-adapter/src/test/java/com/artipie/docker/http/CatalogEntityGetTest.java-6-
+src/test/java/com/artipie/docker/http/CatalogEntityGetTest.java:7:import com.artipie.asto.Content;
+/docker-adapter/src/test/java/com/artipie/docker/http/CatalogEntityGetTest.java-8-import com.artipie.docker.Catalog;
+/docker-adapter/src/test/java/com/artipie/docker/http/CatalogEntityGetTest.java-9-import com.artipie.docker.Docker;
+--
+/docker-adapter/src/test/java/com/artipie/docker/http/UploadEntityPostTest.java-5-package com.artipie.docker.http;
+/docker-adapter/src/test/java/com/artipie/docker/http/UploadEntityPostTest.java-6-
+src/test/java/com/artipie/docker/http/UploadEntityPostTest.java:7:import com.artipie.asto.memory.InMemoryStorage;
+/docker-adapter/src/test/java/com/artipie/docker/http/UploadEntityPostTest.java-8-import com.artipie.docker.Docker;
+/docker-adapter/src/test/java/com/artipie/docker/http/UploadEntityPostTest.java-9-import com.artipie.docker.RepoName;
+src/test/java/com/artipie/docker/http/UploadEntityPostTest.java:10:import com.artipie.docker.asto.AstoDocker;
+src/test/java/com/artipie/docker/http/UploadEntityPostTest.java:11:import com.artipie.docker.asto.TrustedBlobSource;
+/docker-adapter/src/test/java/com/artipie/docker/http/UploadEntityPostTest.java-12-import com.artipie.http.Headers;
+/docker-adapter/src/test/java/com/artipie/docker/http/UploadEntityPostTest.java-13-import com.artipie.http.Response;
+--
+/docker-adapter/src/test/java/com/artipie/docker/http/CachingProxyITCase.java-5-package com.artipie.docker.http;
+/docker-adapter/src/test/java/com/artipie/docker/http/CachingProxyITCase.java-6-
+src/test/java/com/artipie/docker/http/CachingProxyITCase.java:7:import com.artipie.asto.memory.InMemoryStorage;
+/docker-adapter/src/test/java/com/artipie/docker/http/CachingProxyITCase.java-8-import com.artipie.docker.Digest;
+/docker-adapter/src/test/java/com/artipie/docker/http/CachingProxyITCase.java-9-import com.artipie.docker.Docker;
+/docker-adapter/src/test/java/com/artipie/docker/http/CachingProxyITCase.java-10-import com.artipie.docker.Manifests;
+/docker-adapter/src/test/java/com/artipie/docker/http/CachingProxyITCase.java-11-import com.artipie.docker.RepoName;
+src/test/java/com/artipie/docker/http/CachingProxyITCase.java:12:import com.artipie.docker.asto.AstoDocker;
+/docker-adapter/src/test/java/com/artipie/docker/http/CachingProxyITCase.java-13-import com.artipie.docker.cache.CacheDocker;
+/docker-adapter/src/test/java/com/artipie/docker/http/CachingProxyITCase.java-14-import com.artipie.docker.composite.MultiReadDocker;
+--
+/docker-adapter/src/test/java/com/artipie/docker/http/UploadEntityPutTest.java-5-package com.artipie.docker.http;
+/docker-adapter/src/test/java/com/artipie/docker/http/UploadEntityPutTest.java-6-
+src/test/java/com/artipie/docker/http/UploadEntityPutTest.java:7:import com.artipie.asto.Content;
+src/test/java/com/artipie/docker/http/UploadEntityPutTest.java:8:import com.artipie.asto.Storage;
+src/test/java/com/artipie/docker/http/UploadEntityPutTest.java:9:import com.artipie.asto.memory.InMemoryStorage;
+/docker-adapter/src/test/java/com/artipie/docker/http/UploadEntityPutTest.java-10-import com.artipie.docker.Digest;
+/docker-adapter/src/test/java/com/artipie/docker/http/UploadEntityPutTest.java-11-import com.artipie.docker.Docker;
+/docker-adapter/src/test/java/com/artipie/docker/http/UploadEntityPutTest.java-12-import com.artipie.docker.RepoName;
+/docker-adapter/src/test/java/com/artipie/docker/http/UploadEntityPutTest.java-13-import com.artipie.docker.Upload;
+src/test/java/com/artipie/docker/http/UploadEntityPutTest.java:14:import com.artipie.docker.asto.AstoDocker;
+/docker-adapter/src/test/java/com/artipie/docker/http/UploadEntityPutTest.java-15-import com.artipie.http.Headers;
+/docker-adapter/src/test/java/com/artipie/docker/http/UploadEntityPutTest.java-16-import com.artipie.http.Response;
+--
+src/test/java/com/artipie/docker/asto/AstoTagsTest.java-3- * https://github.com/artipie/docker-adapter/LICENSE.txt
+/docker-adapter/src/test/java/com/artipie/docker/asto/AstoTagsTest.java-4- */
+src/test/java/com/artipie/docker/asto/AstoTagsTest.java:5:package com.artipie.docker.asto;
+/docker-adapter/src/test/java/com/artipie/docker/asto/AstoTagsTest.java-6-
+src/test/java/com/artipie/docker/asto/AstoTagsTest.java:7:import com.artipie.asto.Key;
+src/test/java/com/artipie/docker/asto/AstoTagsTest.java:8:import com.artipie.asto.ext.PublisherAs;
+/docker-adapter/src/test/java/com/artipie/docker/asto/AstoTagsTest.java-9-import com.artipie.docker.RepoName;
+/docker-adapter/src/test/java/com/artipie/docker/asto/AstoTagsTest.java-10-import com.artipie.docker.Tag;
+--
+src/test/java/com/artipie/docker/asto/BlobKeyTest.java-3- * https://github.com/artipie/docker-adapter/LICENSE.txt
+/docker-adapter/src/test/java/com/artipie/docker/asto/BlobKeyTest.java-4- */
+src/test/java/com/artipie/docker/asto/BlobKeyTest.java:5:package com.artipie.docker.asto;
+/docker-adapter/src/test/java/com/artipie/docker/asto/BlobKeyTest.java-6-
+/docker-adapter/src/test/java/com/artipie/docker/asto/BlobKeyTest.java-7-import com.artipie.docker.Digest;
+--
+/docker-adapter/src/test/java/com/artipie/docker/http/AuthScopeSliceTest.java-5-package com.artipie.docker.http;
+/docker-adapter/src/test/java/com/artipie/docker/http/AuthScopeSliceTest.java-6-
+src/test/java/com/artipie/docker/http/AuthScopeSliceTest.java:7:import com.artipie.asto.Content;
+/docker-adapter/src/test/java/com/artipie/docker/http/AuthScopeSliceTest.java-8-import com.artipie.http.Headers;
+/docker-adapter/src/test/java/com/artipie/docker/http/AuthScopeSliceTest.java-9-import com.artipie.http.Response;
+--
+src/test/java/com/artipie/docker/asto/AstoCatalogTest.java-3- * https://github.com/artipie/docker-adapter/LICENSE.txt
+/docker-adapter/src/test/java/com/artipie/docker/asto/AstoCatalogTest.java-4- */
+src/test/java/com/artipie/docker/asto/AstoCatalogTest.java:5:package com.artipie.docker.asto;
+/docker-adapter/src/test/java/com/artipie/docker/asto/AstoCatalogTest.java-6-
+src/test/java/com/artipie/docker/asto/AstoCatalogTest.java:7:import com.artipie.asto.Key;
+src/test/java/com/artipie/docker/asto/AstoCatalogTest.java:8:import com.artipie.asto.ext.PublisherAs;
+/docker-adapter/src/test/java/com/artipie/docker/asto/AstoCatalogTest.java-9-import com.artipie.docker.RepoName;
+/docker-adapter/src/test/java/com/artipie/docker/asto/AstoCatalogTest.java-10-import com.google.common.base.Splitter;
+--
+/docker-adapter/src/test/java/com/artipie/docker/asto/AstoManifestsTest.java-4- */
+/docker-adapter/src/test/java/com/artipie/docker/asto/AstoManifestsTest.java-5-
+src/test/java/com/artipie/docker/asto/AstoManifestsTest.java:6:package com.artipie.docker.asto;
+/docker-adapter/src/test/java/com/artipie/docker/asto/AstoManifestsTest.java-7-
+src/test/java/com/artipie/docker/asto/AstoManifestsTest.java:8:import com.artipie.asto.Content;
+src/test/java/com/artipie/docker/asto/AstoManifestsTest.java:9:import com.artipie.asto.Storage;
+src/test/java/com/artipie/docker/asto/AstoManifestsTest.java:10:import com.artipie.asto.ext.PublisherAs;
+/docker-adapter/src/test/java/com/artipie/docker/asto/AstoManifestsTest.java-11-import com.artipie.docker.Blob;
+/docker-adapter/src/test/java/com/artipie/docker/asto/AstoManifestsTest.java-12-import com.artipie.docker.ExampleStorage;
+--
+/docker-adapter/src/test/java/com/artipie/docker/http/ErrorHandlingSliceTest.java-5-package com.artipie.docker.http;
+/docker-adapter/src/test/java/com/artipie/docker/http/ErrorHandlingSliceTest.java-6-
+src/test/java/com/artipie/docker/http/ErrorHandlingSliceTest.java:7:import com.artipie.asto.Content;
+src/test/java/com/artipie/docker/http/ErrorHandlingSliceTest.java:8:import com.artipie.asto.FailedCompletionStage;
+src/test/java/com/artipie/docker/http/ErrorHandlingSliceTest.java:9:import com.artipie.asto.ext.PublisherAs;
+/docker-adapter/src/test/java/com/artipie/docker/http/ErrorHandlingSliceTest.java-10-import com.artipie.docker.error.InvalidDigestException;
+/docker-adapter/src/test/java/com/artipie/docker/http/ErrorHandlingSliceTest.java-11-import com.artipie.docker.error.InvalidManifestException;
+--
+/docker-adapter/src/test/java/com/artipie/docker/asto/package-info.java-8- * @since 0.1
+/docker-adapter/src/test/java/com/artipie/docker/asto/package-info.java-9- */
+src/test/java/com/artipie/docker/asto/package-info.java:10:package com.artipie.docker.asto;
+/docker-adapter/src/test/java/com/artipie/docker/asto/package-info.java-11-
+--
+/docker-adapter/src/test/java/com/artipie/docker/http/ManifestEntityHeadTest.java-6-
+/docker-adapter/src/test/java/com/artipie/docker/http/ManifestEntityHeadTest.java-7-import com.artipie.docker.ExampleStorage;
+src/test/java/com/artipie/docker/http/ManifestEntityHeadTest.java:8:import com.artipie.docker.asto.AstoDocker;
+/docker-adapter/src/test/java/com/artipie/docker/http/ManifestEntityHeadTest.java-9-import com.artipie.http.Response;
+/docker-adapter/src/test/java/com/artipie/docker/http/ManifestEntityHeadTest.java-10-import com.artipie.http.headers.Header;
+--
+src/test/java/com/artipie/docker/asto/UploadKeyTest.java-3- * https://github.com/artipie/docker-adapter/LICENSE.txt
+/docker-adapter/src/test/java/com/artipie/docker/asto/UploadKeyTest.java-4- */
+src/test/java/com/artipie/docker/asto/UploadKeyTest.java:5:package com.artipie.docker.asto;
+/docker-adapter/src/test/java/com/artipie/docker/asto/UploadKeyTest.java-6-
+/docker-adapter/src/test/java/com/artipie/docker/asto/UploadKeyTest.java-7-import com.artipie.docker.RepoName;
+--
+/docker-adapter/src/test/java/com/artipie/docker/http/LargeImageITCase.java-5-package com.artipie.docker.http;
+/docker-adapter/src/test/java/com/artipie/docker/http/LargeImageITCase.java-6-
+src/test/java/com/artipie/docker/http/LargeImageITCase.java:7:import com.artipie.asto.fs.FileStorage;
+src/test/java/com/artipie/docker/http/LargeImageITCase.java:8:import com.artipie.asto.test.TestResource;
+src/test/java/com/artipie/docker/http/LargeImageITCase.java:9:import com.artipie.docker.asto.AstoDocker;
+/docker-adapter/src/test/java/com/artipie/docker/http/LargeImageITCase.java-10-import com.artipie.docker.junit.DockerClient;
+/docker-adapter/src/test/java/com/artipie/docker/http/LargeImageITCase.java-11-import com.artipie.docker.junit.DockerClientSupport;
+--
+src/test/java/com/artipie/docker/asto/AstoBlobsITCase.java-3- * https://github.com/artipie/docker-adapter/LICENSE.txt
+/docker-adapter/src/test/java/com/artipie/docker/asto/AstoBlobsITCase.java-4- */
+src/test/java/com/artipie/docker/asto/AstoBlobsITCase.java:5:package com.artipie.docker.asto;
+/docker-adapter/src/test/java/com/artipie/docker/asto/AstoBlobsITCase.java-6-
+src/test/java/com/artipie/docker/asto/AstoBlobsITCase.java:7:import com.artipie.asto.Content;
+src/test/java/com/artipie/docker/asto/AstoBlobsITCase.java:8:import com.artipie.asto.Key;
+src/test/java/com/artipie/docker/asto/AstoBlobsITCase.java:9:import com.artipie.asto.SubStorage;
+src/test/java/com/artipie/docker/asto/AstoBlobsITCase.java:10:import com.artipie.asto.blocking.BlockingStorage;
+src/test/java/com/artipie/docker/asto/AstoBlobsITCase.java:11:import com.artipie.asto.memory.InMemoryStorage;
+/docker-adapter/src/test/java/com/artipie/docker/asto/AstoBlobsITCase.java-12-import com.artipie.docker.Digest;
+/docker-adapter/src/test/java/com/artipie/docker/asto/AstoBlobsITCase.java-13-import com.artipie.docker.RepoName;
+--
+src/test/java/com/artipie/docker/asto/AstoUploadsTest.java-3- * https://github.com/artipie/docker-adapter/LICENSE.txt
+/docker-adapter/src/test/java/com/artipie/docker/asto/AstoUploadsTest.java-4- */
+src/test/java/com/artipie/docker/asto/AstoUploadsTest.java:5:package com.artipie.docker.asto;
+/docker-adapter/src/test/java/com/artipie/docker/asto/AstoUploadsTest.java-6-
+src/test/java/com/artipie/docker/asto/AstoUploadsTest.java:7:import com.artipie.asto.Storage;
+src/test/java/com/artipie/docker/asto/AstoUploadsTest.java:8:import com.artipie.asto.memory.InMemoryStorage;
+/docker-adapter/src/test/java/com/artipie/docker/asto/AstoUploadsTest.java-9-import com.artipie.docker.RepoName;
+/docker-adapter/src/test/java/com/artipie/docker/asto/AstoUploadsTest.java-10-import com.artipie.docker.Uploads;
+--
+/docker-adapter/src/test/java/com/artipie/docker/http/UploadEntityPatchTest.java-5-package com.artipie.docker.http;
+/docker-adapter/src/test/java/com/artipie/docker/http/UploadEntityPatchTest.java-6-
+src/test/java/com/artipie/docker/http/UploadEntityPatchTest.java:7:import com.artipie.asto.memory.InMemoryStorage;
+/docker-adapter/src/test/java/com/artipie/docker/http/UploadEntityPatchTest.java-8-import com.artipie.docker.Docker;
+/docker-adapter/src/test/java/com/artipie/docker/http/UploadEntityPatchTest.java-9-import com.artipie.docker.RepoName;
+/docker-adapter/src/test/java/com/artipie/docker/http/UploadEntityPatchTest.java-10-import com.artipie.docker.Upload;
+src/test/java/com/artipie/docker/http/UploadEntityPatchTest.java:11:import com.artipie.docker.asto.AstoDocker;
+/docker-adapter/src/test/java/com/artipie/docker/http/UploadEntityPatchTest.java-12-import com.artipie.http.Headers;
+/docker-adapter/src/test/java/com/artipie/docker/http/UploadEntityPatchTest.java-13-import com.artipie.http.Response;
+--
+src/test/java/com/artipie/docker/asto/AstoLayersTest.java-3- * https://github.com/artipie/docker-adapter/LICENSE.txt
+/docker-adapter/src/test/java/com/artipie/docker/asto/AstoLayersTest.java-4- */
+src/test/java/com/artipie/docker/asto/AstoLayersTest.java:5:package com.artipie.docker.asto;
+/docker-adapter/src/test/java/com/artipie/docker/asto/AstoLayersTest.java-6-
+src/test/java/com/artipie/docker/asto/AstoLayersTest.java:7:import com.artipie.asto.Content;
+src/test/java/com/artipie/docker/asto/AstoLayersTest.java:8:import com.artipie.asto.ext.PublisherAs;
+src/test/java/com/artipie/docker/asto/AstoLayersTest.java:9:import com.artipie.asto.memory.InMemoryStorage;
+/docker-adapter/src/test/java/com/artipie/docker/asto/AstoLayersTest.java-10-import com.artipie.docker.Blob;
+/docker-adapter/src/test/java/com/artipie/docker/asto/AstoLayersTest.java-11-import com.artipie.docker.Digest;
+--
+/docker-adapter/src/test/java/com/artipie/docker/http/BlobEntityHeadTest.java-6-
+/docker-adapter/src/test/java/com/artipie/docker/http/BlobEntityHeadTest.java-7-import com.artipie.docker.ExampleStorage;
+src/test/java/com/artipie/docker/http/BlobEntityHeadTest.java:8:import com.artipie.docker.asto.AstoDocker;
+/docker-adapter/src/test/java/com/artipie/docker/http/BlobEntityHeadTest.java-9-import com.artipie.http.Headers;
+/docker-adapter/src/test/java/com/artipie/docker/http/BlobEntityHeadTest.java-10-import com.artipie.http.Response;
+--
+/docker-adapter/src/test/java/com/artipie/docker/http/UploadEntityDeleteTest.java-5-package com.artipie.docker.http;
+/docker-adapter/src/test/java/com/artipie/docker/http/UploadEntityDeleteTest.java-6-
+src/test/java/com/artipie/docker/http/UploadEntityDeleteTest.java:7:import com.artipie.asto.memory.InMemoryStorage;
+/docker-adapter/src/test/java/com/artipie/docker/http/UploadEntityDeleteTest.java-8-import com.artipie.docker.Docker;
+/docker-adapter/src/test/java/com/artipie/docker/http/UploadEntityDeleteTest.java-9-import com.artipie.docker.RepoName;
+/docker-adapter/src/test/java/com/artipie/docker/http/UploadEntityDeleteTest.java-10-import com.artipie.docker.Upload;
+src/test/java/com/artipie/docker/http/UploadEntityDeleteTest.java:11:import com.artipie.docker.asto.AstoDocker;
+/docker-adapter/src/test/java/com/artipie/docker/http/UploadEntityDeleteTest.java-12-import com.artipie.http.Headers;
+/docker-adapter/src/test/java/com/artipie/docker/http/UploadEntityDeleteTest.java-13-import com.artipie.http.Response;
+--
+src/test/java/com/artipie/docker/asto/AstoUploadTest.java-3- * https://github.com/artipie/docker-adapter/LICENSE.txt
+/docker-adapter/src/test/java/com/artipie/docker/asto/AstoUploadTest.java-4- */
+src/test/java/com/artipie/docker/asto/AstoUploadTest.java:5:package com.artipie.docker.asto;
+/docker-adapter/src/test/java/com/artipie/docker/asto/AstoUploadTest.java-6-
+src/test/java/com/artipie/docker/asto/AstoUploadTest.java:7:import com.artipie.asto.Content;
+src/test/java/com/artipie/docker/asto/AstoUploadTest.java:8:import com.artipie.asto.Key;
+src/test/java/com/artipie/docker/asto/AstoUploadTest.java:9:import com.artipie.asto.Storage;
+src/test/java/com/artipie/docker/asto/AstoUploadTest.java:10:import com.artipie.asto.blocking.BlockingStorage;
+src/test/java/com/artipie/docker/asto/AstoUploadTest.java:11:import com.artipie.asto.ext.PublisherAs;
+src/test/java/com/artipie/docker/asto/AstoUploadTest.java:12:import com.artipie.asto.memory.InMemoryStorage;
+/docker-adapter/src/test/java/com/artipie/docker/asto/AstoUploadTest.java-13-import com.artipie.docker.Blob;
+/docker-adapter/src/test/java/com/artipie/docker/asto/AstoUploadTest.java-14-import com.artipie.docker.Digest;
+--
+src/test/java/com/artipie/docker/asto/AstoBlobsTest.java-3- * https://github.com/artipie/docker-adapter/LICENSE.txt
+/docker-adapter/src/test/java/com/artipie/docker/asto/AstoBlobsTest.java-4- */
+src/test/java/com/artipie/docker/asto/AstoBlobsTest.java:5:package com.artipie.docker.asto;
+/docker-adapter/src/test/java/com/artipie/docker/asto/AstoBlobsTest.java-6-
+src/test/java/com/artipie/docker/asto/AstoBlobsTest.java:7:import com.artipie.asto.Content;
+src/test/java/com/artipie/docker/asto/AstoBlobsTest.java:8:import com.artipie.asto.Key;
+src/test/java/com/artipie/docker/asto/AstoBlobsTest.java:9:import com.artipie.asto.Meta;
+src/test/java/com/artipie/docker/asto/AstoBlobsTest.java:10:import com.artipie.asto.Storage;
+src/test/java/com/artipie/docker/asto/AstoBlobsTest.java:11:import com.artipie.asto.memory.InMemoryStorage;
+/docker-adapter/src/test/java/com/artipie/docker/asto/AstoBlobsTest.java-12-import com.artipie.docker.Digest;
+/docker-adapter/src/test/java/com/artipie/docker/asto/AstoBlobsTest.java-13-import com.artipie.docker.RepoName;
+--
+src/test/java/com/artipie/docker/asto/AstoRepoTest.java-3- * https://github.com/artipie/docker-adapter/LICENSE.txt
+/docker-adapter/src/test/java/com/artipie/docker/asto/AstoRepoTest.java-4- */
+src/test/java/com/artipie/docker/asto/AstoRepoTest.java:5:package com.artipie.docker.asto;
+/docker-adapter/src/test/java/com/artipie/docker/asto/AstoRepoTest.java-6-
+src/test/java/com/artipie/docker/asto/AstoRepoTest.java:7:import com.artipie.asto.memory.InMemoryStorage;
+/docker-adapter/src/test/java/com/artipie/docker/asto/AstoRepoTest.java-8-import com.artipie.docker.Repo;
+/docker-adapter/src/test/java/com/artipie/docker/asto/AstoRepoTest.java-9-import com.artipie.docker.RepoName;
+--
+src/test/java/com/artipie/docker/asto/DefaultLayoutTest.java-3- * https://github.com/artipie/docker-adapter/LICENSE.txt
+/docker-adapter/src/test/java/com/artipie/docker/asto/DefaultLayoutTest.java-4- */
+src/test/java/com/artipie/docker/asto/DefaultLayoutTest.java:5:package com.artipie.docker.asto;
+/docker-adapter/src/test/java/com/artipie/docker/asto/DefaultLayoutTest.java-6-
+/docker-adapter/src/test/java/com/artipie/docker/asto/DefaultLayoutTest.java-7-import com.artipie.docker.RepoName;
+--
+/docker-adapter/src/test/java/com/artipie/docker/asto/AstoDockerTest.java-4- */
+/docker-adapter/src/test/java/com/artipie/docker/asto/AstoDockerTest.java-5-
+src/test/java/com/artipie/docker/asto/AstoDockerTest.java:6:package com.artipie.docker.asto;
+/docker-adapter/src/test/java/com/artipie/docker/asto/AstoDockerTest.java-7-
+src/test/java/com/artipie/docker/asto/AstoDockerTest.java:8:import com.artipie.asto.Content;
+src/test/java/com/artipie/docker/asto/AstoDockerTest.java:9:import com.artipie.asto.Key;
+src/test/java/com/artipie/docker/asto/AstoDockerTest.java:10:import com.artipie.asto.Storage;
+src/test/java/com/artipie/docker/asto/AstoDockerTest.java:11:import com.artipie.asto.ext.PublisherAs;
+src/test/java/com/artipie/docker/asto/AstoDockerTest.java:12:import com.artipie.asto.memory.InMemoryStorage;
+/docker-adapter/src/test/java/com/artipie/docker/asto/AstoDockerTest.java-13-import com.artipie.docker.Catalog;
+/docker-adapter/src/test/java/com/artipie/docker/asto/AstoDockerTest.java-14-import com.artipie.docker.RepoName;
+--
+/docker-adapter/src/test/java/com/artipie/docker/manifest/JsonManifestTest.java-5-package com.artipie.docker.manifest;
+/docker-adapter/src/test/java/com/artipie/docker/manifest/JsonManifestTest.java-6-
+src/test/java/com/artipie/docker/manifest/JsonManifestTest.java:7:import com.artipie.asto.ext.PublisherAs;
+/docker-adapter/src/test/java/com/artipie/docker/manifest/JsonManifestTest.java-8-import com.artipie.docker.Digest;
+/docker-adapter/src/test/java/com/artipie/docker/manifest/JsonManifestTest.java-9-import com.artipie.docker.error.InvalidManifestException;
+--
+/docker-adapter/src/test/java/com/artipie/docker/misc/CatalogPageTest.java-5-package com.artipie.docker.misc;
+/docker-adapter/src/test/java/com/artipie/docker/misc/CatalogPageTest.java-6-
+src/test/java/com/artipie/docker/misc/CatalogPageTest.java:7:import com.artipie.asto.ext.PublisherAs;
+/docker-adapter/src/test/java/com/artipie/docker/misc/CatalogPageTest.java-8-import com.artipie.docker.RepoName;
+/docker-adapter/src/test/java/com/artipie/docker/misc/CatalogPageTest.java-9-import com.google.common.base.Splitter;
+--
+/docker-adapter/src/main/java/com/artipie/docker/Upload.java-5-package com.artipie.docker;
+/docker-adapter/src/main/java/com/artipie/docker/Upload.java-6-
+src/main/java/com/artipie/docker/Upload.java:7:import com.artipie.asto.Content;
+/docker-adapter/src/main/java/com/artipie/docker/Upload.java-8-import java.time.Instant;
+/docker-adapter/src/main/java/com/artipie/docker/Upload.java-9-import java.util.concurrent.CompletableFuture;
+--
+/docker-adapter/src/main/java/com/artipie/docker/Manifests.java-6-package com.artipie.docker;
+/docker-adapter/src/main/java/com/artipie/docker/Manifests.java-7-
+src/main/java/com/artipie/docker/Manifests.java:8:import com.artipie.asto.Content;
+/docker-adapter/src/main/java/com/artipie/docker/Manifests.java-9-import com.artipie.docker.manifest.Manifest;
+/docker-adapter/src/main/java/com/artipie/docker/Manifests.java-10-import com.artipie.docker.ref.ManifestRef;
+--
+/docker-adapter/src/main/java/com/artipie/docker/Blob.java-5-package com.artipie.docker;
+/docker-adapter/src/main/java/com/artipie/docker/Blob.java-6-
+src/main/java/com/artipie/docker/Blob.java:7:import com.artipie.asto.Content;
+/docker-adapter/src/main/java/com/artipie/docker/Blob.java-8-import java.util.concurrent.CompletionStage;
+/docker-adapter/src/main/java/com/artipie/docker/Blob.java-9-
+--
+/docker-adapter/src/main/java/com/artipie/docker/proxy/ProxyBlob.java-5-package com.artipie.docker.proxy;
+/docker-adapter/src/main/java/com/artipie/docker/proxy/ProxyBlob.java-6-
+src/main/java/com/artipie/docker/proxy/ProxyBlob.java:7:import com.artipie.asto.Content;
+src/main/java/com/artipie/docker/proxy/ProxyBlob.java:8:import com.artipie.asto.FailedCompletionStage;
+/docker-adapter/src/main/java/com/artipie/docker/proxy/ProxyBlob.java-9-import com.artipie.docker.Blob;
+/docker-adapter/src/main/java/com/artipie/docker/proxy/ProxyBlob.java-10-import com.artipie.docker.Digest;
+--
+/docker-adapter/src/main/java/com/artipie/docker/proxy/ProxyManifests.java-5-package com.artipie.docker.proxy;
+/docker-adapter/src/main/java/com/artipie/docker/proxy/ProxyManifests.java-6-
+src/main/java/com/artipie/docker/proxy/ProxyManifests.java:7:import com.artipie.asto.Content;
+src/main/java/com/artipie/docker/proxy/ProxyManifests.java:8:import com.artipie.asto.FailedCompletionStage;
+src/main/java/com/artipie/docker/proxy/ProxyManifests.java:9:import com.artipie.asto.ext.PublisherAs;
+/docker-adapter/src/main/java/com/artipie/docker/proxy/ProxyManifests.java-10-import com.artipie.docker.Digest;
+/docker-adapter/src/main/java/com/artipie/docker/proxy/ProxyManifests.java-11-import com.artipie.docker.Manifests;
+--
+/docker-adapter/src/main/java/com/artipie/docker/proxy/ProxyDocker.java-5-package com.artipie.docker.proxy;
+/docker-adapter/src/main/java/com/artipie/docker/proxy/ProxyDocker.java-6-
+src/main/java/com/artipie/docker/proxy/ProxyDocker.java:7:import com.artipie.asto.Content;
+src/main/java/com/artipie/docker/proxy/ProxyDocker.java:8:import com.artipie.asto.FailedCompletionStage;
+src/main/java/com/artipie/docker/proxy/ProxyDocker.java:9:import com.artipie.asto.ext.PublisherAs;
+/docker-adapter/src/main/java/com/artipie/docker/proxy/ProxyDocker.java-10-import com.artipie.docker.Catalog;
+/docker-adapter/src/main/java/com/artipie/docker/proxy/ProxyDocker.java-11-import com.artipie.docker.Docker;
+--
+/docker-adapter/src/main/java/com/artipie/docker/proxy/ProxyLayers.java-5-package com.artipie.docker.proxy;
+/docker-adapter/src/main/java/com/artipie/docker/proxy/ProxyLayers.java-6-
+src/main/java/com/artipie/docker/proxy/ProxyLayers.java:7:import com.artipie.asto.Content;
+src/main/java/com/artipie/docker/proxy/ProxyLayers.java:8:import com.artipie.asto.FailedCompletionStage;
+/docker-adapter/src/main/java/com/artipie/docker/proxy/ProxyLayers.java-9-import com.artipie.docker.Blob;
+/docker-adapter/src/main/java/com/artipie/docker/proxy/ProxyLayers.java-10-import com.artipie.docker.Digest;
+/docker-adapter/src/main/java/com/artipie/docker/proxy/ProxyLayers.java-11-import com.artipie.docker.Layers;
+/docker-adapter/src/main/java/com/artipie/docker/proxy/ProxyLayers.java-12-import com.artipie.docker.RepoName;
+src/main/java/com/artipie/docker/proxy/ProxyLayers.java:13:import com.artipie.docker.asto.BlobSource;
+/docker-adapter/src/main/java/com/artipie/docker/proxy/ProxyLayers.java-14-import com.artipie.http.Headers;
+/docker-adapter/src/main/java/com/artipie/docker/proxy/ProxyLayers.java-15-import com.artipie.http.Slice;
+--
+/docker-adapter/src/main/java/com/artipie/docker/Layers.java-6-package com.artipie.docker;
+/docker-adapter/src/main/java/com/artipie/docker/Layers.java-7-
+src/main/java/com/artipie/docker/Layers.java:8:import com.artipie.docker.asto.BlobSource;
+/docker-adapter/src/main/java/com/artipie/docker/Layers.java-9-import java.util.Optional;
+/docker-adapter/src/main/java/com/artipie/docker/Layers.java-10-import java.util.concurrent.CompletionStage;
+--
+/docker-adapter/src/main/java/com/artipie/docker/cache/CacheManifests.java-5-package com.artipie.docker.cache;
+/docker-adapter/src/main/java/com/artipie/docker/cache/CacheManifests.java-6-
+src/main/java/com/artipie/docker/cache/CacheManifests.java:7:import com.artipie.asto.Content;
+/docker-adapter/src/main/java/com/artipie/docker/cache/CacheManifests.java-8-import com.artipie.docker.Digest;
+/docker-adapter/src/main/java/com/artipie/docker/cache/CacheManifests.java-9-import com.artipie.docker.Manifests;
+--
+/docker-adapter/src/main/java/com/artipie/docker/cache/CacheManifests.java-12-import com.artipie.docker.Tag;
+/docker-adapter/src/main/java/com/artipie/docker/cache/CacheManifests.java-13-import com.artipie.docker.Tags;
+src/main/java/com/artipie/docker/cache/CacheManifests.java:14:import com.artipie.docker.asto.CheckedBlobSource;
+/docker-adapter/src/main/java/com/artipie/docker/cache/CacheManifests.java-15-import com.artipie.docker.manifest.Manifest;
+/docker-adapter/src/main/java/com/artipie/docker/cache/CacheManifests.java-16-import com.artipie.docker.misc.JoinedTagsSource;
+--
+/docker-adapter/src/main/java/com/artipie/docker/cache/CacheLayers.java-8-import com.artipie.docker.Digest;
+/docker-adapter/src/main/java/com/artipie/docker/cache/CacheLayers.java-9-import com.artipie.docker.Layers;
+src/main/java/com/artipie/docker/cache/CacheLayers.java:10:import com.artipie.docker.asto.BlobSource;
+/docker-adapter/src/main/java/com/artipie/docker/cache/CacheLayers.java-11-import java.util.Optional;
+/docker-adapter/src/main/java/com/artipie/docker/cache/CacheLayers.java-12-import java.util.concurrent.CompletableFuture;
+--
+/docker-adapter/src/main/java/com/artipie/docker/composite/ReadWriteDocker.java-17- * This class can be used to create virtual repository
+/docker-adapter/src/main/java/com/artipie/docker/composite/ReadWriteDocker.java-18- * by composing {@link com.artipie.docker.proxy.ProxyDocker}
+src/main/java/com/artipie/docker/composite/ReadWriteDocker.java:19: * and {@link com.artipie.docker.asto.AstoDocker}.
+/docker-adapter/src/main/java/com/artipie/docker/composite/ReadWriteDocker.java-20- *
+/docker-adapter/src/main/java/com/artipie/docker/composite/ReadWriteDocker.java-21- * @since 0.3
+--
+/docker-adapter/src/main/java/com/artipie/docker/composite/MultiReadManifests.java-5-package com.artipie.docker.composite;
+/docker-adapter/src/main/java/com/artipie/docker/composite/MultiReadManifests.java-6-
+src/main/java/com/artipie/docker/composite/MultiReadManifests.java:7:import com.artipie.asto.Content;
+/docker-adapter/src/main/java/com/artipie/docker/composite/MultiReadManifests.java-8-import com.artipie.docker.Manifests;
+/docker-adapter/src/main/java/com/artipie/docker/composite/MultiReadManifests.java-9-import com.artipie.docker.RepoName;
+--
+/docker-adapter/src/main/java/com/artipie/docker/composite/ReadWriteManifests.java-5-package com.artipie.docker.composite;
+/docker-adapter/src/main/java/com/artipie/docker/composite/ReadWriteManifests.java-6-
+src/main/java/com/artipie/docker/composite/ReadWriteManifests.java:7:import com.artipie.asto.Content;
+/docker-adapter/src/main/java/com/artipie/docker/composite/ReadWriteManifests.java-8-import com.artipie.docker.Manifests;
+/docker-adapter/src/main/java/com/artipie/docker/composite/ReadWriteManifests.java-9-import com.artipie.docker.Tag;
+--
+/docker-adapter/src/main/java/com/artipie/docker/composite/ReadWriteLayers.java-8-import com.artipie.docker.Digest;
+/docker-adapter/src/main/java/com/artipie/docker/composite/ReadWriteLayers.java-9-import com.artipie.docker.Layers;
+src/main/java/com/artipie/docker/composite/ReadWriteLayers.java:10:import com.artipie.docker.asto.BlobSource;
+/docker-adapter/src/main/java/com/artipie/docker/composite/ReadWriteLayers.java-11-import java.util.Optional;
+/docker-adapter/src/main/java/com/artipie/docker/composite/ReadWriteLayers.java-12-import java.util.concurrent.CompletionStage;
+--
+/docker-adapter/src/main/java/com/artipie/docker/composite/MultiReadLayers.java-8-import com.artipie.docker.Digest;
+/docker-adapter/src/main/java/com/artipie/docker/composite/MultiReadLayers.java-9-import com.artipie.docker.Layers;
+src/main/java/com/artipie/docker/composite/MultiReadLayers.java:10:import com.artipie.docker.asto.BlobSource;
+/docker-adapter/src/main/java/com/artipie/docker/composite/MultiReadLayers.java-11-import java.util.List;
+/docker-adapter/src/main/java/com/artipie/docker/composite/MultiReadLayers.java-12-import java.util.Optional;
+--
+/docker-adapter/src/test/java/com/artipie/docker/misc/ParsedCatalogTest.java-5-package com.artipie.docker.misc;
+/docker-adapter/src/test/java/com/artipie/docker/misc/ParsedCatalogTest.java-6-
+src/test/java/com/artipie/docker/misc/ParsedCatalogTest.java:7:import com.artipie.asto.Content;
+/docker-adapter/src/test/java/com/artipie/docker/misc/ParsedCatalogTest.java-8-import com.artipie.docker.RepoName;
+/docker-adapter/src/test/java/com/artipie/docker/misc/ParsedCatalogTest.java-9-import java.util.stream.Collectors;
+--
+/docker-adapter/src/main/java/com/artipie/docker/http/BlobEntity.java-5-package com.artipie.docker.http;
+/docker-adapter/src/main/java/com/artipie/docker/http/BlobEntity.java-6-
+src/main/java/com/artipie/docker/http/BlobEntity.java:7:import com.artipie.asto.Content;
+/docker-adapter/src/main/java/com/artipie/docker/http/BlobEntity.java-8-import com.artipie.docker.Digest;
+/docker-adapter/src/main/java/com/artipie/docker/http/BlobEntity.java-9-import com.artipie.docker.Docker;
+--
+/docker-adapter/src/main/java/com/artipie/docker/http/ErrorHandlingSlice.java-5-package com.artipie.docker.http;
+/docker-adapter/src/main/java/com/artipie/docker/http/ErrorHandlingSlice.java-6-
+src/main/java/com/artipie/docker/http/ErrorHandlingSlice.java:7:import com.artipie.asto.FailedCompletionStage;
+/docker-adapter/src/main/java/com/artipie/docker/http/ErrorHandlingSlice.java-8-import com.artipie.docker.error.DockerError;
+/docker-adapter/src/main/java/com/artipie/docker/http/ErrorHandlingSlice.java-9-import com.artipie.docker.error.UnsupportedError;
+--
+/docker-adapter/src/main/java/com/artipie/docker/http/ManifestEntity.java-5-package com.artipie.docker.http;
+/docker-adapter/src/main/java/com/artipie/docker/http/ManifestEntity.java-6-
+src/main/java/com/artipie/docker/http/ManifestEntity.java:7:import com.artipie.asto.Content;
+/docker-adapter/src/main/java/com/artipie/docker/http/ManifestEntity.java-8-import com.artipie.docker.Docker;
+/docker-adapter/src/main/java/com/artipie/docker/http/ManifestEntity.java-9-import com.artipie.docker.RepoName;
+--
+/docker-adapter/src/main/java/com/artipie/docker/Tags.java-5-package com.artipie.docker;
+/docker-adapter/src/main/java/com/artipie/docker/Tags.java-6-
+src/main/java/com/artipie/docker/Tags.java:7:import com.artipie.asto.Content;
+/docker-adapter/src/main/java/com/artipie/docker/Tags.java-8-
+/docker-adapter/src/main/java/com/artipie/docker/Tags.java-9-/**
+--
+src/main/java/com/artipie/docker/asto/AstoUploads.java-3- * https://github.com/artipie/docker-adapter/LICENSE.txt
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoUploads.java-4- */
+src/main/java/com/artipie/docker/asto/AstoUploads.java:5:package com.artipie.docker.asto;
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoUploads.java-6-
+src/main/java/com/artipie/docker/asto/AstoUploads.java:7:import com.artipie.asto.Storage;
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoUploads.java-8-import com.artipie.docker.RepoName;
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoUploads.java-9-import com.artipie.docker.Upload;
+--
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoUploads.java-24-     * Asto storage.
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoUploads.java-25-     */
+src/main/java/com/artipie/docker/asto/AstoUploads.java:26:    private final Storage asto;
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoUploads.java-27-
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoUploads.java-28-    /**
+--
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoUploads.java-39-     * Ctor.
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoUploads.java-40-     *
+src/main/java/com/artipie/docker/asto/AstoUploads.java:41:     * @param asto Asto storage
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoUploads.java-42-     * @param layout Uploads layout.
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoUploads.java-43-     * @param name Repository name
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoUploads.java-44-     */
+src/main/java/com/artipie/docker/asto/AstoUploads.java:45:    public AstoUploads(final Storage asto, final UploadsLayout layout, final RepoName name) {
+src/main/java/com/artipie/docker/asto/AstoUploads.java:46:        this.asto = asto;
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoUploads.java-47-        this.layout = layout;
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoUploads.java-48-        this.name = name;
+--
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoUploads.java-52-    public CompletionStage<Upload> start() {
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoUploads.java-53-        final String uuid = UUID.randomUUID().toString();
+src/main/java/com/artipie/docker/asto/AstoUploads.java:54:        final AstoUpload upload = new AstoUpload(this.asto, this.layout, this.name, uuid);
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoUploads.java-55-        return upload.start().thenApply(ignored -> upload);
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoUploads.java-56-    }
+--
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoUploads.java-62-            result = CompletableFuture.completedFuture(Optional.empty());
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoUploads.java-63-        } else {
+src/main/java/com/artipie/docker/asto/AstoUploads.java:64:            result = this.asto.list(this.layout.upload(this.name, uuid)).thenApply(
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoUploads.java-65-                list -> {
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoUploads.java-66-                    final Optional<Upload> upload;
+--
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoUploads.java-69-                    } else {
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoUploads.java-70-                        upload = Optional.of(
+src/main/java/com/artipie/docker/asto/AstoUploads.java:71:                            new AstoUpload(this.asto, this.layout, this.name, uuid)
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoUploads.java-72-                        );
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoUploads.java-73-                    }
+--
+src/main/java/com/artipie/docker/asto/RegistryRoot.java-3- * https://github.com/artipie/docker-adapter/LICENSE.txt
+/docker-adapter/src/main/java/com/artipie/docker/asto/RegistryRoot.java-4- */
+src/main/java/com/artipie/docker/asto/RegistryRoot.java:5:package com.artipie.docker.asto;
+/docker-adapter/src/main/java/com/artipie/docker/asto/RegistryRoot.java-6-
+src/main/java/com/artipie/docker/asto/RegistryRoot.java:7:import com.artipie.asto.Key;
+/docker-adapter/src/main/java/com/artipie/docker/asto/RegistryRoot.java-8-
+/docker-adapter/src/main/java/com/artipie/docker/asto/RegistryRoot.java-9-/**
+--
+src/main/java/com/artipie/docker/asto/BlobSource.java-3- * https://github.com/artipie/docker-adapter/LICENSE.txt
+/docker-adapter/src/main/java/com/artipie/docker/asto/BlobSource.java-4- */
+src/main/java/com/artipie/docker/asto/BlobSource.java:5:package com.artipie.docker.asto;
+/docker-adapter/src/main/java/com/artipie/docker/asto/BlobSource.java-6-
+src/main/java/com/artipie/docker/asto/BlobSource.java:7:import com.artipie.asto.Key;
+src/main/java/com/artipie/docker/asto/BlobSource.java:8:import com.artipie.asto.Storage;
+/docker-adapter/src/main/java/com/artipie/docker/asto/BlobSource.java-9-import com.artipie.docker.Digest;
+/docker-adapter/src/main/java/com/artipie/docker/asto/BlobSource.java-10-import java.util.concurrent.CompletionStage;
+--
+src/main/java/com/artipie/docker/asto/AstoCatalog.java-3- * https://github.com/artipie/docker-adapter/LICENSE.txt
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoCatalog.java-4- */
+src/main/java/com/artipie/docker/asto/AstoCatalog.java:5:package com.artipie.docker.asto;
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoCatalog.java-6-
+src/main/java/com/artipie/docker/asto/AstoCatalog.java:7:import com.artipie.asto.Content;
+src/main/java/com/artipie/docker/asto/AstoCatalog.java:8:import com.artipie.asto.Key;
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoCatalog.java-9-import com.artipie.docker.Catalog;
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoCatalog.java-10-import com.artipie.docker.RepoName;
+--
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoBlobs.java-4- */
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoBlobs.java-5-
+src/main/java/com/artipie/docker/asto/AstoBlobs.java:6:package com.artipie.docker.asto;
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoBlobs.java-7-
+src/main/java/com/artipie/docker/asto/AstoBlobs.java:8:import com.artipie.asto.Key;
+src/main/java/com/artipie/docker/asto/AstoBlobs.java:9:import com.artipie.asto.Storage;
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoBlobs.java-10-import com.artipie.docker.Blob;
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoBlobs.java-11-import com.artipie.docker.Digest;
+--
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoBlobs.java-23-     * Storage.
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoBlobs.java-24-     */
+src/main/java/com/artipie/docker/asto/AstoBlobs.java:25:    private final Storage asto;
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoBlobs.java-26-
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoBlobs.java-27-    /**
+--
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoBlobs.java-37-    /**
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoBlobs.java-38-     * Ctor.
+src/main/java/com/artipie/docker/asto/AstoBlobs.java:39:     * @param asto Storage
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoBlobs.java-40-     * @param layout Blobs layout.
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoBlobs.java-41-     * @param name Repository name.
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoBlobs.java-42-     */
+src/main/java/com/artipie/docker/asto/AstoBlobs.java:43:    public AstoBlobs(final Storage asto, final BlobsLayout layout, final RepoName name) {
+src/main/java/com/artipie/docker/asto/AstoBlobs.java:44:        this.asto = asto;
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoBlobs.java-45-        this.layout = layout;
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoBlobs.java-46-        this.name = name;
+--
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoBlobs.java-50-    public CompletionStage<Optional<Blob>> blob(final Digest digest) {
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoBlobs.java-51-        final Key key = this.layout.blob(this.name, digest);
+src/main/java/com/artipie/docker/asto/AstoBlobs.java:52:        return this.asto.exists(key).thenApply(
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoBlobs.java-53-            exists -> {
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoBlobs.java-54-                final Optional<Blob> blob;
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoBlobs.java-55-                if (exists) {
+src/main/java/com/artipie/docker/asto/AstoBlobs.java:56:                    blob = Optional.of(new AstoBlob(this.asto, key, digest));
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoBlobs.java-57-                } else {
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoBlobs.java-58-                    blob = Optional.empty();
+--
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoBlobs.java-67-        final Digest digest = source.digest();
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoBlobs.java-68-        final Key key = this.layout.blob(this.name, digest);
+src/main/java/com/artipie/docker/asto/AstoBlobs.java:69:        return source.saveTo(this.asto, key).thenApply(
+src/main/java/com/artipie/docker/asto/AstoBlobs.java:70:            nothing -> new AstoBlob(this.asto, key, digest)
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoBlobs.java-71-        );
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoBlobs.java-72-    }
+--
+src/main/java/com/artipie/docker/asto/AstoBlob.java-3- * https://github.com/artipie/docker-adapter/LICENSE.txt
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoBlob.java-4- */
+src/main/java/com/artipie/docker/asto/AstoBlob.java:5:package com.artipie.docker.asto;
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoBlob.java-6-
+src/main/java/com/artipie/docker/asto/AstoBlob.java:7:import com.artipie.asto.Content;
+src/main/java/com/artipie/docker/asto/AstoBlob.java:8:import com.artipie.asto.Key;
+src/main/java/com/artipie/docker/asto/AstoBlob.java:9:import com.artipie.asto.MetaCommon;
+src/main/java/com/artipie/docker/asto/AstoBlob.java:10:import com.artipie.asto.Storage;
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoBlob.java-11-import com.artipie.docker.Blob;
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoBlob.java-12-import com.artipie.docker.Digest;
+--
+src/main/java/com/artipie/docker/asto/AstoManifests.java-3- * https://github.com/artipie/docker-adapter/LICENSE.txt
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoManifests.java-4- */
+src/main/java/com/artipie/docker/asto/AstoManifests.java:5:package com.artipie.docker.asto;
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoManifests.java-6-
+src/main/java/com/artipie/docker/asto/AstoManifests.java:7:import com.artipie.asto.Content;
+src/main/java/com/artipie/docker/asto/AstoManifests.java:8:import com.artipie.asto.Key;
+src/main/java/com/artipie/docker/asto/AstoManifests.java:9:import com.artipie.asto.Storage;
+src/main/java/com/artipie/docker/asto/AstoManifests.java:10:import com.artipie.asto.ext.PublisherAs;
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoManifests.java-11-import com.artipie.docker.Digest;
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoManifests.java-12-import com.artipie.docker.Manifests;
+--
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoManifests.java-36-     * Asto storage.
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoManifests.java-37-     */
+src/main/java/com/artipie/docker/asto/AstoManifests.java:38:    private final Storage asto;
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoManifests.java-39-
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoManifests.java-40-    /**
+--
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoManifests.java-56-     * Ctor.
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoManifests.java-57-     *
+src/main/java/com/artipie/docker/asto/AstoManifests.java:58:     * @param asto Asto storage
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoManifests.java-59-     * @param blobs Blobs storage.
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoManifests.java-60-     * @param layout Manifests layout.
+--
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoManifests.java-63-     */
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoManifests.java-64-    public AstoManifests(
+src/main/java/com/artipie/docker/asto/AstoManifests.java:65:        final Storage asto,
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoManifests.java-66-        final BlobStore blobs,
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoManifests.java-67-        final ManifestsLayout layout,
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoManifests.java-68-        final RepoName name
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoManifests.java-69-    ) {
+src/main/java/com/artipie/docker/asto/AstoManifests.java:70:        this.asto = asto;
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoManifests.java-71-        this.blobs = blobs;
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoManifests.java-72-        this.layout = layout;
+--
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoManifests.java-112-    public CompletionStage<Tags> tags(final Optional<Tag> from, final int limit) {
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoManifests.java-113-        final Key root = this.layout.tags(this.name);
+src/main/java/com/artipie/docker/asto/AstoManifests.java:114:        return this.asto.list(root).thenApply(
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoManifests.java-115-            keys -> new AstoTags(this.name, root, keys, from, limit)
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoManifests.java-116-        );
+--
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoManifests.java-189-     */
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoManifests.java-190-    private CompletableFuture<Void> addLink(final ManifestRef ref, final Digest digest) {
+src/main/java/com/artipie/docker/asto/AstoManifests.java:191:        return this.asto.save(
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoManifests.java-192-            this.layout.manifest(this.name, ref),
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoManifests.java-193-            new Content.From(digest.string().getBytes(StandardCharsets.US_ASCII))
+--
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoManifests.java-203-    private CompletableFuture<Optional<Digest>> readLink(final ManifestRef ref) {
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoManifests.java-204-        final Key key = this.layout.manifest(this.name, ref);
+src/main/java/com/artipie/docker/asto/AstoManifests.java:205:        return this.asto.exists(key).thenCompose(
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoManifests.java-206-            exists -> {
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoManifests.java-207-                final CompletionStage<Optional<Digest>> stage;
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoManifests.java-208-                if (exists) {
+src/main/java/com/artipie/docker/asto/AstoManifests.java:209:                    stage = this.asto.value(key)
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoManifests.java-210-                        .thenCompose(
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoManifests.java-211-                            pub -> new PublisherAs(pub).asciiString()
+--
+/docker-adapter/src/main/java/com/artipie/docker/asto/BlobStore.java-4- */
+/docker-adapter/src/main/java/com/artipie/docker/asto/BlobStore.java-5-
+src/main/java/com/artipie/docker/asto/BlobStore.java:6:package com.artipie.docker.asto;
+/docker-adapter/src/main/java/com/artipie/docker/asto/BlobStore.java-7-
+/docker-adapter/src/main/java/com/artipie/docker/asto/BlobStore.java-8-import com.artipie.docker.Blob;
+--
+src/main/java/com/artipie/docker/asto/DefaultLayout.java-3- * https://github.com/artipie/docker-adapter/LICENSE.txt
+/docker-adapter/src/main/java/com/artipie/docker/asto/DefaultLayout.java-4- */
+src/main/java/com/artipie/docker/asto/DefaultLayout.java:5:package com.artipie.docker.asto;
+/docker-adapter/src/main/java/com/artipie/docker/asto/DefaultLayout.java-6-
+src/main/java/com/artipie/docker/asto/DefaultLayout.java:7:import com.artipie.asto.Key;
+/docker-adapter/src/main/java/com/artipie/docker/asto/DefaultLayout.java-8-import com.artipie.docker.Digest;
+/docker-adapter/src/main/java/com/artipie/docker/asto/DefaultLayout.java-9-import com.artipie.docker.RepoName;
+--
+/docker-adapter/src/main/java/com/artipie/docker/asto/package-info.java-7- * @since 0.1
+/docker-adapter/src/main/java/com/artipie/docker/asto/package-info.java-8- */
+src/main/java/com/artipie/docker/asto/package-info.java:9:package com.artipie.docker.asto;
+/docker-adapter/src/main/java/com/artipie/docker/asto/package-info.java-10-
+--
+src/main/java/com/artipie/docker/asto/AstoTags.java-3- * https://github.com/artipie/docker-adapter/LICENSE.txt
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoTags.java-4- */
+src/main/java/com/artipie/docker/asto/AstoTags.java:5:package com.artipie.docker.asto;
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoTags.java-6-
+src/main/java/com/artipie/docker/asto/AstoTags.java:7:import com.artipie.asto.Content;
+src/main/java/com/artipie/docker/asto/AstoTags.java:8:import com.artipie.asto.Key;
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoTags.java-9-import com.artipie.docker.RepoName;
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoTags.java-10-import com.artipie.docker.Tag;
+--
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoDocker.java-4- */
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoDocker.java-5-
+src/main/java/com/artipie/docker/asto/AstoDocker.java:6:package com.artipie.docker.asto;
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoDocker.java-7-
+src/main/java/com/artipie/docker/asto/AstoDocker.java:8:import com.artipie.asto.Key;
+src/main/java/com/artipie/docker/asto/AstoDocker.java:9:import com.artipie.asto.Storage;
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoDocker.java-10-import com.artipie.docker.Catalog;
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoDocker.java-11-import com.artipie.docker.Docker;
+--
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoDocker.java-24-     * Asto storage.
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoDocker.java-25-     */
+src/main/java/com/artipie/docker/asto/AstoDocker.java:26:    private final Storage asto;
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoDocker.java-27-
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoDocker.java-28-    /**
+--
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoDocker.java-33-    /**
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoDocker.java-34-     * Ctor.
+src/main/java/com/artipie/docker/asto/AstoDocker.java:35:     * @param asto Asto storage
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoDocker.java-36-     */
+src/main/java/com/artipie/docker/asto/AstoDocker.java:37:    public AstoDocker(final Storage asto) {
+src/main/java/com/artipie/docker/asto/AstoDocker.java:38:        this(asto, new DefaultLayout());
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoDocker.java-39-    }
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoDocker.java-40-
+--
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoDocker.java-42-     * Ctor.
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoDocker.java-43-     *
+src/main/java/com/artipie/docker/asto/AstoDocker.java:44:     * @param asto Storage.
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoDocker.java-45-     * @param layout Storage layout.
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoDocker.java-46-     */
+src/main/java/com/artipie/docker/asto/AstoDocker.java:47:    public AstoDocker(final Storage asto, final Layout layout) {
+src/main/java/com/artipie/docker/asto/AstoDocker.java:48:        this.asto = asto;
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoDocker.java-49-        this.layout = layout;
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoDocker.java-50-    }
+--
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoDocker.java-52-    @Override
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoDocker.java-53-    public Repo repo(final RepoName name) {
+src/main/java/com/artipie/docker/asto/AstoDocker.java:54:        return new AstoRepo(this.asto, this.layout, name);
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoDocker.java-55-    }
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoDocker.java-56-
+--
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoDocker.java-58-    public CompletionStage<Catalog> catalog(final Optional<RepoName> from, final int limit) {
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoDocker.java-59-        final Key root = this.layout.repositories();
+src/main/java/com/artipie/docker/asto/AstoDocker.java:60:        return this.asto.list(root).thenApply(keys -> new AstoCatalog(root, keys, from, limit));
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoDocker.java-61-    }
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoDocker.java-62-}
+--
+src/main/java/com/artipie/docker/asto/Children.java-3- * https://github.com/artipie/docker-adapter/LICENSE.txt
+/docker-adapter/src/main/java/com/artipie/docker/asto/Children.java-4- */
+src/main/java/com/artipie/docker/asto/Children.java:5:package com.artipie.docker.asto;
+/docker-adapter/src/main/java/com/artipie/docker/asto/Children.java-6-
+src/main/java/com/artipie/docker/asto/Children.java:7:import com.artipie.asto.Key;
+/docker-adapter/src/main/java/com/artipie/docker/asto/Children.java-8-import java.util.Collection;
+/docker-adapter/src/main/java/com/artipie/docker/asto/Children.java-9-import java.util.Optional;
+--
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoLayers.java-4- */
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoLayers.java-5-
+src/main/java/com/artipie/docker/asto/AstoLayers.java:6:package com.artipie.docker.asto;
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoLayers.java-7-
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoLayers.java-8-import com.artipie.docker.Blob;
+--
+/docker-adapter/src/test/java/com/artipie/docker/misc/DigestFromContentTest.java-5-package com.artipie.docker.misc;
+/docker-adapter/src/test/java/com/artipie/docker/misc/DigestFromContentTest.java-6-
+src/test/java/com/artipie/docker/misc/DigestFromContentTest.java:7:import com.artipie.asto.Content;
+/docker-adapter/src/test/java/com/artipie/docker/misc/DigestFromContentTest.java-8-import org.apache.commons.codec.digest.DigestUtils;
+/docker-adapter/src/test/java/com/artipie/docker/misc/DigestFromContentTest.java-9-import org.hamcrest.MatcherAssert;
+--
+src/main/java/com/artipie/docker/asto/AstoUpload.java-3- * https://github.com/artipie/docker-adapter/LICENSE.txt
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoUpload.java-4- */
+src/main/java/com/artipie/docker/asto/AstoUpload.java:5:package com.artipie.docker.asto;
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoUpload.java-6-
+src/main/java/com/artipie/docker/asto/AstoUpload.java:7:import com.artipie.asto.Content;
+src/main/java/com/artipie/docker/asto/AstoUpload.java:8:import com.artipie.asto.FailedCompletionStage;
+src/main/java/com/artipie/docker/asto/AstoUpload.java:9:import com.artipie.asto.Key;
+src/main/java/com/artipie/docker/asto/AstoUpload.java:10:import com.artipie.asto.MetaCommon;
+src/main/java/com/artipie/docker/asto/AstoUpload.java:11:import com.artipie.asto.Storage;
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoUpload.java-12-import com.artipie.docker.Blob;
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoUpload.java-13-import com.artipie.docker.Digest;
+--
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoUpload.java-151-
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoUpload.java-152-                            @Override
+src/main/java/com/artipie/docker/asto/AstoUpload.java:153:                            public CompletionStage<Void> saveTo(final Storage asto, final Key key) {
+src/main/java/com/artipie/docker/asto/AstoUpload.java:154:                                return asto.move(source, key);
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoUpload.java-155-                            }
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoUpload.java-156-                        }
+--
+src/main/java/com/artipie/docker/asto/BlobsLayout.java-3- * https://github.com/artipie/docker-adapter/LICENSE.txt
+/docker-adapter/src/main/java/com/artipie/docker/asto/BlobsLayout.java-4- */
+src/main/java/com/artipie/docker/asto/BlobsLayout.java:5:package com.artipie.docker.asto;
+/docker-adapter/src/main/java/com/artipie/docker/asto/BlobsLayout.java-6-
+src/main/java/com/artipie/docker/asto/BlobsLayout.java:7:import com.artipie.asto.Key;
+/docker-adapter/src/main/java/com/artipie/docker/asto/BlobsLayout.java-8-import com.artipie.docker.Digest;
+/docker-adapter/src/main/java/com/artipie/docker/asto/BlobsLayout.java-9-import com.artipie.docker.RepoName;
+--
+src/main/java/com/artipie/docker/asto/TrustedBlobSource.java-3- * https://github.com/artipie/docker-adapter/LICENSE.txt
+/docker-adapter/src/main/java/com/artipie/docker/asto/TrustedBlobSource.java-4- */
+src/main/java/com/artipie/docker/asto/TrustedBlobSource.java:5:package com.artipie.docker.asto;
+/docker-adapter/src/main/java/com/artipie/docker/asto/TrustedBlobSource.java-6-
+src/main/java/com/artipie/docker/asto/TrustedBlobSource.java:7:import com.artipie.asto.Content;
+src/main/java/com/artipie/docker/asto/TrustedBlobSource.java:8:import com.artipie.asto.Key;
+src/main/java/com/artipie/docker/asto/TrustedBlobSource.java:9:import com.artipie.asto.Storage;
+/docker-adapter/src/main/java/com/artipie/docker/asto/TrustedBlobSource.java-10-import com.artipie.docker.Digest;
+/docker-adapter/src/main/java/com/artipie/docker/asto/TrustedBlobSource.java-11-import java.util.concurrent.CompletableFuture;
+--
+src/main/java/com/artipie/docker/asto/Layout.java-3- * https://github.com/artipie/docker-adapter/LICENSE.txt
+/docker-adapter/src/main/java/com/artipie/docker/asto/Layout.java-4- */
+src/main/java/com/artipie/docker/asto/Layout.java:5:package com.artipie.docker.asto;
+/docker-adapter/src/main/java/com/artipie/docker/asto/Layout.java-6-
+src/main/java/com/artipie/docker/asto/Layout.java:7:import com.artipie.asto.Key;
+/docker-adapter/src/main/java/com/artipie/docker/asto/Layout.java-8-
+/docker-adapter/src/main/java/com/artipie/docker/asto/Layout.java-9-/**
+--
+/docker-adapter/src/main/java/com/artipie/docker/asto/BlobKey.java-4- */
+/docker-adapter/src/main/java/com/artipie/docker/asto/BlobKey.java-5-
+src/main/java/com/artipie/docker/asto/BlobKey.java:6:package com.artipie.docker.asto;
+/docker-adapter/src/main/java/com/artipie/docker/asto/BlobKey.java-7-
+src/main/java/com/artipie/docker/asto/BlobKey.java:8:import com.artipie.asto.Key;
+/docker-adapter/src/main/java/com/artipie/docker/asto/BlobKey.java-9-import com.artipie.docker.Digest;
+/docker-adapter/src/main/java/com/artipie/docker/asto/BlobKey.java-10-
+--
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoRepo.java-4- */
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoRepo.java-5-
+src/main/java/com/artipie/docker/asto/AstoRepo.java:6:package com.artipie.docker.asto;
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoRepo.java-7-
+src/main/java/com/artipie/docker/asto/AstoRepo.java:8:import com.artipie.asto.Storage;
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoRepo.java-9-import com.artipie.docker.Layers;
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoRepo.java-10-import com.artipie.docker.Manifests;
+--
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoRepo.java-24-     * Asto storage.
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoRepo.java-25-     */
+src/main/java/com/artipie/docker/asto/AstoRepo.java:26:    private final Storage asto;
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoRepo.java-27-
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoRepo.java-28-    /**
+--
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoRepo.java-39-     * Ctor.
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoRepo.java-40-     *
+src/main/java/com/artipie/docker/asto/AstoRepo.java:41:     * @param asto Asto storage
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoRepo.java-42-     * @param layout Storage layout.
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoRepo.java-43-     * @param name Repository name
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoRepo.java-44-     */
+src/main/java/com/artipie/docker/asto/AstoRepo.java:45:    public AstoRepo(final Storage asto, final Layout layout, final RepoName name) {
+src/main/java/com/artipie/docker/asto/AstoRepo.java:46:        this.asto = asto;
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoRepo.java-47-        this.layout = layout;
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoRepo.java-48-        this.name = name;
+--
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoRepo.java-56-    @Override
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoRepo.java-57-    public Manifests manifests() {
+src/main/java/com/artipie/docker/asto/AstoRepo.java:58:        return new AstoManifests(this.asto, this.blobs(), this.layout, this.name);
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoRepo.java-59-    }
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoRepo.java-60-
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoRepo.java-61-    @Override
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoRepo.java-62-    public Uploads uploads() {
+src/main/java/com/artipie/docker/asto/AstoRepo.java:63:        return new AstoUploads(this.asto, this.layout, this.name);
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoRepo.java-64-    }
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoRepo.java-65-
+--
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoRepo.java-70-     */
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoRepo.java-71-    private AstoBlobs blobs() {
+src/main/java/com/artipie/docker/asto/AstoRepo.java:72:        return new AstoBlobs(this.asto, this.layout, this.name);
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoRepo.java-73-    }
+/docker-adapter/src/main/java/com/artipie/docker/asto/AstoRepo.java-74-}
+--
+src/main/java/com/artipie/docker/asto/UploadsLayout.java-3- * https://github.com/artipie/docker-adapter/LICENSE.txt
+/docker-adapter/src/main/java/com/artipie/docker/asto/UploadsLayout.java-4- */
+src/main/java/com/artipie/docker/asto/UploadsLayout.java:5:package com.artipie.docker.asto;
+/docker-adapter/src/main/java/com/artipie/docker/asto/UploadsLayout.java-6-
+src/main/java/com/artipie/docker/asto/UploadsLayout.java:7:import com.artipie.asto.Key;
+/docker-adapter/src/main/java/com/artipie/docker/asto/UploadsLayout.java-8-import com.artipie.docker.RepoName;
+/docker-adapter/src/main/java/com/artipie/docker/asto/UploadsLayout.java-9-
+--
+src/main/java/com/artipie/docker/asto/CheckedBlobSource.java-3- * https://github.com/artipie/docker-adapter/LICENSE.txt
+/docker-adapter/src/main/java/com/artipie/docker/asto/CheckedBlobSource.java-4- */
+src/main/java/com/artipie/docker/asto/CheckedBlobSource.java:5:package com.artipie.docker.asto;
+/docker-adapter/src/main/java/com/artipie/docker/asto/CheckedBlobSource.java-6-
+src/main/java/com/artipie/docker/asto/CheckedBlobSource.java:7:import com.artipie.asto.Content;
+src/main/java/com/artipie/docker/asto/CheckedBlobSource.java:8:import com.artipie.asto.Key;
+src/main/java/com/artipie/docker/asto/CheckedBlobSource.java:9:import com.artipie.asto.Storage;
+/docker-adapter/src/main/java/com/artipie/docker/asto/CheckedBlobSource.java-10-import com.artipie.docker.Digest;
+/docker-adapter/src/main/java/com/artipie/docker/asto/CheckedBlobSource.java-11-import com.artipie.docker.error.InvalidDigestException;
+--
+/docker-adapter/src/main/java/com/artipie/docker/asto/UploadKey.java-4- */
+/docker-adapter/src/main/java/com/artipie/docker/asto/UploadKey.java-5-
+src/main/java/com/artipie/docker/asto/UploadKey.java:6:package com.artipie.docker.asto;
+/docker-adapter/src/main/java/com/artipie/docker/asto/UploadKey.java-7-
+src/main/java/com/artipie/docker/asto/UploadKey.java:8:import com.artipie.asto.Key;
+/docker-adapter/src/main/java/com/artipie/docker/asto/UploadKey.java-9-import com.artipie.docker.RepoName;
+/docker-adapter/src/main/java/com/artipie/docker/asto/UploadKey.java-10-
+--
+src/main/java/com/artipie/docker/asto/ManifestsLayout.java-3- * https://github.com/artipie/docker-adapter/LICENSE.txt
+/docker-adapter/src/main/java/com/artipie/docker/asto/ManifestsLayout.java-4- */
+src/main/java/com/artipie/docker/asto/ManifestsLayout.java:5:package com.artipie.docker.asto;
+/docker-adapter/src/main/java/com/artipie/docker/asto/ManifestsLayout.java-6-
+src/main/java/com/artipie/docker/asto/ManifestsLayout.java:7:import com.artipie.asto.Key;
+/docker-adapter/src/main/java/com/artipie/docker/asto/ManifestsLayout.java-8-import com.artipie.docker.RepoName;
+/docker-adapter/src/main/java/com/artipie/docker/asto/ManifestsLayout.java-9-import com.artipie.docker.ref.ManifestRef;
+--
+/docker-adapter/src/main/java/com/artipie/docker/Docker.java-11-/**
+/docker-adapter/src/main/java/com/artipie/docker/Docker.java-12- * Docker registry storage main object.
+src/main/java/com/artipie/docker/Docker.java:13: * @see com.artipie.docker.asto.AstoDocker
+/docker-adapter/src/main/java/com/artipie/docker/Docker.java-14- * @since 0.1
+/docker-adapter/src/main/java/com/artipie/docker/Docker.java-15- */
+--
+/docker-adapter/src/main/java/com/artipie/docker/ref/ManifestRef.java-6-package com.artipie.docker.ref;
+/docker-adapter/src/main/java/com/artipie/docker/ref/ManifestRef.java-7-
+src/main/java/com/artipie/docker/ref/ManifestRef.java:8:import com.artipie.asto.Key;
+/docker-adapter/src/main/java/com/artipie/docker/ref/ManifestRef.java-9-import com.artipie.docker.Digest;
+/docker-adapter/src/main/java/com/artipie/docker/ref/ManifestRef.java-10-import com.artipie.docker.Tag;
+--
+/docker-adapter/src/main/java/com/artipie/docker/misc/DigestFromContent.java-5-package com.artipie.docker.misc;
+/docker-adapter/src/main/java/com/artipie/docker/misc/DigestFromContent.java-6-
+src/main/java/com/artipie/docker/misc/DigestFromContent.java:7:import com.artipie.asto.Content;
+src/main/java/com/artipie/docker/misc/DigestFromContent.java:8:import com.artipie.asto.ext.ContentDigest;
+src/main/java/com/artipie/docker/misc/DigestFromContent.java:9:import com.artipie.asto.ext.Digests;
+/docker-adapter/src/main/java/com/artipie/docker/misc/DigestFromContent.java-10-import com.artipie.docker.Digest;
+/docker-adapter/src/main/java/com/artipie/docker/misc/DigestFromContent.java-11-import java.util.concurrent.CompletionStage;
+--
+/docker-adapter/src/main/java/com/artipie/docker/misc/CatalogPage.java-5-package com.artipie.docker.misc;
+/docker-adapter/src/main/java/com/artipie/docker/misc/CatalogPage.java-6-
+src/main/java/com/artipie/docker/misc/CatalogPage.java:7:import com.artipie.asto.Content;
+/docker-adapter/src/main/java/com/artipie/docker/misc/CatalogPage.java-8-import com.artipie.docker.Catalog;
+/docker-adapter/src/main/java/com/artipie/docker/misc/CatalogPage.java-9-import com.artipie.docker.RepoName;
+--
+/docker-adapter/src/main/java/com/artipie/docker/misc/ParsedCatalog.java-5-package com.artipie.docker.misc;
+/docker-adapter/src/main/java/com/artipie/docker/misc/ParsedCatalog.java-6-
+src/main/java/com/artipie/docker/misc/ParsedCatalog.java:7:import com.artipie.asto.Content;
+src/main/java/com/artipie/docker/misc/ParsedCatalog.java:8:import com.artipie.asto.ext.PublisherAs;
+/docker-adapter/src/main/java/com/artipie/docker/misc/ParsedCatalog.java-9-import com.artipie.docker.Catalog;
+/docker-adapter/src/main/java/com/artipie/docker/misc/ParsedCatalog.java-10-import com.artipie.docker.RepoName;
+--
+/docker-adapter/src/main/java/com/artipie/docker/misc/DigestedFlowable.java-5-package com.artipie.docker.misc;
+/docker-adapter/src/main/java/com/artipie/docker/misc/DigestedFlowable.java-6-
+src/main/java/com/artipie/docker/misc/DigestedFlowable.java:7:import com.artipie.asto.Remaining;
+src/main/java/com/artipie/docker/misc/DigestedFlowable.java:8:import com.artipie.asto.ext.Digests;
+/docker-adapter/src/main/java/com/artipie/docker/misc/DigestedFlowable.java-9-import com.artipie.docker.Digest;
+/docker-adapter/src/main/java/com/artipie/docker/misc/DigestedFlowable.java-10-import io.reactivex.Flowable;
+--
+/docker-adapter/src/main/java/com/artipie/docker/misc/TagsPage.java-5-package com.artipie.docker.misc;
+/docker-adapter/src/main/java/com/artipie/docker/misc/TagsPage.java-6-
+src/main/java/com/artipie/docker/misc/TagsPage.java:7:import com.artipie.asto.Content;
+/docker-adapter/src/main/java/com/artipie/docker/misc/TagsPage.java-8-import com.artipie.docker.RepoName;
+/docker-adapter/src/main/java/com/artipie/docker/misc/TagsPage.java-9-import com.artipie.docker.Tag;
+--
+/docker-adapter/src/main/java/com/artipie/docker/misc/ParsedTags.java-5-package com.artipie.docker.misc;
+/docker-adapter/src/main/java/com/artipie/docker/misc/ParsedTags.java-6-
+src/main/java/com/artipie/docker/misc/ParsedTags.java:7:import com.artipie.asto.Content;
+src/main/java/com/artipie/docker/misc/ParsedTags.java:8:import com.artipie.asto.ext.PublisherAs;
+/docker-adapter/src/main/java/com/artipie/docker/misc/ParsedTags.java-9-import com.artipie.docker.RepoName;
+/docker-adapter/src/main/java/com/artipie/docker/misc/ParsedTags.java-10-import com.artipie.docker.Tag;
+--
+/docker-adapter/src/main/java/com/artipie/docker/Catalog.java-5-package com.artipie.docker;
+/docker-adapter/src/main/java/com/artipie/docker/Catalog.java-6-
+src/main/java/com/artipie/docker/Catalog.java:7:import com.artipie.asto.Content;
+/docker-adapter/src/main/java/com/artipie/docker/Catalog.java-8-
+/docker-adapter/src/main/java/com/artipie/docker/Catalog.java-9-/**
+--
+/docker-adapter/src/main/java/com/artipie/docker/manifest/Manifest.java-5-package com.artipie.docker.manifest;
+/docker-adapter/src/main/java/com/artipie/docker/manifest/Manifest.java-6-
+src/main/java/com/artipie/docker/manifest/Manifest.java:7:import com.artipie.asto.Content;
+/docker-adapter/src/main/java/com/artipie/docker/manifest/Manifest.java-8-import com.artipie.docker.Digest;
+/docker-adapter/src/main/java/com/artipie/docker/manifest/Manifest.java-9-import java.util.Collection;
+--
+/docker-adapter/src/main/java/com/artipie/docker/manifest/JsonManifest.java-5-package com.artipie.docker.manifest;
+/docker-adapter/src/main/java/com/artipie/docker/manifest/JsonManifest.java-6-
+src/main/java/com/artipie/docker/manifest/JsonManifest.java:7:import com.artipie.asto.Content;
+/docker-adapter/src/main/java/com/artipie/docker/manifest/JsonManifest.java-8-import com.artipie.docker.Digest;
+/docker-adapter/src/main/java/com/artipie/docker/manifest/JsonManifest.java-9-import com.artipie.docker.error.InvalidManifestException;
+--
+/docker-adapter/src/test/java/com/artipie/docker/misc/JoinedTagsSourceTest.java-5-package com.artipie.docker.misc;
+/docker-adapter/src/test/java/com/artipie/docker/misc/JoinedTagsSourceTest.java-6-
+src/test/java/com/artipie/docker/misc/JoinedTagsSourceTest.java:7:import com.artipie.asto.Content;
+src/test/java/com/artipie/docker/misc/JoinedTagsSourceTest.java:8:import com.artipie.asto.ext.PublisherAs;
+/docker-adapter/src/test/java/com/artipie/docker/misc/JoinedTagsSourceTest.java-9-import com.artipie.docker.RepoName;
+/docker-adapter/src/test/java/com/artipie/docker/misc/JoinedTagsSourceTest.java-10-import com.artipie.docker.Tag;
+--
+/docker-adapter/src/test/java/com/artipie/docker/misc/JoinedCatalogSourceTest.java-5-package com.artipie.docker.misc;
+/docker-adapter/src/test/java/com/artipie/docker/misc/JoinedCatalogSourceTest.java-6-
+src/test/java/com/artipie/docker/misc/JoinedCatalogSourceTest.java:7:import com.artipie.asto.Content;
+src/test/java/com/artipie/docker/misc/JoinedCatalogSourceTest.java:8:import com.artipie.asto.ext.PublisherAs;
+/docker-adapter/src/test/java/com/artipie/docker/misc/JoinedCatalogSourceTest.java-9-import com.artipie.docker.RepoName;
+/docker-adapter/src/test/java/com/artipie/docker/misc/JoinedCatalogSourceTest.java-10-import com.artipie.docker.fake.FakeCatalogDocker;
+--
+/docker-adapter/src/test/java/com/artipie/docker/misc/ParsedTagsTest.java-5-package com.artipie.docker.misc;
+/docker-adapter/src/test/java/com/artipie/docker/misc/ParsedTagsTest.java-6-
+src/test/java/com/artipie/docker/misc/ParsedTagsTest.java:7:import com.artipie.asto.Content;
+/docker-adapter/src/test/java/com/artipie/docker/misc/ParsedTagsTest.java-8-import com.artipie.docker.Tag;
+/docker-adapter/src/test/java/com/artipie/docker/misc/ParsedTagsTest.java-9-import java.util.stream.Collectors;
+--
+/docker-adapter/src/test/java/com/artipie/docker/ExampleStorage.java-5-package com.artipie.docker;
+/docker-adapter/src/test/java/com/artipie/docker/ExampleStorage.java-6-
+src/test/java/com/artipie/docker/ExampleStorage.java:7:import com.artipie.asto.Copy;
+src/test/java/com/artipie/docker/ExampleStorage.java:8:import com.artipie.asto.Storage;
+src/test/java/com/artipie/docker/ExampleStorage.java:9:import com.artipie.asto.fs.FileStorage;
+src/test/java/com/artipie/docker/ExampleStorage.java:10:import com.artipie.asto.memory.InMemoryStorage;
+src/test/java/com/artipie/docker/ExampleStorage.java:11:import com.artipie.asto.test.TestResource;
+/docker-adapter/src/test/java/com/artipie/docker/ExampleStorage.java-12-
+/docker-adapter/src/test/java/com/artipie/docker/ExampleStorage.java-13-/**
+--
+/docker-adapter/src/test/java/com/artipie/docker/misc/TagsPageTest.java-5-package com.artipie.docker.misc;
+/docker-adapter/src/test/java/com/artipie/docker/misc/TagsPageTest.java-6-
+src/test/java/com/artipie/docker/misc/TagsPageTest.java:7:import com.artipie.asto.ext.PublisherAs;
+/docker-adapter/src/test/java/com/artipie/docker/misc/TagsPageTest.java-8-import com.artipie.docker.RepoName;
+/docker-adapter/src/test/java/com/artipie/docker/misc/TagsPageTest.java-9-import com.artipie.docker.Tag;

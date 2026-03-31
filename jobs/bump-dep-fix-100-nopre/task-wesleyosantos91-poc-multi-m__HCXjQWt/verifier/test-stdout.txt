@@ -1,0 +1,16 @@
+=== Running mvn compile to verify fix ===
+[ERROR] COMPILATION ERROR : 
+[ERROR] /poc-multi-module-arch-hexagonal-springboot/application/src/main/java/io/github/wesleyosantos91/api/v1/mapper/PersonHttpMapper.java:[11,1] Couldn't retrieve @Mapper annotation
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.10.1:compile (default-compile) on project application: Compilation failure
+[ERROR] /poc-multi-module-arch-hexagonal-springboot/application/src/main/java/io/github/wesleyosantos91/api/v1/mapper/PersonHttpMapper.java:[11,1] Couldn't retrieve @Mapper annotation
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <args> -rf :application
+COMPILATION FAILED

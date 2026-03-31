@@ -1,0 +1,27 @@
+=== Running mvn compile to verify fix ===
+[ERROR] COMPILATION ERROR : 
+[ERROR] /java-pubsub-group-kafka-connector/src/main/java/com/google/pubsublite/kafka/sink/PublisherFactoryImpl.java:[78,47] incompatible types: invalid method reference
+    getMetadata() is not public in com.google.cloud.pubsublite.internal.wire.PubsubContext; cannot be accessed from outside package
+[ERROR] /java-pubsub-group-kafka-connector/src/main/java/com/google/pubsublite/kafka/sink/PublisherFactoryImpl.java:[87,33] cannot find symbol
+  symbol:   method publishPartitionStreamBuilder()
+  location: variable client of type com.google.cloud.pubsublite.v1.PublisherServiceClient
+[ERROR] /java-pubsub-group-kafka-connector/src/main/java/com/google/pubsublite/kafka/sink/PublisherFactoryImpl.java:[88,50] cannot find symbol
+  symbol:   method toSubscriptionPath()
+  location: variable topic of type com.google.cloud.pubsublite.TopicPath
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project pubsub-group-kafka-connector: Compilation failure: Compilation failure: 
+[ERROR] /java-pubsub-group-kafka-connector/src/main/java/com/google/pubsublite/kafka/sink/PublisherFactoryImpl.java:[78,47] incompatible types: invalid method reference
+[ERROR]     getMetadata() is not public in com.google.cloud.pubsublite.internal.wire.PubsubContext; cannot be accessed from outside package
+[ERROR] /java-pubsub-group-kafka-connector/src/main/java/com/google/pubsublite/kafka/sink/PublisherFactoryImpl.java:[87,33] cannot find symbol
+[ERROR]   symbol:   method publishPartitionStreamBuilder()
+[ERROR]   location: variable client of type com.google.cloud.pubsublite.v1.PublisherServiceClient
+[ERROR] /java-pubsub-group-kafka-connector/src/main/java/com/google/pubsublite/kafka/sink/PublisherFactoryImpl.java:[88,50] cannot find symbol
+[ERROR]   symbol:   method toSubscriptionPath()
+[ERROR]   location: variable topic of type com.google.cloud.pubsublite.TopicPath
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+COMPILATION FAILED

@@ -1,0 +1,13 @@
+export PATH="$HOME/.local/bin:$PATH"; claude --verbose --output-format=stream-json --permission-mode=bypassPermissions  --print -- '﻿# Fix Maven Compilation Failure: jcabi-aspects 0.24.1 -> 0.25.1
+
+## Context
+
+Project `jcabi-ssh` (by jcabi) has a **COMPILATION_FAILURE** after a dependency upgrade bot bumped
+`com.jcabi:jcabi-aspects` from `0.24.1` to `0.25.1` (minor update).
+
+Reference PR: https://github.com/jcabi/jcabi-ssh/pull/148
+
+## Your Task
+
+The source code is in `/jcabi-ssh`. Fix all compilation errors so that `mvn compile` succeeds.
+' 2>&1 </dev/null | stdbuf -oL tee /logs/agent/claude-code.txt

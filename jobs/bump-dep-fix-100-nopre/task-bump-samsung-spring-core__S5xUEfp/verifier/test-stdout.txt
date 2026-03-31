@@ -1,0 +1,41 @@
+=== Running mvn compile to verify fix ===
+[ERROR] COMPILATION ERROR : 
+[ERROR] /LPVS/src/main/java/com/lpvs/util/LPVSFileUtil.java:[15,32] cannot access org.springframework.util.FileSystemUtils
+  bad class file: /root/.m2/repository/org/springframework/spring-core/6.0.8/spring-core-6.0.8.jar(/org/springframework/util/FileSystemUtils.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+[ERROR] /LPVS/src/main/java/com/lpvs/LicensePreValidationSystem.java:[15,37] cannot access org.springframework.core.task.TaskExecutor
+  bad class file: /root/.m2/repository/org/springframework/spring-core/6.0.8/spring-core-6.0.8.jar(/org/springframework/core/task/TaskExecutor.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+[ERROR] /LPVS/src/main/java/com/lpvs/controller/GitHubWebhooksController.java:[27,32] cannot access org.springframework.util.StringUtils
+  bad class file: /root/.m2/repository/org/springframework/spring-core/6.0.8/spring-core-6.0.8.jar(/org/springframework/util/StringUtils.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+[ERROR] /LPVS/src/main/java/com/lpvs/LicensePreValidationSystem.java:[37,12] cannot find symbol
+  symbol:   class TaskExecutor
+  location: class com.lpvs.LicensePreValidationSystem
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile (default-compile) on project lpvs: Compilation failure: Compilation failure: 
+[ERROR] /LPVS/src/main/java/com/lpvs/util/LPVSFileUtil.java:[15,32] cannot access org.springframework.util.FileSystemUtils
+[ERROR]   bad class file: /root/.m2/repository/org/springframework/spring-core/6.0.8/spring-core-6.0.8.jar(/org/springframework/util/FileSystemUtils.class)
+[ERROR]     class file has wrong version 61.0, should be 55.0
+[ERROR]     Please remove or make sure it appears in the correct subdirectory of the classpath.
+[ERROR] /LPVS/src/main/java/com/lpvs/LicensePreValidationSystem.java:[15,37] cannot access org.springframework.core.task.TaskExecutor
+[ERROR]   bad class file: /root/.m2/repository/org/springframework/spring-core/6.0.8/spring-core-6.0.8.jar(/org/springframework/core/task/TaskExecutor.class)
+[ERROR]     class file has wrong version 61.0, should be 55.0
+[ERROR]     Please remove or make sure it appears in the correct subdirectory of the classpath.
+[ERROR] /LPVS/src/main/java/com/lpvs/controller/GitHubWebhooksController.java:[27,32] cannot access org.springframework.util.StringUtils
+[ERROR]   bad class file: /root/.m2/repository/org/springframework/spring-core/6.0.8/spring-core-6.0.8.jar(/org/springframework/util/StringUtils.class)
+[ERROR]     class file has wrong version 61.0, should be 55.0
+[ERROR]     Please remove or make sure it appears in the correct subdirectory of the classpath.
+[ERROR] /LPVS/src/main/java/com/lpvs/LicensePreValidationSystem.java:[37,12] cannot find symbol
+[ERROR]   symbol:   class TaskExecutor
+[ERROR]   location: class com.lpvs.LicensePreValidationSystem
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+COMPILATION FAILED

@@ -1,0 +1,199 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] Inspecting build with total of 1 modules...
+[[1;34mINFO[m] Installing Nexus Staging features:
+[[1;34mINFO[m]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------< [0;36mcn.monitor4all:log-record-starter[0;1m >------------------[m
+[[1;34mINFO[m] [1mBuilding log-record-starter 1.4.0[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-stream/3.1.4/spring-cloud-stream-3.1.4.pom
+Progress (1): 3.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-stream/3.1.4/spring-cloud-stream-3.1.4.pom (3.2 kB at 6.2 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-stream-parent/3.1.4/spring-cloud-stream-parent-3.1.4.pom
+Progress (1): 4.1 kBProgress (1): 7.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-stream-parent/3.1.4/spring-cloud-stream-parent-3.1.4.pom (7.9 kB at 24 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-build/3.0.4/spring-cloud-build-3.0.4.pom
+Progress (1): 4.1 kBProgress (1): 8.2 kBProgress (1): 12 kB Progress (1): 16 kBProgress (1): 20 kBProgress (1): 25 kBProgress (1): 29 kBProgress (1): 33 kBProgress (1): 37 kBProgress (1): 41 kBProgress (1): 45 kBProgress (1): 49 kBProgress (1): 53 kBProgress (1): 53 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-build/3.0.4/spring-cloud-build-3.0.4.pom (53 kB at 404 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-build-dependencies/3.0.4/spring-cloud-build-dependencies-3.0.4.pom
+Progress (1): 3.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-build-dependencies/3.0.4/spring-cloud-build-dependencies-3.0.4.pom (3.2 kB at 28 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-dependencies/2.4.10/spring-boot-dependencies-2.4.10.pom
+Progress (1): 4.1 kBProgress (1): 8.2 kBProgress (1): 12 kB Progress (1): 16 kBProgress (1): 20 kBProgress (1): 25 kBProgress (1): 29 kBProgress (1): 33 kBProgress (1): 37 kBProgress (1): 41 kBProgress (1): 45 kBProgress (1): 49 kBProgress (1): 53 kBProgress (1): 57 kBProgress (1): 61 kBProgress (1): 66 kBProgress (1): 70 kBProgress (1): 74 kBProgress (1): 78 kBProgress (1): 82 kBProgress (1): 86 kBProgress (1): 90 kBProgress (1): 94 kBProgress (1): 98 kBProgress (1): 102 kBProgress (1): 106 kBProgress (1): 108 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-dependencies/2.4.10/spring-boot-dependencies-2.4.10.pom (108 kB at 769 kB/s)
+Downloading from spring-snapshots: https://repo.spring.io/libs-snapshot-local/com/datastax/oss/java-driver-bom/4.9.0/java-driver-bom-4.9.0.pom
+Downloading from spring-milestones: https://repo.spring.io/libs-milestone-local/com/datastax/oss/java-driver-bom/4.9.0/java-driver-bom-4.9.0.pom
+Downloading from rsocket-snapshots: https://oss.jfrog.org/oss-snapshot-local/com/datastax/oss/java-driver-bom/4.9.0/java-driver-bom-4.9.0.pom
+Downloading from spring-releases: https://repo.spring.io/release/com/datastax/oss/java-driver-bom/4.9.0/java-driver-bom-4.9.0.pom
+Downloading from central: https://repo.maven.apache.org/maven2/com/datastax/oss/java-driver-bom/4.9.0/java-driver-bom-4.9.0.pom
+Progress (1): 4.1 kBProgress (1): 4.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/com/datastax/oss/java-driver-bom/4.9.0/java-driver-bom-4.9.0.pom (4.1 kB at 101 kB/s)
+Downloading from spring-snapshots: https://repo.spring.io/libs-snapshot-local/io/dropwizard/metrics/metrics-bom/4.1.25/metrics-bom-4.1.25.pom
+Downloading from spring-milestones: https://repo.spring.io/libs-milestone-local/io/dropwizard/metrics/metrics-bom/4.1.25/metrics-bom-4.1.25.pom
+Downloading from rsocket-snapshots: https://oss.jfrog.org/oss-snapshot-local/io/dropwizard/metrics/metrics-bom/4.1.25/metrics-bom-4.1.25.pom
+Downloading from spring-releases: https://repo.spring.io/release/io/dropwizard/metrics/metrics-bom/4.1.25/metrics-bom-4.1.25.pom
+Downloading from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-bom/4.1.25/metrics-bom-4.1.25.pom
+Progress (1): 4.1 kBProgress (1): 5.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-bom/4.1.25/metrics-bom-4.1.25.pom (5.3 kB at 124 kB/s)
+Downloading from spring-snapshots: https://repo.spring.io/libs-snapshot-local/io/dropwizard/metrics/metrics-parent/4.1.25/metrics-parent-4.1.25.pom
+Downloading from spring-milestones: https://repo.spring.io/libs-milestone-local/io/dropwizard/metrics/metrics-parent/4.1.25/metrics-parent-4.1.25.pom
+Downloading from rsocket-snapshots: https://oss.jfrog.org/oss-snapshot-local/io/dropwizard/metrics/metrics-parent/4.1.25/metrics-parent-4.1.25.pom
+Downloading from spring-releases: https://repo.spring.io/release/io/dropwizard/metrics/metrics-parent/4.1.25/metrics-parent-4.1.25.pom
+Downloading from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-parent/4.1.25/metrics-parent-4.1.25.pom
+Progress (1): 4.1 kBProgress (1): 8.2 kBProgress (1): 12 kB Progress (1): 16 kBProgress (1): 17 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/io/dropwizard/metrics/metrics-parent/4.1.25/metrics-parent-4.1.25.pom (17 kB at 385 kB/s)
+Downloading from spring-snapshots: https://repo.spring.io/libs-snapshot-local/org/codehaus/groovy/groovy-bom/2.5.14/groovy-bom-2.5.14.pom
+Downloading from spring-milestones: https://repo.spring.io/libs-milestone-local/org/codehaus/groovy/groovy-bom/2.5.14/groovy-bom-2.5.14.pom
+Downloading from rsocket-snapshots: https://oss.jfrog.org/oss-snapshot-local/org/codehaus/groovy/groovy-bom/2.5.14/groovy-bom-2.5.14.pom
+Downloading from spring-releases: https://repo.spring.io/release/org/codehaus/groovy/groovy-bom/2.5.14/groovy-bom-2.5.14.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-bom/2.5.14/groovy-bom-2.5.14.pom
+Progress (1): 4.1 kBProgress (1): 8.2 kBProgress (1): 12 kB Progress (1): 16 kBProgress (1): 20 kBProgress (1): 25 kBProgress (1): 26 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-bom/2.5.14/groovy-bom-2.5.14.pom (26 kB at 627 kB/s)
+Downloading from spring-snapshots: https://repo.spring.io/libs-snapshot-local/org/infinispan/infinispan-bom/11.0.11.Final/infinispan-bom-11.0.11.Final.pom
+Downloading from spring-milestones: https://repo.spring.io/libs-milestone-local/org/infinispan/infinispan-bom/11.0.11.Final/infinispan-bom-11.0.11.Final.pom
+Downloading from rsocket-snapshots: https://oss.jfrog.org/oss-snapshot-local/org/infinispan/infinispan-bom/11.0.11.Final/infinispan-bom-11.0.11.Final.pom
+Downloading from spring-releases: https://repo.spring.io/release/org/infinispan/infinispan-bom/11.0.11.Final/infinispan-bom-11.0.11.Final.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/infinispan/infinispan-bom/11.0.11.Final/infinispan-bom-11.0.11.Final.pom
+Progress (1): 4.1 kBProgress (1): 8.2 kBProgress (1): 12 kB Progress (1): 16 kBProgress (1): 19 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/infinispan/infinispan-bom/11.0.11.Final/infinispan-bom-11.0.11.Final.pom (19 kB at 448 kB/s)
+Downloading from spring-snapshots: https://repo.spring.io/libs-snapshot-local/org/infinispan/infinispan-build-configuration-parent/11.0.11.Final/infinispan-build-configuration-parent-11.0.11.Final.pom
+Downloading from spring-milestones: https://repo.spring.io/libs-milestone-local/org/infinispan/infinispan-build-configuration-parent/11.0.11.Final/infinispan-build-configuration-parent-11.0.11.Final.pom
+Downloading from rsocket-snapshots: https://oss.jfrog.org/oss-snapshot-local/org/infinispan/infinispan-build-configuration-parent/11.0.11.Final/infinispan-build-configuration-parent-11.0.11.Final.pom
+Downloading from spring-releases: https://repo.spring.io/release/org/infinispan/infinispan-build-configuration-parent/11.0.11.Final/infinispan-build-configuration-parent-11.0.11.Final.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/infinispan/infinispan-build-configuration-parent/11.0.11.Final/infinispan-build-configuration-parent-11.0.11.Final.pom
+Progress (1): 4.1 kBProgress (1): 8.2 kBProgress (1): 12 kB Progress (1): 13 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/infinispan/infinispan-build-configuration-parent/11.0.11.Final/infinispan-build-configuration-parent-11.0.11.Final.pom (13 kB at 325 kB/s)
+Downloading from spring-snapshots: https://repo.spring.io/libs-snapshot-local/com/fasterxml/jackson/jackson-bom/2.11.4/jackson-bom-2.11.4.pom
+Downloading from spring-milestones: https://repo.spring.io/libs-milestone-local/com/fasterxml/jackson/jackson-bom/2.11.4/jackson-bom-2.11.4.pom
+Downloading from rsocket-snapshots: https://oss.jfrog.org/oss-snapshot-local/com/fasterxml/jackson/jackson-bom/2.11.4/jackson-bom-2.11.4.pom
+Downloading from spring-releases: https://repo.spring.io/release/com/fasterxml/jackson/jackson-bom/2.11.4/jackson-bom-2.11.4.pom
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.11.4/jackson-bom-2.11.4.pom
+Progress (1): 4.1 kBProgress (1): 8.2 kBProgress (1): 12 kB Progress (1): 15 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.11.4/jackson-bom-2.11.4.pom (15 kB at 331 kB/s)
+Downloading from spring-snapshots: https://repo.spring.io/libs-snapshot-local/com/fasterxml/jackson/jackson-parent/2.11/jackson-parent-2.11.pom
+Downloading from spring-milestones: https://repo.spring.io/libs-milestone-local/com/fasterxml/jackson/jackson-parent/2.11/jackson-parent-2.11.pom
+Downloading from rsocket-snapshots: https://oss.jfrog.org/oss-snapshot-local/com/fasterxml/jackson/jackson-parent/2.11/jackson-parent-2.11.pom
+Downloading from spring-releases: https://repo.spring.io/release/com/fasterxml/jackson/jackson-parent/2.11/jackson-parent-2.11.pom
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-parent/2.11/jackson-parent-2.11.pom
+Progress (1): 4.1 kBProgress (1): 7.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-parent/2.11/jackson-parent-2.11.pom (7.8 kB at 185 kB/s)
+Downloading from spring-snapshots: https://repo.spring.io/libs-snapshot-local/com/fasterxml/oss-parent/38/oss-parent-38.pom
+Downloading from spring-milestones: https://repo.spring.io/libs-milestone-local/com/fasterxml/oss-parent/38/oss-parent-38.pom
+Downloading from rsocket-snapshots: https://oss.jfrog.org/oss-snapshot-local/com/fasterxml/oss-parent/38/oss-parent-38.pom
+Downloading from spring-releases: https://repo.spring.io/release/com/fasterxml/oss-parent/38/oss-parent-38.pom
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/38/oss-parent-38.pom
+Progress (1): 4.1 kBProgress (1): 8.2 kBProgress (1): 12 kB Progress (1): 16 kBProgress (1): 20 kBProgress (1): 23 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/38/oss-parent-38.pom (23 kB at 549 kB/s)
+Downloading from spring-snapshots: https://repo.spring.io/libs-snapshot-local/org/glassfish/jersey/jersey-bom/2.32/jersey-bom-2.32.pom
+Downloading from spring-milestones: https://repo.spring.io/libs-milestone-local/org/glassfish/jersey/jersey-bom/2.32/jersey-bom-2.32.pom
+Downloading from rsocket-snapshots: https://oss.jfrog.org/oss-snapshot-local/org/glassfish/jersey/jersey-bom/2.32/jersey-bom-2.32.pom
+Downloading from spring-releases: https://repo.spring.io/release/org/glassfish/jersey/jersey-bom/2.32/jersey-bom-2.32.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/jersey-bom/2.32/jersey-bom-2.32.pom
+Progress (1): 4.1 kBProgress (1): 8.2 kBProgress (1): 12 kB Progress (1): 16 kBProgress (1): 19 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/jersey/jersey-bom/2.32/jersey-bom-2.32.pom (19 kB at 444 kB/s)
+Downloading from spring-snapshots: https://repo.spring.io/libs-snapshot-local/org/eclipse/jetty/jetty-bom/9.4.43.v20210629/jetty-bom-9.4.43.v20210629.pom
+Downloading from spring-milestones: https://repo.spring.io/libs-milestone-local/org/eclipse/jetty/jetty-bom/9.4.43.v20210629/jetty-bom-9.4.43.v20210629.pom
+Downloading from rsocket-snapshots: https://oss.jfrog.org/oss-snapshot-local/org/eclipse/jetty/jetty-bom/9.4.43.v20210629/jetty-bom-9.4.43.v20210629.pom
+Downloading from spring-releases: https://repo.spring.io/release/org/eclipse/jetty/jetty-bom/9.4.43.v20210629/jetty-bom-9.4.43.v20210629.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-bom/9.4.43.v20210629/jetty-bom-9.4.43.v20210629.pom
+Progress (1): 4.1 kBProgress (1): 8.2 kBProgress (1): 12 kB Progress (1): 16 kBProgress (1): 18 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-bom/9.4.43.v20210629/jetty-bom-9.4.43.v20210629.pom (18 kB at 401 kB/s)
+Downloading from spring-snapshots: https://repo.spring.io/libs-snapshot-local/org/jetbrains/kotlin/kotlin-bom/1.4.32/kotlin-bom-1.4.32.pom
+Downloading from spring-milestones: https://repo.spring.io/libs-milestone-local/org/jetbrains/kotlin/kotlin-bom/1.4.32/kotlin-bom-1.4.32.pom
+Downloading from rsocket-snapshots: https://oss.jfrog.org/oss-snapshot-local/org/jetbrains/kotlin/kotlin-bom/1.4.32/kotlin-bom-1.4.32.pom
+Downloading from spring-releases: https://repo.spring.io/release/org/jetbrains/kotlin/kotlin-bom/1.4.32/kotlin-bom-1.4.32.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-bom/1.4.32/kotlin-bom-1.4.32.pom
+Progress (1): 4.1 kBProgress (1): 8.2 kBProgress (1): 9.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-bom/1.4.32/kotlin-bom-1.4.32.pom (9.3 kB at 83 kB/s)
+Downloading from spring-snapshots: https://repo.spring.io/libs-snapshot-local/org/jetbrains/kotlinx/kotlinx-coroutines-bom/1.4.3/kotlinx-coroutines-bom-1.4.3.pom
+Downloading from spring-milestones: https://repo.spring.io/libs-milestone-local/org/jetbrains/kotlinx/kotlinx-coroutines-bom/1.4.3/kotlinx-coroutines-bom-1.4.3.pom
+Downloading from rsocket-snapshots: https://oss.jfrog.org/oss-snapshot-local/org/jetbrains/kotlinx/kotlinx-coroutines-bom/1.4.3/kotlinx-coroutines-bom-1.4.3.pom
+Downloading from spring-releases: https://repo.spring.io/release/org/jetbrains/kotlinx/kotlinx-coroutines-bom/1.4.3/kotlinx-coroutines-bom-1.4.3.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-bom/1.4.3/kotlinx-coroutines-bom-1.4.3.pom
+Progress (1): 4.1 kBProgress (1): 4.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-bom/1.4.3/kotlinx-coroutines-bom-1.4.3.pom (4.1 kB at 100 kB/s)
+Downloading from spring-snapshots: https://repo.spring.io/libs-snapshot-local/org/apache/logging/log4j/log4j-bom/2.13.3/log4j-bom-2.13.3.pom
+Downloading from spring-milestones: https://repo.spring.io/libs-milestone-local/org/apache/logging/log4j/log4j-bom/2.13.3/log4j-bom-2.13.3.pom
+Downloading from rsocket-snapshots: https://oss.jfrog.org/oss-snapshot-local/org/apache/logging/log4j/log4j-bom/2.13.3/log4j-bom-2.13.3.pom
+Downloading from spring-releases: https://repo.spring.io/release/org/apache/logging/log4j/log4j-bom/2.13.3/log4j-bom-2.13.3.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-bom/2.13.3/log4j-bom-2.13.3.pom
+Progress (1): 4.1 kBProgress (1): 7.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-bom/2.13.3/log4j-bom-2.13.3.pom (7.6 kB at 166 kB/s)
+Downloading from spring-snapshots: https://repo.spring.io/libs-snapshot-local/org/apache/logging/logging-parent/1/logging-parent-1.pom
+Downloading from spring-milestones: https://repo.spring.io/libs-milestone-local/org/apache/logging/logging-parent/1/logging-parent-1.pom
+Downloading from rsocket-snapshots: https://oss.jfrog.org/oss-snapshot-local/org/apache/logging/logging-parent/1/logging-parent-1.pom
+Downloading from spring-releases: https://repo.spring.io/release/org/apache/logging/logging-parent/1/logging-parent-1.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/logging/logging-parent/1/logging-parent-1.pom
+Progress (1): 3.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/logging/logging-parent/1/logging-parent-1.pom (3.2 kB at 81 kB/s)
+Downloading from spring-snapshots: https://repo.spring.io/libs-snapshot-local/io/micrometer/micrometer-bom/1.6.10/micrometer-bom-1.6.10.pom
+Downloading from spring-milestones: https://repo.spring.io/libs-milestone-local/io/micrometer/micrometer-bom/1.6.10/micrometer-bom-1.6.10.pom
+Downloading from rsocket-snapshots: https://oss.jfrog.org/oss-snapshot-local/io/micrometer/micrometer-bom/1.6.10/micrometer-bom-1.6.10.pom
+Downloading from spring-releases: https://repo.spring.io/release/io/micrometer/micrometer-bom/1.6.10/micrometer-bom-1.6.10.pom
+Downloading from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-bom/1.6.10/micrometer-bom-1.6.10.pom
+Progress (1): 4.1 kBProgress (1): 6.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-bom/1.6.10/micrometer-bom-1.6.10.pom (6.9 kB at 62 kB/s)
+Downloading from spring-snapshots: https://repo.spring.io/libs-snapshot-local/io/netty/netty-bom/4.1.67.Final/netty-bom-4.1.67.Final.pom
+Downloading from spring-milestones: https://repo.spring.io/libs-milestone-local/io/netty/netty-bom/4.1.67.Final/netty-bom-4.1.67.Final.pom
+Downloading from rsocket-snapshots: https://oss.jfrog.org/oss-snapshot-local/io/netty/netty-bom/4.1.67.Final/netty-bom-4.1.67.Final.pom
+Downloading from spring-releases: https://repo.spring.io/release/io/netty/netty-bom/4.1.67.Final/netty-bom-4.1.67.Final.pom
+Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-bom/4.1.67.Final/netty-bom-4.1.67.Final.pom
+Progress (1): 4.1 kBProgress (1): 8.2 kBProgress (1): 8.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-bom/4.1.67.Final/netty-bom-4.1.67.Final.pom (8.8 kB at 214 kB/s)
+Downloading from spring-snapshots: https://repo.spring.io/libs-snapshot-local/com/oracle/database/jdbc/ojdbc-bom/19.8.0.0/ojdbc-bom-19.8.0.0.pom
+Downloading from spring-milestones: https://repo.spring.io/libs-milestone-local/com/oracle/database/jdbc/ojdbc-bom/19.8.0.0/ojdbc-bom-19.8.0.0.pom
+Downloading from rsocket-snapshots: https://oss.jfrog.org/oss-snapshot-local/com/oracle/database/jdbc/ojdbc-bom/19.8.0.0/ojdbc-bom-19.8.0.0.pom
+Downloading from spring-releases: https://repo.spring.io/release/com/oracle/database/jdbc/ojdbc-bom/19.8.0.0/ojdbc-bom-19.8.0.0.pom
+Downloading from central: https://repo.maven.apache.org/maven2/com/oracle/database/jdbc/ojdbc-bom/19.8.0.0/ojdbc-bom-19.8.0.0.pom
+Progress (1): 4.1 kBProgress (1): 8.2 kBProgress (1): 12 kB Progress (1): 12 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/com/oracle/database/jdbc/ojdbc-bom/19.8.0.0/ojdbc-bom-19.8.0.0.pom (12 kB at 276 kB/s)
+Downloading from spring-snapshots: https://repo.spring.io/libs-snapshot-local/io/projectreactor/reactor-bom/2020.0.10/reactor-bom-2020.0.10.pom
+Downloading from spring-milestones: https://repo.spring.io/libs-milestone-local/io/projectreactor/reactor-bom/2020.0.10/reactor-bom-2020.0.10.pom
+Downloading from rsocket-snapshots: https://oss.jfrog.org/oss-snapshot-local/io/projectreactor/reactor-bom/2020.0.10/reactor-bom-2020.0.10.pom
+Downloading from spring-releases: https://repo.spring.io/release/io/projectreactor/reactor-bom/2020.0.10/reactor-bom-2020.0.10.pom
+Downloading from central: https://repo.maven.apache.org/maven2/io/projectreactor/reactor-bom/2020.0.10/reactor-bom-2020.0.10.pom
+Progress (1): 4.1 kBProgress (1): 4.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/io/projectreactor/reactor-bom/2020.0.10/reactor-bom-2020.0.10.pom (4.2 kB at 38 kB/s)
+Downloading from spring-snapshots: https://repo.spring.io/libs-snapshot-local/org/springframework/data/spring-data-bom/2020.0.12/spring-data-bom-2020.0.12.pom
+Downloading from spring-milestones: https://repo.spring.io/libs-milestone-local/org/springframework/data/spring-data-bom/2020.0.12/spring-data-bom-2020.0.12.pom
+Downloading from rsocket-snapshots: https://oss.jfrog.org/oss-snapshot-local/org/springframework/data/spring-data-bom/2020.0.12/spring-data-bom-2020.0.12.pom
+Downloading from spring-releases: https://repo.spring.io/release/org/springframework/data/spring-data-bom/2020.0.12/spring-data-bom-2020.0.12.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-bom/2020.0.12/spring-data-bom-2020.0.12.pom
+Progress (1): 4.1 kBProgress (1): 5.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-bom/2020.0.12/spring-data-bom-2020.0.12.pom (5.9 kB at 137 kB/s)
+Downloading from spring-snapshots: https://repo.spring.io/libs-snapshot-local/org/springframework/spring-framework-bom/5.3.9/spring-framework-bom-5.3.9.pom
+Downloading from spring-milestones: https://repo.spring.io/libs-milestone-local/org/springframework/spring-framework-bom/5.3.9/spring-framework-bom-5.3.9.pom
+Downloading from rsocket-snapshots: https://oss.jfrog.org/oss-snapshot-local/org/springframework/spring-framework-bom/5.3.9/spring-framework-bom-5.3.9.pom
+Downloading from spring-releases: https://repo.spring.io/release/org/springframework/spring-framework-bom/5.3.9/spring-framework-bom-5.3.9.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/5.3.9/spring-framework-bom-5.3.9.pom
+Progress (1): 4.1 kBProgress (1): 5.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/5.3.9/spring-framework-bom-5.3.9.pom (5.6 kB at 137 kB/s)
+Downloading from spring-snapshots: https://repo.spring.io/libs-snapshot-local/org/springframework/integration/spring-integration-bom/5.4.10/spring-integration-bom-5.4.10.pom
+Downloading from spring-milestones: https://repo.spring.io/libs-milestone-local/org/springframework/integration/spring-integration-bom/5.4.10/spring-integration-bom-5.4.10.pom
+Downloading from rsocket-snapshots: https://oss.jfrog.org/oss-snapshot-local/org/springframework/integration/spring-integration-bom/5.4.10/spring-integration-bom-5.4.10.pom
+Downloading from spring-releases: https://repo.spring.io/release/org/springframework/integration/spring-integration-bom/5.4.10/spring-integration-bom-5.4.10.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/integration/spring-integration-bom/5.4.10/spring-integration-bom-5.4.10.pom
+Progress (1): 4.1 kBProgress (1): 8.2 kBProgress (1): 9.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/integration/spring-integration-bom/5.4.10/spring-integration-bom-5.4.10.pom (9.2 kB at 84 kB/s)
+Downloading from spring-snapshots: https://repo.spring.io/libs-snapshot-local/org/springframework/security/spring-security-bom/5.4.8/spring-security-bom-5.4.8.pom
+Downloading from spring-milestones: https://repo.spring.io/libs-milestone-local/org/springframework/security/spring-security-bom/5.4.8/spring-security-bom-5.4.8.pom
+Downloading from rsocket-snapshots: https://oss.jfrog.org/oss-snapshot-local/org/springframework/security/spring-security-bom/5.4.8/spring-security-bom-5.4.8.pom
+Downloading from spring-releases: https://repo.spring.io/release/org/springframework/security/spring-security-bom/5.4.8/spring-security-bom-5.4.8.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-bom/5.4.8/spring-security-bom-5.4.8.pom
+Progress (1): 4.1 kBProgress (1): 5.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-bom/5.4.8/spring-security-bom-5.4.8.pom (5.3 kB at 47 kB/s)
+Downloading from spring-snapshots: https://repo.spring.io/libs-snapshot-local/org/springframework/session/spring-session-bom/2020.0.6/spring-session-bom-2020.0.6.pom
+Downloading from spring-milestones: https://repo.spring.io/libs-milestone-local/org/springframework/session/spring-session-bom/2020.0.6/spring-session-bom-2020.0.6.pom
+Downloading from rsocket-snapshots: https://oss.jfrog.org/oss-snapshot-local/org/springframework/session/spring-session-bom/2020.0.6/spring-session-bom-2020.0.6.pom
+Downloading from spring-releases: https://repo.spring.io/release/org/springframework/session/spring-session-bom/2020.0.6/spring-session-bom-2020.0.6.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/session/spring-session-bom/2020.0.6/spring-session-bom-2020.0.6.pom
+Progress (1): 2.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/session/spring-session-bom/2020.0.6/spring-session-bom-2020.0.6.pom (2.7 kB at 24 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-function-context/3.1.4/spring-cloud-function-context-3.1.4.pom
+Progress (1): 4.1 kBProgress (1): 5.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-function-context/3.1.4/spring-cloud-function-context-3.1.4.pom (5.0 kB at 17 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-function-parent/3.1.4/spring-cloud-function-parent-3.1.4.pom
+Progress (1): 4.1 kBProgress (1): 5.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-function-parent/3.1.4/spring-cloud-function-parent-3.1.4.pom (5.9 kB at 19 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-function-dependencies/3.1.4/spring-cloud-function-dependencies-3.1.4.pom
+Progress (1): 4.1 kBProgress (1): 6.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-function-dependencies/3.1.4/spring-cloud-function-dependencies-3.1.4.pom (6.2 kB at 34 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-dependencies-parent/3.0.4/spring-cloud-dependencies-parent-3.0.4.pom
+Progress (1): 4.1 kBProgress (1): 8.2 kBProgress (1): 8.4 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-dependencies-parent/3.0.4/spring-cloud-dependencies-parent-3.0.4.pom (8.4 kB at 211 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-function-core/3.1.4/spring-cloud-function-core-3.1.4.pom
+Progress (1): 1.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-function-core/3.1.4/spring-cloud-function-core-3.1.4.pom (1.0 kB at 5.6 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-stream/3.1.4/spring-cloud-stream-3.1.4.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-function-core/3.1.4/spring-cloud-function-core-3.1.4.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-function-context/3.1.4/spring-cloud-function-context-3.1.4.jar
+Progress (1): 4.1/308 kBProgress (1): 8.2/308 kBProgress (1): 12/308 kB Progress (1): 16/308 kBProgress (1): 20/308 kBProgress (1): 25/308 kBProgress (1): 29/308 kBProgress (1): 33/308 kBProgress (1): 37/308 kBProgress (1): 41/308 kBProgress (1): 45/308 kBProgress (1): 49/308 kBProgress (1): 53/308 kBProgress (1): 57/308 kBProgress (1): 61/308 kBProgress (1): 66/308 kBProgress (1): 70/308 kBProgress (1): 74/308 kBProgress (1): 78/308 kBProgress (1): 82/308 kBProgress (1): 86/308 kBProgress (1): 90/308 kBProgress (1): 94/308 kBProgress (1): 98/308 kBProgress (1): 102/308 kBProgress (1): 106/308 kBProgress (1): 111/308 kBProgress (1): 115/308 kBProgress (1): 119/308 kBProgress (1): 123/308 kBProgress (1): 127/308 kBProgress (1): 131/308 kBProgress (1): 135/308 kBProgress (1): 139/308 kBProgress (1): 143/308 kBProgress (1): 147/308 kBProgress (1): 152/308 kBProgress (1): 156/308 kBProgress (1): 160/308 kBProgress (1): 164/308 kBProgress (1): 168/308 kBProgress (1): 172/308 kBProgress (1): 176/308 kBProgress (1): 180/308 kBProgress (1): 184/308 kBProgress (1): 188/308 kBProgress (1): 193/308 kBProgress (1): 197/308 kBProgress (1): 201/308 kBProgress (1): 205/308 kBProgress (1): 209/308 kBProgress (1): 213/308 kBProgress (1): 217/308 kBProgress (1): 221/308 kBProgress (1): 225/308 kBProgress (1): 229/308 kBProgress (1): 233/308 kBProgress (1): 238/308 kBProgress (1): 242/308 kBProgress (1): 246/308 kBProgress (1): 250/308 kBProgress (1): 254/308 kBProgress (1): 258/308 kBProgress (1): 262/308 kBProgress (1): 266/308 kBProgress (1): 270/308 kBProgress (1): 274/308 kBProgress (1): 279/308 kBProgress (1): 283/308 kBProgress (1): 287/308 kBProgress (1): 291/308 kBProgress (1): 295/308 kBProgress (1): 299/308 kBProgress (1): 303/308 kBProgress (1): 307/308 kBProgress (1): 308 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-stream/3.1.4/spring-cloud-stream-3.1.4.jar (308 kB at 2.3 MB/s)
+Progress (1): 2.3/172 kBProgress (1): 5.0/172 kBProgress (1): 7.7/172 kBProgress (1): 11/172 kB Progress (1): 14/172 kBProgress (1): 16/172 kBProgress (1): 19/172 kBProgress (1): 22/172 kBProgress (1): 25/172 kBProgress (1): 27/172 kBProgress (1): 30/172 kBProgress (1): 33/172 kBProgress (1): 36/172 kBProgress (1): 38/172 kBProgress (1): 41/172 kBProgress (1): 44/172 kBProgress (1): 46/172 kBProgress (1): 49/172 kBProgress (1): 52/172 kBProgress (1): 55/172 kBProgress (1): 57/172 kBProgress (1): 61/172 kBProgress (1): 66/172 kBProgress (1): 70/172 kBProgress (1): 74/172 kBProgress (1): 78/172 kBProgress (1): 82/172 kBProgress (1): 86/172 kBProgress (1): 90/172 kBProgress (1): 94/172 kBProgress (1): 98/172 kBProgress (1): 102/172 kBProgress (1): 106/172 kBProgress (1): 111/172 kBProgress (1): 115/172 kBProgress (1): 119/172 kBProgress (1): 123/172 kBProgress (1): 127/172 kBProgress (1): 131/172 kBProgress (1): 135/172 kBProgress (1): 139/172 kBProgress (1): 143/172 kBProgress (1): 147/172 kBProgress (1): 152/172 kBProgress (1): 156/172 kBProgress (1): 160/172 kBProgress (1): 164/172 kBProgress (1): 168/172 kBProgress (1): 172/172 kBProgress (1): 172 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-function-context/3.1.4/spring-cloud-function-context-3.1.4.jar (172 kB at 935 kB/s)
+Progress (1): 2.3/16 kBProgress (1): 5.0/16 kBProgress (1): 7.4/16 kBProgress (1): 10/16 kB Progress (1): 13/16 kBProgress (1): 16/16 kBProgress (1): 16 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-function-core/3.1.4/spring-cloud-function-core-3.1.4.jar (16 kB at 67 kB/s)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco-maven-plugin:0.8.8:prepare-agent[m [1m(default)[m @ [36mlog-record-starter[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.8/org.jacoco.agent-0.8.8-runtime.jar=destfile=/log-record/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.2.0:resources[m [1m(default-resources)[m @ [36mlog-record-starter[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] Copying 0 resource
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mlog-record-starter[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 30 source files to /log-record/target/classes
+[[1;34mINFO[m] /log-record/src/main/java/cn/monitor4all/logRecord/configuration/StreamSenderConfiguration.java: /log-record/src/main/java/cn/monitor4all/logRecord/configuration/StreamSenderConfiguration.java uses or overrides a deprecated API.
+[[1;34mINFO[m] /log-record/src/main/java/cn/monitor4all/logRecord/configuration/StreamSenderConfiguration.java: Recompile with -Xlint:deprecation for details.
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  34.368 s
+[[1;34mINFO[m] Finished at: 2026-03-21T10:40:35Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

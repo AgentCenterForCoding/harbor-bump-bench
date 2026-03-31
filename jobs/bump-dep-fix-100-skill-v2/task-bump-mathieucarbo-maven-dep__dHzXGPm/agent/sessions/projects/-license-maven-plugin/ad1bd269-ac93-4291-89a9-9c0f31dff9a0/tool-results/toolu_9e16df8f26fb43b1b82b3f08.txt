@@ -1,0 +1,243 @@
+/license-maven-plugin/b554e03428f2ba877c33a0fece7f0f00fb38a5fa.log-1711-[INFO] -------------------------------------------------------------
+b554e03428f2ba877c33a0fece7f0f00fb38a5fa.log-1712-[ERROR] COMPILATION ERROR : 
+/license-maven-plugin/b554e03428f2ba877c33a0fece7f0f00fb38a5fa.log-1713-[INFO] -------------------------------------------------------------
+b554e03428f2ba877c33a0fece7f0f00fb38a5fa.log:1714:[ERROR] /license-maven-plugin/license-maven-plugin/src/main/java/com/mycila/maven/plugin/license/dependencies/MavenProjectLicenses.java:[33,57] cannot find symbol
+b554e03428f2ba877c33a0fece7f0f00fb38a5fa.log-1715-  symbol:   class Maven31DependencyGraphBuilder
+b554e03428f2ba877c33a0fece7f0f00fb38a5fa.log-1716-  location: package org.apache.maven.shared.dependency.graph.internal
+/license-maven-plugin/b554e03428f2ba877c33a0fece7f0f00fb38a5fa.log-1717-[INFO] 1 error
+--
+b554e03428f2ba877c33a0fece7f0f00fb38a5fa.log-1744-[WARNING] For more or less details, use 'maven.plugin.validation' property with one of the values (case insensitive): [BRIEF, DEFAULT, VERBOSE]
+/license-maven-plugin/b554e03428f2ba877c33a0fece7f0f00fb38a5fa.log-1745-[WARNING] 
+b554e03428f2ba877c33a0fece7f0f00fb38a5fa.log-1746-[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.10.1:compile (default-compile) on project license-maven-plugin: Compilation failure
+b554e03428f2ba877c33a0fece7f0f00fb38a5fa.log:1747:[ERROR] /license-maven-plugin/license-maven-plugin/src/main/java/com/mycila/maven/plugin/license/dependencies/MavenProjectLicenses.java:[33,57] cannot find symbol
+b554e03428f2ba877c33a0fece7f0f00fb38a5fa.log-1748-[ERROR]   symbol:   class Maven31DependencyGraphBuilder
+b554e03428f2ba877c33a0fece7f0f00fb38a5fa.log-1749-[ERROR]   location: package org.apache.maven.shared.dependency.graph.internal
+/license-maven-plugin/b554e03428f2ba877c33a0fece7f0f00fb38a5fa.log-1750-[ERROR] -> [Help 1]
+--
+/license-maven-plugin/docs/reports/4.2.rc3/license-maven-plugin/jacoco/com.mycila.maven.plugin.license/LicenseCheckMojo.java.html-19-import com.mycila.maven.plugin.license.dependencies.LicenseMap;
+/license-maven-plugin/docs/reports/4.2.rc3/license-maven-plugin/jacoco/com.mycila.maven.plugin.license/LicenseCheckMojo.java.html-20-import com.mycila.maven.plugin.license.dependencies.LicensePolicy;
+/license-maven-plugin/docs/reports/4.2.rc3/license-maven-plugin/jacoco/com.mycila.maven.plugin.license/LicenseCheckMojo.java.html-21-import com.mycila.maven.plugin.license.dependencies.LicensePolicyEnforcerResult;
+docs/reports/4.2.rc3/license-maven-plugin/jacoco/com.mycila.maven.plugin.license/LicenseCheckMojo.java.html:22:import com.mycila.maven.plugin.license.dependencies.MavenProjectLicenses;
+/license-maven-plugin/docs/reports/4.2.rc3/license-maven-plugin/jacoco/com.mycila.maven.plugin.license/LicenseCheckMojo.java.html-23-import com.mycila.maven.plugin.license.document.Document;
+/license-maven-plugin/docs/reports/4.2.rc3/license-maven-plugin/jacoco/com.mycila.maven.plugin.license/LicenseCheckMojo.java.html-24-import com.mycila.maven.plugin.license.header.Header;
+/license-maven-plugin/docs/reports/4.2.rc3/license-maven-plugin/jacoco/com.mycila.maven.plugin.license/LicenseCheckMojo.java.html-25-import org.apache.maven.artifact.Artifact;
+--
+/license-maven-plugin/docs/reports/4.2.rc3/license-maven-plugin/jacoco/com.mycila.maven.plugin.license/LicenseCheckMojo.java.html-83-
+/license-maven-plugin/docs/reports/4.2.rc3/license-maven-plugin/jacoco/com.mycila.maven.plugin.license/LicenseCheckMojo.java.html-84-<span class="pc bpc" id="L84" title="1 of 2 branches missed.">    if (dependencyEnforce) {</span>
+/license-maven-plugin/docs/reports/4.2.rc3/license-maven-plugin/jacoco/com.mycila.maven.plugin.license/LicenseCheckMojo.java.html-85-      //TODO(rremer) config-driven factory of the LicenseMap implementation
+docs/reports/4.2.rc3/license-maven-plugin/jacoco/com.mycila.maven.plugin.license/LicenseCheckMojo.java.html:86:<span class="nc" id="L86">      final LicenseMap licenseMap = new MavenProjectLicenses(session, project, dependencyGraphBuilder, projectBuilder, dependencyScopes, getLog());</span>
+/license-maven-plugin/docs/reports/4.2.rc3/license-maven-plugin/jacoco/com.mycila.maven.plugin.license/LicenseCheckMojo.java.html-87-<span class="nc" id="L87">      final AggregateLicensePolicyEnforcer enforcer = new AggregateLicensePolicyEnforcer(dependencyPolicies);</span>
+/license-maven-plugin/docs/reports/4.2.rc3/license-maven-plugin/jacoco/com.mycila.maven.plugin.license/LicenseCheckMojo.java.html-88-<span class="nc" id="L88">      final Map&lt;Artifact, LicensePolicyEnforcerResult&gt; licenseResult = enforcer.apply(licenseMap);</span>
+/license-maven-plugin/docs/reports/4.2.rc3/license-maven-plugin/jacoco/com.mycila.maven.plugin.license/LicenseCheckMojo.java.html-89-<span class="nc" id="L89">      final Set&lt;LicensePolicyEnforcerResult&gt; deniedLicenseResult = licenseResult.values().stream()</span>
+--
+docs/reports/4.2.rc3/license-maven-plugin/jacoco/com.mycila.maven.plugin.license.dependencies/MavenProjectLicenses.java.html:1:[Omitted long matching line]
+/license-maven-plugin/docs/reports/4.2.rc3/license-maven-plugin/jacoco/com.mycila.maven.plugin.license.dependencies/MavenProjectLicenses.java.html-2- * Copyright (C) 2008-2022 Mycila (mathieu.carbou@gmail.com)
+/license-maven-plugin/docs/reports/4.2.rc3/license-maven-plugin/jacoco/com.mycila.maven.plugin.license.dependencies/MavenProjectLicenses.java.html-3- *
+/license-maven-plugin/docs/reports/4.2.rc3/license-maven-plugin/jacoco/com.mycila.maven.plugin.license.dependencies/MavenProjectLicenses.java.html-4- * Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);
+--
+/license-maven-plugin/docs/reports/4.2.rc3/license-maven-plugin/jacoco/com.mycila.maven.plugin.license.dependencies/MavenProjectLicenses.java.html-47- *
+/license-maven-plugin/docs/reports/4.2.rc3/license-maven-plugin/jacoco/com.mycila.maven.plugin.license.dependencies/MavenProjectLicenses.java.html-48- * @author Royce Remer
+/license-maven-plugin/docs/reports/4.2.rc3/license-maven-plugin/jacoco/com.mycila.maven.plugin.license.dependencies/MavenProjectLicenses.java.html-49- */
+docs/reports/4.2.rc3/license-maven-plugin/jacoco/com.mycila.maven.plugin.license.dependencies/MavenProjectLicenses.java.html:50:public class MavenProjectLicenses implements LicenseMap, LicenseMessage {
+/license-maven-plugin/docs/reports/4.2.rc3/license-maven-plugin/jacoco/com.mycila.maven.plugin.license.dependencies/MavenProjectLicenses.java.html-51-
+/license-maven-plugin/docs/reports/4.2.rc3/license-maven-plugin/jacoco/com.mycila.maven.plugin.license.dependencies/MavenProjectLicenses.java.html-52-  private Set&lt;MavenProject&gt; projects;
+/license-maven-plugin/docs/reports/4.2.rc3/license-maven-plugin/jacoco/com.mycila.maven.plugin.license.dependencies/MavenProjectLicenses.java.html-53-  private DependencyGraphBuilder graph;
+--
+/license-maven-plugin/docs/reports/4.2.rc3/license-maven-plugin/jacoco/com.mycila.maven.plugin.license.dependencies/MavenProjectLicenses.java.html-62-   * @param projectBuilder the maven {@link ProjectBuilder} implementation
+/license-maven-plugin/docs/reports/4.2.rc3/license-maven-plugin/jacoco/com.mycila.maven.plugin.license.dependencies/MavenProjectLicenses.java.html-63-   * @param log            the log to sync to
+/license-maven-plugin/docs/reports/4.2.rc3/license-maven-plugin/jacoco/com.mycila.maven.plugin.license.dependencies/MavenProjectLicenses.java.html-64-   */
+docs/reports/4.2.rc3/license-maven-plugin/jacoco/com.mycila.maven.plugin.license.dependencies/MavenProjectLicenses.java.html:65:  public MavenProjectLicenses(final Set&lt;MavenProject&gt; projects, final DependencyGraphBuilder graph,
+/license-maven-plugin/docs/reports/4.2.rc3/license-maven-plugin/jacoco/com.mycila.maven.plugin.license.dependencies/MavenProjectLicenses.java.html-66-                              final ProjectBuilder projectBuilder, final ProjectBuildingRequest buildingRequest,
+/license-maven-plugin/docs/reports/4.2.rc3/license-maven-plugin/jacoco/com.mycila.maven.plugin.license.dependencies/MavenProjectLicenses.java.html-67-<span class="nc" id="L67">                              final ArtifactFilter filter, final Log log) {</span>
+/license-maven-plugin/docs/reports/4.2.rc3/license-maven-plugin/jacoco/com.mycila.maven.plugin.license.dependencies/MavenProjectLicenses.java.html-68-<span class="nc" id="L68">    this.setProjects(projects);</span>
+--
+/license-maven-plugin/docs/reports/4.2.rc3/license-maven-plugin/jacoco/com.mycila.maven.plugin.license.dependencies/MavenProjectLicenses.java.html-80-   * @param graph          the {@link DependencyGraphBuilder} implementation
+/license-maven-plugin/docs/reports/4.2.rc3/license-maven-plugin/jacoco/com.mycila.maven.plugin.license.dependencies/MavenProjectLicenses.java.html-81-   * @param projectBuilder the maven {@link ProjectBuilder} implementation
+/license-maven-plugin/docs/reports/4.2.rc3/license-maven-plugin/jacoco/com.mycila.maven.plugin.license.dependencies/MavenProjectLicenses.java.html-82-   */
+docs/reports/4.2.rc3/license-maven-plugin/jacoco/com.mycila.maven.plugin.license.dependencies/MavenProjectLicenses.java.html:83:  public MavenProjectLicenses(final MavenSession session, MavenProject project, final DependencyGraphBuilder graph,
+/license-maven-plugin/docs/reports/4.2.rc3/license-maven-plugin/jacoco/com.mycila.maven.plugin.license.dependencies/MavenProjectLicenses.java.html-84-                              final ProjectBuilder projectBuilder, final List&lt;String&gt; scopes, final Log log) {
+/license-maven-plugin/docs/reports/4.2.rc3/license-maven-plugin/jacoco/com.mycila.maven.plugin.license.dependencies/MavenProjectLicenses.java.html-85-<span class="nc" id="L85">    this(Collections.singleton(project), graph, projectBuilder, getBuildingRequestWithDefaults(session),</span>
+/license-maven-plugin/docs/reports/4.2.rc3/license-maven-plugin/jacoco/com.mycila.maven.plugin.license.dependencies/MavenProjectLicenses.java.html-86-        new CumulativeScopeArtifactFilter(scopes), log);
+--
+docs/reports/4.2.rc3/license-maven-plugin/jacoco/com.mycila.maven.plugin.license.dependencies/MavenProjectLicenses.html:1:[Omitted long matching line]
+--
+/license-maven-plugin/docs/reports/4.2-SNAPSHOT/license-maven-plugin/jacoco/com.mycila.maven.plugin.license/LicenseCheckMojo.java.html-19-import com.mycila.maven.plugin.license.dependencies.LicenseMap;
+/license-maven-plugin/docs/reports/4.2-SNAPSHOT/license-maven-plugin/jacoco/com.mycila.maven.plugin.license/LicenseCheckMojo.java.html-20-import com.mycila.maven.plugin.license.dependencies.LicensePolicy;
+/license-maven-plugin/docs/reports/4.2-SNAPSHOT/license-maven-plugin/jacoco/com.mycila.maven.plugin.license/LicenseCheckMojo.java.html-21-import com.mycila.maven.plugin.license.dependencies.LicensePolicyEnforcerResult;
+docs/reports/4.2-SNAPSHOT/license-maven-plugin/jacoco/com.mycila.maven.plugin.license/LicenseCheckMojo.java.html:22:import com.mycila.maven.plugin.license.dependencies.MavenProjectLicenses;
+/license-maven-plugin/docs/reports/4.2-SNAPSHOT/license-maven-plugin/jacoco/com.mycila.maven.plugin.license/LicenseCheckMojo.java.html-23-import com.mycila.maven.plugin.license.document.Document;
+/license-maven-plugin/docs/reports/4.2-SNAPSHOT/license-maven-plugin/jacoco/com.mycila.maven.plugin.license/LicenseCheckMojo.java.html-24-import com.mycila.maven.plugin.license.header.Header;
+/license-maven-plugin/docs/reports/4.2-SNAPSHOT/license-maven-plugin/jacoco/com.mycila.maven.plugin.license/LicenseCheckMojo.java.html-25-import org.apache.maven.artifact.Artifact;
+--
+/license-maven-plugin/docs/reports/4.2-SNAPSHOT/license-maven-plugin/jacoco/com.mycila.maven.plugin.license/LicenseCheckMojo.java.html-83-
+/license-maven-plugin/docs/reports/4.2-SNAPSHOT/license-maven-plugin/jacoco/com.mycila.maven.plugin.license/LicenseCheckMojo.java.html-84-<span class="pc bpc" id="L84" title="1 of 2 branches missed.">    if (dependencyEnforce) {</span>
+/license-maven-plugin/docs/reports/4.2-SNAPSHOT/license-maven-plugin/jacoco/com.mycila.maven.plugin.license/LicenseCheckMojo.java.html-85-      //TODO(rremer) config-driven factory of the LicenseMap implementation
+docs/reports/4.2-SNAPSHOT/license-maven-plugin/jacoco/com.mycila.maven.plugin.license/LicenseCheckMojo.java.html:86:<span class="nc" id="L86">      final LicenseMap licenseMap = new MavenProjectLicenses(session, project, dependencyGraphBuilder, projectBuilder, dependencyScopes, getLog());</span>
+/license-maven-plugin/docs/reports/4.2-SNAPSHOT/license-maven-plugin/jacoco/com.mycila.maven.plugin.license/LicenseCheckMojo.java.html-87-<span class="nc" id="L87">      final AggregateLicensePolicyEnforcer enforcer = new AggregateLicensePolicyEnforcer(dependencyPolicies);</span>
+/license-maven-plugin/docs/reports/4.2-SNAPSHOT/license-maven-plugin/jacoco/com.mycila.maven.plugin.license/LicenseCheckMojo.java.html-88-<span class="nc" id="L88">      final Map&lt;Artifact, LicensePolicyEnforcerResult&gt; licenseResult = enforcer.apply(licenseMap);</span>
+/license-maven-plugin/docs/reports/4.2-SNAPSHOT/license-maven-plugin/jacoco/com.mycila.maven.plugin.license/LicenseCheckMojo.java.html-89-<span class="nc" id="L89">      final Set&lt;LicensePolicyEnforcerResult&gt; deniedLicenseResult = licenseResult.values().stream()</span>
+--
+docs/reports/4.2.rc3/license-maven-plugin/jacoco/com.mycila.maven.plugin.license.dependencies/index.source.html:1:[Omitted long matching line]
+--
+docs/reports/4.2.rc3/license-maven-plugin/jacoco/com.mycila.maven.plugin.license.dependencies/index.html:1:[Omitted long matching line]
+--
+docs/reports/4.2-SNAPSHOT/license-maven-plugin/jacoco/com.mycila.maven.plugin.license.dependencies/MavenProjectLicenses.java.html:1:[Omitted long matching line]
+/license-maven-plugin/docs/reports/4.2-SNAPSHOT/license-maven-plugin/jacoco/com.mycila.maven.plugin.license.dependencies/MavenProjectLicenses.java.html-2- * Copyright (C) 2008-2022 Mycila (mathieu.carbou@gmail.com)
+/license-maven-plugin/docs/reports/4.2-SNAPSHOT/license-maven-plugin/jacoco/com.mycila.maven.plugin.license.dependencies/MavenProjectLicenses.java.html-3- *
+/license-maven-plugin/docs/reports/4.2-SNAPSHOT/license-maven-plugin/jacoco/com.mycila.maven.plugin.license.dependencies/MavenProjectLicenses.java.html-4- * Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);
+--
+/license-maven-plugin/docs/reports/4.2-SNAPSHOT/license-maven-plugin/jacoco/com.mycila.maven.plugin.license.dependencies/MavenProjectLicenses.java.html-47- *
+/license-maven-plugin/docs/reports/4.2-SNAPSHOT/license-maven-plugin/jacoco/com.mycila.maven.plugin.license.dependencies/MavenProjectLicenses.java.html-48- * @author Royce Remer
+/license-maven-plugin/docs/reports/4.2-SNAPSHOT/license-maven-plugin/jacoco/com.mycila.maven.plugin.license.dependencies/MavenProjectLicenses.java.html-49- */
+docs/reports/4.2-SNAPSHOT/license-maven-plugin/jacoco/com.mycila.maven.plugin.license.dependencies/MavenProjectLicenses.java.html:50:public class MavenProjectLicenses implements LicenseMap, LicenseMessage {
+/license-maven-plugin/docs/reports/4.2-SNAPSHOT/license-maven-plugin/jacoco/com.mycila.maven.plugin.license.dependencies/MavenProjectLicenses.java.html-51-
+/license-maven-plugin/docs/reports/4.2-SNAPSHOT/license-maven-plugin/jacoco/com.mycila.maven.plugin.license.dependencies/MavenProjectLicenses.java.html-52-  private Set&lt;MavenProject&gt; projects;
+/license-maven-plugin/docs/reports/4.2-SNAPSHOT/license-maven-plugin/jacoco/com.mycila.maven.plugin.license.dependencies/MavenProjectLicenses.java.html-53-  private DependencyGraphBuilder graph;
+--
+/license-maven-plugin/docs/reports/4.2-SNAPSHOT/license-maven-plugin/jacoco/com.mycila.maven.plugin.license.dependencies/MavenProjectLicenses.java.html-62-   * @param projectBuilder the maven {@link ProjectBuilder} implementation
+/license-maven-plugin/docs/reports/4.2-SNAPSHOT/license-maven-plugin/jacoco/com.mycila.maven.plugin.license.dependencies/MavenProjectLicenses.java.html-63-   * @param log            the log to sync to
+/license-maven-plugin/docs/reports/4.2-SNAPSHOT/license-maven-plugin/jacoco/com.mycila.maven.plugin.license.dependencies/MavenProjectLicenses.java.html-64-   */
+docs/reports/4.2-SNAPSHOT/license-maven-plugin/jacoco/com.mycila.maven.plugin.license.dependencies/MavenProjectLicenses.java.html:65:  public MavenProjectLicenses(final Set&lt;MavenProject&gt; projects, final DependencyGraphBuilder graph,
+/license-maven-plugin/docs/reports/4.2-SNAPSHOT/license-maven-plugin/jacoco/com.mycila.maven.plugin.license.dependencies/MavenProjectLicenses.java.html-66-                              final ProjectBuilder projectBuilder, final ProjectBuildingRequest buildingRequest,
+/license-maven-plugin/docs/reports/4.2-SNAPSHOT/license-maven-plugin/jacoco/com.mycila.maven.plugin.license.dependencies/MavenProjectLicenses.java.html-67-<span class="nc" id="L67">                              final ArtifactFilter filter, final Log log) {</span>
+/license-maven-plugin/docs/reports/4.2-SNAPSHOT/license-maven-plugin/jacoco/com.mycila.maven.plugin.license.dependencies/MavenProjectLicenses.java.html-68-<span class="nc" id="L68">    this.setProjects(projects);</span>
+--
+/license-maven-plugin/docs/reports/4.2-SNAPSHOT/license-maven-plugin/jacoco/com.mycila.maven.plugin.license.dependencies/MavenProjectLicenses.java.html-80-   * @param graph          the {@link DependencyGraphBuilder} implementation
+/license-maven-plugin/docs/reports/4.2-SNAPSHOT/license-maven-plugin/jacoco/com.mycila.maven.plugin.license.dependencies/MavenProjectLicenses.java.html-81-   * @param projectBuilder the maven {@link ProjectBuilder} implementation
+/license-maven-plugin/docs/reports/4.2-SNAPSHOT/license-maven-plugin/jacoco/com.mycila.maven.plugin.license.dependencies/MavenProjectLicenses.java.html-82-   */
+docs/reports/4.2-SNAPSHOT/license-maven-plugin/jacoco/com.mycila.maven.plugin.license.dependencies/MavenProjectLicenses.java.html:83:  public MavenProjectLicenses(final MavenSession session, MavenProject project, final DependencyGraphBuilder graph,
+/license-maven-plugin/docs/reports/4.2-SNAPSHOT/license-maven-plugin/jacoco/com.mycila.maven.plugin.license.dependencies/MavenProjectLicenses.java.html-84-                              final ProjectBuilder projectBuilder, final List&lt;String&gt; scopes, final Log log) {
+/license-maven-plugin/docs/reports/4.2-SNAPSHOT/license-maven-plugin/jacoco/com.mycila.maven.plugin.license.dependencies/MavenProjectLicenses.java.html-85-<span class="nc" id="L85">    this(Collections.singleton(project), graph, projectBuilder, getBuildingRequestWithDefaults(session),</span>
+/license-maven-plugin/docs/reports/4.2-SNAPSHOT/license-maven-plugin/jacoco/com.mycila.maven.plugin.license.dependencies/MavenProjectLicenses.java.html-86-        new CumulativeScopeArtifactFilter(scopes), log);
+--
+docs/reports/4.2-SNAPSHOT/license-maven-plugin/jacoco/com.mycila.maven.plugin.license.dependencies/MavenProjectLicenses.html:1:[Omitted long matching line]
+--
+/license-maven-plugin/docs/reports/4.2.rc3/license-maven-plugin/jacoco/jacoco.csv-5-license-maven-plugin,com.mycila.maven.plugin.license.dependencies,DefaultLicensePolicyEnforcer,0,9,0,0,0,2,0,1,0,1
+/license-maven-plugin/docs/reports/4.2.rc3/license-maven-plugin/jacoco/jacoco.csv-6-license-maven-plugin,com.mycila.maven.plugin.license.dependencies,LicenseURLLicensePolicyEnforcer,2,19,0,0,1,4,1,2,1,2
+/license-maven-plugin/docs/reports/4.2.rc3/license-maven-plugin/jacoco/jacoco.csv-7-license-maven-plugin,com.mycila.maven.plugin.license.dependencies,AbstractLicensePolicyEnforcer,0,9,0,0,0,4,0,2,0,2
+docs/reports/4.2.rc3/license-maven-plugin/jacoco/jacoco.csv:8:license-maven-plugin,com.mycila.maven.plugin.license.dependencies,MavenProjectLicenses,293,0,2,0,63,0,24,0,23,0
+/license-maven-plugin/docs/reports/4.2.rc3/license-maven-plugin/jacoco/jacoco.csv-9-license-maven-plugin,com.mycila.maven.plugin.license.dependencies,LicensePolicy.Rule,3,56,0,10,1,13,1,9,1,4
+/license-maven-plugin/docs/reports/4.2.rc3/license-maven-plugin/jacoco/jacoco.csv-10-license-maven-plugin,com.mycila.maven.plugin.license.dependencies,AggregateLicensePolicyEnforcer,31,220,3,7,10,43,9,18,6,15
+/license-maven-plugin/docs/reports/4.2.rc3/license-maven-plugin/jacoco/jacoco.csv-11-license-maven-plugin,com.mycila.maven.plugin.license.dependencies,LicenseNameLicensePolicyEnforcer,0,21,0,0,0,5,0,3,0,3
+--
+docs/reports/4.2-SNAPSHOT/license-maven-plugin/jacoco/com.mycila.maven.plugin.license.dependencies/index.source.html:1:[Omitted long matching line]
+--
+docs/reports/4.2-SNAPSHOT/license-maven-plugin/jacoco/com.mycila.maven.plugin.license.dependencies/index.html:1:[Omitted long matching line]
+--
+/license-maven-plugin/docs/reports/4.2-SNAPSHOT/license-maven-plugin/jacoco/jacoco.csv-6-license-maven-plugin,com.mycila.maven.plugin.license.dependencies,LicenseURLLicensePolicyEnforcer,2,19,0,0,1,4,1,2,1,2
+/license-maven-plugin/docs/reports/4.2-SNAPSHOT/license-maven-plugin/jacoco/jacoco.csv-7-license-maven-plugin,com.mycila.maven.plugin.license.dependencies,AbstractLicensePolicyEnforcer,0,9,0,0,0,4,0,2,0,2
+/license-maven-plugin/docs/reports/4.2-SNAPSHOT/license-maven-plugin/jacoco/jacoco.csv-8-license-maven-plugin,com.mycila.maven.plugin.license.dependencies,LicensePolicy.Rule,3,56,0,10,1,13,1,9,1,4
+docs/reports/4.2-SNAPSHOT/license-maven-plugin/jacoco/jacoco.csv:9:license-maven-plugin,com.mycila.maven.plugin.license.dependencies,MavenProjectLicenses,293,0,2,0,63,0,24,0,23,0
+/license-maven-plugin/docs/reports/4.2-SNAPSHOT/license-maven-plugin/jacoco/jacoco.csv-10-license-maven-plugin,com.mycila.maven.plugin.license.dependencies,AggregateLicensePolicyEnforcer,31,220,3,7,10,43,9,18,6,15
+/license-maven-plugin/docs/reports/4.2-SNAPSHOT/license-maven-plugin/jacoco/jacoco.csv-11-license-maven-plugin,com.mycila.maven.plugin.license.dependencies,LicenseNameLicensePolicyEnforcer,0,21,0,0,0,5,0,3,0,3
+/license-maven-plugin/docs/reports/4.2-SNAPSHOT/license-maven-plugin/jacoco/jacoco.csv-12-license-maven-plugin,com.mycila.maven.plugin.license.dependencies,ArtifactLicensePolicyEnforcer,7,25,0,0,3,6,1,3,1,3
+--
+docs/reports/4.2.rc3/license-maven-plugin/jacoco/jacoco.xml:1:[Omitted long matching line]
+--
+/license-maven-plugin/docs/reports/4.2.rc3/license-maven-plugin/license-plugin-report.xml-27-        <file path="src/main/java/com/mycila/maven/plugin/license/dependencies/LicensePolicyEnforcer.java" result="PRESENT"/>
+/license-maven-plugin/docs/reports/4.2.rc3/license-maven-plugin/license-plugin-report.xml-28-        <file path="src/main/java/com/mycila/maven/plugin/license/dependencies/LicensePolicyEnforcerResult.java" result="PRESENT"/>
+/license-maven-plugin/docs/reports/4.2.rc3/license-maven-plugin/license-plugin-report.xml-29-        <file path="src/main/java/com/mycila/maven/plugin/license/dependencies/LicenseURLLicensePolicyEnforcer.java" result="PRESENT"/>
+docs/reports/4.2.rc3/license-maven-plugin/license-plugin-report.xml:30:        <file path="src/main/java/com/mycila/maven/plugin/license/dependencies/MavenProjectLicenses.java" result="PRESENT"/>
+/license-maven-plugin/docs/reports/4.2.rc3/license-maven-plugin/license-plugin-report.xml-31-        <file path="src/main/java/com/mycila/maven/plugin/license/document/Document.java" result="PRESENT"/>
+/license-maven-plugin/docs/reports/4.2.rc3/license-maven-plugin/license-plugin-report.xml-32-        <file path="src/main/java/com/mycila/maven/plugin/license/document/DocumentFactory.java" result="PRESENT"/>
+/license-maven-plugin/docs/reports/4.2.rc3/license-maven-plugin/license-plugin-report.xml-33-        <file path="src/main/java/com/mycila/maven/plugin/license/document/DocumentPropertiesLoader.java" result="PRESENT"/>
+--
+docs/reports/4.2-SNAPSHOT/license-maven-plugin/jacoco/jacoco.xml:1:[Omitted long matching line]
+--
+/license-maven-plugin/docs/reports/4.2-SNAPSHOT/license-maven-plugin/license-plugin-report.xml-27-        <file path="src/main/java/com/mycila/maven/plugin/license/dependencies/LicensePolicyEnforcer.java" result="PRESENT"/>
+/license-maven-plugin/docs/reports/4.2-SNAPSHOT/license-maven-plugin/license-plugin-report.xml-28-        <file path="src/main/java/com/mycila/maven/plugin/license/dependencies/LicensePolicyEnforcerResult.java" result="PRESENT"/>
+/license-maven-plugin/docs/reports/4.2-SNAPSHOT/license-maven-plugin/license-plugin-report.xml-29-        <file path="src/main/java/com/mycila/maven/plugin/license/dependencies/LicenseURLLicensePolicyEnforcer.java" result="PRESENT"/>
+docs/reports/4.2-SNAPSHOT/license-maven-plugin/license-plugin-report.xml:30:        <file path="src/main/java/com/mycila/maven/plugin/license/dependencies/MavenProjectLicenses.java" result="PRESENT"/>
+/license-maven-plugin/docs/reports/4.2-SNAPSHOT/license-maven-plugin/license-plugin-report.xml-31-        <file path="src/main/java/com/mycila/maven/plugin/license/document/Document.java" result="PRESENT"/>
+/license-maven-plugin/docs/reports/4.2-SNAPSHOT/license-maven-plugin/license-plugin-report.xml-32-        <file path="src/main/java/com/mycila/maven/plugin/license/document/DocumentFactory.java" result="PRESENT"/>
+/license-maven-plugin/docs/reports/4.2-SNAPSHOT/license-maven-plugin/license-plugin-report.xml-33-        <file path="src/main/java/com/mycila/maven/plugin/license/document/DocumentPropertiesLoader.java" result="PRESENT"/>
+--
+/license-maven-plugin/docs/reports/4.2.rc2/license-maven-plugin/license-plugin-report.xml-27-        <file path="src/main/java/com/mycila/maven/plugin/license/dependencies/LicensePolicyEnforcer.java" result="PRESENT"/>
+/license-maven-plugin/docs/reports/4.2.rc2/license-maven-plugin/license-plugin-report.xml-28-        <file path="src/main/java/com/mycila/maven/plugin/license/dependencies/LicensePolicyEnforcerResult.java" result="PRESENT"/>
+/license-maven-plugin/docs/reports/4.2.rc2/license-maven-plugin/license-plugin-report.xml-29-        <file path="src/main/java/com/mycila/maven/plugin/license/dependencies/LicenseURLLicensePolicyEnforcer.java" result="PRESENT"/>
+docs/reports/4.2.rc2/license-maven-plugin/license-plugin-report.xml:30:        <file path="src/main/java/com/mycila/maven/plugin/license/dependencies/MavenProjectLicenses.java" result="PRESENT"/>
+/license-maven-plugin/docs/reports/4.2.rc2/license-maven-plugin/license-plugin-report.xml-31-        <file path="src/main/java/com/mycila/maven/plugin/license/document/Document.java" result="PRESENT"/>
+/license-maven-plugin/docs/reports/4.2.rc2/license-maven-plugin/license-plugin-report.xml-32-        <file path="src/main/java/com/mycila/maven/plugin/license/document/DocumentFactory.java" result="PRESENT"/>
+/license-maven-plugin/docs/reports/4.2.rc2/license-maven-plugin/license-plugin-report.xml-33-        <file path="src/main/java/com/mycila/maven/plugin/license/document/DocumentPropertiesLoader.java" result="PRESENT"/>
+--
+/license-maven-plugin/license-maven-plugin/src/test/java/com/mycila/maven/plugin/license/dependencies/MavenProjectLicensesIT.java-40- *
+/license-maven-plugin/license-maven-plugin/src/test/java/com/mycila/maven/plugin/license/dependencies/MavenProjectLicensesIT.java-41- * @author Royce Remer
+/license-maven-plugin/license-maven-plugin/src/test/java/com/mycila/maven/plugin/license/dependencies/MavenProjectLicensesIT.java-42- */
+license-maven-plugin/src/test/java/com/mycila/maven/plugin/license/dependencies/MavenProjectLicensesIT.java:43:class MavenProjectLicensesIT {
+/license-maven-plugin/license-maven-plugin/src/test/java/com/mycila/maven/plugin/license/dependencies/MavenProjectLicensesIT.java-44-
+/license-maven-plugin/license-maven-plugin/src/test/java/com/mycila/maven/plugin/license/dependencies/MavenProjectLicensesIT.java-45-  File source;
+/license-maven-plugin/license-maven-plugin/src/test/java/com/mycila/maven/plugin/license/dependencies/MavenProjectLicensesIT.java-46-  String target;
+--
+/license-maven-plugin/license-maven-plugin/src/main/java/com/mycila/maven/plugin/license/dependencies/MavenProjectLicenses.java-47- *
+/license-maven-plugin/license-maven-plugin/src/main/java/com/mycila/maven/plugin/license/dependencies/MavenProjectLicenses.java-48- * @author Royce Remer
+/license-maven-plugin/license-maven-plugin/src/main/java/com/mycila/maven/plugin/license/dependencies/MavenProjectLicenses.java-49- */
+license-maven-plugin/src/main/java/com/mycila/maven/plugin/license/dependencies/MavenProjectLicenses.java:50:public class MavenProjectLicenses implements LicenseMap, LicenseMessage {
+/license-maven-plugin/license-maven-plugin/src/main/java/com/mycila/maven/plugin/license/dependencies/MavenProjectLicenses.java-51-
+/license-maven-plugin/license-maven-plugin/src/main/java/com/mycila/maven/plugin/license/dependencies/MavenProjectLicenses.java-52-  private Set<MavenProject> projects;
+/license-maven-plugin/license-maven-plugin/src/main/java/com/mycila/maven/plugin/license/dependencies/MavenProjectLicenses.java-53-  private DependencyGraphBuilder graph;
+--
+/license-maven-plugin/license-maven-plugin/src/main/java/com/mycila/maven/plugin/license/dependencies/MavenProjectLicenses.java-62-   * @param projectBuilder the maven {@link ProjectBuilder} implementation
+/license-maven-plugin/license-maven-plugin/src/main/java/com/mycila/maven/plugin/license/dependencies/MavenProjectLicenses.java-63-   * @param log            the log to sync to
+/license-maven-plugin/license-maven-plugin/src/main/java/com/mycila/maven/plugin/license/dependencies/MavenProjectLicenses.java-64-   */
+license-maven-plugin/src/main/java/com/mycila/maven/plugin/license/dependencies/MavenProjectLicenses.java:65:  public MavenProjectLicenses(final Set<MavenProject> projects, final DependencyGraphBuilder graph,
+/license-maven-plugin/license-maven-plugin/src/main/java/com/mycila/maven/plugin/license/dependencies/MavenProjectLicenses.java-66-                              final ProjectBuilder projectBuilder, final ProjectBuildingRequest buildingRequest,
+/license-maven-plugin/license-maven-plugin/src/main/java/com/mycila/maven/plugin/license/dependencies/MavenProjectLicenses.java-67-                              final ArtifactFilter filter, final Log log) {
+/license-maven-plugin/license-maven-plugin/src/main/java/com/mycila/maven/plugin/license/dependencies/MavenProjectLicenses.java-68-    this.setProjects(projects);
+--
+/license-maven-plugin/license-maven-plugin/src/main/java/com/mycila/maven/plugin/license/dependencies/MavenProjectLicenses.java-80-   * @param graph          the {@link DependencyGraphBuilder} implementation
+/license-maven-plugin/license-maven-plugin/src/main/java/com/mycila/maven/plugin/license/dependencies/MavenProjectLicenses.java-81-   * @param projectBuilder the maven {@link ProjectBuilder} implementation
+/license-maven-plugin/license-maven-plugin/src/main/java/com/mycila/maven/plugin/license/dependencies/MavenProjectLicenses.java-82-   */
+license-maven-plugin/src/main/java/com/mycila/maven/plugin/license/dependencies/MavenProjectLicenses.java:83:  public MavenProjectLicenses(final MavenSession session, MavenProject project, final DependencyGraphBuilder graph,
+/license-maven-plugin/license-maven-plugin/src/main/java/com/mycila/maven/plugin/license/dependencies/MavenProjectLicenses.java-84-                              final ProjectBuilder projectBuilder, final List<String> scopes, final Log log) {
+/license-maven-plugin/license-maven-plugin/src/main/java/com/mycila/maven/plugin/license/dependencies/MavenProjectLicenses.java-85-    this(Collections.singleton(project), graph, projectBuilder, getBuildingRequestWithDefaults(session),
+/license-maven-plugin/license-maven-plugin/src/main/java/com/mycila/maven/plugin/license/dependencies/MavenProjectLicenses.java-86-        new CumulativeScopeArtifactFilter(scopes), log);
+--
+/license-maven-plugin/license-maven-plugin/src/main/java/com/mycila/maven/plugin/license/LicenseCheckMojo.java-19-import com.mycila.maven.plugin.license.dependencies.LicenseMap;
+/license-maven-plugin/license-maven-plugin/src/main/java/com/mycila/maven/plugin/license/LicenseCheckMojo.java-20-import com.mycila.maven.plugin.license.dependencies.LicensePolicy;
+/license-maven-plugin/license-maven-plugin/src/main/java/com/mycila/maven/plugin/license/LicenseCheckMojo.java-21-import com.mycila.maven.plugin.license.dependencies.LicensePolicyEnforcerResult;
+license-maven-plugin/src/main/java/com/mycila/maven/plugin/license/LicenseCheckMojo.java:22:import com.mycila.maven.plugin.license.dependencies.MavenProjectLicenses;
+/license-maven-plugin/license-maven-plugin/src/main/java/com/mycila/maven/plugin/license/LicenseCheckMojo.java-23-import com.mycila.maven.plugin.license.document.Document;
+/license-maven-plugin/license-maven-plugin/src/main/java/com/mycila/maven/plugin/license/LicenseCheckMojo.java-24-import com.mycila.maven.plugin.license.header.Header;
+/license-maven-plugin/license-maven-plugin/src/main/java/com/mycila/maven/plugin/license/LicenseCheckMojo.java-25-import org.apache.maven.artifact.Artifact;
+--
+/license-maven-plugin/license-maven-plugin/src/main/java/com/mycila/maven/plugin/license/LicenseCheckMojo.java-83-
+/license-maven-plugin/license-maven-plugin/src/main/java/com/mycila/maven/plugin/license/LicenseCheckMojo.java-84-    if (dependencyEnforce) {
+/license-maven-plugin/license-maven-plugin/src/main/java/com/mycila/maven/plugin/license/LicenseCheckMojo.java-85-      //TODO(rremer) config-driven factory of the LicenseMap implementation
+license-maven-plugin/src/main/java/com/mycila/maven/plugin/license/LicenseCheckMojo.java:86:      final LicenseMap licenseMap = new MavenProjectLicenses(session, project, dependencyGraphBuilder, projectBuilder, dependencyScopes, getLog());
+/license-maven-plugin/license-maven-plugin/src/main/java/com/mycila/maven/plugin/license/LicenseCheckMojo.java-87-      final AggregateLicensePolicyEnforcer enforcer = new AggregateLicensePolicyEnforcer(dependencyPolicies);
+/license-maven-plugin/license-maven-plugin/src/main/java/com/mycila/maven/plugin/license/LicenseCheckMojo.java-88-      final Map<Artifact, LicensePolicyEnforcerResult> licenseResult = enforcer.apply(licenseMap);
+/license-maven-plugin/license-maven-plugin/src/main/java/com/mycila/maven/plugin/license/LicenseCheckMojo.java-89-      final Set<LicensePolicyEnforcerResult> deniedLicenseResult = licenseResult.values().stream()
+--
+/license-maven-plugin/license-maven-plugin/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst-28-/license-maven-plugin/license-maven-plugin/src/main/java/com/mycila/maven/plugin/license/header/HeaderDefinition.java
+/license-maven-plugin/license-maven-plugin/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst-29-/license-maven-plugin/license-maven-plugin/src/main/java/com/mycila/maven/plugin/license/PropertiesProvider.java
+/license-maven-plugin/license-maven-plugin/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst-30-/license-maven-plugin/license-maven-plugin/src/main/java/com/mycila/maven/plugin/license/dependencies/LicenseURLLicensePolicyEnforcer.java
+license-maven-plugin/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst:31:/license-maven-plugin/license-maven-plugin/src/main/java/com/mycila/maven/plugin/license/dependencies/MavenProjectLicenses.java
+/license-maven-plugin/license-maven-plugin/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst-32-/license-maven-plugin/license-maven-plugin/src/main/java/com/mycila/maven/plugin/license/dependencies/AggregateLicensePolicyEnforcer.java
+/license-maven-plugin/license-maven-plugin/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst-33-/license-maven-plugin/license-maven-plugin/src/main/java/com/mycila/maven/plugin/license/dependencies/LicensePolicy.java
+/license-maven-plugin/license-maven-plugin/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst-34-/license-maven-plugin/license-maven-plugin/target/generated-sources/plugin/com/mycila/maven/plugin/license/HelpMojo.java
+--
+/license-maven-plugin/license-maven-plugin/target/checkstyle-result.xml-50-</file>
+/license-maven-plugin/license-maven-plugin/target/checkstyle-result.xml-51-<file name="/license-maven-plugin/license-maven-plugin/src/main/java/com/mycila/maven/plugin/license/dependencies/LicensePolicy.java">
+/license-maven-plugin/license-maven-plugin/target/checkstyle-result.xml-52-</file>
+license-maven-plugin/target/checkstyle-result.xml:53:<file name="/license-maven-plugin/license-maven-plugin/src/main/java/com/mycila/maven/plugin/license/dependencies/MavenProjectLicenses.java">
+/license-maven-plugin/license-maven-plugin/target/checkstyle-result.xml-54-</file>
+/license-maven-plugin/license-maven-plugin/target/checkstyle-result.xml-55-<file name="/license-maven-plugin/license-maven-plugin/src/main/java/com/mycila/maven/plugin/license/dependencies/DefaultLicensePolicyEnforcer.java">
+/license-maven-plugin/license-maven-plugin/target/checkstyle-result.xml-56-</file>
+--
+/license-maven-plugin/license-maven-plugin/target/checkstyle-result.xml-114-</file>
+/license-maven-plugin/license-maven-plugin/target/checkstyle-result.xml-115-<file name="/license-maven-plugin/license-maven-plugin/src/test/java/com/mycila/maven/plugin/license/util/FileUtilsTest.java">
+/license-maven-plugin/license-maven-plugin/target/checkstyle-result.xml-116-</file>
+license-maven-plugin/target/checkstyle-result.xml:117:<file name="/license-maven-plugin/license-maven-plugin/src/test/java/com/mycila/maven/plugin/license/dependencies/MavenProjectLicensesIT.java">
+/license-maven-plugin/license-maven-plugin/target/checkstyle-result.xml-118-</file>
+/license-maven-plugin/license-maven-plugin/target/checkstyle-result.xml-119-<file name="/license-maven-plugin/license-maven-plugin/src/test/java/com/mycila/maven/plugin/license/dependencies/ArtifactLicensePolicyEnforcerTestBase.java">
+/license-maven-plugin/license-maven-plugin/target/checkstyle-result.xml-120-</file>
+--
+/license-maven-plugin/license-maven-plugin/target/checkstyle-cachefile-81-/license-maven-plugin/license-maven-plugin/src/main/java/com/mycila/maven/plugin/license/util/FileContent.java=1692271647000
+/license-maven-plugin/license-maven-plugin/target/checkstyle-cachefile-82-/license-maven-plugin/license-maven-plugin/src/main/java/com/mycila/maven/plugin/license/AbstractLicenseMojo.java=1692271647000
+/license-maven-plugin/license-maven-plugin/target/checkstyle-cachefile-83-/license-maven-plugin/license-maven-plugin/src/test/java/com/mycila/maven/plugin/license/dependencies/ArtifactLicensePolicyEnforcerTest.java=1692271621000
+license-maven-plugin/target/checkstyle-cachefile:84:/license-maven-plugin/license-maven-plugin/src/main/java/com/mycila/maven/plugin/license/dependencies/MavenProjectLicenses.java=1692271647000
+/license-maven-plugin/license-maven-plugin/target/checkstyle-cachefile-85-/license-maven-plugin/license-maven-plugin/src/test/java/com/mycila/maven/plugin/license/LicenseSetTest.java=1692271621000
+license-maven-plugin/target/checkstyle-cachefile:86:/license-maven-plugin/license-maven-plugin/src/test/java/com/mycila/maven/plugin/license/dependencies/MavenProjectLicensesIT.java=1692271647000
+/license-maven-plugin/license-maven-plugin/target/checkstyle-cachefile-87-/license-maven-plugin/license-maven-plugin/src/test/java/com/mycila/maven/plugin/license/dependencies/LicenseNameLicensePolicyEnforcerTest.java=1692271621000
+/license-maven-plugin/license-maven-plugin/target/checkstyle-cachefile-88-/license-maven-plugin/license-maven-plugin/src/main/java/com/mycila/maven/plugin/license/dependencies/AggregateLicensePolicyEnforcer.java=1692271647000
+/license-maven-plugin/license-maven-plugin/target/checkstyle-cachefile-89-/license-maven-plugin/license-maven-plugin/src/main/java/com/mycila/maven/plugin/license/util/FileUtils.java=1692271647000

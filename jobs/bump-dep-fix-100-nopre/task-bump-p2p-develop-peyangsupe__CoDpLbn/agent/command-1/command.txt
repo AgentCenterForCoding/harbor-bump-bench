@@ -1,0 +1,13 @@
+export PATH="$HOME/.local/bin:$PATH"; claude --verbose --output-format=stream-json --permission-mode=bypassPermissions  --print -- '﻿# Fix Maven Compilation Failure: PeyangSuperLibrary 114.191.9 -> 114.191.98.10
+
+## Context
+
+Project `PeyangSuperbAntiCheat` (by P2P-Develop) has a **COMPILATION_FAILURE** after a dependency upgrade bot bumped
+`com.github.P2P-Develop:PeyangSuperLibrary` from `114.191.9` to `114.191.98.10` (other update).
+
+Reference PR: https://github.com/P2P-Develop/PeyangSuperbAntiCheat/pull/92
+
+## Your Task
+
+The source code is in `/PeyangSuperbAntiCheat`. Fix all compilation errors so that `mvn compile` succeeds.
+' 2>&1 </dev/null | stdbuf -oL tee /logs/agent/claude-code.txt

@@ -9,22 +9,17 @@ ENV PATH=$JAVA_HOME/bin:$PATH
 COPY --from=breaking_src /allure-maven /allure-maven
 COPY --from=breaking_src /root/.m2 /root/.m2
 
-# Create opencode skills directory in the project workspace
-RUN mkdir -p /allure-maven/.opencode/skills/java-dep-fix
-
-# Copy java-dep-fix skill to opencode skills directory
-COPY skills/java-dep-fix/SKILL.md /allure-maven/.opencode/skills/java-dep-fix/SKILL.md
+# Clone open-skills repository and copy java-dep-fix skill
+RUN git clone --depth 1 https://github.com/AgentCenterForCoding/open-skills.git /tmp/open-skills && \
+    mkdir -p /allure-maven/.opencode/skills/java-dep-fix && \
+    cp /tmp/open-skills/java-dep-fix/SKILL.md /allure-maven/.opencode/skills/java-dep-fix/SKILL.md && \
+    rm -rf /tmp/open-skills
 
 # Copy instructions.md to opencode directory
 COPY instructions.md /allure-maven/.opencode/instructions.md
 
-# Copy AGENTS.md to project root (opencode reads this file for agent instructions)
-# Note: AGENTS.md is copied from the task directory by the harness
-COPY AGENTS.md /allure-maven/AGENTS.md
-
-# Configure opencode to use dashscope anthropic-compatible API (v2 - fixed mkdir)
-RUN mkdir -p /root/.config/opencode
-RUN echo '{ \
+# Configure opencode to use dashscope anthropic-compatible API
+RUN mkdir -p /root/.config/opencode && echo '{ \
   "$schema": "https://opencode.ai/config.json", \
   "provider": { \
     "anthropic": { \

@@ -1,0 +1,13 @@
+export PATH="$HOME/.local/bin:$PATH"; claude --verbose --output-format=stream-json --permission-mode=bypassPermissions  --print -- '﻿# Fix Maven Compilation Failure: google-api-services-translate v2-rev20170525-2.0.0 -> v3-rev20220805-2.0.0
+
+## Context
+
+Project `google-cloud-java` (by googleapis) has a **COMPILATION_FAILURE** after a dependency upgrade bot bumped
+`com.google.apis:google-api-services-translate` from `v2-rev20170525-2.0.0` to `v3-rev20220805-2.0.0` (other update).
+
+Reference PR: https://github.com/googleapis/google-cloud-java/pull/8188
+
+## Your Task
+
+The source code is in `/google-cloud-java`. Fix all compilation errors so that `mvn compile` succeeds.
+' 2>&1 </dev/null | stdbuf -oL tee /logs/agent/claude-code.txt

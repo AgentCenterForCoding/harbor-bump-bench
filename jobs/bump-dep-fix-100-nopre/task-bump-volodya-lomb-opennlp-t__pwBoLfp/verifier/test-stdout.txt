@@ -1,0 +1,57 @@
+=== Running mvn compile to verify fix ===
+[ERROR] COMPILATION ERROR : 
+[ERROR] /jtcop/src/main/java/com/github/lombrozo/testnames/rules/ml/ModelSourceFileSystem.java:[28,28] cannot access opennlp.tools.postag.POSModel
+  bad class file: /root/.m2/repository/org/apache/opennlp/opennlp-tools/2.3.0/opennlp-tools-2.3.0.jar(/opennlp/tools/postag/POSModel.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+[ERROR] /jtcop/src/main/java/com/github/lombrozo/testnames/rules/ml/RulePresentSimpleMl.java:[36,28] cannot access opennlp.tools.postag.POSTaggerME
+  bad class file: /root/.m2/repository/org/apache/opennlp/opennlp-tools/2.3.0/opennlp-tools-2.3.0.jar(/opennlp/tools/postag/POSTaggerME.class)
+    class file has wrong version 61.0, should be 55.0
+    Please remove or make sure it appears in the correct subdirectory of the classpath.
+[ERROR] /jtcop/src/main/java/com/github/lombrozo/testnames/rules/ml/ModelSourceFileSystem.java:[52,12] cannot find symbol
+  symbol:   class POSModel
+  location: class com.github.lombrozo.testnames.rules.ml.ModelSourceFileSystem
+[ERROR] /jtcop/src/main/java/com/github/lombrozo/testnames/rules/ml/ModelSource.java:[41,5] cannot find symbol
+  symbol:   class POSModel
+  location: interface com.github.lombrozo.testnames.rules.ml.ModelSource
+[ERROR] /jtcop/src/main/java/com/github/lombrozo/testnames/rules/ml/ModelSourceInternet.java:[60,12] cannot find symbol
+  symbol:   class POSModel
+  location: class com.github.lombrozo.testnames.rules.ml.ModelSourceInternet
+[ERROR] /jtcop/src/main/java/com/github/lombrozo/testnames/rules/ml/RulePresentSimpleMl.java:[53,19] cannot find symbol
+  symbol:   class POSTaggerME
+  location: class com.github.lombrozo.testnames.rules.ml.RulePresentSimpleMl
+[ERROR] /jtcop/src/main/java/com/github/lombrozo/testnames/rules/ml/RulePresentSimpleMl.java:[65,31] cannot find symbol
+  symbol:   class POSTaggerME
+  location: class com.github.lombrozo.testnames.rules.ml.RulePresentSimpleMl
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project jtcop-maven-plugin: Compilation failure: Compilation failure: 
+[ERROR] /jtcop/src/main/java/com/github/lombrozo/testnames/rules/ml/ModelSourceFileSystem.java:[28,28] cannot access opennlp.tools.postag.POSModel
+[ERROR]   bad class file: /root/.m2/repository/org/apache/opennlp/opennlp-tools/2.3.0/opennlp-tools-2.3.0.jar(/opennlp/tools/postag/POSModel.class)
+[ERROR]     class file has wrong version 61.0, should be 55.0
+[ERROR]     Please remove or make sure it appears in the correct subdirectory of the classpath.
+[ERROR] /jtcop/src/main/java/com/github/lombrozo/testnames/rules/ml/RulePresentSimpleMl.java:[36,28] cannot access opennlp.tools.postag.POSTaggerME
+[ERROR]   bad class file: /root/.m2/repository/org/apache/opennlp/opennlp-tools/2.3.0/opennlp-tools-2.3.0.jar(/opennlp/tools/postag/POSTaggerME.class)
+[ERROR]     class file has wrong version 61.0, should be 55.0
+[ERROR]     Please remove or make sure it appears in the correct subdirectory of the classpath.
+[ERROR] /jtcop/src/main/java/com/github/lombrozo/testnames/rules/ml/ModelSourceFileSystem.java:[52,12] cannot find symbol
+[ERROR]   symbol:   class POSModel
+[ERROR]   location: class com.github.lombrozo.testnames.rules.ml.ModelSourceFileSystem
+[ERROR] /jtcop/src/main/java/com/github/lombrozo/testnames/rules/ml/ModelSource.java:[41,5] cannot find symbol
+[ERROR]   symbol:   class POSModel
+[ERROR]   location: interface com.github.lombrozo.testnames.rules.ml.ModelSource
+[ERROR] /jtcop/src/main/java/com/github/lombrozo/testnames/rules/ml/ModelSourceInternet.java:[60,12] cannot find symbol
+[ERROR]   symbol:   class POSModel
+[ERROR]   location: class com.github.lombrozo.testnames.rules.ml.ModelSourceInternet
+[ERROR] /jtcop/src/main/java/com/github/lombrozo/testnames/rules/ml/RulePresentSimpleMl.java:[53,19] cannot find symbol
+[ERROR]   symbol:   class POSTaggerME
+[ERROR]   location: class com.github.lombrozo.testnames.rules.ml.RulePresentSimpleMl
+[ERROR] /jtcop/src/main/java/com/github/lombrozo/testnames/rules/ml/RulePresentSimpleMl.java:[65,31] cannot find symbol
+[ERROR]   symbol:   class POSTaggerME
+[ERROR]   location: class com.github.lombrozo.testnames.rules.ml.RulePresentSimpleMl
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+COMPILATION FAILED

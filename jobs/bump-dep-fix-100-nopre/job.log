@@ -1,3 +1,34 @@
+Trial task-assert-kth-flacoco-maven-su__vfu3LTh failed: Docker compose command failed for environment task-assert-kth-flacoco-maven-surefire-. Command: docker compose -p task-assert-kth-flacoco-maven-su__vfu3lth --project-directory /root/harbor-bump-eval/task-assert-kth-flacoco-maven-surefire-/environment -f /root/.local/share/uv/tools/harbor/lib/python3.12/site-packages/harbor/environments/docker/docker-compose-base.yaml -f /root/.local/share/uv/tools/harbor/lib/python3.12/site-packages/harbor/environments/docker/docker-compose-build.yaml build. Return code: 17. Stdout: invalid tag "hb__task-assert-kth-flacoco-maven-surefire-": invalid reference format
+. Stderr: None. 
+Docker compose down failed: Docker compose command failed for environment task-assert-kth-flacoco-maven-surefire-. Command: docker compose -p task-assert-kth-flacoco-maven-su__vfu3lth --project-directory /root/harbor-bump-eval/task-assert-kth-flacoco-maven-surefire-/environment -f /root/.local/share/uv/tools/harbor/lib/python3.12/site-packages/harbor/environments/docker/docker-compose-base.yaml -f /root/.local/share/uv/tools/harbor/lib/python3.12/site-packages/harbor/environments/docker/docker-compose-build.yaml down --rmi all --volumes --remove-orphans. Return code: 1. Stdout:  Image hb__task-assert-kth-flacoco-maven-surefire-  Removing
+Error response from daemon: invalid reference format
+. Stderr: None. 
+Not retrying trial because the maximum number of retries has been reached
+Exception AgentTimeoutError is in exclude_exceptions, not retrying
+Not retrying trial because the exception is not in include_exceptions or the maximum number of retries has been reached
+Exception AgentTimeoutError is in exclude_exceptions, not retrying
+Not retrying trial because the exception is not in include_exceptions or the maximum number of retries has been reached
+Exception AgentTimeoutError is in exclude_exceptions, not retrying
+Not retrying trial because the exception is not in include_exceptions or the maximum number of retries has been reached
+Exception AgentTimeoutError is in exclude_exceptions, not retrying
+Not retrying trial because the exception is not in include_exceptions or the maximum number of retries has been reached
+Exception AgentTimeoutError is in exclude_exceptions, not retrying
+Not retrying trial because the exception is not in include_exceptions or the maximum number of retries has been reached
+Exception AgentTimeoutError is in exclude_exceptions, not retrying
+Not retrying trial because the exception is not in include_exceptions or the maximum number of retries has been reached
+Exception AgentTimeoutError is in exclude_exceptions, not retrying
+Not retrying trial because the exception is not in include_exceptions or the maximum number of retries has been reached
+Exception AgentTimeoutError is in exclude_exceptions, not retrying
+Not retrying trial because the exception is not in include_exceptions or the maximum number of retries has been reached
+Exception AgentTimeoutError is in exclude_exceptions, not retrying
+Not retrying trial because the exception is not in include_exceptions or the maximum number of retries has been reached
+Trial task-premium-minds-wicket-crudif__3xEz6fd cancelled
+Trial task-feedzai-pdb-logback-classic__gA345ck cancelled
+Trial task-jcabi-jcabi-http-hamcrest-l__ZjgYaWQ cancelled
+Exception AgentTimeoutError is in exclude_exceptions, not retrying
+Not retrying trial because the exception is not in include_exceptions or the maximum number of retries has been reached
+Exception AgentTimeoutError is in exclude_exceptions, not retrying
+Not retrying trial because the exception is not in include_exceptions or the maximum number of retries has been reached
 Exception AgentTimeoutError is in exclude_exceptions, not retrying
 Not retrying trial because the exception is not in include_exceptions or the maximum number of retries has been reached
 Exception AgentTimeoutError is in exclude_exceptions, not retrying

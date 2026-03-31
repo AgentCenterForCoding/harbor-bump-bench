@@ -1,0 +1,28 @@
+=== Running mvn compile to verify fix ===
+[ERROR] COMPILATION ERROR : 
+[ERROR] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/TranslateImpl.java:[118,19] method transform in class com.google.common.collect.Lists cannot be applied to given types;
+  required: java.util.List<F>,com.google.common.base.Function<? super F,? extends T>
+  found: java.util.List<com.google.cloud.translate.Translation>,com.google.common.base.Function<com.google.api.services.translate.v3.model.Translation,com.google.cloud.translate.Translation>
+  reason: inference variable F has incompatible bounds
+    equality constraints: com.google.cloud.translate.Translation
+    lower bounds: com.google.api.services.translate.v3.model.Translation,java.lang.Object
+[ERROR] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/TranslateImpl.java:[123,48] incompatible types: java.util.List<com.google.api.services.translate.v3.model.Translation> cannot be converted to java.util.List<com.google.cloud.translate.Translation>
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.10.1:compile (default-compile) on project google-cloud-translate: Compilation failure: Compilation failure: 
+[ERROR] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/TranslateImpl.java:[118,19] method transform in class com.google.common.collect.Lists cannot be applied to given types;
+[ERROR]   required: java.util.List<F>,com.google.common.base.Function<? super F,? extends T>
+[ERROR]   found: java.util.List<com.google.cloud.translate.Translation>,com.google.common.base.Function<com.google.api.services.translate.v3.model.Translation,com.google.cloud.translate.Translation>
+[ERROR]   reason: inference variable F has incompatible bounds
+[ERROR]     equality constraints: com.google.cloud.translate.Translation
+[ERROR]     lower bounds: com.google.api.services.translate.v3.model.Translation,java.lang.Object
+[ERROR] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/TranslateImpl.java:[123,48] incompatible types: java.util.List<com.google.api.services.translate.v3.model.Translation> cannot be converted to java.util.List<com.google.cloud.translate.Translation>
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <args> -rf :google-cloud-translate
+COMPILATION FAILED

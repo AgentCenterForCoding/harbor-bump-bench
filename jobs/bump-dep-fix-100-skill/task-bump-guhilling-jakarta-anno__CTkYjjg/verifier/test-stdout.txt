@@ -1,0 +1,2 @@
+=== Running mvn compile to verify fix ===
+COMPILATION SUCCESS

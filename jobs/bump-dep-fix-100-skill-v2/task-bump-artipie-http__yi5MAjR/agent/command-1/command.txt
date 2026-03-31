@@ -1,0 +1,13 @@
+export PATH="$HOME/.local/bin:$PATH"; claude --verbose --output-format=stream-json --permission-mode=bypassPermissions  --print -- '﻿# Fix Maven Compilation Failure: http v0.25 -> v1.1.1
+
+## Context
+
+Project `docker-adapter` (by artipie) has a **COMPILATION_FAILURE** after a dependency upgrade bot bumped
+`com.artipie:http` from `v0.25` to `v1.1.1` (other update).
+
+Reference PR: https://github.com/artipie/docker-adapter/pull/508
+
+## Your Task
+
+The source code is in `/docker-adapter`. Fix all compilation errors so that `mvn compile` succeeds.
+' 2>&1 </dev/null | stdbuf -oL tee /logs/agent/claude-code.txt

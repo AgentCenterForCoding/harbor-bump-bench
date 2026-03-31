@@ -1,0 +1,70 @@
+=== Running mvn compile to verify fix ===
+[ERROR] COMPILATION ERROR : 
+[ERROR] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/Translation.java:[19,1] com.google.cloud.translate.Translation is already defined in this compilation unit
+[ERROR] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/Translation.java:[41,29] cannot find symbol
+  symbol:   method fromPb(com.google.api.services.translate.v3.model.Translation)
+  location: class com.google.api.services.translate.v3.model.Translation
+[ERROR] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/Translation.java:[102,48] translatedText has private access in com.google.api.services.translate.v3.model.Translation
+[ERROR] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/Translation.java:[103,48] cannot find symbol
+  symbol:   variable sourceLanguage
+  location: variable other of type com.google.api.services.translate.v3.model.Translation
+[ERROR] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/Translation.java:[107,12] constructor Translation in class com.google.api.services.translate.v3.model.Translation cannot be applied to given types;
+  required: no arguments
+  found: java.lang.String,java.lang.String,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/TranslateImpl.java:[39,7] com.google.cloud.translate.TranslateImpl is not abstract and does not override abstract method translate(java.lang.String,com.google.cloud.translate.Translate.TranslateOption...) in com.google.cloud.translate.Translate
+[ERROR] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/TranslateImpl.java:[137,22] translate(java.lang.String,com.google.cloud.translate.Translate.TranslateOption...) in com.google.cloud.translate.TranslateImpl cannot implement translate(java.lang.String,com.google.cloud.translate.Translate.TranslateOption...) in com.google.cloud.translate.Translate
+  return type com.google.api.services.translate.v3.model.Translation is not compatible with com.google.cloud.translate.Translation
+[ERROR] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/TranslateImpl.java:[117,28] translate(java.util.List<java.lang.String>,com.google.cloud.translate.Translate.TranslateOption...) in com.google.cloud.translate.TranslateImpl cannot implement translate(java.util.List<java.lang.String>,com.google.cloud.translate.Translate.TranslateOption...) in com.google.cloud.translate.Translate
+  return type java.util.List<com.google.api.services.translate.v3.model.Translation> is not compatible with java.util.List<com.google.cloud.translate.Translation>
+[ERROR] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/TranslateImpl.java:[100,19] method transform in class com.google.common.collect.Lists cannot be applied to given types;
+  required: java.util.List<F>,com.google.common.base.Function<? super F,? extends T>
+  found: java.util.List<java.util.List<com.google.api.services.translate.v3.model.DetectedLanguage>>,com.google.common.base.Function<com.google.api.services.translate.v3.model.DetectedLanguage,com.google.cloud.translate.Detection>
+  reason: inference variable F has incompatible bounds
+    equality constraints: java.util.List<com.google.api.services.translate.v3.model.DetectedLanguage>
+    lower bounds: com.google.api.services.translate.v3.model.DetectedLanguage,java.lang.Object
+[ERROR] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/TranslateImpl.java:[116,3] method does not override or implement a method from a supertype
+[ERROR] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/TranslateImpl.java:[130,22] cannot find symbol
+  symbol:   variable FROM_PB_FUNCTION
+  location: class com.google.api.services.translate.v3.model.Translation
+[ERROR] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/TranslateImpl.java:[136,3] method does not override or implement a method from a supertype
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.10.1:compile (default-compile) on project google-cloud-translate: Compilation failure: Compilation failure: 
+[ERROR] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/Translation.java:[19,1] com.google.cloud.translate.Translation is already defined in this compilation unit
+[ERROR] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/Translation.java:[41,29] cannot find symbol
+[ERROR]   symbol:   method fromPb(com.google.api.services.translate.v3.model.Translation)
+[ERROR]   location: class com.google.api.services.translate.v3.model.Translation
+[ERROR] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/Translation.java:[102,48] translatedText has private access in com.google.api.services.translate.v3.model.Translation
+[ERROR] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/Translation.java:[103,48] cannot find symbol
+[ERROR]   symbol:   variable sourceLanguage
+[ERROR]   location: variable other of type com.google.api.services.translate.v3.model.Translation
+[ERROR] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/Translation.java:[107,12] constructor Translation in class com.google.api.services.translate.v3.model.Translation cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found: java.lang.String,java.lang.String,java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/TranslateImpl.java:[39,7] com.google.cloud.translate.TranslateImpl is not abstract and does not override abstract method translate(java.lang.String,com.google.cloud.translate.Translate.TranslateOption...) in com.google.cloud.translate.Translate
+[ERROR] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/TranslateImpl.java:[137,22] translate(java.lang.String,com.google.cloud.translate.Translate.TranslateOption...) in com.google.cloud.translate.TranslateImpl cannot implement translate(java.lang.String,com.google.cloud.translate.Translate.TranslateOption...) in com.google.cloud.translate.Translate
+[ERROR]   return type com.google.api.services.translate.v3.model.Translation is not compatible with com.google.cloud.translate.Translation
+[ERROR] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/TranslateImpl.java:[117,28] translate(java.util.List<java.lang.String>,com.google.cloud.translate.Translate.TranslateOption...) in com.google.cloud.translate.TranslateImpl cannot implement translate(java.util.List<java.lang.String>,com.google.cloud.translate.Translate.TranslateOption...) in com.google.cloud.translate.Translate
+[ERROR]   return type java.util.List<com.google.api.services.translate.v3.model.Translation> is not compatible with java.util.List<com.google.cloud.translate.Translation>
+[ERROR] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/TranslateImpl.java:[100,19] method transform in class com.google.common.collect.Lists cannot be applied to given types;
+[ERROR]   required: java.util.List<F>,com.google.common.base.Function<? super F,? extends T>
+[ERROR]   found: java.util.List<java.util.List<com.google.api.services.translate.v3.model.DetectedLanguage>>,com.google.common.base.Function<com.google.api.services.translate.v3.model.DetectedLanguage,com.google.cloud.translate.Detection>
+[ERROR]   reason: inference variable F has incompatible bounds
+[ERROR]     equality constraints: java.util.List<com.google.api.services.translate.v3.model.DetectedLanguage>
+[ERROR]     lower bounds: com.google.api.services.translate.v3.model.DetectedLanguage,java.lang.Object
+[ERROR] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/TranslateImpl.java:[116,3] method does not override or implement a method from a supertype
+[ERROR] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/TranslateImpl.java:[130,22] cannot find symbol
+[ERROR]   symbol:   variable FROM_PB_FUNCTION
+[ERROR]   location: class com.google.api.services.translate.v3.model.Translation
+[ERROR] /google-cloud-java/java-translate/google-cloud-translate/src/main/java/com/google/cloud/translate/TranslateImpl.java:[136,3] method does not override or implement a method from a supertype
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <args> -rf :google-cloud-translate
+COMPILATION FAILED

@@ -1,0 +1,48 @@
+{
+    "id": "682b6ea2-9954-4a10-a299-ab1db6710c1c",
+    "started_at": "2026-03-23T08:50:14.041783",
+    "finished_at": "2026-03-23T10:47:47.959841",
+    "n_total_trials": 9,
+    "stats": {
+        "n_trials": 9,
+        "n_errors": 6,
+        "evals": {
+            "claude-code__harbor-bump-eval": {
+                "n_trials": 9,
+                "n_errors": 6,
+                "metrics": [
+                    {
+                        "mean": 0.2222222222222222
+                    }
+                ],
+                "reward_stats": {
+                    "reward": {
+                        "0.0": [
+                            "task-bump-redisgraph-jedis__apRbvEE",
+                            "task-bump-googleapis-google-clou__b5YBe8f",
+                            "task-googleapis-java-pubsub-gro-__4XW3AJz",
+                            "task-games647-changeskin-spongea__mMm6bLq",
+                            "task-bump-googleapis-google-api-__fxBJSX5",
+                            "task-bump-zold-io-cactoos__qnxYWM4",
+                            "task-bump-wireapp-dropwizard-cli__UbXu454"
+                        ],
+                        "1.0": [
+                            "task-bump-games647-spongeapi__TjE3GQc",
+                            "task-artipie-docker-adapter-asto__2ZjDuNN"
+                        ]
+                    }
+                },
+                "exception_stats": {
+                    "AgentTimeoutError": [
+                        "task-bump-googleapis-google-clou__b5YBe8f",
+                        "task-googleapis-java-pubsub-gro-__4XW3AJz",
+                        "task-games647-changeskin-spongea__mMm6bLq",
+                        "task-bump-googleapis-google-api-__fxBJSX5",
+                        "task-bump-zold-io-cactoos__qnxYWM4",
+                        "task-bump-wireapp-dropwizard-cli__UbXu454"
+                    ]
+                }
+            }
+        }
+    }
+}
